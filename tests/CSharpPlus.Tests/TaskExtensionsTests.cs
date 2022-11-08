@@ -28,7 +28,7 @@ public class TaskExtensionsTests
         }).ToArray();
 
         var result = await values.WhenAll();
-        result.Should().BeEquivalentTo(new[] {0, 1, 2, 3, 4});
+        result.Should().BeEquivalentTo(new[] { 0, 1, 2, 3, 4 });
     }
 
     [Test]

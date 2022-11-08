@@ -6,7 +6,7 @@ public class RangeExtensionsTests
     public void ShouldEnumerateRange()
     {
         var numbers = (..10).Enumerate().ToArray();
-        var expected = new[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        var expected = new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         numbers.Should().BeEquivalentTo(expected);
     }
 
@@ -17,7 +17,7 @@ public class RangeExtensionsTests
         foreach (var n in ..10)
             list.Add(n);
 
-        var expected = new[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        var expected = new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         list.Should().BeEquivalentTo(expected);
     }
 
@@ -25,7 +25,7 @@ public class RangeExtensionsTests
     public void ShouldEnumerateBackwardsRange()
     {
         var numbers = (10..0).Enumerate().ToArray();
-        var expected = new[] {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+        var expected = new[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
         numbers.Should().BeEquivalentTo(expected);
     }
 
@@ -36,7 +36,7 @@ public class RangeExtensionsTests
         foreach (var n in 10..0)
             list.Add(n);
 
-        var expected = new[] {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+        var expected = new[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
         list.Should().BeEquivalentTo(expected);
     }
 

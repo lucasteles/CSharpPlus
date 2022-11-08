@@ -204,8 +204,8 @@ public static class TaskTupleExtensions
 
         struct Awaiter : INotifyCompletion
         {
-            private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>) tasks;
-            private readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
+            readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>) tasks;
+            readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
 
             public Awaiter((Task<T1>, Task<T2>, Task<T3>, Task<T4>) tasks, bool continueOnCapturedContext)
             {
