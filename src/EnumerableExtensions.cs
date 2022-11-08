@@ -37,7 +37,7 @@ public static class EnumerableExtensions
 
 
     /// <summary>
-    /// Concatenates the members of a constructed IEnumerable<out T> collection of type String.
+    /// Concatenates the members of a constructed IEnumerable collection of type String.
     /// </summary>
     /// <param name="values"></param>
     /// <returns></returns>
@@ -45,7 +45,7 @@ public static class EnumerableExtensions
         string.Concat(values);
 
     /// <summary>
-    /// Concatenates the members of a constructed IEnumerable<out T> collection of type String.
+    /// Concatenates the members of a constructed IEnumerable collection of type String.
     /// </summary>
     /// <param name="values"></param>
     /// <returns></returns>
@@ -60,4 +60,5 @@ public static class EnumerableExtensions
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
     public static bool IsEmpty<T>(this IEnumerable<T> @this) => !@this.Any();
+
 }

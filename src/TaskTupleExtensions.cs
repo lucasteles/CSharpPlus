@@ -2,6 +2,10 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
+#pragma warning disable CS1591
+#pragma warning disable S4136
+#pragma warning disable S3218
+
 /// <summary>
 /// Tuple of Tasks Extensions
 /// </summary>
@@ -12,6 +16,8 @@ public static class TaskTupleExtensions
     public static TaskAwaiter<T1> GetAwaiter<T1>(this ValueTuple<Task<T1>> tasks) =>
         tasks.Item1.GetAwaiter();
 
+    public static TupleTaskAwaiter<T1, T2> GetAwaiter<T1, T2>(this (Task<T1>, Task<T2>) tasks) => new(tasks);
+
     public static ConfiguredTaskAwaitable<T1> ConfigureAwait<T1>(this ValueTuple<Task<T1>> tasks,
         bool continueOnCapturedContext) =>
         tasks.Item1.ConfigureAwait(continueOnCapturedContext);
@@ -19,8 +25,6 @@ public static class TaskTupleExtensions
     #endregion
 
     #region Tuple 2
-
-    public static TupleTaskAwaiter<T1, T2> GetAwaiter<T1, T2>(this (Task<T1>, Task<T2>) tasks) => new(tasks);
 
     public readonly struct TupleTaskAwaiter<T1, T2> : INotifyCompletion
     {
@@ -90,7 +94,7 @@ public static class TaskTupleExtensions
     public static TupleTaskAwaiter<T1, T2, T3> GetAwaiter<T1, T2, T3>(this (Task<T1>, Task<T2>, Task<T3>) tasks) =>
         new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3> : INotifyCompletion
     {
         readonly (Task<T1>, Task<T2>, Task<T3>) tasks;
         readonly TaskAwaiter whenAllAwaiter;
@@ -115,7 +119,7 @@ public static class TaskTupleExtensions
         this (Task<T1>, Task<T2>, Task<T3>) tasks, bool continueOnCapturedContext) =>
         new(tasks, continueOnCapturedContext);
 
-    public struct TupleConfiguredTaskAwaitable<T1, T2, T3>
+    public readonly struct TupleConfiguredTaskAwaitable<T1, T2, T3>
     {
         readonly (Task<T1>, Task<T2>, Task<T3>) tasks;
         readonly bool continueOnCapturedContext;
@@ -159,7 +163,7 @@ public static class TaskTupleExtensions
         this (Task<T1>, Task<T2>, Task<T3>, Task<T4>) tasks) =>
         new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3, T4> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3, T4> : INotifyCompletion
     {
         readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>) tasks;
         readonly TaskAwaiter whenAllAwaiter;
@@ -228,7 +232,7 @@ public static class TaskTupleExtensions
     public static TupleTaskAwaiter<T1, T2, T3, T4, T5> GetAwaiter<T1, T2, T3, T4, T5>(
         this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>) tasks) => new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3, T4, T5> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3, T4, T5> : INotifyCompletion
     {
         readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>) tasks;
         readonly TaskAwaiter whenAllAwaiter;
@@ -298,7 +302,7 @@ public static class TaskTupleExtensions
     public static TupleTaskAwaiter<T1, T2, T3, T4, T5, T6> GetAwaiter<T1, T2, T3, T4, T5, T6>(
         this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>) tasks) => new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6> : INotifyCompletion
     {
         readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>) tasks;
         readonly TaskAwaiter whenAllAwaiter;
@@ -325,7 +329,7 @@ public static class TaskTupleExtensions
         this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>) tasks, bool continueOnCapturedContext) =>
         new(tasks, continueOnCapturedContext);
 
-    public struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6>
+    public readonly struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6>
     {
         readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>) tasks;
         readonly bool continueOnCapturedContext;
@@ -366,18 +370,15 @@ public static class TaskTupleExtensions
 
     #endregion
 
-    #region (Task<T1>..Task<T7>)
+    #region Tuple 7
 
     public static TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7> GetAwaiter<T1, T2, T3, T4, T5, T6, T7>(
-        this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks)
-    {
-        return new TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7>(tasks);
-    }
+        this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks) => new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7> : INotifyCompletion
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks;
-        private readonly TaskAwaiter whenAllAwaiter;
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks;
+        readonly TaskAwaiter whenAllAwaiter;
 
         public TupleTaskAwaiter((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks)
         {
@@ -399,15 +400,13 @@ public static class TaskTupleExtensions
 
     public static TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7> ConfigureAwait<T1, T2, T3, T4, T5, T6, T7>(
         this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks,
-        bool continueOnCapturedContext)
-    {
-        return new TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7>(tasks, continueOnCapturedContext);
-    }
+        bool continueOnCapturedContext) =>
+        new(tasks, continueOnCapturedContext);
 
-    public struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7>
+    public readonly struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7>
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks;
-        private readonly bool continueOnCapturedContext;
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks;
+        readonly bool continueOnCapturedContext;
 
         public TupleConfiguredTaskAwaitable(
             (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks,
@@ -417,12 +416,12 @@ public static class TaskTupleExtensions
             this.continueOnCapturedContext = continueOnCapturedContext;
         }
 
-        public Awaiter GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
+        public INotifyCompletion GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
 
-        public struct Awaiter : INotifyCompletion
+        readonly struct Awaiter : INotifyCompletion
         {
-            private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks;
-            private readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
+            readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks;
+            readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
 
             public Awaiter((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks,
                 bool continueOnCapturedContext)
@@ -446,18 +445,15 @@ public static class TaskTupleExtensions
 
     #endregion
 
-    #region (Task<T1>..Task<T8>)
+    #region Tuple 8
 
     public static TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8> GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8>(
-        this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks)
-    {
-        return new TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8>(tasks);
-    }
+        this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks) => new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8> : INotifyCompletion
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks;
-        private readonly TaskAwaiter whenAllAwaiter;
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks;
+        readonly TaskAwaiter whenAllAwaiter;
 
         public TupleTaskAwaiter((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks)
         {
@@ -480,15 +476,13 @@ public static class TaskTupleExtensions
     public static TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8>
         ConfigureAwait<T1, T2, T3, T4, T5, T6, T7, T8>(
             this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks,
-            bool continueOnCapturedContext)
-    {
-        return new TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8>(tasks, continueOnCapturedContext);
-    }
+            bool continueOnCapturedContext) =>
+        new(tasks, continueOnCapturedContext);
 
-    public struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8>
+    public readonly struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8>
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks;
-        private readonly bool continueOnCapturedContext;
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks;
+        readonly bool continueOnCapturedContext;
 
         public TupleConfiguredTaskAwaitable(
             (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks,
@@ -498,12 +492,12 @@ public static class TaskTupleExtensions
             this.continueOnCapturedContext = continueOnCapturedContext;
         }
 
-        public Awaiter GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
+        public INotifyCompletion GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
 
-        public struct Awaiter : INotifyCompletion
+        readonly struct Awaiter : INotifyCompletion
         {
-            private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks;
-            private readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
+            readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks;
+            readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
 
             public Awaiter((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks,
                 bool continueOnCapturedContext)
@@ -527,20 +521,18 @@ public static class TaskTupleExtensions
 
     #endregion
 
-    #region (Task<T1>..Task<T9>)
+    #region Tuple 9
 
     public static TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9> GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9>(
-        this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>) tasks)
-    {
-        return new TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9>(tasks);
-    }
+        this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>) tasks) =>
+        new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9> : INotifyCompletion
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
             tasks;
 
-        private readonly TaskAwaiter whenAllAwaiter;
+        readonly TaskAwaiter whenAllAwaiter;
 
         public TupleTaskAwaiter(
             (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>) tasks)
@@ -564,17 +556,15 @@ public static class TaskTupleExtensions
     public static TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9>
         ConfigureAwait<T1, T2, T3, T4, T5, T6, T7, T8, T9>(
             this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>) tasks,
-            bool continueOnCapturedContext)
-    {
-        return new TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9>(tasks, continueOnCapturedContext);
-    }
+            bool continueOnCapturedContext) =>
+        new(tasks, continueOnCapturedContext);
 
-    public struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+    public readonly struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9>
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
             tasks;
 
-        private readonly bool continueOnCapturedContext;
+        readonly bool continueOnCapturedContext;
 
         public TupleConfiguredTaskAwaitable(
             (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>) tasks,
@@ -584,14 +574,14 @@ public static class TaskTupleExtensions
             this.continueOnCapturedContext = continueOnCapturedContext;
         }
 
-        public Awaiter GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
+        public INotifyCompletion GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
 
-        public struct Awaiter : INotifyCompletion
+        readonly struct Awaiter : INotifyCompletion
         {
-            private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
+            readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
                 tasks;
 
-            private readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
+            readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
 
             public Awaiter(
                 (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>) tasks,
@@ -616,22 +606,20 @@ public static class TaskTupleExtensions
 
     #endregion
 
-    #region (Task<T1>..Task<T10>)
+    #region Tuple 10
 
     public static TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
         GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(
             this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>)
-                tasks)
-    {
-        return new TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(tasks);
-    }
+                tasks) =>
+        new(tasks);
 
-    public struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> : INotifyCompletion
+    public readonly struct TupleTaskAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> : INotifyCompletion
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>,
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>,
             Task<T10>) tasks;
 
-        private readonly TaskAwaiter whenAllAwaiter;
+        readonly TaskAwaiter whenAllAwaiter;
 
         public TupleTaskAwaiter(
             (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>) tasks)
@@ -655,18 +643,16 @@ public static class TaskTupleExtensions
     public static TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
         ConfigureAwait<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(
             this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>)
-                tasks, bool continueOnCapturedContext)
-    {
-        return new TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(tasks,
+                tasks, bool continueOnCapturedContext) =>
+        new(tasks,
             continueOnCapturedContext);
-    }
 
-    public struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+    public readonly struct TupleConfiguredTaskAwaitable<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
     {
-        private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>,
+        readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>,
             Task<T10>) tasks;
 
-        private readonly bool continueOnCapturedContext;
+        readonly bool continueOnCapturedContext;
 
         public TupleConfiguredTaskAwaitable(
             (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>) tasks,
@@ -676,14 +662,14 @@ public static class TaskTupleExtensions
             this.continueOnCapturedContext = continueOnCapturedContext;
         }
 
-        public Awaiter GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
+        public INotifyCompletion GetAwaiter() => new Awaiter(tasks, continueOnCapturedContext);
 
-        public struct Awaiter : INotifyCompletion
+        readonly struct Awaiter : INotifyCompletion
         {
-            private readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>,
+            readonly (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>,
                 Task<T10>) tasks;
 
-            private readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
+            readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter whenAllAwaiter;
 
             public Awaiter(
                 (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>)
