@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 
 /// <summary>
@@ -91,8 +92,8 @@ public static class RangeExtension
         Func<int, int, TResult> project)
     {
         foreach (var n1 in range)
-            foreach (var n2 in projection(n1))
-                yield return project(n1, n2);
+        foreach (var n2 in projection(n1))
+            yield return project(n1, n2);
     }
 
     /// <summary>
@@ -103,4 +104,30 @@ public static class RangeExtension
     /// <returns></returns>
     public static IEnumerable<int> SelectMany(this Range range, Func<int, Range> projection) =>
         range.SelectMany(projection, (_, n) => n);
+
+
+    /// <summary>
+    /// Creates an array from a Range
+    /// </summary>
+    /// <returns></returns>
+    public static int[] ToArray(
+        this Range range) =>
+        range.Enumerate().ToArray();
+
+    /// <summary>
+    /// Creates an List from a Range
+    /// </summary>
+    /// <returns></returns>
+    public static List<int> ToList(
+        this Range range) =>
+        range.Enumerate().ToList();
+
+
+    /// <summary>
+    /// Creates an array from a Range
+    /// </summary>
+    /// <returns></returns>
+    public static IReadOnlyCollection<int> ToReadOnly(
+        this Range range) =>
+        range.Enumerate().ToImmutableArray();
 }
