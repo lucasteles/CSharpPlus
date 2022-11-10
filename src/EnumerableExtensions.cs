@@ -176,4 +176,23 @@ public static class EnumerableExtensions
                 $"The source sequence dont have {size} or more items");
         return items;
     }
+
+    /// <summary>
+    /// Filter non-null items
+    /// </summary>
+    /// <param name="enumerable"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns></returns>
+    public static IEnumerable<T> NotNull<T>(this IEnumerable<T?> enumerable) where T : class =>
+        enumerable.Where(e => e is not null).Cast<T>();
+
+    /// <summary>
+    /// Filter non-null items
+    /// </summary>
+    /// <param name="enumerable"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns></returns>
+    public static IEnumerable<T> NotNull<T>(this IEnumerable<T?> enumerable) where T : struct =>
+        enumerable.Where(e => e is not null).Select(e => e!.Value);
+
 }

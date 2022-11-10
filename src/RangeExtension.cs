@@ -92,8 +92,8 @@ public static class RangeExtension
         Func<int, int, TResult> project)
     {
         foreach (var n1 in range)
-        foreach (var n2 in projection(n1))
-            yield return project(n1, n2);
+            foreach (var n2 in projection(n1))
+                yield return project(n1, n2);
     }
 
     /// <summary>

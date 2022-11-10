@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
+using System.Globalization;
 
 /// <summary>
 /// String extensions
@@ -23,4 +25,11 @@ public static class StringExtensions
     /// </returns>
     [Pure]
     public static bool IsNullOrWhiteSpace([NotNullWhen(false)] this string? value) => string.IsNullOrWhiteSpace(value);
+
+
+    /// <summary>
+    /// DateTime Invariant IS8601 string
+    /// </summary>
+    public static string ToIsoString(this DateTime date) =>
+        date.ToString("O", CultureInfo.InvariantCulture);
 }
