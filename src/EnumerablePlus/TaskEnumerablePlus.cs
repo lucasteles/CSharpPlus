@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 
 /// <summary>
-/// Task extensions
+/// Enumerable Plus Extensions
 /// </summary>
-public static class TaskExtensions
+public static partial class EnumerablePlus
 {
     /// <summary>
     /// Creates a task that will complete when all of the Task objects in an enumerable collection have completed.
@@ -41,5 +41,6 @@ public static class TaskExtensions
     /// <returns>
     /// A task that represents the completion of one of the supplied tasks. The return task's Result is the task that completed.
     /// </returns>
-    public static async Task<T> WhenAny<T>(this IEnumerable<Task<T>> tasks) => await await Task.WhenAny(tasks);
+    public static async Task<T> WhenAny<T>(this IEnumerable<Task<T>> tasks) =>
+        await await Task.WhenAny(tasks);
 }
