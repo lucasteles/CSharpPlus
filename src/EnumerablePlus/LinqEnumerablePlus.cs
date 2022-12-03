@@ -10,20 +10,13 @@ public static partial class EnumerablePlus
     /// <summary>
     /// determines whether a sequence contains no elements.
     /// </summary>
-    /// <param name="this"></param>
-    /// <typeparam name="T"></typeparam>
-    /// <returns></returns>
     public static bool IsEmpty<T>(this IEnumerable<T> @this) => !@this.Any();
 
     /// <summary>
     /// Flatten an IEnumerable of sequence and flattens into one sequence.
     /// </summary>
-    /// <param name="this"></param>
-    /// <typeparam name="T"></typeparam>
-    /// <returns></returns>
     public static IEnumerable<T> SelectMany<T>(this IEnumerable<IEnumerable<T>> @this) =>
         @this.SelectMany(x => x);
-
 
     /// <summary>
     /// Returns the minimum and maximum value in a generic sequence.
