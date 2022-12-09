@@ -25,7 +25,7 @@ public static class Enumeration
     /// <returns></returns>
     public static string GetEnumMemberValue<T>(this T @enum) where T : Enum =>
         @enum
-            .GetAttribute<T, EnumMemberAttribute>() is {Value: { } description}
+            .GetAttribute<T, EnumMemberAttribute>() is { Value: { } description }
             ? description
             : @enum.ToString();
 
@@ -36,7 +36,7 @@ public static class Enumeration
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
     public static string GetDescription<T>(this T @enum) where T : Enum => @enum
-        .GetAttribute<T, DescriptionAttribute>() is {Description: { } description}
+        .GetAttribute<T, DescriptionAttribute>() is { Description: { } description }
         ? description
         : @enum.ToString();
 

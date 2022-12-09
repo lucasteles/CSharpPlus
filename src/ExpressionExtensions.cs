@@ -19,7 +19,7 @@ public static class ExpressionExtensions
         expression.Body switch
         {
             MemberExpression m => m.Member.Name,
-            UnaryExpression {Operand: MemberExpression m} => m.Member.Name,
+            UnaryExpression { Operand: MemberExpression m } => m.Member.Name,
             _ => throw new NotImplementedException(expression.GetType().ToString())
         };
 }

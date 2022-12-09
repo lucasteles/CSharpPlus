@@ -1,7 +1,7 @@
 namespace System.Text.Json.Serialization;
 
-using CSharpPlus.JsonConverters;
 using System;
+using CSharpPlus.JsonConverters;
 
 /// <summary>
 /// Converter for json using description attribute
