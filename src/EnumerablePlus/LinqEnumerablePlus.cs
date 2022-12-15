@@ -30,12 +30,38 @@ public static partial class EnumerablePlus
     /// <summary>
     /// Returns the minimum and maximum value in a generic sequence by key member.
     /// </summary>
-    public static (T? Min, T? Max) MinMaxBy<T, TProp>(this IEnumerable<T> @this,
+    public static (T? Min, T? Max) MinAndMaxBy<T, TProp>(this IEnumerable<T> @this,
         Func<T, TProp> keySelector)
     {
         var items = @this.ToArray();
         return (items.MinBy(keySelector), items.MaxBy(keySelector));
     }
+
+    /// <summary>
+    /// Returns the minimum and maximum value in a generic sequence
+    /// </summary>
+    public static (TProp? Min, TProp? Max) MinAndMax<T, TProp>(this IEnumerable<T> @this,
+        Func<T, TProp> keySelector)
+    {
+        var items = @this.ToArray();
+        return (items.Min(keySelector), items.Max(keySelector));
+    }
+
+    /// <summary>
+    /// Returns the maximum value in a generic sequence. Defaults if empty
+    /// </summary>
+    public static TProp? MaxOrDefault<T, TProp>(this IEnumerable<T> @this,
+        Func<T, TProp> keySelector,
+        TProp? value = default) =>
+        @this.Select(keySelector).DefaultIfEmpty(value).Max();
+
+    /// <summary>
+    /// Returns the minimum value in a generic sequence. Defaults if empty
+    /// </summary>
+    public static TProp? MinOrDefault<T, TProp>(this IEnumerable<T> @this,
+        Func<T, TProp> keySelector,
+        TProp? value = default) =>
+        @this.Select(keySelector).DefaultIfEmpty(value).Min();
 
     /// <summary>
     /// Filter non-null items

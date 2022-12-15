@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
+/// <summary>
+/// Dictionary Extensions
+/// </summary>
 public static class DictionaryExtensions
 {
     /// <summary>
