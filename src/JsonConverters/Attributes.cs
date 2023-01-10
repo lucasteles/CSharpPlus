@@ -1,13 +1,27 @@
+// ReSharper disable once CheckNamespace
+
 namespace System.Text.Json.Serialization;
+
+/// <summary>
+/// Sets enum to use default string value for json serialization
+/// </summary>
+[AttributeUsage(AttributeTargets.Enum)]
+public sealed class JsonEnumStringAttribute : JsonConverterAttribute
+{
+    /// <inheritdoc />
+    public JsonEnumStringAttribute() : base(typeof(JsonStringEnumConverter))
+    {
+    }
+}
 
 /// <summary>
 /// Sets enum to use description for json serialization
 /// </summary>
 [AttributeUsage(AttributeTargets.Enum)]
-public sealed class UseJsonEnumDescriptionAttribute : JsonConverterAttribute
+public sealed class JsonEnumDescriptionAttribute : JsonConverterAttribute
 {
     /// <inheritdoc />
-    public UseJsonEnumDescriptionAttribute() :
+    public JsonEnumDescriptionAttribute() :
         base(typeof(JsonDescriptionEnumConverter))
     {
     }
@@ -17,10 +31,34 @@ public sealed class UseJsonEnumDescriptionAttribute : JsonConverterAttribute
 /// Sets enum to use enum member value for json serialization
 /// </summary>
 [AttributeUsage(AttributeTargets.Enum)]
-public sealed class UseJsonEnumMemberValueAttribute : JsonConverterAttribute
+public sealed class JsonEnumMemberValueAttribute : JsonConverterAttribute
 {
     /// <inheritdoc />
-    public UseJsonEnumMemberValueAttribute() : base(typeof(JsonEnumMemberValueConverter))
+    public JsonEnumMemberValueAttribute() : base(typeof(JsonEnumMemberValueConverter))
+    {
+    }
+}
+
+/// <summary>
+/// Sets enum to use string numeric values, for json serialization
+/// </summary>
+[AttributeUsage(AttributeTargets.Enum)]
+public sealed class JsonEnumNumericAsStringAttribute : JsonConverterAttribute
+{
+    /// <inheritdoc />
+    public JsonEnumNumericAsStringAttribute() : base(typeof(JsonEnumNumericAsStringConverter))
+    {
+    }
+}
+
+/// <summary>
+/// Sets enum to use numeric values for json serialization
+/// </summary>
+[AttributeUsage(AttributeTargets.Enum)]
+public sealed class JsonEnumNumericAttribute : JsonConverterAttribute
+{
+    /// <inheritdoc />
+    public JsonEnumNumericAttribute() : base(typeof(JsonNumericEnumConverter))
     {
     }
 }

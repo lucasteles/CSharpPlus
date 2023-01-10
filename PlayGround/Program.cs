@@ -20,8 +20,8 @@ foreach (var p in back ?? Array.Empty<Person>())
 
 public record Person(int Id, string Name, FooType Foo);
 
-[UseJsonEnumDescription]
-public enum FooType
+[JsonEnumDescription]
+public enum FooType : long
 {
     [Description("The Foo number 1")]
     Foo1 = 1,
