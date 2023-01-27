@@ -103,4 +103,30 @@ public class LinqEnumerablePlusTests : BaseTest
             .Should()
             .Be(@default);
     }
+
+    [PropertyTest]
+    public void Repeat0(int[] items) => items.Repeat(0).Should().BeEmpty();
+
+    [PropertyTest]
+    public void Repeat1(int[] items) => items.Repeat(1).Should().BeEquivalentTo(items);
+
+    [PropertyTest]
+    public void Repeat2(int[] items) =>
+#pragma warning disable S2114
+        items.Repeat(2).Should().BeEquivalentTo(items.Concat(items));
+#pragma warning restore S2114
+
+    [PropertyTest]
+    public void Repeat10(int[] items, PositiveInt n) =>
+        items.Repeat(n.Item).Should().HaveCount(n.Item * items.Length);
+
+
+    [PropertyTest]
+    public void RepeatForever(NonEmptyArray<int> array, PositiveInt times)
+    {
+        var baseNumbers = Enumerable.Range(0, times.Item).SelectMany(_ => array.Item).ToArray();
+        var sut = baseNumbers.Zip(array.Item.RepeatForever()).ToArray();
+
+        sut.Should().AllSatisfy(v => v.First.Should().Be(v.Second));
+    }
 }
