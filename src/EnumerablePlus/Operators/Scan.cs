@@ -42,17 +42,22 @@ public static partial class EnumerablePlus
         ArgumentNullException.ThrowIfNull(source);
         ArgumentNullException.ThrowIfNull(mapFunction);
 
-        using var enumerator = source.GetEnumerator();
-
-        if (initFunc(enumerator) is not { } aggregate)
-            yield break;
-
-        yield return aggregate;
-        while (enumerator.MoveNext())
+        IEnumerable<TState> Iterator()
         {
-            aggregate = mapFunction(aggregate, enumerator.Current);
+            using var enumerator = source.GetEnumerator();
+
+            if (initFunc(enumerator) is not { } aggregate)
+                yield break;
+
             yield return aggregate;
+            while (enumerator.MoveNext())
+            {
+                aggregate = mapFunction(aggregate, enumerator.Current);
+                yield return aggregate;
+            }
         }
+
+        return Iterator();
     }
 
     /// <summary>
@@ -79,16 +84,21 @@ public static partial class EnumerablePlus
         ArgumentNullException.ThrowIfNull(stateSelector);
         ArgumentNullException.ThrowIfNull(accumulator);
 
-        comparer ??= EqualityComparer<TKey>.Default;
-
-        var dict = new Dictionary<TKey, TState>(comparer);
-        foreach (var item in source)
+        IEnumerable<(TKey, TState)> Iterator()
         {
-            var key = keySelector(item);
-            var state = dict.TryGetValue(key, out var s) ? s : stateSelector(key);
-            state = accumulator(state, key, item);
-            dict[key] = state;
-            yield return (key, state);
+            comparer ??= EqualityComparer<TKey>.Default;
+
+            var dict = new Dictionary<TKey, TState>(comparer);
+            foreach (var item in source)
+            {
+                var key = keySelector(item);
+                var state = dict.TryGetValue(key, out var s) ? s : stateSelector(key);
+                state = accumulator(state, key, item);
+                dict[key] = state;
+                yield return (key, state);
+            }
         }
+
+        return Iterator();
     }
 }

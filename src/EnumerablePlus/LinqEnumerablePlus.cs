@@ -130,4 +130,14 @@ public static partial class EnumerablePlus
         foreach (var (index, item) in source.Enumerate())
             action(item, index);
     }
+
+    /// <summary>
+    /// Shuffle an enumerable based on a random object
+    /// </summary>
+    /// <param name="source">The sequence of elements</param>
+    /// <param name="random"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns>Shuffled enumerable</returns>
+    public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source, Random? random = null) =>
+        source.OrderBy(_ => (random ?? Random.Shared).Next());
 }

@@ -1,5 +1,6 @@
 // ReSharper disable PossibleMultipleEnumeration
 
+using System.ComponentModel.DataAnnotations;
 using FsCheck;
 
 namespace CSharpPlus.Tests.EnumerablePlus;
@@ -16,11 +17,11 @@ public class LinqEnumerablePlusTests : BaseTest
 
     [PropertyTest]
     public void CharJoinChar(char[] values, char chr) =>
-        values.JoinString(chr).Should().Be(string.Join(chr, values));
+        values.JoinAsString(chr).Should().Be(string.Join(chr, values));
 
     [PropertyTest]
     public void CharJoinString(char[] value, string str) =>
-        value.JoinString(str).Should().Be(string.Join(str, value));
+        value.JoinAsString(str).Should().Be(string.Join(str, value));
 
     [PropertyTest]
     public void StringConcat(string[] values) =>
@@ -37,6 +38,13 @@ public class LinqEnumerablePlusTests : BaseTest
     [PropertyTest]
     public void SelectMany(int[][] values) =>
         values.SelectMany().Should().BeEquivalentTo(values.SelectMany(x => x));
+
+
+    [PropertyTest]
+    public void Shuffle(DistinctNonEmptyArray<int> data) =>
+        data.Items.Shuffle(new System.Random(42))
+            .Should()
+            .NotBeEquivalentTo(data.Items, opt => opt.WithStrictOrdering());
 
     [PropertyTest]
     public void MinMax(NonEmptyArray<int> data)

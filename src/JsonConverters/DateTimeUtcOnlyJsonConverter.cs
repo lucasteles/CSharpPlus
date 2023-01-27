@@ -27,9 +27,9 @@ public class DateTimeUtcOnlyJsonConverter : JsonConverter<DateTime>
         JsonSerializerOptions options) =>
         reader.GetDateTime() switch
         {
-            {Kind: DateTimeKind.Utc} utcDate => utcDate,
-            {Kind: DateTimeKind.Local} localDate => localDate.ToUniversalTime(),
-            {Kind: DateTimeKind.Unspecified} date => new DateTimeOffset(date.Ticks, offset)
+            { Kind: DateTimeKind.Utc } utcDate => utcDate,
+            { Kind: DateTimeKind.Local } localDate => localDate.ToUniversalTime(),
+            { Kind: DateTimeKind.Unspecified } date => new DateTimeOffset(date.Ticks, offset)
                 .UtcDateTime,
             _ => throw new IndexOutOfRangeException(nameof(DateTime.Kind))
         };

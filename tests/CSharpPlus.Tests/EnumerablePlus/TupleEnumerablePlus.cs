@@ -1,9 +1,11 @@
 // ReSharper disable PossibleMultipleEnumeration
+// ReSharper disable UnusedVariable
 
-using FsCheck;
+using System.Diagnostics.CodeAnalysis;
 
 namespace CSharpPlus.Tests.EnumerablePlus;
 
+[SuppressMessage("Minor Code Smell", "S1481:Unused local variables should be removed")]
 public class TupleEnumerablePlus : BaseTest
 {
     [Test]

@@ -10,7 +10,7 @@ public static partial class EnumerablePlus
     /// </summary>
     /// <param name="values"></param>
     /// <param name="separator"></param>
-    public static string JoinString(this IEnumerable<string> values, char separator) =>
+    public static string JoinString<T>(this IEnumerable<T> values, char separator) =>
         string.Join(separator, values);
 
     /// <summary>
@@ -18,7 +18,7 @@ public static partial class EnumerablePlus
     /// </summary>
     /// <param name="values"></param>
     /// <param name="separator"></param>
-    public static string JoinString(this IEnumerable<string> values, string separator) =>
+    public static string JoinString<T>(this IEnumerable<T> values, string separator) =>
         string.Join(separator, values);
 
     /// <summary>
@@ -26,7 +26,7 @@ public static partial class EnumerablePlus
     /// </summary>
     /// <param name="values"></param>
     /// <param name="separator"></param>
-    public static string JoinString(this IEnumerable<char> values, char separator) =>
+    public static string JoinAsString(this IEnumerable<char> values, char separator) =>
         string.Join(separator, values);
 
     /// <summary>
@@ -34,7 +34,7 @@ public static partial class EnumerablePlus
     /// </summary>
     /// <param name="values"></param>
     /// <param name="separator"></param>
-    public static string JoinString(this IEnumerable<char> values, string separator) =>
+    public static string JoinAsString(this IEnumerable<char> values, string separator) =>
         string.Join(separator, values);
 
 

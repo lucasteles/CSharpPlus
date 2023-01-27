@@ -18,13 +18,18 @@ public static partial class EnumerablePlus
         ArgumentNullException.ThrowIfNull(source);
         ArgumentNullException.ThrowIfNull(predicate);
 
-        foreach (var item in source)
+        IEnumerable<TSource> Iterator()
         {
-            yield return item;
+            foreach (var item in source)
+            {
+                yield return item;
 
-            if (!predicate(item))
-                yield break;
+                if (!predicate(item))
+                    yield break;
+            }
         }
+
+        return Iterator();
     }
 
     /// <summary>
@@ -42,13 +47,18 @@ public static partial class EnumerablePlus
         ArgumentNullException.ThrowIfNull(source);
         ArgumentNullException.ThrowIfNull(predicate);
 
-        using var enumerator = source.GetEnumerator();
-        do
-            if (!enumerator.MoveNext())
-                yield break;
-        while (!predicate(enumerator.Current));
+        IEnumerable<TSource> Iterator()
+        {
+            using var enumerator = source.GetEnumerator();
+            do
+                if (!enumerator.MoveNext())
+                    yield break;
+            while (!predicate(enumerator.Current));
 
-        while (enumerator.MoveNext())
-            yield return enumerator.Current;
+            while (enumerator.MoveNext())
+                yield return enumerator.Current;
+        }
+
+        return Iterator();
     }
 }
