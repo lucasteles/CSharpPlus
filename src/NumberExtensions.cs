@@ -106,4 +106,52 @@ public static class NumberExtensions
     /// <returns></returns>
     public static float Round(this float d, int decimals, MidpointRounding mode) =>
         MathF.Round(d, decimals, mode);
+
+    /// <summary>
+    /// Returns value clamped to the inclusive range of min and max.
+    /// </summary>
+    /// <param name="value"></param>
+    /// <param name="min"></param>
+    /// <param name="max"></param>
+    /// <returns></returns>
+    public static decimal Clamp(this decimal value, decimal min, decimal max) =>
+        Math.Clamp(value, min, max);
+
+    /// <summary>
+    /// Returns value clamped to the inclusive range of min and max.
+    /// </summary>
+    /// <param name="value"></param>
+    /// <param name="min"></param>
+    /// <param name="max"></param>
+    /// <returns></returns>
+    public static double Clamp(this double value, double min, double max) =>
+        Math.Clamp(value, min, max);
+
+    /// <summary>
+    /// Returns value clamped to the inclusive range of min and max.
+    /// </summary>
+    /// <param name="value"></param>
+    /// <param name="min"></param>
+    /// <param name="max"></param>
+    /// <returns></returns>
+    public static float Clamp(this float value, float min, float max) =>
+        Math.Clamp(value, min, max);
+
+    /// <summary>
+    /// Returns value clamped to min 0
+    /// </summary>
+    public static decimal ClampZero(this decimal value) =>
+        value.Clamp(decimal.Zero, decimal.MaxValue);
+
+    /// <summary>
+    /// Returns value clamped to min 0
+    /// </summary>
+    public static double ClampZero(this double value) =>
+        value.Clamp(0, double.MaxValue);
+
+    /// <summary>
+    /// Returns value clamped to min 0
+    /// </summary>
+    public static float ClampZero(this float value) =>
+        value.Clamp(0, float.MaxValue);
 }
