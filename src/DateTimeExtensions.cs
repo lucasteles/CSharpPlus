@@ -56,11 +56,14 @@ public static class DateTimeExtensions
         TimeOnly.FromDateTime(dateTime);
 
     /// <summary>
+    /// Returns a DateTime instance with the specified input kind that is set to the date of this DateOnly instance and the time at UTC 00:00AM.
+    /// </summary>
+    public static DateTime ToDateTime(this DateOnly dateOnly) =>
+        dateOnly.ToDateTime(default, DateTimeKind.Utc);
+
+    /// <summary>
     /// Returns a DateTime instance with the specified input kind that is set to the date of this DateOnly instance and the time at 00:00AM.
     /// </summary>
-    public static DateTime
-        ToDateTime(this DateOnly dateOnly,
-            TimeOnly time = default,
-            DateTimeKind kind = DateTimeKind.Utc) =>
-        dateOnly.ToDateTime(time, kind);
+    public static DateTime ToDateTime(this DateOnly dateOnly, DateTimeKind kind) =>
+        dateOnly.ToDateTime(default, kind);
 }
