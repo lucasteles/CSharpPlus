@@ -22,7 +22,7 @@ public static class AssemblyExtensions
         var type = typeof(T);
         return assembly.GetTypes().Where(p =>
             type.IsAssignableFrom(p) && p is
-                {IsInterface: false, IsAbstract: false, IsGenericType: false});
+            { IsInterface: false, IsAbstract: false, IsGenericType: false });
     }
 
     /// <summary>
