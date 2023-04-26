@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 
+/// <summary>
+/// Enumerable Plus Extensions
+/// </summary>
 public static partial class EnumerablePlus
 {
     /// <summary>

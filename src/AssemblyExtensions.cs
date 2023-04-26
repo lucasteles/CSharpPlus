@@ -40,6 +40,6 @@ public static class AssemblyExtensions
                 ? Activator.CreateInstance(t)
                 : t.GetConstructor(Type.EmptyTypes)
                     ?.Invoke(Array.Empty<object>()))
-            .NotNullOnly()
+            .WhereNotNull()
             .Cast<T>();
 }

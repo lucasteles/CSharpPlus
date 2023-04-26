@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 /// <summary>
 /// Enum extensions
 /// </summary>
-public static class Enumeration
+public static class EnumerationExtensions
 {
     static TAttr? GetAttribute<TEnum, TAttr>(this TEnum value)
         where TEnum : Enum

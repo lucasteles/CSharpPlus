@@ -1,5 +1,4 @@
 using System;
-using System.Globalization;
 
 namespace CSharpPlus.JsonConverters.Base;
 
@@ -14,7 +13,7 @@ class JsonEnumMemberValueConverter<TEnum> : JsonEnumCustomStringConverter<TEnum>
     protected override string GetCustomString(TEnum value) => value.GetEnumMemberValue();
 
     protected override TEnum? GetValueFromString(string value, StringComparison comparison) =>
-        Enumeration.GetEnumFromEnumMemberValue<TEnum>(value, comparison);
+        EnumerationExtensions.GetEnumFromEnumMemberValue<TEnum>(value, comparison);
 }
 
 class JsonEnumDescriptionConverter<TEnum> : JsonEnumCustomStringConverter<TEnum>
@@ -28,7 +27,7 @@ class JsonEnumDescriptionConverter<TEnum> : JsonEnumCustomStringConverter<TEnum>
     protected override string GetCustomString(TEnum value) => value.GetDescription();
 
     protected override TEnum? GetValueFromString(string value, StringComparison comparison) =>
-        Enumeration.GetEnumFromDescription<TEnum>(value, comparison);
+        EnumerationExtensions.GetEnumFromDescription<TEnum>(value, comparison);
 }
 
 class JsonEnumNumericAsStringConverter<TEnum> : JsonEnumCustomStringConverter<TEnum>

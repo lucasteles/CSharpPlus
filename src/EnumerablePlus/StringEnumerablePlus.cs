@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 
+namespace System.Linq;
 /// <summary>
 /// Enumerable Plus Extensions
 /// </summary>

@@ -1,6 +1,6 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
+
+namespace System.Linq;
 
 /// <summary>
 /// Enumerable Plus Extensions
@@ -69,7 +69,7 @@ public static partial class EnumerablePlus
     /// <param name="enumerable"></param>
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
-    public static IEnumerable<T> NotNullOnly<T>(this IEnumerable<T?> enumerable) where T : class =>
+    public static IEnumerable<T> WhereNotNull<T>(this IEnumerable<T?> enumerable) where T : class =>
         enumerable.Where(e => e is not null).Cast<T>();
 
     /// <summary>
@@ -78,10 +78,9 @@ public static partial class EnumerablePlus
     /// <param name="enumerable"></param>
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
-    public static IEnumerable<T> NotNullOnly<T>(this IEnumerable<T?> enumerable)
+    public static IEnumerable<T> WhereNotNull<T>(this IEnumerable<T?> enumerable)
         where T : struct =>
         enumerable.Where(e => e is not null).Select(e => e!.Value);
-
 
     /// <summary>
     /// Enumerate the enumerable to a collection of value tuples (int Index, T Value)

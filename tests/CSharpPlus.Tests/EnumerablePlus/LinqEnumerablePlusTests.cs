@@ -1,12 +1,24 @@
 // ReSharper disable PossibleMultipleEnumeration
 
-using System.ComponentModel.DataAnnotations;
 using FsCheck;
 
 namespace CSharpPlus.Tests.EnumerablePlus;
 
 public class LinqEnumerablePlusTests : BaseTest
 {
+    [Test]
+    public void StringJoinSampleTest()
+    {
+        var collection = new[]
+        {
+            4, 8, 15, 16, 23, 42,
+        };
+
+        const string expected = "4;8;15;16;23;42";
+
+        collection.JoinString(";").Should().Be(expected);
+    }
+
     [PropertyTest]
     public void StringJoinChar(string[] value, char chr) =>
         value.JoinString(chr).Should().Be(string.Join(chr, value));
@@ -128,5 +140,41 @@ public class LinqEnumerablePlusTests : BaseTest
         var sut = baseNumbers.Zip(array.Item.RepeatForever()).ToArray();
 
         sut.Should().AllSatisfy(v => v.First.Should().Be(v.Second));
+    }
+
+    record TestRefType(string Id);
+
+    [Test]
+    public void FilterNullRefTypes()
+    {
+        TestRefType?[] items =
+        {
+            new("A"), null, new("B"), null, new("C"), null, null, new("D"),
+        };
+
+        TestRefType[] expected =
+        {
+            new("A"), new("B"), new("C"), new("D"),
+        };
+
+        items.WhereNotNull().Should().BeEquivalentTo(expected);
+    }
+
+    record struct TestValueType(string Id);
+
+    [Test]
+    public void FilterNullValueTypes()
+    {
+        TestValueType?[] items =
+        {
+            new("A"), null, new("B"), null, new("C"), null, null, new("D"),
+        };
+
+        TestValueType[] expected =
+        {
+            new("A"), new("B"), new("C"), new("D"),
+        };
+
+        items.WhereNotNull().Should().BeEquivalentTo(expected);
     }
 }
