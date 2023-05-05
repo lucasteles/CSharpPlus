@@ -6,7 +6,10 @@ public class RangeExtensionsTests
     public void ShouldEnumerateRange()
     {
         var numbers = (..10).Enumerate().ToArray();
-        var expected = new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        var expected = new[]
+        {
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        };
         numbers.Should().BeEquivalentTo(expected);
     }
 
@@ -17,7 +20,10 @@ public class RangeExtensionsTests
         foreach (var n in ..10)
             list.Add(n);
 
-        var expected = new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        var expected = new[]
+        {
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        };
         list.Should().BeEquivalentTo(expected);
     }
 
@@ -25,7 +31,10 @@ public class RangeExtensionsTests
     public void ShouldEnumerateBackwardsRange()
     {
         var numbers = (10..0).Enumerate().ToArray();
-        var expected = new[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
+        var expected = new[]
+        {
+            10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+        };
         numbers.Should().BeEquivalentTo(expected);
     }
 
@@ -36,20 +45,41 @@ public class RangeExtensionsTests
         foreach (var n in 10..0)
             list.Add(n);
 
-        var expected = new[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
+        var expected = new[]
+        {
+            10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+        };
         list.Should().BeEquivalentTo(expected);
     }
 
     [Test]
-    public void ShouldIterateFromNegative()
+    public void ShouldIterateExclusive()
     {
         var list = new List<int>();
-        foreach (var n in ^10..1)
+        foreach (var n in ^0..^10)
             list.Add(n);
 
-        var expected = new[] { -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, -0, 1 };
+        var expected = new[]
+        {
+            1, 2, 3, 4, 5, 6, 7, 8, 9
+        };
         list.Should().BeEquivalentTo(expected);
     }
+
+    [Test]
+    public void ShouldBeBackwardsExclusiveIterable()
+    {
+        var list = new List<int>();
+        foreach (var n in ^10..^0)
+            list.Add(n);
+
+        var expected = new[]
+        {
+            9, 8, 7, 6, 5, 4, 3, 2, 1
+        };
+        list.Should().BeEquivalentTo(expected);
+    }
+
 
     [PropertyTest]
     public void ShouldProject(Index begin, Index end, Func<int, int> map)
@@ -66,7 +96,6 @@ public class RangeExtensionsTests
         var expected = InclusiveRange(begin, end).SelectMany(map).ToArray();
         sut.Should().BeEquivalentTo(expected);
     }
-
 
     [PropertyTest]
     public void ShouldProjectLinq(Index begin, Index end, Func<int, int> map)
@@ -102,7 +131,8 @@ public class RangeExtensionsTests
         Func<int, int, int> map)
     {
         var sut = (begin1..end1).SelectMany(_ => (begin2..end2), map);
-        var expected = InclusiveRange(begin1, end1).SelectMany(_ => InclusiveRange(begin2, end2), map);
+        var expected = InclusiveRange(begin1, end1)
+            .SelectMany(_ => InclusiveRange(begin2, end2), map);
         sut.Should().BeEquivalentTo(expected);
     }
 
@@ -112,13 +142,17 @@ public class RangeExtensionsTests
         Index begin2, Index end2)
     {
         var sut = (begin1..end1).SelectMany(_ => begin2..end2).ToArray();
-        var expected = InclusiveRange(begin1, end1).SelectMany(_ => InclusiveRange(begin2, end2)).ToArray();
+        var expected = InclusiveRange(begin1, end1).SelectMany(_ => InclusiveRange(begin2, end2))
+            .ToArray();
         sut.Should().BeEquivalentTo(expected);
     }
 
     static IEnumerable<int> InclusiveRange(Index begin, Index end)
     {
-        var boundaries = new[] { end.Int(), begin.Int() };
+        var boundaries = new[]
+        {
+            end.Int(), begin.Int()
+        };
         var (min, max) = (boundaries.Min(), boundaries.Max());
         var size = Math.Abs(min - max) + 1;
         return Enumerable.Range(min, size);

@@ -5,7 +5,9 @@ namespace System.Text.Json.Serialization;
 /// <summary>
 /// Sets enum to use default string value for json serialization
 /// </summary>
-[AttributeUsage(AttributeTargets.Enum)]
+[AttributeUsage(
+    AttributeTargets.Class | AttributeTargets.Interface | AttributeTargets.Struct |
+    AttributeTargets.Enum | AttributeTargets.Property | AttributeTargets.Field)]
 public sealed class JsonEnumStringAttribute : JsonConverterAttribute
 {
     /// <inheritdoc />

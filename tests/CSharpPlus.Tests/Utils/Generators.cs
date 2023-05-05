@@ -1,4 +1,5 @@
 using FsCheck;
+using Random = System.Random;
 
 public readonly record struct DistinctNonEmptyArray<T>(T[] Items)
 {
@@ -22,7 +23,7 @@ public class MyGenerators
     {
         var generator =
             from v in Arb.From<int>().Generator
-            select new Index(Math.Abs(v), v < 0);
+            select new Index(Math.Abs(v));
         return Arb.From(generator);
     }
 

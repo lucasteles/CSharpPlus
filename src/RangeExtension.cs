@@ -10,23 +10,28 @@ public static class RangeExtension
 {
     /// <summary>
     /// Enumerate Range operators
+    /// ^ sets the value as exclusive
     /// </summary>
     /// <param name="range"></param>
     /// <returns></returns>
     public static IEnumerator<int> GetEnumerator(this Range range)
     {
-        static int IndexToInt(Index index) =>
-            index.Value * (index.IsFromEnd ? -1 : 1);
-
-        var start = IndexToInt(range.Start);
-        var end = IndexToInt(range.End);
+        var (start, end) = (range.Start.Value, range.End.Value);
 
         if (end > start)
+        {
+            if (range.End.IsFromEnd) end--;
+            if (range.Start.IsFromEnd) start++;
             for (var i = start; i <= end; i++)
                 yield return i;
+        }
         else
+        {
+            if (range.End.IsFromEnd) end++;
+            if (range.Start.IsFromEnd) start--;
             for (var i = start; i >= end; i--)
                 yield return i;
+        }
     }
 
     /// <summary>
@@ -105,7 +110,6 @@ public static class RangeExtension
     public static IEnumerable<int> SelectMany(this Range range, Func<int, Range> projection) =>
         range.SelectMany(projection, (_, n) => n);
 
-
     /// <summary>
     /// Creates an array from a Range
     /// </summary>
@@ -122,12 +126,11 @@ public static class RangeExtension
         this Range range) =>
         range.Enumerate().ToList();
 
-
     /// <summary>
     /// Creates an array from a Range
     /// </summary>
     /// <returns></returns>
     public static IReadOnlyCollection<int> ToReadOnly(
         this Range range) =>
-        range.Enumerate().ToImmutableArray();
+        range.Enumerate().ToReadOnly();
 }

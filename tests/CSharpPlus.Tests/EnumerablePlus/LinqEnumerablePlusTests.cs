@@ -177,4 +177,29 @@ public class LinqEnumerablePlusTests : BaseTest
 
         items.WhereNotNull().Should().BeEquivalentTo(expected);
     }
+
+    [PropertyTest]
+    public void ShouldParseIListToReadOnly(NonEmptyArray<int> values)
+    {
+        var original = values.Item.ToArray();
+        var sut = (IList<int>)values.Item.ToReadOnly();
+        var action = () => sut[0]++;
+        action.Should().Throw<NotSupportedException>().WithMessage("Collection is read-only.");
+        values.Item.Should().BeEquivalentTo(original);
+    }
+
+    [PropertyTest]
+    public void ShouldParseNonIListToReadOnly(NonEmptySet<int> values)
+    {
+        var original = values.Item.ToArray();
+        var sut = (IList<int>)values.Item.ToReadOnly();
+        var action = () => sut.Add(42);
+        action.Should().Throw<NotSupportedException>().WithMessage("Collection is read-only.");
+        values.Item.Should().BeEquivalentTo(original);
+    }
+
+    [Test]
+    public void ShouldParseNullCollectionToReadOnly() =>
+        (null as int[])!.ToReadOnly().Should()
+        .BeEquivalentTo(Array.Empty<int>());
 }

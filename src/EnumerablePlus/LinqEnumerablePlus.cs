@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace System.Linq;
 
@@ -139,4 +140,63 @@ public static partial class EnumerablePlus
     /// <returns>Shuffled enumerable</returns>
     public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source, Random? random = null) =>
         source.OrderBy(_ => (random ?? Random.Shared).Next());
+
+    /// <summary>
+    /// Returns a random item from collection
+    /// </summary>
+    /// <param name="source">The sequence of elements</param>
+    /// <param name="defaultValue"></param>
+    /// <param name="random"></param>
+    /// <typeparam name="T"></typeparam>
+    public static T? PickRandomOrDefault<T>(this IEnumerable<T> source,
+        T? defaultValue = default, Random? random = null)
+    {
+        var rnd = random ?? Random.Shared;
+        return source switch
+        {
+            IReadOnlyCollection<T> { Count: 0 } => default,
+            IReadOnlyList<T> { Count: > 0 } list => list[rnd.Next(list.Count)],
+            _ => source.Shuffle(rnd).FirstOrDefault(defaultValue),
+        };
+    }
+
+    /// <summary>
+    /// Returns a random item from collection
+    /// </summary>
+    /// <param name="source">The sequence of elements</param>
+    /// <param name="random"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns>Shuffled enumerable</returns>
+    public static T PickRandom<T>(this IEnumerable<T> source, Random? random = null)
+    {
+        var rnd = random ?? Random.Shared;
+        return source switch
+        {
+            IReadOnlyList<T> list => list[rnd.Next(list.Count)],
+            _ => source.Shuffle(rnd).First(),
+        };
+    }
+
+    /// <summary>
+    /// Creates a IReadOnlyList from a IEnumerable.
+    /// </summary>
+    /// <param name="enumerable"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns></returns>
+    public static IReadOnlyList<T> ToReadOnlyList<T>(this IEnumerable<T> enumerable) =>
+        enumerable switch
+        {
+            null => Array.Empty<T>(),
+            IList<T> list => new ReadOnlyCollection<T>(list),
+            _ => Array.AsReadOnly(enumerable.ToArray()),
+        };
+
+    /// <summary>
+    /// Creates a IReadOnlyCollection from a IEnumerable.
+    /// </summary>
+    /// <param name="enumerable"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns></returns>
+    public static IReadOnlyCollection<T> ToReadOnly<T>(this IEnumerable<T> enumerable) =>
+        enumerable.ToReadOnlyList();
 }
