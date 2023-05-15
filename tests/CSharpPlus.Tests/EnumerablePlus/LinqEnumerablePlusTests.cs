@@ -202,4 +202,30 @@ public class LinqEnumerablePlusTests : BaseTest
     public void ShouldParseNullCollectionToReadOnly() =>
         (null as int[])!.ToReadOnly().Should()
         .BeEquivalentTo(Array.Empty<int>());
+
+    record Foo(int Id, string Name);
+
+    [Test]
+    public void ShouldIntersectBySelector()
+    {
+        Foo both1 = new(10, "Ryu");
+        Foo both2 = new(20, "Ken");
+
+        Foo[] first =
+        {
+            new(1, "Alex"), both1, both2, new(2, "Luke"),
+        };
+
+        Foo[] second =
+        {
+            new(1, "Chun Li"), both1, both2, new(2, "Blanka"),
+        };
+
+        var result = first.IntersectBy(second, x => x.Name).ToArray();
+
+        result.Should().BeEquivalentTo(new[]
+        {
+            both1, both2,
+        });
+    }
 }

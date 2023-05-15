@@ -84,7 +84,7 @@ public static partial class EnumerablePlus
         enumerable.Where(e => e is not null).Select(e => e!.Value);
 
     /// <summary>
-    /// Enumerate the enumerable to a collection of value tuples (int Index, T Value)
+    /// Enumerate the source to a collection of value tuples (int Index, T Value)
     /// </summary>
     /// <param name="enumerable"></param>
     /// <typeparam name="T"></typeparam>
@@ -94,11 +94,11 @@ public static partial class EnumerablePlus
 
 
     /// <summary>
-    /// Return value as singleton enumerable
+    /// Return value as singleton source
     /// </summary>
     /// <param name="item"></param>
     /// <typeparam name="T"></typeparam>
-    /// <returns>An enumerable of a single item</returns>
+    /// <returns>An source of a single item</returns>
     public static IEnumerable<T> ToSingleton<T>(this T item) =>
         Enumerable.Repeat(item, 1);
 
@@ -132,12 +132,12 @@ public static partial class EnumerablePlus
     }
 
     /// <summary>
-    /// Shuffle an enumerable based on a random object
+    /// Shuffle an source based on a random object
     /// </summary>
     /// <param name="source">The sequence of elements</param>
     /// <param name="random"></param>
     /// <typeparam name="T"></typeparam>
-    /// <returns>Shuffled enumerable</returns>
+    /// <returns>Shuffled source</returns>
     public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source, Random? random = null) =>
         source.OrderBy(_ => (random ?? Random.Shared).Next());
 
@@ -166,7 +166,7 @@ public static partial class EnumerablePlus
     /// <param name="source">The sequence of elements</param>
     /// <param name="random"></param>
     /// <typeparam name="T"></typeparam>
-    /// <returns>Shuffled enumerable</returns>
+    /// <returns>Shuffled source</returns>
     public static T PickRandom<T>(this IEnumerable<T> source, Random? random = null)
     {
         var rnd = random ?? Random.Shared;
@@ -199,4 +199,12 @@ public static partial class EnumerablePlus
     /// <returns></returns>
     public static IReadOnlyCollection<T> ToReadOnly<T>(this IEnumerable<T> enumerable) =>
         enumerable.ToReadOnlyList();
+
+    /// <summary>
+    /// Produces the set intersection of two sequences according to a specified key selector function.
+    /// </summary>
+    public static IEnumerable<T> IntersectBy<T, TKey>(this IEnumerable<T> first,
+        IEnumerable<T> second, Func<T, TKey> keySelector,
+        IEqualityComparer<TKey>? comparer = null) =>
+        first.IntersectBy(second.Select(keySelector), keySelector, comparer);
 }
