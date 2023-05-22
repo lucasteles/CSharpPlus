@@ -154,8 +154,8 @@ public static partial class EnumerablePlus
         var rnd = random ?? Random.Shared;
         return source switch
         {
-            IReadOnlyCollection<T> { Count: 0 } => default,
-            IReadOnlyList<T> { Count: > 0 } list => list[rnd.Next(list.Count)],
+            IReadOnlyCollection<T> {Count: 0} => default,
+            IReadOnlyList<T> {Count: > 0} list => list[rnd.Next(list.Count)],
             _ => source.Shuffle(rnd).FirstOrDefault(defaultValue),
         };
     }
@@ -207,4 +207,37 @@ public static partial class EnumerablePlus
         IEnumerable<T> second, Func<T, TKey> keySelector,
         IEqualityComparer<TKey>? comparer = null) =>
         first.IntersectBy(second.Select(keySelector), keySelector, comparer);
+
+
+    /// <summary>
+    /// Return empty if collection is null
+    /// </summary>
+    /// <param name="enumerable"></param>
+    /// <returns></returns>
+    public static IEnumerable<T> EmptyIfNull<T>(this IEnumerable<T>? enumerable) =>
+        enumerable ?? Enumerable.Empty<T>();
+
+    /// <summary>
+    /// Return empty if array is null
+    /// </summary>
+    /// <param name="array"></param>
+    /// <returns></returns>
+    public static T[] EmptyIfNull<T>(this T[]? array) =>
+        array ?? Array.Empty<T>();
+
+    /// <summary>
+    /// Return empty if array is null
+    /// </summary>
+    /// <param name="array"></param>
+    /// <returns></returns>
+    public static IReadOnlyCollection<T> EmptyIfNull<T>(this IReadOnlyCollection<T>? array) =>
+        array ?? Array.Empty<T>();
+
+    /// <summary>
+    /// Return empty if array is null
+    /// </summary>
+    /// <param name="array"></param>
+    /// <returns></returns>
+    public static IReadOnlyList<T> EmptyIfNull<T>(this IReadOnlyList<T>? array) =>
+        array ?? Array.Empty<T>();
 }

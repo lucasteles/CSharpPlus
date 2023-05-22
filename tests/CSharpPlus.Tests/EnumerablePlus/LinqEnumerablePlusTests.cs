@@ -1,5 +1,6 @@
 // ReSharper disable PossibleMultipleEnumeration
 
+using System.Collections.ObjectModel;
 using FsCheck;
 
 namespace CSharpPlus.Tests.EnumerablePlus;
@@ -228,4 +229,20 @@ public class LinqEnumerablePlusTests : BaseTest
             both1, both2,
         });
     }
+
+    [Test]
+    public void ShouldBeEmptyIfNull() =>
+        (null as IEnumerable<int>).EmptyIfNull().Should().BeEmpty();
+
+    [Test]
+    public void ShouldBeEmptyArrayIfNull() =>
+        (null as int[]).EmptyIfNull().Should().BeEmpty();
+
+    [Test]
+    public void ShouldBeEmptyCollectionIfNull() =>
+        (null as ReadOnlyCollection<int>).EmptyIfNull().Should().BeEmpty();
+
+    [Test]
+    public void ShouldBeEmptyListIfNull() =>
+        (null as IReadOnlyList<int>).EmptyIfNull().Should().BeEmpty();
 }
