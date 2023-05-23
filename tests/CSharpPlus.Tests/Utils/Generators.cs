@@ -1,5 +1,4 @@
 using FsCheck;
-using Random = System.Random;
 
 public readonly record struct DistinctNonEmptyArray<T>(T[] Items)
 {

@@ -48,4 +48,14 @@ public static partial class EnumerablePlus
     static Comparison<TSource> KeyComparison<TSource, TKey>(Func<TSource, TKey> key)
         where TKey : IComparable<TKey> =>
         (x, y) => Comparer<TKey>.Default.Compare(key(x), key(y));
+
+
+    /// <summary>
+    /// Creates an IEnumerable from an IEnumerator
+    /// </summary>
+    public static IEnumerable<T> ToEnumerable<T>(this IEnumerator<T> enumerator)
+    {
+        while (enumerator.MoveNext())
+            yield return enumerator.Current;
+    }
 }
