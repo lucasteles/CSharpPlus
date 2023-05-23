@@ -75,7 +75,7 @@ public class ResultTests
     [Test]
     public void ShouldMatchPropertyOk()
     {
-        if (Result<int, string>.Ok(42) is {Value: 42})
+        if (Result<int, string>.Ok(42) is { Value: 42 })
             Assert.Pass();
 
         Assert.Fail("unexpected!");
@@ -105,5 +105,21 @@ public class ResultTests
             Assert.Pass();
 
         Assert.Fail();
+    }
+
+    [Test]
+    public async Task ShouldMapAsync()
+    {
+        var result = await Result<int, string>.Ok(42).SelectAsync(Task.FromResult);
+        result.Should().Equal(Result.Ok(42));
+    }
+
+    [Test]
+    public async Task ShouldBindAsync()
+    {
+        var result = await Result<int, string>.Ok(42)
+            .SelectManyAsync(x => Task.FromResult(Result.Ok(x + 10)));
+
+        result.Should().Equal(Result.Ok(52));
     }
 }

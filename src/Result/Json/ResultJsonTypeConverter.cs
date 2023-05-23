@@ -35,7 +35,7 @@ public class ResultJsonConverterFactory : JsonConverterFactory
 
 /// <inheritdoc />
 public class ResultJsonConverter<TOk, TError> : JsonConverter<Result<TOk, TError>>
-    where TError : notnull
+
 {
     readonly JsonConverter<TOk> okConverter;
     readonly JsonConverter<TError> errorConverter;

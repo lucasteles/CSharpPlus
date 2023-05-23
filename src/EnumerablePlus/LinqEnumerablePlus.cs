@@ -154,8 +154,8 @@ public static partial class EnumerablePlus
         var rnd = random ?? Random.Shared;
         return source switch
         {
-            IReadOnlyCollection<T> {Count: 0} => default,
-            IReadOnlyList<T> {Count: > 0} list => list[rnd.Next(list.Count)],
+            IReadOnlyCollection<T> { Count: 0 } => default,
+            IReadOnlyList<T> { Count: > 0 } list => list[rnd.Next(list.Count)],
             _ => source.Shuffle(rnd).FirstOrDefault(defaultValue),
         };
     }

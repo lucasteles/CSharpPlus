@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using System.Threading.Tasks;
 using CSharpPlus.Result.Json;
 
 namespace CSharpPlus.Result;
@@ -15,7 +14,7 @@ namespace CSharpPlus.Result;
 [DebuggerDisplay("{DebuggerDisplay(),nq}")]
 [System.Text.Json.Serialization.JsonConverter(typeof(ResultJsonConverterFactory))]
 public readonly struct Result<TOk, TError> : IEnumerable<TOk>, IEquatable<Result<TOk, TError>>
-    where TError : notnull
+
 {
     internal TOk? OkValue { get; }
     internal TError? ErrorValue { get; }
@@ -153,24 +152,6 @@ public readonly struct Result<TOk, TError> : IEnumerable<TOk>, IEquatable<Result
         IsOk ? ok(this.OkValue) : error(this.ErrorValue);
 
     /// <summary>
-    /// Match the result to obtain the value
-    /// </summary>
-    public async Task<T> Match<T>(Func<TOk, Task<T>> ok, Func<TError, Task<T>> error) =>
-        IsOk ? await ok(this.OkValue) : await error(this.ErrorValue);
-
-    /// <summary>
-    /// Match the result to obtain the value
-    /// </summary>
-    public async Task<T> Match<T>(Func<TOk, Task<T>> ok, Func<TError, T> error) =>
-        IsOk ? await ok(this.OkValue) : error(this.ErrorValue);
-
-    /// <summary>
-    /// Match the result to obtain the value
-    /// </summary>
-    public async Task<T> Match<T>(Func<TOk, T> ok, Func<TError, Task<T>> error) =>
-        IsOk ? ok(this.OkValue) : await error(this.ErrorValue);
-
-    /// <summary>
     /// Switch the result to process value
     /// </summary>
     public void Switch(Action<TOk> ok, Action<TError> error)
@@ -179,39 +160,6 @@ public readonly struct Result<TOk, TError> : IEnumerable<TOk>, IEquatable<Result
             ok(this.OkValue);
         else
             error(this.ErrorValue);
-    }
-
-    /// <summary>
-    /// Switch the result to process value
-    /// </summary>
-    public async Task Switch(Func<TOk, Task> ok, Func<TError, Task> error)
-    {
-        if (IsOk)
-            await ok(this.OkValue);
-        else
-            await error(this.ErrorValue);
-    }
-
-    /// <summary>
-    /// Switch the result to process value
-    /// </summary>
-    public async Task Switch(Func<TOk, Task> ok, Action<TError> error)
-    {
-        if (IsOk)
-            await ok(this.OkValue);
-        else
-            error(this.ErrorValue);
-    }
-
-    /// <summary>
-    /// Switch the result to process value
-    /// </summary>
-    public async Task Switch(Action<TOk> ok, Func<TError, Task> error)
-    {
-        if (IsOk)
-            ok(this.OkValue);
-        else
-            await error(this.ErrorValue);
     }
 
     /// <summary>
@@ -239,7 +187,7 @@ public readonly struct Result<TOk, TError> : IEnumerable<TOk>, IEquatable<Result
     public Result<TMapOk, TMapError> Select<TMapOk, TMapError>(
         Func<TOk, TMapOk> okSelector,
         Func<TError, TMapError> errorSelector
-    ) where TMapError : notnull => Match(
+    ) => Match(
         ok => new Result<TMapOk, TMapError>(okSelector(ok)),
         error => new(errorSelector(error))
     );
@@ -247,7 +195,7 @@ public readonly struct Result<TOk, TError> : IEnumerable<TOk>, IEquatable<Result
     /// <summary>
     /// Projects error result element into a new form.
     /// </summary>
-    public Result<TOk, TMap> SelectError<TMap>(Func<TError, TMap> selector) where TMap : notnull =>
+    public Result<TOk, TMap> SelectError<TMap>(Func<TError, TMap> selector) =>
         Match(
             ok => new Result<TOk, TMap>(ok),
             error => new(selector(error))
