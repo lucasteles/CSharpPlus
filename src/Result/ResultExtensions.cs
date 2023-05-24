@@ -29,49 +29,52 @@ public static class Result
         Result<TOk, TError>.Error(error);
 
     /// <summary>
-    /// Deconstructs result value
+    /// Deconstructs result value into (IsOk, OkValue?, ErrorValue?)
     /// </summary>
     public static void Deconstruct<TOk, TError>(
         this Result<TOk, TError> result,
+        out bool success,
         out TOk? ok,
         out TError? error)
         where TOk : struct
         where TError : struct
-        => (ok, error) = (result.OkValue, result.ErrorValue);
+        => (success, ok, error) = (result.IsOk, result.OkValue, result.ErrorValue);
 
     /// <summary>
-    /// Deconstructs result value
+    /// Deconstructs result value into (IsOk, OkValue?, ErrorValue?)
     /// </summary>
     public static void Deconstruct<TOk, TError>(
         this Result<TOk, TError> result,
+        out bool success,
         out TOk? ok,
         out TError? error)
         where TOk : class
         where TError : class
-        => (ok, error) = (result.OkValue, result.ErrorValue);
+        => (success, ok, error) = (result.IsOk, result.OkValue, result.ErrorValue);
 
     /// <summary>
-    /// Deconstructs result value
+    /// Deconstructs result value into (IsOk, OkValue?, ErrorValue?)
     /// </summary>
     public static void Deconstruct<TOk, TError>(
         this Result<TOk, TError> result,
+        out bool success,
         out TOk? ok,
         out TError? error)
         where TOk : struct
         where TError : class
-        => (ok, error) = (result.OkValue, result.ErrorValue);
+        => (success, ok, error) = (result.IsOk, result.OkValue, result.ErrorValue);
 
     /// <summary>
-    /// Deconstructs result value
+    /// Deconstructs result value into (IsOk, OkValue?, ErrorValue?)
     /// </summary>
     public static void Deconstruct<TOk, TError>(
         this Result<TOk, TError> result,
+        out bool success,
         out TOk? ok,
         out TError? error)
         where TOk : class
         where TError : struct
-        => (ok, error) = (result.OkValue, result.ErrorValue);
-
+        => (success, ok, error) = (result.IsOk, result.OkValue, result.ErrorValue);
 
     /// <summary>
     /// Convert value type result to nullable
