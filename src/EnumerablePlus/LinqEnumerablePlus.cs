@@ -20,15 +20,6 @@ public static partial class EnumerablePlus
         @this.SelectMany(x => x);
 
     /// <summary>
-    /// Returns the minimum and maximum value in a generic sequence.
-    /// </summary>
-    public static (T? Min, T? Max) MinMax<T>(this IEnumerable<T> @this)
-    {
-        var items = @this.ToArray();
-        return (items.Min(), items.Max());
-    }
-
-    /// <summary>
     /// Returns the minimum and maximum value in a generic sequence by key member.
     /// </summary>
     public static (T? Min, T? Max) MinAndMaxBy<T, TProp>(this IEnumerable<T> @this,
@@ -39,30 +30,54 @@ public static partial class EnumerablePlus
     }
 
     /// <summary>
+    /// Casts Enumerablet to nullable value type
+    /// </summary>
+    public static IEnumerable<T?> ToNullable<T>(this IEnumerable<T> @this) where T : struct =>
+        @this.Cast<T?>();
+
+    /// <summary>
+    /// Returns the minimum and maximum value in a generic sequence.
+    /// </summary>
+    public static (T? Min, T? Max) MinAndMax<T>(this IEnumerable<T> @this)
+    {
+        var items = @this.ToArray();
+        return (items.Min(), items.Max());
+    }
+
+    /// <summary>
     /// Returns the minimum and maximum value in a generic sequence
     /// </summary>
     public static (TProp? Min, TProp? Max) MinAndMax<T, TProp>(this IEnumerable<T> @this,
-        Func<T, TProp> keySelector)
-    {
-        var items = @this.ToArray();
-        return (items.Min(keySelector), items.Max(keySelector));
-    }
+        Func<T, TProp> keySelector) =>
+        @this.Select(keySelector).MinAndMax();
 
     /// <summary>
     /// Returns the maximum value in a generic sequence. Defaults if empty
     /// </summary>
-    public static TProp? MaxOrDefault<T, TProp>(this IEnumerable<T> @this,
-        Func<T, TProp> keySelector,
-        TProp? value = default) =>
-        @this.Select(keySelector).DefaultIfEmpty(value).Max();
+    public static TProp MaxOrDefault<T, TProp>(this IEnumerable<T> @this,
+        Func<T, TProp> keySelector, TProp value) =>
+        @this.Select(keySelector).DefaultIfEmpty(value).Max() ?? value;
+
+    /// <summary>
+    /// Returns the maximum value in a generic sequence. Defaults if empty
+    /// </summary>
+    public static T MaxOrDefault<T>(this IEnumerable<T> @this, T value) =>
+        @this.MaxOrDefault(x => x, value);
 
     /// <summary>
     /// Returns the minimum value in a generic sequence. Defaults if empty
     /// </summary>
-    public static TProp? MinOrDefault<T, TProp>(this IEnumerable<T> @this,
-        Func<T, TProp> keySelector,
-        TProp? value = default) =>
-        @this.Select(keySelector).DefaultIfEmpty(value).Min();
+    public static TProp MinOrDefault<T, TProp>(
+        this IEnumerable<T> @this,
+        Func<T, TProp> keySelector, TProp value) =>
+        @this.Select(keySelector).DefaultIfEmpty(value).Min() ?? value;
+
+    /// <summary>
+    /// Returns the minimum value in a generic sequence. Defaults if empty
+    /// </summary>
+    public static T MinOrDefault<T>(this IEnumerable<T> @this, T value) =>
+        @this.MinOrDefault(x => x, value);
+
 
     /// <summary>
     /// Filter non-null items
@@ -208,6 +223,13 @@ public static partial class EnumerablePlus
         IEqualityComparer<TKey>? comparer = null) =>
         first.IntersectBy(second.Select(keySelector), keySelector, comparer);
 
+    /// <summary>
+    /// Produces the set difference of two sequences according to a specified key selector function.
+    /// </summary>
+    public static IEnumerable<T> ExceptBy<T, TKey>(this IEnumerable<T> first,
+        IEnumerable<T> second, Func<T, TKey> keySelector,
+        IEqualityComparer<TKey>? comparer = null) =>
+        first.ExceptBy(second.Select(keySelector), keySelector, comparer);
 
     /// <summary>
     /// Return empty if collection is null
@@ -240,4 +262,13 @@ public static partial class EnumerablePlus
     /// <returns></returns>
     public static IReadOnlyList<T> EmptyIfNull<T>(this IReadOnlyList<T>? array) =>
         array ?? Array.Empty<T>();
+
+    /// <summary>
+    /// Creates an IEnumerable from an IEnumerator
+    /// </summary>
+    public static IEnumerable<T> ToEnumerable<T>(this IEnumerator<T> enumerator)
+    {
+        while (enumerator.MoveNext())
+            yield return enumerator.Current;
+    }
 }

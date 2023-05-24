@@ -108,6 +108,22 @@ public class ResultTests
     }
 
     [Test]
+    public void ShouldTryGetOrError()
+    {
+        var result = Result<int, string>.Error("BAD");
+
+        if (!result.AsNullable().TryGet(out var value, out var error))
+        {
+            Assert.IsNull(value);
+            Assert.IsNotNull(error);
+            Assert.Pass();
+        }
+
+        Assert.Fail();
+    }
+
+
+    [Test]
     public async Task ShouldMapAsync()
     {
         var result = await Result<int, string>.Ok(42).SelectAsync(Task.FromResult);

@@ -72,6 +72,16 @@ public static class Result
         where TError : struct
         => (ok, error) = (result.OkValue, result.ErrorValue);
 
+
+    /// <summary>
+    /// Convert value type result to nullable
+    /// </summary>
+    public static Result<TOk?, TError> AsNullable<TOk, TError>(
+        this Result<TOk, TError> result)
+        where TOk : struct =>
+        result.Select(x => (TOk?)x);
+
+
     /// <summary>
     /// Convert result of task into task of result
     /// </summary>

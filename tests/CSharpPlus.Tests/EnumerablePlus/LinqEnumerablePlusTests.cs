@@ -63,7 +63,7 @@ public class LinqEnumerablePlusTests : BaseTest
     public void MinMax(NonEmptyArray<int> data)
     {
         var values = data.Item;
-        values.MinMax().Should().BeEquivalentTo((Min: values.Min(), Max: values.Max()));
+        values.MinAndMax().Should().BeEquivalentTo((Min: values.Min(), Max: values.Max()));
     }
 
     [PropertyTest]
@@ -85,13 +85,13 @@ public class LinqEnumerablePlusTests : BaseTest
 
     [PropertyTest]
     public void MinOrDefaultNonEmpty(NonEmptyArray<NonEmptyString> values) =>
-        values.Item.MinOrDefault(x => x.Item.Length)
+        values.Item.MinOrDefault(x => x.Item.Length, 0)
             .Should()
             .Be(values.Item.Min(s => s.Item.Length));
 
     [PropertyTest]
     public void MaxOrDefaultNonEmpty(NonEmptyArray<NonEmptyString> values) =>
-        values.Item.MaxOrDefault(x => x.Item.Length)
+        values.Item.MaxOrDefault(x => x.Item.Length, 0)
             .Should()
             .Be(values.Item.Max(s => s.Item.Length));
 
@@ -229,6 +229,32 @@ public class LinqEnumerablePlusTests : BaseTest
             both1, both2,
         });
     }
+
+    [Test]
+    public void ShouldExceptBySelector()
+    {
+        Foo[] both =
+        {
+            new(10, "Ryu"), new(20, "Ken"),
+        };
+
+        Foo[] firstOnly =
+        {
+            new(1, "Alex"), new(2, "Luke"),
+        };
+
+        var first = firstOnly.Concat(both).ToArray();
+
+        var second = both
+            .Prepend(new(1, "Chun Li"))
+            .Append(new(2, "Blanka"))
+            .ToArray();
+
+        var result = first.ExceptBy(second, x => x.Name).ToArray();
+
+        result.Should().BeEquivalentTo(firstOnly);
+    }
+
 
     [Test]
     public void ShouldBeEmptyIfNull() =>

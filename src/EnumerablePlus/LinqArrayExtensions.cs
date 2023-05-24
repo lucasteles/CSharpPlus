@@ -1,11 +1,12 @@
-using System.Collections.Generic;
+namespace CSharpPlus.LinqArray;
 
-namespace System.Linq;
+using System;
+using System.Collections.Generic;
 
 /// <summary>
 /// Enumerable Plus Extensions
 /// </summary>
-public static partial class EnumerablePlus
+public static class ArrayPlus
 {
     /// <summary>
     ///  Filters an array of values based on a predicate.
@@ -39,6 +40,18 @@ public static partial class EnumerablePlus
     }
 
     /// <summary>
+    ///  Sorts the elements of an array in ascending order.
+    /// </summary>
+    public static TSource[] ConcatArray<TSource>(this TSource[] @this, TSource[] other)
+    {
+        var copy = new TSource[@this.Length + other.Length];
+        Array.Copy(@this, copy, @this.Length);
+        Array.Copy(other, 0, copy, @this.Length, other.Length);
+        return copy;
+    }
+
+
+    /// <summary>
     ///  Projects each element of an array into a new form.
     /// </summary>
     public static TResult[]
@@ -48,14 +61,4 @@ public static partial class EnumerablePlus
     static Comparison<TSource> KeyComparison<TSource, TKey>(Func<TSource, TKey> key)
         where TKey : IComparable<TKey> =>
         (x, y) => Comparer<TKey>.Default.Compare(key(x), key(y));
-
-
-    /// <summary>
-    /// Creates an IEnumerable from an IEnumerator
-    /// </summary>
-    public static IEnumerable<T> ToEnumerable<T>(this IEnumerator<T> enumerator)
-    {
-        while (enumerator.MoveNext())
-            yield return enumerator.Current;
-    }
 }

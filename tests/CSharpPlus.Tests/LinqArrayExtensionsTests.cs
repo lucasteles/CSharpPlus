@@ -1,3 +1,5 @@
+using CSharpPlus.LinqArray;
+
 namespace CSharpPlus.Tests;
 
 public class LinqArrayExtensionsTests
@@ -60,6 +62,13 @@ public class LinqArrayExtensionsTests
         items.SelectArray(Selector).Should().BeEquivalentTo(expected);
     }
 
+    [PropertyTest]
+    public void ShouldConcatArray(int[] itemsA, int[] itemsB)
+    {
+        var expected = itemsA.Concat(itemsB).ToArray();
+        var result = itemsA.ConcatArray(itemsB);
+        result.Should().BeEquivalentTo(expected);
+    }
 
     [Test]
     public void ShouldOrderSampleArray()

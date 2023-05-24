@@ -168,6 +168,22 @@ public readonly struct Result<TOk, TError> : IEquatable<Result<TOk, TError>>
     }
 
     /// <summary>
+    /// Attempts to extract value from container if it is present.
+    /// </summary>
+    /// <param name="value">Extracted value.</param>
+    /// <param name="error">Extracted error.</param>
+    /// <returns><see langword="true"/> if value is present; otherwise, <see langword="false"/>.</returns>
+    public bool TryGet(
+        [NotNullWhen(true)] out TOk? value,
+        [NotNullWhen(false)] out TError? error
+    )
+    {
+        value = this.OkValue;
+        error = this.ErrorValue;
+        return IsOk;
+    }
+
+    /// <summary>
     /// Projects ok result value into a new form.
     /// </summary>
     public Result<TMap, TError> Select<TMap>(Func<TOk, TMap> selector) => Match(
