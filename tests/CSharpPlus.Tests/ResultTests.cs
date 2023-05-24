@@ -28,7 +28,7 @@ public class ResultTests
         var ok = Result<int, string>.Ok(42);
         var strJson = JsonSerializer.Serialize(ok);
         var okFromJson = JsonSerializer.Deserialize<Result<int, string>>(strJson);
-        okFromJson.Should().Equal(ok);
+        okFromJson.Should().Be(ok);
     }
 
     [Test]
@@ -37,7 +37,7 @@ public class ResultTests
         var error = Result<int, string>.Error("foo");
         var strJson = JsonSerializer.Serialize(error);
         var errorFromJson = JsonSerializer.Deserialize<Result<int, string>>(strJson);
-        errorFromJson.Should().Equal(error);
+        errorFromJson.Should().Be(error);
     }
 
     [Test]
@@ -48,7 +48,7 @@ public class ResultTests
             from ok2 in Result<int, string>.Ok(100)
             select ok1 + ok2;
 
-        result.Should().Equal(Result.Ok(142));
+        result.Should().Be(Result.Ok(142));
     }
 
     [Test]
@@ -59,13 +59,13 @@ public class ResultTests
             from ok2 in Result<int, string>.Error("FAIL")
             from ok3 in Result<int, string>.Ok(100)
             select ok1 + ok2 + ok3;
-        result.Should().Equal(Result.Error<int, string>("FAIL"));
+        result.Should().Be(Result.Error<int, string>("FAIL"));
     }
 
     [Test]
     public void ShouldBeEnumerable()
     {
-        foreach (var value in Result<int, string>.Ok(42))
+        foreach (var value in Result<int, string>.Ok(42).AsEnumerable())
             if (value == 42)
                 Assert.Pass();
 
@@ -94,7 +94,7 @@ public class ResultTests
     public void ShouldMapValue() =>
         Result<int, string>.Ok(42)
             .Select(x => x.ToString())
-            .Should().Equal(Result<string, string>.Ok("42"));
+            .Should().Be(Result<string, string>.Ok("42"));
 
     [Test]
     public void ShouldTryGet()
@@ -111,7 +111,7 @@ public class ResultTests
     public async Task ShouldMapAsync()
     {
         var result = await Result<int, string>.Ok(42).SelectAsync(Task.FromResult);
-        result.Should().Equal(Result.Ok(42));
+        result.Should().Be(Result.Ok(42));
     }
 
     [Test]
@@ -120,6 +120,6 @@ public class ResultTests
         var result = await Result<int, string>.Ok(42)
             .SelectManyAsync(x => Task.FromResult(Result.Ok(x + 10)));
 
-        result.Should().Equal(Result.Ok(52));
+        result.Should().Be(Result.Ok(52));
     }
 }

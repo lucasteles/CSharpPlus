@@ -182,6 +182,27 @@ public static class Result
             await error(result.ErrorValue);
     }
 
+
+    /// <summary>
+    /// Run side effect when result is OK
+    /// </summary>
+    public static Result<TOk, TError> Tap<TOk, TError>(
+        this Result<TOk, TError> result, Action<TOk> action)
+    {
+        if (result.IsOk) action(result.OkValue);
+        return result;
+    }
+
+    /// <summary>
+    /// Run side effect when result is OK
+    /// </summary>
+    public static async Task<Result<TOk, TError>> Tap<TOk, TError>(
+        this Result<TOk, TError> result, Func<TOk, Task> action)
+    {
+        if (result.IsOk) await action(result.OkValue);
+        return result;
+    }
+
     /// <summary>
     /// Match the result to obtain the value
     /// </summary>

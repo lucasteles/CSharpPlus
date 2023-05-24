@@ -13,8 +13,7 @@ namespace CSharpPlus.Result;
 /// </summary>
 [DebuggerDisplay("{DebuggerDisplay(),nq}")]
 [System.Text.Json.Serialization.JsonConverter(typeof(ResultJsonConverterFactory))]
-public readonly struct Result<TOk, TError> : IEnumerable<TOk>, IEquatable<Result<TOk, TError>>
-
+public readonly struct Result<TOk, TError> : IEquatable<Result<TOk, TError>>
 {
     internal TOk? OkValue { get; }
     internal TError? ErrorValue { get; }
@@ -125,20 +124,15 @@ public readonly struct Result<TOk, TError> : IEnumerable<TOk>, IEquatable<Result
     /// <inheritdoc />
     public override string? ToString() => IsOk ? OkValue.ToString() : ErrorValue.ToString();
 
-    /// <inheritdoc />
-    IEnumerator<TOk> IEnumerable<TOk>.GetEnumerator()
-    {
-        if (IsOk)
-            yield return OkValue;
-    }
-
     /// <summary>
     /// Convert the result to an enumerable of length 0 or 1.
     /// </summary>
     /// <returns></returns>
-    public IEnumerable<TOk> AsEnumerable() => this;
-
-    IEnumerator IEnumerable.GetEnumerator() => this.AsEnumerable().GetEnumerator();
+    public IEnumerable<TOk> AsEnumerable()
+    {
+        if (IsOk)
+            yield return OkValue;
+    }
 
     /// <summary>
     /// Convert the result to an array of length 0 or 1.
