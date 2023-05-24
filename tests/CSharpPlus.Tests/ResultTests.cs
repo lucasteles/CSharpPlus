@@ -84,7 +84,7 @@ public class ResultTests
     [Test]
     public void ShouldMatchTupleOk()
     {
-        if (Result<int, string>.Ok(42) is (42, null))
+        if (Result<int, string>.Ok(42) is (true, 42, null))
             Assert.Pass();
 
         Assert.Fail("unexpected!");
