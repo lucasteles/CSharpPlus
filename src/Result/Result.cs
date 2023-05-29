@@ -78,7 +78,7 @@ public readonly struct Result<TOk, TError> : IEquatable<Result<TOk, TError>>
     public static explicit operator TOk(Result<TOk, TError> value) =>
         value.IsOk
             ? value.OkValue
-            : throw new InvalidOperationException(
+            : throw new ResultInvalidCastException(
                 $"Unable to cast 'Error' result value {value.ErrorValue} of type {typeof(TError).FullName} to type {typeof(TOk).FullName}");
 
     /// <summary>
@@ -87,7 +87,7 @@ public readonly struct Result<TOk, TError> : IEquatable<Result<TOk, TError>>
     public static explicit operator TError(Result<TOk, TError> value) =>
         value.IsError
             ? value.ErrorValue
-            : throw new InvalidOperationException(
+            : throw new ResultInvalidCastException(
                 $"Unable to cast 'Ok' result value {value.OkValue} of type {typeof(TOk).FullName} to type {typeof(TError).FullName}");
 
     /// <summary>
@@ -155,6 +155,74 @@ public readonly struct Result<TOk, TError> : IEquatable<Result<TOk, TError>>
         else
             error(this.ErrorValue);
     }
+
+    /// <summary>
+    /// Get value if result is Ok otherwise throws
+    /// </summary>
+    public TOk GetValueOrThrow()
+    {
+        if (IsError)
+            if (ErrorValue is Exception exception)
+                throw exception;
+            else
+                throw new ResultInvalidException($"{ErrorValue}");
+
+        return OkValue;
+    }
+
+    /// <summary>
+    /// Get value if result is Ok otherwise throws
+    /// </summary>
+    public TOk GetValueOrThrow(Func<TError, string> formatMessage)
+    {
+        if (IsError)
+            throw new ResultInvalidException(formatMessage(ErrorValue));
+
+        return OkValue;
+    }
+
+    /// <summary>
+    /// Get value if result is Ok otherwise throws
+    /// </summary>
+    public TOk GetValueOrThrow(Func<TError, Exception> getException)
+    {
+        if (IsError)
+            throw getException(ErrorValue);
+
+        return OkValue;
+    }
+
+    /// <summary>
+    /// Throws on error result
+    /// </summary>
+    public void ThrowIfError()
+    {
+        if (!IsError) return;
+
+        if (ErrorValue is Exception exception)
+            throw exception;
+
+        throw new ResultInvalidException($"{ErrorValue}");
+    }
+
+    /// <summary>
+    /// Get value if result is Ok otherwise throws
+    /// </summary>
+    public void ThrowIfError(Func<TError, string> formatMessage)
+    {
+        if (IsError)
+            throw new ResultInvalidException(formatMessage(ErrorValue));
+    }
+
+    /// <summary>
+    /// Get value if result is Ok otherwise throws
+    /// </summary>
+    public void ThrowIfError(Func<TError, Exception> getException)
+    {
+        if (IsError)
+            throw getException(ErrorValue);
+    }
+
 
     /// <summary>
     /// Attempts to extract value from container if it is present.

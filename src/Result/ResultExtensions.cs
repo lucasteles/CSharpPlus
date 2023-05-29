@@ -29,6 +29,37 @@ public static class Result
         Result<TOk, TError>.Error(error);
 
     /// <summary>
+    /// Try run function, catching exceptions as a result error value
+    /// </summary>
+    public static Result<TOk, Exception> Try<TOk>(Func<TOk> func)
+    {
+        try
+        {
+            return func();
+        }
+        catch (Exception e)
+        {
+            return e;
+        }
+    }
+
+    /// <summary>
+    /// Try run function, catching exceptions as a result error value
+    /// </summary>
+    public static async Task<Result<TOk, Exception>> TryAsync<TOk>(Func<Task<TOk>> func)
+    {
+        try
+        {
+            return await func();
+        }
+        catch (Exception e)
+        {
+            return e;
+        }
+    }
+
+
+    /// <summary>
     /// Deconstructs result value into (IsOk, OkValue?, ErrorValue?)
     /// </summary>
     public static void Deconstruct<TOk, TError>(
