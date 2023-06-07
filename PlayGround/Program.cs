@@ -10,6 +10,12 @@ var persons = new Person[]
     new(1, "Lucas", FooType.Foo1), new(2, "Teles", FooType.Foo2)
 };
 
+var values = Enum.GetValues(typeof(FooType)).GetEnumerator().ToEnumerable().ToArray();
+
+var foo = EnumerationExtensions.GetDescription(values[0]!);
+var bar = EnumerationExtensions.GetEnumMemberValue(values[1]!);
+Console.WriteLine($"{foo} and {bar}");
+
 var json = JsonSerializer.Serialize(persons);
 Console.WriteLine(json);
 

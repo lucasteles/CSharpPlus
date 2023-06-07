@@ -8,14 +8,30 @@ using System.Runtime.Serialization;
 /// </summary>
 public static class EnumerationExtensions
 {
+    static object? GetAttribute(Type enumType, Type attributeType, string? value) =>
+        value is null || !enumType.IsEnum
+            ? null
+            : enumType
+                .GetMember(value)
+                .SelectMany(p => p.GetCustomAttributes(attributeType, true))
+                .FirstOrDefault();
+
     static TAttr? GetAttribute<TEnum, TAttr>(this TEnum value)
         where TEnum : Enum
         where TAttr : Attribute =>
-        value
-            .GetType()
-            .GetMember(value.ToString())
-            .SelectMany(p => p.GetCustomAttributes(typeof(TAttr), true))
-            .FirstOrDefault() as TAttr;
+        GetAttribute(value.GetType(), typeof(TAttr), value.ToString()) as TAttr;
+
+    /// <summary>
+    /// Get description from EnumMember.Value Attribute
+    /// </summary>
+    public static string? GetEnumMemberValue(object @enum) =>
+        GetAttribute(@enum.GetType(), typeof(EnumMemberAttribute), @enum.ToString()) is
+            EnumMemberAttribute
+        {
+            Value: { } description,
+        }
+            ? description
+            : @enum.ToString();
 
     /// <summary>
     /// Get enum description from EnumMember.Value Attribute
@@ -40,6 +56,18 @@ public static class EnumerationExtensions
         ? description
         : @enum.ToString();
 
+
+    /// <summary>
+    /// Get description from DescriptionAttribute
+    /// </summary>
+    public static string? GetDescription(object @enum) =>
+        GetAttribute(@enum.GetType(), typeof(DescriptionAttribute), @enum.ToString()) is
+            DescriptionAttribute
+        {
+            Description: { } description,
+        }
+            ? description
+            : @enum.ToString();
 
     static TEnum? GetEnumByString<TEnum>(
         string enumDescription,

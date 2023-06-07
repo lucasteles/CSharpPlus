@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
@@ -267,6 +268,15 @@ public static partial class EnumerablePlus
     /// Creates an IEnumerable from an IEnumerator
     /// </summary>
     public static IEnumerable<T> ToEnumerable<T>(this IEnumerator<T> enumerator)
+    {
+        while (enumerator.MoveNext())
+            yield return enumerator.Current;
+    }
+
+    /// <summary>
+    /// Creates an IEnumerable from an IEnumerator
+    /// </summary>
+    public static IEnumerable<object?> ToEnumerable(this IEnumerator enumerator)
     {
         while (enumerator.MoveNext())
             yield return enumerator.Current;
