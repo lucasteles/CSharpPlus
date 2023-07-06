@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlus.Tests", "tests\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_build", "build\_build.csproj", "{6492F1AE-1F55-410A-8052-EBC1572FCD0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround", "PlayGround\PlayGround.csproj", "{DE61D8F2-82FB-4F7E-A93A-A90EF0DA41C9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +29,6 @@ Global
 		{E54ABC87-5074-4EE7-A220-53E46986428A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6492F1AE-1F55-410A-8052-EBC1572FCD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6492F1AE-1F55-410A-8052-EBC1572FCD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE61D8F2-82FB-4F7E-A93A-A90EF0DA41C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE61D8F2-82FB-4F7E-A93A-A90EF0DA41C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE61D8F2-82FB-4F7E-A93A-A90EF0DA41C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE61D8F2-82FB-4F7E-A93A-A90EF0DA41C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +39,5 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{143B8D92-AE6B-486A-90B7-117F38F63C88} = {0BAC928C-339F-4FB4-A854-386C901B6B0F}
 		{E54ABC87-5074-4EE7-A220-53E46986428A} = {18DDE0D0-38EA-4936-8AD2-03ED44A38053}
-		{DE61D8F2-82FB-4F7E-A93A-A90EF0DA41C9} = {0BAC928C-339F-4FB4-A854-386C901B6B0F}
 	EndGlobalSection
 EndGlobal
