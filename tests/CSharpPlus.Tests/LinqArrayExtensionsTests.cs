@@ -1,5 +1,3 @@
-using CSharpPlus.LinqArray;
-
 namespace CSharpPlus.Tests;
 
 public class LinqArrayExtensionsTests

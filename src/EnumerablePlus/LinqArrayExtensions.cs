@@ -1,5 +1,3 @@
-namespace CSharpPlus.LinqArray;
-
 using System;
 using System.Collections.Generic;
 

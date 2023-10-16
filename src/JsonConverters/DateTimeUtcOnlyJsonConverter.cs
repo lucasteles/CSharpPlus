@@ -31,7 +31,9 @@ public class DateTimeUtcOnlyJsonConverter : JsonConverter<DateTime>
             { Kind: DateTimeKind.Local } localDate => localDate.ToUniversalTime(),
             { Kind: DateTimeKind.Unspecified } date => new DateTimeOffset(date.Ticks, offset)
                 .UtcDateTime,
+#pragma warning disable S112
             _ => throw new IndexOutOfRangeException(nameof(DateTime.Kind))
+#pragma warning restore S112
         };
 
     /// <inheritdoc />

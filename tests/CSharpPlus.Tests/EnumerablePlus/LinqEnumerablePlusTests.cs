@@ -30,11 +30,11 @@ public class LinqEnumerablePlusTests : BaseTest
 
     [PropertyTest]
     public void CharJoinChar(char[] values, char chr) =>
-        values.JoinAsString(chr).Should().Be(string.Join(chr, values));
+        values.JoinNewString(chr).Should().Be(string.Join(chr, values));
 
     [PropertyTest]
     public void CharJoinString(char[] value, string str) =>
-        value.JoinAsString(str).Should().Be(string.Join(str, value));
+        value.JoinNewString(str).Should().Be(string.Join(str, value));
 
     [PropertyTest]
     public void StringConcat(string[] values) =>
