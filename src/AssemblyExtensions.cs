@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 
 namespace CSharpPlus;
@@ -19,6 +16,7 @@ public static class AssemblyExtensions
     public static IEnumerable<Type> GetAllImplementations<T>(this Assembly assembly)
         where T : notnull
     {
+        ArgumentNullException.ThrowIfNull(assembly);
         var type = typeof(T);
         return assembly.GetTypes().Where(p =>
             type.IsAssignableFrom(p) && p is
@@ -32,8 +30,10 @@ public static class AssemblyExtensions
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
     public static IEnumerable<T> InstantiateAllImplementations<T>(this Assembly assembly)
-        where T : notnull =>
-        assembly
+        where T : notnull
+    {
+        ArgumentNullException.ThrowIfNull(assembly);
+        return assembly
             .GetAllImplementations<T>()
             .Select(t => t
                 .IsValueType
@@ -42,4 +42,5 @@ public static class AssemblyExtensions
                     ?.Invoke(Array.Empty<object>()))
             .WhereNotNull()
             .Cast<T>();
+    }
 }

@@ -24,7 +24,6 @@ public class DictionaryExtensionsTests
         };
 
         first.Merge(second).Should().BeEquivalentTo(expected);
-
     }
 
 
@@ -53,7 +52,5 @@ public class DictionaryExtensionsTests
         };
 
         first.Merge(second).Should().BeEquivalentTo(expected);
-
     }
-
 }

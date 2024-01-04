@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
 namespace System.Linq;
@@ -148,52 +147,6 @@ public static partial class EnumerablePlus
     }
 
     /// <summary>
-    /// Shuffle an source based on a random object
-    /// </summary>
-    /// <param name="source">The sequence of elements</param>
-    /// <param name="random"></param>
-    /// <typeparam name="T"></typeparam>
-    /// <returns>Shuffled source</returns>
-    public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source, Random? random = null) =>
-        source.OrderBy(_ => (random ?? Random.Shared).Next());
-
-    /// <summary>
-    /// Returns a random item from collection
-    /// </summary>
-    /// <param name="source">The sequence of elements</param>
-    /// <param name="defaultValue"></param>
-    /// <param name="random"></param>
-    /// <typeparam name="T"></typeparam>
-    public static T? PickRandomOrDefault<T>(this IEnumerable<T> source,
-        T? defaultValue = default, Random? random = null)
-    {
-        var rnd = random ?? Random.Shared;
-        return source switch
-        {
-            IReadOnlyCollection<T> { Count: 0 } => default,
-            IReadOnlyList<T> { Count: > 0 } list => list[rnd.Next(list.Count)],
-            _ => source.Shuffle(rnd).FirstOrDefault(defaultValue),
-        };
-    }
-
-    /// <summary>
-    /// Returns a random item from collection
-    /// </summary>
-    /// <param name="source">The sequence of elements</param>
-    /// <param name="random"></param>
-    /// <typeparam name="T"></typeparam>
-    /// <returns>Shuffled source</returns>
-    public static T PickRandom<T>(this IEnumerable<T> source, Random? random = null)
-    {
-        var rnd = random ?? Random.Shared;
-        return source switch
-        {
-            IReadOnlyList<T> list => list[rnd.Next(list.Count)],
-            _ => source.Shuffle(rnd).First(),
-        };
-    }
-
-    /// <summary>
     /// Creates a IReadOnlyList from a IEnumerable.
     /// </summary>
     /// <param name="enumerable"></param>
@@ -269,8 +222,9 @@ public static partial class EnumerablePlus
     /// </summary>
     public static IEnumerable<T> ToEnumerable<T>(this IEnumerator<T> enumerator)
     {
-        while (enumerator.MoveNext())
-            yield return enumerator.Current;
+        using (enumerator)
+            while (enumerator.MoveNext())
+                yield return enumerator.Current;
     }
 
     /// <summary>
@@ -280,5 +234,104 @@ public static partial class EnumerablePlus
     {
         while (enumerator.MoveNext())
             yield return enumerator.Current;
+    }
+
+    /// <summary>
+    /// Shuffle an source based on a random object
+    /// </summary>
+    /// <param name="source">The sequence of elements</param>
+    /// <param name="random"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns>Shuffled source</returns>
+    public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source, Random? random = null)
+    {
+        ArgumentNullException.ThrowIfNull(source);
+        random ??= Random.Shared;
+
+        switch (source)
+        {
+            case ICollection<T> collection:
+            {
+                var copy = collection.ToArray();
+                random.Shuffle(copy);
+                return copy;
+            }
+            case IReadOnlyCollection<T> readOnly:
+            {
+                int count = readOnly.Count;
+                if (count == 0)
+                    return Array.Empty<T>();
+
+                var result = new T[count];
+                var index = 0;
+                foreach (var item in readOnly)
+                    result[index++] = item;
+
+                random.Shuffle(result);
+                return result;
+            }
+            default:
+                return source.OrderBy(_ => random.Next());
+        }
+    }
+
+    /// <summary>
+    /// Returns a random item from collection
+    /// </summary>
+    /// <param name="source">The sequence of elements</param>
+    /// <param name="defaultValue"></param>
+    /// <param name="random"></param>
+    /// <typeparam name="T"></typeparam>
+    public static T? PickRandomOrDefault<T>(this IEnumerable<T> source,
+        T? defaultValue = default, Random? random = null)
+    {
+        ArgumentNullException.ThrowIfNull(source);
+        random ??= Random.Shared;
+        return source switch
+        {
+            IReadOnlyCollection<T> {Count: 0} => defaultValue,
+            IReadOnlyList<T> {Count: > 0} list => list[random.Next(list.Count)],
+            _ => source.Shuffle(random).FirstOrDefault(defaultValue),
+        };
+    }
+
+    /// <summary>
+    /// Returns a random item from collection
+    /// </summary>
+    /// <param name="source">The sequence of elements</param>
+    /// <param name="random"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <returns>Shuffled source</returns>
+    public static T PickRandom<T>(this IEnumerable<T> source, Random? random = null)
+    {
+        ArgumentNullException.ThrowIfNull(source);
+        random ??= Random.Shared;
+        return source switch
+        {
+            IReadOnlyList<T> list => list[random.Next(list.Count)],
+            _ => source.Shuffle(random).First(),
+        };
+    }
+
+    /// <summary>
+    /// Returns a random subset from collection
+    /// </summary>
+    public static IReadOnlyList<T> PickRandom<T>(
+        this IEnumerable<T> source,
+        int length,
+        Random? random = null)
+    {
+        ArgumentNullException.ThrowIfNull(source);
+        ArgumentOutOfRangeException.ThrowIfNegative(length);
+
+        random ??= Random.Shared;
+
+        return source switch
+        {
+            IReadOnlyCollection<T> {Count: 0} => [],
+            T[] {Length: > 0} arr => random.GetItems(arr, length),
+            ICollection<T> {Count: > 0} collection => random.GetItems(collection.ToArray(), length),
+            _ => source.Shuffle(random).Take(length).ToArray(),
+        };
     }
 }

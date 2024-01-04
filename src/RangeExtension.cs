@@ -1,12 +1,30 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
 /// <summary>
 /// Range extensions
 /// </summary>
 public static class RangeExtension
 {
+    /// <summary>
+    /// Enumerate Range operators
+    /// ^ sets the value as exclusive
+    /// </summary>
+    /// <param name="range"></param>
+    /// <returns></returns>
+    public static (int Sign, int Start, int End) GetBounds(this Range range)
+    {
+        var (start, end) = (range.Start.Value, range.End.Value);
+
+        if (end > start)
+        {
+            if (range.End.IsFromEnd) end--;
+            if (range.Start.IsFromEnd) start++;
+            return (1, start, end);
+        }
+
+        if (range.End.IsFromEnd) end++;
+        if (range.Start.IsFromEnd) start--;
+        return (-1, start, end);
+    }
+
     /// <summary>
     /// Enumerate Range operators
     /// ^ sets the value as exclusive
@@ -43,6 +61,14 @@ public static class RangeExtension
         foreach (var n in range)
             yield return n;
     }
+
+    /// <summary>
+    /// Creates an array from a Range
+    /// </summary>
+    /// <returns></returns>
+    public static int[] ToArray(
+        this Range range) =>
+        range.Enumerate().ToArray();
 
     /// <summary>
     /// Map Enumerate int
@@ -108,14 +134,6 @@ public static class RangeExtension
     /// <returns></returns>
     public static IEnumerable<int> SelectMany(this Range range, Func<int, Range> projection) =>
         range.SelectMany(projection, (_, n) => n);
-
-    /// <summary>
-    /// Creates an array from a Range
-    /// </summary>
-    /// <returns></returns>
-    public static int[] ToArray(
-        this Range range) =>
-        range.Enumerate().ToArray();
 
     /// <summary>
     /// Creates an List from a Range

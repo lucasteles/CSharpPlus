@@ -1,5 +1,3 @@
-using System;
-
 /// <summary>
 /// Extensions for numerics
 /// </summary>

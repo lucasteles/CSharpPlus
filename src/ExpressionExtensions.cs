@@ -1,5 +1,5 @@
-using System;
 using System.Linq.Expressions;
+using System.Reflection;
 
 namespace CSharpPlus;
 
@@ -9,28 +9,39 @@ namespace CSharpPlus;
 public static class ExpressionExtensions
 {
     /// <summary>
-    /// Get the member name of an expression if it is valid otherwise return null
+    /// Get the member info of an expression if it is valid otherwise return default
     /// </summary>
     /// <param name="expression"></param>
     /// <typeparam name="T"></typeparam>
-    /// <returns></returns>
     /// <exception cref="NotImplementedException"></exception>
-    public static string? GetMemberNameOrNull<T>(this Expression<T> expression) =>
+    public static MemberInfo? GetMemberOrDefault<T>(
+        this Expression<T> expression,
+        MemberInfo? defaultValue = null) =>
         expression.Body switch
         {
-            MemberExpression m => m.Member.Name,
-            UnaryExpression { Operand: MemberExpression m } => m.Member.Name,
-            _ => null,
+            MemberExpression m => m.Member,
+            UnaryExpression { Operand: MemberExpression m } => m.Member,
+            _ => defaultValue,
         };
+
+    /// <summary>
+    /// Get the member name of an expression if it is valid otherwise return default
+    /// </summary>
+    /// <param name="expression"></param>
+    /// <typeparam name="T"></typeparam>
+    /// <exception cref="NotImplementedException"></exception>
+    public static string? GetMemberNameOrDefault<T>(
+        this Expression<T> expression,
+        string? defaultValue = null) =>
+        expression.GetMemberOrDefault()?.Name ?? defaultValue;
 
     /// <summary>
     /// Get the member name of an expression
     /// </summary>
     /// <param name="expression"></param>
     /// <typeparam name="T"></typeparam>
-    /// <returns></returns>
-    /// <exception cref="NotImplementedException"></exception>
+    /// <exception cref="InvalidOperationException"></exception>
     public static string GetMemberName<T>(this Expression<T> expression) =>
-        expression.GetMemberNameOrNull() ??
-        throw new NotImplementedException(expression.GetType().ToString());
+        expression.GetMemberNameOrDefault() ??
+        throw new InvalidOperationException(expression.GetType().ToString());
 }

@@ -11,7 +11,7 @@ public class DateTimeTests
     {
         Converters =
         {
-            new DateTimeUtcOnlyJsonConverter()
+            new DateTimeForceUtcJsonConverter()
         }
     };
 
@@ -55,7 +55,7 @@ public class DateTimeTests
             {
                 Converters =
                 {
-                    new DateTimeUtcOnlyJsonConverter(timeZone)
+                    new DateTimeForceUtcJsonConverter(timeZone)
                 }
             })!.Data;
 
@@ -77,7 +77,7 @@ public class DateTimeTests
             {
                 Converters =
                 {
-                    new DateTimeUtcOnlyJsonConverter(offset)
+                    new DateTimeForceUtcJsonConverter(offset)
                 }
             })!.Data;
 

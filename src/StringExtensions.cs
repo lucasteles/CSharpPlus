@@ -1,6 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
-using System.Linq;
 
 /// <summary>
 /// String extensions
@@ -39,7 +38,6 @@ public static class StringExtensions
     [Pure]
     public static string RemoveNonDigitOrLetter(this string value) =>
         new(value.Where(char.IsLetterOrDigit).ToArray());
-
 
     /// <summary>
     /// Returns a persistent hashcode for the string

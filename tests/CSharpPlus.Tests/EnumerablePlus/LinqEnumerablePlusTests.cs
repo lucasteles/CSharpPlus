@@ -30,11 +30,11 @@ public class LinqEnumerablePlusTests : BaseTest
 
     [PropertyTest]
     public void CharJoinChar(char[] values, char chr) =>
-        values.JoinNewString(chr).Should().Be(string.Join(chr, values));
+        values.JoinAsString(chr).Should().Be(string.Join(chr, values));
 
     [PropertyTest]
     public void CharJoinString(char[] value, string str) =>
-        value.JoinNewString(str).Should().Be(string.Join(str, value));
+        value.JoinAsString(str).Should().Be(string.Join(str, value));
 
     [PropertyTest]
     public void StringConcat(string[] values) =>
@@ -52,12 +52,19 @@ public class LinqEnumerablePlusTests : BaseTest
     public void SelectMany(int[][] values) =>
         values.SelectMany().Should().BeEquivalentTo(values.SelectMany(x => x));
 
-
     [PropertyTest]
     public void Shuffle(DistinctNonEmptyArray<int> data) =>
         data.Items.Shuffle(new System.Random(42))
             .Should()
             .NotBeEquivalentTo(data.Items, opt => opt.WithStrictOrdering());
+
+    [PropertyTest]
+    public void PickRandomSubset(DistinctNonEmptyArray<int> data, NonNegativeInt length) =>
+        data.Items.PickRandom(length.Item, new System.Random(42)).Should().BeSubsetOf(data.Items);
+
+    [PropertyTest]
+    public void Pick(DistinctNonEmptyArray<int> data) =>
+        data.Items.Should().Contain(data.Items.PickRandom(new System.Random(42)));
 
     [PropertyTest]
     public void MinMax(NonEmptyArray<int> data)

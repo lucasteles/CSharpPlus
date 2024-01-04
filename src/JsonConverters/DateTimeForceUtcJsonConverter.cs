@@ -5,7 +5,7 @@ namespace System.Text.Json.Serialization;
 /// <summary>
 /// Json converter for DateTime forcing UTC
 /// </summary>
-public class DateTimeUtcOnlyJsonConverter : JsonConverter<DateTime>
+public class DateTimeForceUtcJsonConverter : JsonConverter<DateTime>
 {
     readonly TimeSpan offset;
 
@@ -13,13 +13,13 @@ public class DateTimeUtcOnlyJsonConverter : JsonConverter<DateTime>
     /// Convert DateTime always in UTC Kind
     /// </summary>
     /// <param name="offset">Custom timespan offset for DateTimeKind.Unspecified</param>
-    public DateTimeUtcOnlyJsonConverter(TimeSpan offset) => this.offset = offset;
+    public DateTimeForceUtcJsonConverter(TimeSpan offset) => this.offset = offset;
 
     /// <summary>
     /// Convert DateTime always in UTC Kind
     /// </summary>
     /// <param name="timeZone">time zone to use when DateTimeKind.Unspecified</param>
-    public DateTimeUtcOnlyJsonConverter(TimeZoneInfo? timeZone = null) =>
+    public DateTimeForceUtcJsonConverter(TimeZoneInfo? timeZone = null) =>
         offset = timeZone?.BaseUtcOffset ?? TimeZoneInfo.Utc.BaseUtcOffset;
 
     /// <inheritdoc />
@@ -32,7 +32,7 @@ public class DateTimeUtcOnlyJsonConverter : JsonConverter<DateTime>
             { Kind: DateTimeKind.Unspecified } date => new DateTimeOffset(date.Ticks, offset)
                 .UtcDateTime,
 #pragma warning disable S112
-            _ => throw new IndexOutOfRangeException(nameof(DateTime.Kind))
+            _ => throw new IndexOutOfRangeException(nameof(DateTime.Kind)),
 #pragma warning restore S112
         };
 
