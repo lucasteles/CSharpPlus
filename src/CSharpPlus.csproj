@@ -4,13 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <PackageId>CSharpPlus</PackageId>
     <Authors>Lucas Teles - lucas.teles@outlook.com</Authors>
-    <Company />
+    <Company/>
     <Description>Some C# helpers and language</Description>
     <RepositoryType>GitHub</RepositoryType>
     <PackageProjectUrl>https://github.com/lucasteles/CSharpPlus</PackageProjectUrl>
     <RepositoryUrl>https://github.com/lucasteles/CSharpPlus</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageTags>extensions, tools, helpers, utils</PackageTags>
@@ -24,7 +24,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>

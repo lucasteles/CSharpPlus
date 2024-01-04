@@ -8,6 +8,7 @@ on:
 env:
     DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
     DOTNET_CLI_TELEMETRY_OPTOUT: true
+    GITHUB_ACTIONS: true
 
 jobs:
     build:
@@ -17,7 +18,7 @@ jobs:
             cancel-in-progress: true
 
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v4
               with:
                   fetch-depth: 0
 

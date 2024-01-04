@@ -38,19 +38,15 @@ public class AssemblyExtensionsTests
     }
 }
 
-interface ITestInterface
-{
-}
+interface ITestInterface;
 
-class TestClass : ITestInterface
-{
-}
+class TestClass : ITestInterface;
 
-struct TestStruct : ITestInterface
-{
-}
+struct TestStruct : ITestInterface;
 
+#pragma warning disable S2094
 record TestRecord : ITestInterface;
+#pragma warning restore S2094
 
 class TestClassCtor : ITestInterface
 {
@@ -64,22 +60,12 @@ class TestClassBad2<T> : ITestInterface
 {
 }
 
-interface ITestOtherInterface : ITestInterface
-{
-}
+interface ITestOtherInterface : ITestInterface;
 
-class TestClass2 : ITestOtherInterface
-{
-}
+class TestClass2 : ITestOtherInterface;
 
-class TestClass3 : TestClassBad2<int>
-{
-}
+class TestClass3 : TestClassBad2<int>;
 
-abstract class TestAbstract : ITestInterface
-{
-}
+abstract class TestAbstract : ITestInterface;
 
-class TestClass4 : TestAbstract
-{
-}
+class TestClass4 : TestAbstract;

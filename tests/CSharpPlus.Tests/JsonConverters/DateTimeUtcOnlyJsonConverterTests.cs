@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Text.Json.Serialization;
 
 namespace CSharpPlus.Tests.JsonConverters;
@@ -35,7 +36,8 @@ public class DateTimeTests
         var expected = new DateTime(2022, 7, 2, 10, 30, 20, DateTimeKind.Utc);
         var isoDate = "2022-07-02T10:30:20";
 
-        DateTime.Parse(isoDate).Kind.Should().Be(DateTimeKind.Unspecified);
+        DateTime.Parse(isoDate, DateTimeFormatInfo.InvariantInfo).Kind.Should()
+            .Be(DateTimeKind.Unspecified);
         var parsed = Parse(isoDate);
         parsed.Should().Be(expected).And.Subject!.Value.Kind.Should().Be(DateTimeKind.Utc);
     }
@@ -45,7 +47,8 @@ public class DateTimeTests
     {
         var expected = new DateTime(2022, 7, 2, 10, 30, 20, DateTimeKind.Utc);
         var isoDate = "2022-07-02T07:30:20";
-        DateTime.Parse(isoDate).Kind.Should().Be(DateTimeKind.Unspecified);
+        DateTime.Parse(isoDate, DateTimeFormatInfo.InvariantInfo).Kind.Should()
+            .Be(DateTimeKind.Unspecified);
 
         var timeZone = TimeZoneInfo.FindSystemTimeZoneById("America/Sao_Paulo");
 
@@ -67,7 +70,8 @@ public class DateTimeTests
     {
         var expected = new DateTime(2022, 7, 2, 10, 30, 20, DateTimeKind.Utc);
         var isoDate = "2022-07-02T13:30:20";
-        DateTime.Parse(isoDate).Kind.Should().Be(DateTimeKind.Unspecified);
+        DateTime.Parse(isoDate, DateTimeFormatInfo.InvariantInfo).Kind.Should()
+            .Be(DateTimeKind.Unspecified);
 
         var offset = TimeSpan.FromHours(3);
 
@@ -90,7 +94,8 @@ public class DateTimeTests
         var expected = new DateTime(2022, 7, 2, 10, 30, 20, DateTimeKind.Utc);
         var isoDate = "2022-07-02T07:30:20-03:00";
 
-        DateTime.Parse(isoDate).Kind.Should().Be(DateTimeKind.Local);
+        DateTime.Parse(isoDate, DateTimeFormatInfo.InvariantInfo).Kind.Should()
+            .Be(DateTimeKind.Local);
         var parsed = Parse(isoDate);
         parsed.Should().Be(expected).And.Subject!.Value.Kind.Should().Be(DateTimeKind.Utc);
     }

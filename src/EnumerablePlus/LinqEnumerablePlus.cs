@@ -251,25 +251,25 @@ public static partial class EnumerablePlus
         switch (source)
         {
             case ICollection<T> collection:
-            {
-                var copy = collection.ToArray();
-                random.Shuffle(copy);
-                return copy;
-            }
+                {
+                    var copy = collection.ToArray();
+                    random.Shuffle(copy);
+                    return copy;
+                }
             case IReadOnlyCollection<T> readOnly:
-            {
-                int count = readOnly.Count;
-                if (count == 0)
-                    return Array.Empty<T>();
+                {
+                    int count = readOnly.Count;
+                    if (count == 0)
+                        return Array.Empty<T>();
 
-                var result = new T[count];
-                var index = 0;
-                foreach (var item in readOnly)
-                    result[index++] = item;
+                    var result = new T[count];
+                    var index = 0;
+                    foreach (var item in readOnly)
+                        result[index++] = item;
 
-                random.Shuffle(result);
-                return result;
-            }
+                    random.Shuffle(result);
+                    return result;
+                }
             default:
                 return source.OrderBy(_ => random.Next());
         }
@@ -289,8 +289,8 @@ public static partial class EnumerablePlus
         random ??= Random.Shared;
         return source switch
         {
-            IReadOnlyCollection<T> {Count: 0} => defaultValue,
-            IReadOnlyList<T> {Count: > 0} list => list[random.Next(list.Count)],
+            IReadOnlyCollection<T> { Count: 0 } => defaultValue,
+            IReadOnlyList<T> { Count: > 0 } list => list[random.Next(list.Count)],
             _ => source.Shuffle(random).FirstOrDefault(defaultValue),
         };
     }
@@ -328,9 +328,9 @@ public static partial class EnumerablePlus
 
         return source switch
         {
-            IReadOnlyCollection<T> {Count: 0} => [],
-            T[] {Length: > 0} arr => random.GetItems(arr, length),
-            ICollection<T> {Count: > 0} collection => random.GetItems(collection.ToArray(), length),
+            IReadOnlyCollection<T> { Count: 0 } => [],
+            T[] { Length: > 0 } arr => random.GetItems(arr, length),
+            ICollection<T> { Count: > 0 } collection => random.GetItems(collection.ToArray(), length),
             _ => source.Shuffle(random).Take(length).ToArray(),
         };
     }
