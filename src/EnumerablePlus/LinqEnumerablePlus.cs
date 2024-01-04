@@ -334,4 +334,16 @@ public static partial class EnumerablePlus
             _ => source.Shuffle(random).Take(length).ToArray(),
         };
     }
+
+    /// <summary>
+    /// Lazily run action when the enumerable is evaluated
+    /// </summary>
+    public static IEnumerable<T> Tap<T>(this IEnumerable<T> @this, Action<T> action)
+    {
+        foreach (var item in @this)
+        {
+            action(item);
+            yield return item;
+        }
+    }
 }
