@@ -23,11 +23,11 @@ public static class LambdaComparison
 
 public static class LambdaComparer
 {
-    public static Comparer<TValue> Create<TValue>(
+    public static IComparer<TValue> Create<TValue>(
         Func<TValue, TValue, CompareResult> comparerFunc
     ) => Comparer<TValue>.Create((x, y) => (int)comparerFunc(x, y));
 
-    public static Comparer<TSource> Create<TSource, TKey>(
+    public static IComparer<TSource> Create<TSource, TKey>(
         Func<TSource, TKey> key,
         Comparer<TKey>? keyComparer = null
     )
