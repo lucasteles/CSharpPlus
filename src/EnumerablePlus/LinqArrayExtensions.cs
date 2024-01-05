@@ -1,3 +1,5 @@
+using CSharpPlus;
+
 /// <summary>
 /// Enumerable Plus Extensions
 /// </summary>
@@ -19,7 +21,7 @@ public static class ArrayPlus
     {
         var copy = new TSource[@this.Length];
         Array.Copy(@this, copy, @this.Length);
-        Array.Sort(copy, KeyComparison(selector));
+        Array.Sort(copy, LambdaComparison.Create(selector));
         return copy;
     }
 
@@ -52,8 +54,4 @@ public static class ArrayPlus
     public static TResult[]
         SelectArray<TSource, TResult>(this TSource[] @this, Func<TSource, TResult> selector) =>
         Array.ConvertAll(@this, new Converter<TSource, TResult>(selector));
-
-    static Comparison<TSource> KeyComparison<TSource, TKey>(Func<TSource, TKey> key)
-        where TKey : IComparable<TKey> =>
-        (x, y) => Comparer<TKey>.Default.Compare(key(x), key(y));
 }
