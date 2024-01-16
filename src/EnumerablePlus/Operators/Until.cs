@@ -17,6 +17,8 @@ public static partial class EnumerablePlus
         ArgumentNullException.ThrowIfNull(source);
         ArgumentNullException.ThrowIfNull(predicate);
 
+        return Iterator();
+
         IEnumerable<TSource> Iterator()
         {
             foreach (var item in source)
@@ -27,8 +29,6 @@ public static partial class EnumerablePlus
                     yield break;
             }
         }
-
-        return Iterator();
     }
 
     /// <summary>

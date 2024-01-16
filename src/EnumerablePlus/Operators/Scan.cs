@@ -41,6 +41,8 @@ public static partial class EnumerablePlus
         ArgumentNullException.ThrowIfNull(source);
         ArgumentNullException.ThrowIfNull(mapFunction);
 
+        return Iterator();
+
         IEnumerable<TState> Iterator()
         {
             using var enumerator = source.GetEnumerator();
@@ -55,22 +57,11 @@ public static partial class EnumerablePlus
                 yield return aggregate;
             }
         }
-
-        return Iterator();
     }
 
     /// <summary>
-    ///
+    /// Perform scan aggregation by key
     /// </summary>
-    /// <param name="source"></param>
-    /// <param name="keySelector"></param>
-    /// <param name="stateSelector"></param>
-    /// <param name="accumulator"></param>
-    /// <param name="comparer"></param>
-    /// <typeparam name="TSource"></typeparam>
-    /// <typeparam name="TKey"></typeparam>
-    /// <typeparam name="TState"></typeparam>
-    /// <returns></returns>
     public static IEnumerable<(TKey, TState)> ScanBy<TSource, TKey, TState>(
         this IEnumerable<TSource> source,
         Func<TSource, TKey> keySelector,

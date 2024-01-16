@@ -18,6 +18,8 @@ public static partial class EnumerablePlus
         if (times < 0)
             throw new ArgumentOutOfRangeException(nameof(times), "Cant be negative");
 
+        return Iterator();
+
         IEnumerable<TSource> Iterator()
         {
             if (times is 0) yield break;
@@ -33,8 +35,6 @@ public static partial class EnumerablePlus
                 foreach (var item in cache)
                     yield return item;
         }
-
-        return Iterator();
     }
 
 
@@ -51,6 +51,8 @@ public static partial class EnumerablePlus
     {
         ArgumentNullException.ThrowIfNull(source);
 
+        return Iterator();
+
         IEnumerable<TSource> Iterator()
         {
             List<TSource> cache = new();
@@ -64,7 +66,5 @@ public static partial class EnumerablePlus
                 foreach (var item in cache)
                     yield return item;
         }
-
-        return Iterator();
     }
 }

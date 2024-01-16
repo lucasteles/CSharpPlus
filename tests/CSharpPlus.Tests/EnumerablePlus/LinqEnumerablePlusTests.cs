@@ -283,7 +283,6 @@ public class LinqEnumerablePlusTests : BaseTest
         result.Should().BeEquivalentTo(firstOnly);
     }
 
-
     [Test]
     public void ShouldBeEmptyIfNull() =>
         (null as IEnumerable<int>).EmptyIfNull().Should().BeEmpty();
@@ -299,4 +298,40 @@ public class LinqEnumerablePlusTests : BaseTest
     [Test]
     public void ShouldBeEmptyListIfNull() =>
         (null as IReadOnlyList<int>).EmptyIfNull().Should().BeEmpty();
+
+
+    [Test]
+    public void ShouldPartitionEvenNumbers()
+    {
+        List<int> yieldValues = new();
+
+        const int size = 10;
+
+        var (trueValue, falseValue) = GetValues().Partition(x => x % 2 == 0);
+
+        trueValue.Should().BeEquivalentTo(new[]
+        {
+            0, 2, 4, 6, 8, 10,
+        });
+        falseValue.Should().BeEquivalentTo(new[]
+        {
+            1, 3, 5, 7, 9,
+        });
+
+        yieldValues.Should().BeEquivalentTo(new[]
+        {
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        });
+
+        return;
+
+        IEnumerable<int> GetValues()
+        {
+            for (var i = 0; i <= size; i++)
+            {
+                yieldValues.Add(i);
+                yield return i;
+            }
+        }
+    }
 }
