@@ -1,5 +1,8 @@
 namespace CSharpPlus.Tests;
 
+#pragma warning disable S6605
+#pragma warning disable S6602
+
 public class LinqArrayExtensionsTests
 {
     [Test]
@@ -15,7 +18,7 @@ public class LinqArrayExtensionsTests
             2, 4, 6, 8, 10, 11, 12, 13,
         };
 
-        items.WhereArray(x => x % 2 == 0 || x.ToString().Length is 2)
+        items.FindAll(x => x % 2 == 0 || x.ToString().Length is 2)
             .Should().BeEquivalentTo(expected);
     }
 
@@ -23,7 +26,45 @@ public class LinqArrayExtensionsTests
     public void ShouldFilterArray(int[] items, Func<int, bool> pred)
     {
         var expected = items.Where(pred).ToArray();
-        items.WhereArray(pred).Should().BeEquivalentTo(expected);
+        items.FindAll(pred).Should().BeEquivalentTo(expected);
+    }
+
+    [PropertyTest]
+    public void ShouldCheckExistence(int[] items, Func<int, bool> pred)
+    {
+        var expected = items.Any(pred);
+        items.Exist(pred).Should().Be(expected);
+    }
+
+    [PropertyTest]
+    public void ShouldCheckFind(int[] items, Func<int, bool> pred)
+    {
+        var expected = items.FirstOrDefault(pred);
+        items.Find(pred).Should().Be(expected);
+    }
+
+    [PropertyTest]
+    public void ShouldCheckFindLast(int[] items, Func<int, bool> pred)
+    {
+        var expected = items.LastOrDefault(pred);
+        items.FindLast(pred).Should().Be(expected);
+    }
+
+    [PropertyTest]
+    public void ShouldCheckFindIndex(int[] items, Func<int, bool> pred)
+    {
+        var expected = items.Select((x, i) => (Value: x, Id: i)).Where(x => pred(x.Value))
+            .Select(x => x.Id).FirstOrDefault(-1);
+
+        items.FindIndex(pred).Should().Be(expected);
+    }
+
+    [PropertyTest]
+    public void ShouldCheckFindLastIndex(int[] items, Func<int, bool> pred)
+    {
+        var expected = items.Select((x, i) => (Value: x, Id: i)).Where(x => pred(x.Value))
+            .Select(x => x.Id).LastOrDefault(-1);
+        items.FindLastIndex(pred).Should().Be(expected);
     }
 
     [Test]
@@ -48,7 +89,7 @@ public class LinqArrayExtensionsTests
             "even[10]",
         };
 
-        items.SelectArray(x => $"{(x % 2 == 0 ? "even" : "odd")}[{x}]")
+        items.ConvertAll(x => $"{(x % 2 == 0 ? "even" : "odd")}[{x}]")
             .Should().BeEquivalentTo(expected);
     }
 
@@ -57,7 +98,7 @@ public class LinqArrayExtensionsTests
     {
         string Selector(int x) => $"{(x % 2 == 0 ? "even" : "odd")}[{x}]";
         var expected = items.Select(Selector).ToArray();
-        items.SelectArray(Selector).Should().BeEquivalentTo(expected);
+        items.ConvertAll(Selector).Should().BeEquivalentTo(expected);
     }
 
     [PropertyTest]
@@ -81,7 +122,7 @@ public class LinqArrayExtensionsTests
             1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         };
 
-        items.OrderArray()
+        items.Sort()
             .Should().BeEquivalentTo(expected);
     }
 
@@ -89,13 +130,13 @@ public class LinqArrayExtensionsTests
     public void ShouldOrderArray(int[] items)
     {
         var expected = items.OrderBy(x => x).ToArray();
-        items.OrderArray().Should().BeEquivalentTo(expected);
+        items.Sort().Should().BeEquivalentTo(expected);
     }
 
     [PropertyTest]
     public void ShouldOrderByArray(int[] items, Func<int, int> pred)
     {
         var expected = items.OrderBy(pred).ToArray();
-        items.OrderByArray(pred).Should().BeEquivalentTo(expected);
+        items.SortBy(pred).Should().BeEquivalentTo(expected);
     }
 }

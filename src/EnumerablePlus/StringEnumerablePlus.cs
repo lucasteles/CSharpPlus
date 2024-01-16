@@ -25,18 +25,10 @@ public static partial class EnumerablePlus
     /// Concatenates the members of a collection, using the specified separator between each member.
     /// </summary>
     /// <param name="values"></param>
-    /// <param name="separator"></param>
-    public static string JoinAsString(this IEnumerable<char> values, char separator) =>
-        string.Join(separator, values);
-
-    /// <summary>
-    /// Concatenates the members of a collection, using the specified separator between each member.
-    /// </summary>
-    /// <param name="values"></param>
-    /// <param name="separator"></param>
-    public static string JoinAsString(this IEnumerable<char> values, string separator) =>
-        string.Join(separator, values);
-
+    public static string JoinString(this IEnumerable<char> values) =>
+        values is char[] array
+            ? new(array)
+            : string.Join(string.Empty, values);
 
     /// <summary>
     /// Concatenates the members of a constructed IEnumerable collection of type String.

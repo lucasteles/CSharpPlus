@@ -20,6 +20,19 @@ public class LinqEnumerablePlusTests : BaseTest
         collection.JoinString(";").Should().Be(expected);
     }
 
+    [Test]
+    public void PlainStringJoinSampleTest()
+    {
+        var collection = new[]
+        {
+            'f', 'o', 'o', '_', 'b', 'a', 'r',
+        };
+
+        const string expected = "foo_bar";
+
+        collection.JoinString().Should().Be(expected);
+    }
+
     [PropertyTest]
     public void StringJoinChar(string[] value, char chr) =>
         value.JoinString(chr).Should().Be(string.Join(chr, value));
@@ -30,11 +43,19 @@ public class LinqEnumerablePlusTests : BaseTest
 
     [PropertyTest]
     public void CharJoinChar(char[] values, char chr) =>
-        values.JoinAsString(chr).Should().Be(string.Join(chr, values));
+        values.JoinString(chr).Should().Be(string.Join(chr, values));
 
     [PropertyTest]
     public void CharJoinString(char[] value, string str) =>
-        value.JoinAsString(str).Should().Be(string.Join(str, value));
+        value.JoinString(str).Should().Be(string.Join(str, value));
+
+    [PropertyTest]
+    public void StringJoinArrayChar(char[] values) =>
+        values.JoinString().Should().Be(new string(values.ToArray()));
+
+    [PropertyTest]
+    public void StringJoinAnyCharSeq(List<char> values) =>
+        values.JoinString().Should().Be(new string(values.ToArray()));
 
     [PropertyTest]
     public void StringConcat(string[] values) =>
