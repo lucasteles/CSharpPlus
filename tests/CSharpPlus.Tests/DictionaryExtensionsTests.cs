@@ -1,3 +1,5 @@
+using CSharpPlus;
+
 public class DictionaryExtensionsTests
 {
     [Test]

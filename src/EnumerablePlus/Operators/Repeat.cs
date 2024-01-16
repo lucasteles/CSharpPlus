@@ -1,3 +1,5 @@
+namespace CSharpPlus;
+
 /// <summary>
 /// Enumerable Plus Extensions
 /// </summary>

@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace System.Linq;
+namespace CSharpPlus;
 
 /// <summary>
 /// Enumerable Plus Extensions

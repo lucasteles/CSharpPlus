@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.ObjectModel;
 
-namespace System.Linq;
+namespace CSharpPlus;
 
 /// <summary>
 /// Enumerable Plus Extensions

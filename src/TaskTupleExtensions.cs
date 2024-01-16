@@ -2,6 +2,8 @@
 #pragma warning disable S4136
 #pragma warning disable S3218
 
+namespace CSharpPlus;
+
 /// <summary>
 /// Tuple of Tasks Extensions
 /// </summary>

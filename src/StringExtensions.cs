@@ -1,6 +1,8 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 
+namespace CSharpPlus;
+
 /// <summary>
 /// String extensions
 /// </summary>

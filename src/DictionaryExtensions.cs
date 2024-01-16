@@ -1,3 +1,5 @@
+namespace CSharpPlus;
+
 /// <summary>
 /// Dictionary Extensions
 /// </summary>

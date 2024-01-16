@@ -1,3 +1,5 @@
+namespace CSharpPlus;
+
 /// <summary>
 /// Extensions for numerics
 /// </summary>

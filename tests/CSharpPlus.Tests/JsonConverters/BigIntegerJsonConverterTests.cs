@@ -1,5 +1,6 @@
 using System.Numerics;
 using System.Text.Json.Serialization;
+using CSharpPlus.JsonConverters;
 
 namespace CSharpPlus.Tests.JsonConverters;
 

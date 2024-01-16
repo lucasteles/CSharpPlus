@@ -1,5 +1,7 @@
 using System.Globalization;
 
+namespace CSharpPlus;
+
 /// <summary>
 /// DateTime Extensions
 /// </summary>

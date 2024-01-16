@@ -1,4 +1,4 @@
-using CSharpPlus;
+namespace CSharpPlus;
 
 /// <summary>
 /// Enumerable Plus Extensions

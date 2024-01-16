@@ -1,7 +1,9 @@
 using System.Globalization;
 using System.Numerics;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
-namespace System.Text.Json.Serialization;
+namespace CSharpPlus.JsonConverters;
 
 /// <summary>
 /// Json converter for System.Numerics.BigInteger

@@ -1,3 +1,5 @@
+namespace CSharpPlus;
+
 /// <summary>
 /// Range extensions
 /// </summary>

@@ -1,3 +1,5 @@
+namespace CSharpPlus;
+
 public static partial class EnumerablePlus
 {
     /// <summary>
