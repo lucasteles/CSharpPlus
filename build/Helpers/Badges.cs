@@ -44,7 +44,9 @@ public static class Badges
 
     static void DownloadShieldsIo(AbsolutePath fileName, string label, string message, string color)
     {
-        fileName.Parent.CreateOrCleanDirectory();
+        if (!fileName.Parent.DirectoryExists())
+            fileName.Parent.CreateDirectory();
+
         var url = "https://img.shields.io/badge/" +
                   Uri.EscapeDataString($"{label}-{message}-{color}");
         HttpTasks.HttpDownloadFile(url, fileName);
