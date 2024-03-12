@@ -19,7 +19,7 @@ public class TupleEnumerablePlus : BaseTest
 #pragma warning restore S2583
             items.Should().BeEquivalentTo(new[]
             {
-                n
+                n,
             });
         else
             Assert.Fail();
@@ -34,7 +34,7 @@ public class TupleEnumerablePlus : BaseTest
         var (n1, n2) = items;
         items.Should().BeEquivalentTo(new[]
         {
-            n1, n2
+            n1, n2,
         });
     }
 
@@ -47,7 +47,7 @@ public class TupleEnumerablePlus : BaseTest
         var (n1, n2, n3) = items;
         items.Should().BeEquivalentTo(new[]
         {
-            n1, n2, n3
+            n1, n2, n3,
         });
     }
 
@@ -60,7 +60,7 @@ public class TupleEnumerablePlus : BaseTest
         var (n1, n2, n3, n4) = items;
         items.Should().BeEquivalentTo(new[]
         {
-            n1, n2, n3, n4
+            n1, n2, n3, n4,
         });
     }
 
@@ -73,7 +73,7 @@ public class TupleEnumerablePlus : BaseTest
         var (n1, n2, n3, n4, n5) = items;
         items.Should().BeEquivalentTo(new[]
         {
-            n1, n2, n3, n4, n5
+            n1, n2, n3, n4, n5,
         });
     }
 

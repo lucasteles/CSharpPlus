@@ -8,7 +8,7 @@ namespace CSharpPlus.JsonConverters;
 /// <summary>
 /// Json converter for System.Numerics.BigInteger
 /// </summary>
-public class BigIntegerJsonConverter : JsonConverter<BigInteger>
+public class JsonBigIntegerConverter : JsonConverter<BigInteger>
 {
     /// <inheritdoc />
     public override BigInteger Read(ref Utf8JsonReader reader, Type typeToConvert,

@@ -5,7 +5,7 @@ namespace System.Text.Json.Serialization;
 /// <summary>
 /// Json converter for DateTime forcing UTC
 /// </summary>
-public class DateTimeForceUtcJsonConverter : JsonConverter<DateTime>
+public class JsonDateTimeUtcConverter : JsonConverter<DateTime>
 {
     readonly TimeSpan offset;
 
@@ -13,13 +13,13 @@ public class DateTimeForceUtcJsonConverter : JsonConverter<DateTime>
     /// Convert DateTime always in UTC Kind
     /// </summary>
     /// <param name="offset">Custom timespan offset for DateTimeKind.Unspecified</param>
-    public DateTimeForceUtcJsonConverter(TimeSpan offset) => this.offset = offset;
+    public JsonDateTimeUtcConverter(TimeSpan offset) => this.offset = offset;
 
     /// <summary>
     /// Convert DateTime always in UTC Kind
     /// </summary>
     /// <param name="timeZone">time zone to use when DateTimeKind.Unspecified</param>
-    public DateTimeForceUtcJsonConverter(TimeZoneInfo? timeZone = null) =>
+    public JsonDateTimeUtcConverter(TimeZoneInfo? timeZone = null) =>
         offset = timeZone?.BaseUtcOffset ?? TimeZoneInfo.Utc.BaseUtcOffset;
 
     /// <inheritdoc />

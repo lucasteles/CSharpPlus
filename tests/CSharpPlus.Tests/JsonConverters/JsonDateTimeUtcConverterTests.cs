@@ -6,14 +6,14 @@ namespace CSharpPlus.Tests.JsonConverters;
 using System.Text.Json;
 using static System.Text.Json.JsonSerializer;
 
-public class DateTimeTests
+public class JsonDateTimeUtcConverterTests
 {
     readonly JsonSerializerOptions options = new()
     {
         Converters =
         {
-            new DateTimeForceUtcJsonConverter()
-        }
+            new JsonDateTimeUtcConverter(),
+        },
     };
 
     record TestDate(DateTime Data);
@@ -58,8 +58,8 @@ public class DateTimeTests
             {
                 Converters =
                 {
-                    new DateTimeForceUtcJsonConverter(timeZone)
-                }
+                    new JsonDateTimeUtcConverter(timeZone),
+                },
             })!.Data;
 
         parsed.Should().Be(expected).And.Subject!.Value.Kind.Should().Be(DateTimeKind.Utc);
@@ -81,8 +81,8 @@ public class DateTimeTests
             {
                 Converters =
                 {
-                    new DateTimeForceUtcJsonConverter(offset)
-                }
+                    new JsonDateTimeUtcConverter(offset),
+                },
             })!.Data;
 
         parsed.Should().Be(expected).And.Subject!.Value.Kind.Should().Be(DateTimeKind.Utc);

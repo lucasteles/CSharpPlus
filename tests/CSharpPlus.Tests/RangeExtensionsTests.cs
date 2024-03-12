@@ -8,7 +8,7 @@ public class RangeExtensionsTests
         var numbers = (..10).Enumerate().ToArray();
         var expected = new[]
         {
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         };
         numbers.Should().BeEquivalentTo(expected);
     }
@@ -22,7 +22,7 @@ public class RangeExtensionsTests
 
         var expected = new[]
         {
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         };
         list.Should().BeEquivalentTo(expected);
     }
@@ -33,7 +33,7 @@ public class RangeExtensionsTests
         var numbers = (10..0).Enumerate().ToArray();
         var expected = new[]
         {
-            10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+            10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0,
         };
         numbers.Should().BeEquivalentTo(expected);
     }
@@ -47,7 +47,7 @@ public class RangeExtensionsTests
 
         var expected = new[]
         {
-            10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+            10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0,
         };
         list.Should().BeEquivalentTo(expected);
     }
@@ -61,7 +61,7 @@ public class RangeExtensionsTests
 
         var expected = new[]
         {
-            1, 2, 3, 4, 5, 6, 7, 8, 9
+            1, 2, 3, 4, 5, 6, 7, 8, 9,
         };
         list.Should().BeEquivalentTo(expected);
     }
@@ -75,7 +75,7 @@ public class RangeExtensionsTests
 
         var expected = new[]
         {
-            9, 8, 7, 6, 5, 4, 3, 2, 1
+            9, 8, 7, 6, 5, 4, 3, 2, 1,
         };
         list.Should().BeEquivalentTo(expected);
     }
@@ -151,7 +151,7 @@ public class RangeExtensionsTests
     {
         var boundaries = new[]
         {
-            end.Int(), begin.Int()
+            end.Int(), begin.Int(),
         };
         var (min, max) = (boundaries.Min(), boundaries.Max());
         var size = Math.Abs(min - max) + 1;
