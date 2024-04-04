@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.JsonConverters
+  commentId: N:CSharpPlus.JsonConverters
+  id: CSharpPlus.JsonConverters
+  children:
+  - CSharpPlus.JsonConverters.JsonBigIntegerConverter
+  - CSharpPlus.JsonConverters.JsonIPAddressConverter
+  - CSharpPlus.JsonConverters.JsonIPEndPointConverter
+  langs:
+  - csharp
+  - vb
+  name: CSharpPlus.JsonConverters
+  nameWithType: CSharpPlus.JsonConverters
+  fullName: CSharpPlus.JsonConverters
+  type: Namespace
+  assemblies:
+  - CSharpPlus
+references:
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter
+  commentId: T:CSharpPlus.JsonConverters.JsonBigIntegerConverter
+  isExternal: true
+  href: CSharpPlus.JsonConverters.JsonBigIntegerConverter.html
+  name: JsonBigIntegerConverter
+  nameWithType: JsonBigIntegerConverter
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter
+  commentId: T:CSharpPlus.JsonConverters.JsonIPAddressConverter
+  isExternal: true
+  href: CSharpPlus.JsonConverters.JsonIPAddressConverter.html
+  name: JsonIPAddressConverter
+  nameWithType: JsonIPAddressConverter
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter
+  commentId: T:CSharpPlus.JsonConverters.JsonIPEndPointConverter
+  isExternal: true
+  href: CSharpPlus.JsonConverters.JsonIPEndPointConverter.html
+  name: JsonIPEndPointConverter
+  nameWithType: JsonIPEndPointConverter
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter

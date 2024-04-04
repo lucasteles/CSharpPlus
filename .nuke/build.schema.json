@@ -84,14 +84,17 @@
             "enum": [
               "BrowseReport",
               "Build",
+              "BuildDocs",
               "Clean",
+              "Docs",
               "Format",
               "GenerateBadges",
               "GenerateReport",
               "Lint",
               "Report",
               "Restore",
-              "Test"
+              "Test",
+              "UpdateTools"
             ]
           }
         },
@@ -107,14 +110,17 @@
             "enum": [
               "BrowseReport",
               "Build",
+              "BuildDocs",
               "Clean",
+              "Docs",
               "Format",
               "GenerateBadges",
               "GenerateReport",
               "Lint",
               "Report",
               "Restore",
-              "Test"
+              "Test",
+              "UpdateTools"
             ]
           }
         },

@@ -1,0 +1,4634 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.EnumerablePlus
+  commentId: T:CSharpPlus.EnumerablePlus
+  id: EnumerablePlus
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.Char})
+  - CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.String})
+  - CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@)
+  - CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@)
+  - CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@)
+  - CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@)
+  - CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@)
+  - CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@,``0@)
+  - CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IEnumerable{``0})
+  - CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyCollection{``0})
+  - CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  - CSharpPlus.EnumerablePlus.EmptyIfNull``1(``0[])
+  - CSharpPlus.EnumerablePlus.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  - CSharpPlus.EnumerablePlus.ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  - CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  - CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  - CSharpPlus.EnumerablePlus.IntersectBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  - CSharpPlus.EnumerablePlus.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  - CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable{System.Char})
+  - CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.Char)
+  - CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  - CSharpPlus.EnumerablePlus.MaxOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  - CSharpPlus.EnumerablePlus.MaxOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  - CSharpPlus.EnumerablePlus.MinAndMaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - CSharpPlus.EnumerablePlus.MinAndMax``1(System.Collections.Generic.IEnumerable{``0})
+  - CSharpPlus.EnumerablePlus.MinAndMax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  - CSharpPlus.EnumerablePlus.MinOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  - CSharpPlus.EnumerablePlus.MinOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  - CSharpPlus.EnumerablePlus.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - CSharpPlus.EnumerablePlus.PickRandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0,System.Random)
+  - CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)
+  - CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  - CSharpPlus.EnumerablePlus.RepeatForever``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  - CSharpPlus.EnumerablePlus.Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - CSharpPlus.EnumerablePlus.ScanBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``1,``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  - CSharpPlus.EnumerablePlus.Scan``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  - CSharpPlus.EnumerablePlus.Scan``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  - CSharpPlus.EnumerablePlus.SelectMany``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  - CSharpPlus.EnumerablePlus.Shuffle``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  - CSharpPlus.EnumerablePlus.SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - CSharpPlus.EnumerablePlus.TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  - CSharpPlus.EnumerablePlus.Tap``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  - CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)
+  - CSharpPlus.EnumerablePlus.ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})
+  - CSharpPlus.EnumerablePlus.ToNullable``1(System.Collections.Generic.IEnumerable{``0})
+  - CSharpPlus.EnumerablePlus.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  - CSharpPlus.EnumerablePlus.ToReadOnly``1(System.Collections.Generic.IEnumerable{``0})
+  - CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  - CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  - CSharpPlus.EnumerablePlus.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  - CSharpPlus.EnumerablePlus.WhenAll``2(System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}})
+  - CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  - CSharpPlus.EnumerablePlus.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  - CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})
+  - CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})
+  langs:
+  - csharp
+  - vb
+  name: EnumerablePlus
+  nameWithType: EnumerablePlus
+  fullName: CSharpPlus.EnumerablePlus
+  type: Class
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Enumerable Plus Extensions
+  example: []
+  syntax:
+    content: public static class EnumerablePlus
+    content.vb: Public Module EnumerablePlus
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CSharpPlus.EnumerablePlus.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  id: IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty<T>(IEnumerable<T>)
+  nameWithType: EnumerablePlus.IsEmpty<T>(IEnumerable<T>)
+  fullName: CSharpPlus.EnumerablePlus.IsEmpty<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: determines whether a sequence contains no elements.
+  example: []
+  syntax:
+    content: public static bool IsEmpty<T>(this IEnumerable<T> @this)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsEmpty(Of T)(this As IEnumerable(Of T)) As Boolean
+  overload: CSharpPlus.EnumerablePlus.IsEmpty*
+  nameWithType.vb: EnumerablePlus.IsEmpty(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.IsEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: IsEmpty(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.SelectMany``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  commentId: M:CSharpPlus.EnumerablePlus.SelectMany``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  id: SelectMany``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: SelectMany<T>(IEnumerable<IEnumerable<T>>)
+  nameWithType: EnumerablePlus.SelectMany<T>(IEnumerable<IEnumerable<T>>)
+  fullName: CSharpPlus.EnumerablePlus.SelectMany<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Flatten an IEnumerable of sequence and flattens into one sequence.
+  example: []
+  syntax:
+    content: public static IEnumerable<T> SelectMany<T>(this IEnumerable<IEnumerable<T>> @this)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{{T}}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function SelectMany(Of T)(this As IEnumerable(Of IEnumerable(Of T))) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.SelectMany*
+  nameWithType.vb: EnumerablePlus.SelectMany(Of T)(IEnumerable(Of IEnumerable(Of T)))
+  fullName.vb: CSharpPlus.EnumerablePlus.SelectMany(Of T)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of T)))
+  name.vb: SelectMany(Of T)(IEnumerable(Of IEnumerable(Of T)))
+- uid: CSharpPlus.EnumerablePlus.MinAndMaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  commentId: M:CSharpPlus.EnumerablePlus.MinAndMaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  id: MinAndMaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: MinAndMaxBy<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  nameWithType: EnumerablePlus.MinAndMaxBy<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  fullName: CSharpPlus.EnumerablePlus.MinAndMaxBy<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the minimum and maximum value in a generic sequence by key member.
+  example: []
+  syntax:
+    content: public static (T? Min, T? Max) MinAndMaxBy<T, TProp>(this IEnumerable<T> @this, Func<T, TProp> keySelector)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: keySelector
+      type: System.Func{{T},{TProp}}
+    typeParameters:
+    - id: T
+    - id: TProp
+    return:
+      type: System.ValueTuple{{T},{T}}
+    content.vb: Public Shared Function MinAndMaxBy(Of T, TProp)(this As IEnumerable(Of T), keySelector As Func(Of T, TProp)) As (Min As T, Max As T)
+  overload: CSharpPlus.EnumerablePlus.MinAndMaxBy*
+  nameWithType.vb: EnumerablePlus.MinAndMaxBy(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+  fullName.vb: CSharpPlus.EnumerablePlus.MinAndMaxBy(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp))
+  name.vb: MinAndMaxBy(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+- uid: CSharpPlus.EnumerablePlus.ToNullable``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.ToNullable``1(System.Collections.Generic.IEnumerable{``0})
+  id: ToNullable``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ToNullable<T>(IEnumerable<T>)
+  nameWithType: EnumerablePlus.ToNullable<T>(IEnumerable<T>)
+  fullName: CSharpPlus.EnumerablePlus.ToNullable<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Casts Enumerablet to nullable value type
+  example: []
+  syntax:
+    content: 'public static IEnumerable<T?> ToNullable<T>(this IEnumerable<T> @this) where T : struct'
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Nullable{{T}}}
+    content.vb: Public Shared Function ToNullable(Of T As Structure)(this As IEnumerable(Of T)) As IEnumerable(Of T?)
+  overload: CSharpPlus.EnumerablePlus.ToNullable*
+  nameWithType.vb: EnumerablePlus.ToNullable(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.ToNullable(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: ToNullable(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.MinAndMax``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.MinAndMax``1(System.Collections.Generic.IEnumerable{``0})
+  id: MinAndMax``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: MinAndMax<T>(IEnumerable<T>)
+  nameWithType: EnumerablePlus.MinAndMax<T>(IEnumerable<T>)
+  fullName: CSharpPlus.EnumerablePlus.MinAndMax<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the minimum and maximum value in a generic sequence.
+  example: []
+  syntax:
+    content: public static (T? Min, T? Max) MinAndMax<T>(this IEnumerable<T> @this)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.ValueTuple{{T},{T}}
+    content.vb: Public Shared Function MinAndMax(Of T)(this As IEnumerable(Of T)) As (Min As T, Max As T)
+  overload: CSharpPlus.EnumerablePlus.MinAndMax*
+  nameWithType.vb: EnumerablePlus.MinAndMax(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.MinAndMax(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: MinAndMax(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.MinAndMax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  commentId: M:CSharpPlus.EnumerablePlus.MinAndMax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  id: MinAndMax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: MinAndMax<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  nameWithType: EnumerablePlus.MinAndMax<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  fullName: CSharpPlus.EnumerablePlus.MinAndMax<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the minimum and maximum value in a generic sequence
+  example: []
+  syntax:
+    content: public static (TProp? Min, TProp? Max) MinAndMax<T, TProp>(this IEnumerable<T> @this, Func<T, TProp> keySelector)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: keySelector
+      type: System.Func{{T},{TProp}}
+    typeParameters:
+    - id: T
+    - id: TProp
+    return:
+      type: System.ValueTuple{{TProp},{TProp}}
+    content.vb: Public Shared Function MinAndMax(Of T, TProp)(this As IEnumerable(Of T), keySelector As Func(Of T, TProp)) As (Min As TProp, Max As TProp)
+  overload: CSharpPlus.EnumerablePlus.MinAndMax*
+  nameWithType.vb: EnumerablePlus.MinAndMax(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+  fullName.vb: CSharpPlus.EnumerablePlus.MinAndMax(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp))
+  name.vb: MinAndMax(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+- uid: CSharpPlus.EnumerablePlus.MaxOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  commentId: M:CSharpPlus.EnumerablePlus.MaxOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  id: MaxOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: MaxOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  nameWithType: EnumerablePlus.MaxOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  fullName: CSharpPlus.EnumerablePlus.MaxOrDefault<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>, TProp)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the maximum value in a generic sequence. Defaults if empty
+  example: []
+  syntax:
+    content: public static TProp MaxOrDefault<T, TProp>(this IEnumerable<T> @this, Func<T, TProp> keySelector, TProp value)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: keySelector
+      type: System.Func{{T},{TProp}}
+    - id: value
+      type: '{TProp}'
+    typeParameters:
+    - id: T
+    - id: TProp
+    return:
+      type: '{TProp}'
+    content.vb: Public Shared Function MaxOrDefault(Of T, TProp)(this As IEnumerable(Of T), keySelector As Func(Of T, TProp), value As TProp) As TProp
+  overload: CSharpPlus.EnumerablePlus.MaxOrDefault*
+  nameWithType.vb: EnumerablePlus.MaxOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+  fullName.vb: CSharpPlus.EnumerablePlus.MaxOrDefault(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp), TProp)
+  name.vb: MaxOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+- uid: CSharpPlus.EnumerablePlus.MaxOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  commentId: M:CSharpPlus.EnumerablePlus.MaxOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  id: MaxOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: MaxOrDefault<T>(IEnumerable<T>, T)
+  nameWithType: EnumerablePlus.MaxOrDefault<T>(IEnumerable<T>, T)
+  fullName: CSharpPlus.EnumerablePlus.MaxOrDefault<T>(System.Collections.Generic.IEnumerable<T>, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the maximum value in a generic sequence. Defaults if empty
+  example: []
+  syntax:
+    content: public static T MaxOrDefault<T>(this IEnumerable<T> @this, T value)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MaxOrDefault(Of T)(this As IEnumerable(Of T), value As T) As T
+  overload: CSharpPlus.EnumerablePlus.MaxOrDefault*
+  nameWithType.vb: EnumerablePlus.MaxOrDefault(Of T)(IEnumerable(Of T), T)
+  fullName.vb: CSharpPlus.EnumerablePlus.MaxOrDefault(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  name.vb: MaxOrDefault(Of T)(IEnumerable(Of T), T)
+- uid: CSharpPlus.EnumerablePlus.MinOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  commentId: M:CSharpPlus.EnumerablePlus.MinOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  id: MinOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: MinOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  nameWithType: EnumerablePlus.MinOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  fullName: CSharpPlus.EnumerablePlus.MinOrDefault<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>, TProp)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the minimum value in a generic sequence. Defaults if empty
+  example: []
+  syntax:
+    content: public static TProp MinOrDefault<T, TProp>(this IEnumerable<T> @this, Func<T, TProp> keySelector, TProp value)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: keySelector
+      type: System.Func{{T},{TProp}}
+    - id: value
+      type: '{TProp}'
+    typeParameters:
+    - id: T
+    - id: TProp
+    return:
+      type: '{TProp}'
+    content.vb: Public Shared Function MinOrDefault(Of T, TProp)(this As IEnumerable(Of T), keySelector As Func(Of T, TProp), value As TProp) As TProp
+  overload: CSharpPlus.EnumerablePlus.MinOrDefault*
+  nameWithType.vb: EnumerablePlus.MinOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+  fullName.vb: CSharpPlus.EnumerablePlus.MinOrDefault(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp), TProp)
+  name.vb: MinOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+- uid: CSharpPlus.EnumerablePlus.MinOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  commentId: M:CSharpPlus.EnumerablePlus.MinOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  id: MinOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: MinOrDefault<T>(IEnumerable<T>, T)
+  nameWithType: EnumerablePlus.MinOrDefault<T>(IEnumerable<T>, T)
+  fullName: CSharpPlus.EnumerablePlus.MinOrDefault<T>(System.Collections.Generic.IEnumerable<T>, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the minimum value in a generic sequence. Defaults if empty
+  example: []
+  syntax:
+    content: public static T MinOrDefault<T>(this IEnumerable<T> @this, T value)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MinOrDefault(Of T)(this As IEnumerable(Of T), value As T) As T
+  overload: CSharpPlus.EnumerablePlus.MinOrDefault*
+  nameWithType.vb: EnumerablePlus.MinOrDefault(Of T)(IEnumerable(Of T), T)
+  fullName.vb: CSharpPlus.EnumerablePlus.MinOrDefault(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  name.vb: MinOrDefault(Of T)(IEnumerable(Of T), T)
+- uid: CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})
+  id: WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: WhereNotNull<T>(IEnumerable<T?>)
+  nameWithType: EnumerablePlus.WhereNotNull<T>(IEnumerable<T?>)
+  fullName: CSharpPlus.EnumerablePlus.WhereNotNull<T>(System.Collections.Generic.IEnumerable<T?>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Filter non-null items
+  example: []
+  syntax:
+    content: 'public static IEnumerable<T> WhereNotNull<T>(this IEnumerable<T?> enumerable) where T : class'
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    content.vb: Public Shared Function WhereNotNull(Of T As Class)(enumerable As IEnumerable(Of T)) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.WhereNotNull*
+  nameWithType.vb: EnumerablePlus.WhereNotNull(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.WhereNotNull(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: WhereNotNull(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})
+  commentId: M:CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})
+  id: WhereNotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: WhereNotNull<T>(IEnumerable<T?>)
+  nameWithType: EnumerablePlus.WhereNotNull<T>(IEnumerable<T?>)
+  fullName: CSharpPlus.EnumerablePlus.WhereNotNull<T>(System.Collections.Generic.IEnumerable<T?>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Filter non-null items
+  example: []
+  syntax:
+    content: 'public static IEnumerable<T> WhereNotNull<T>(this IEnumerable<T?> enumerable) where T : struct'
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{System.Nullable{{T}}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    content.vb: Public Shared Function WhereNotNull(Of T As Structure)(enumerable As IEnumerable(Of T?)) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.WhereNotNull*
+  nameWithType.vb: EnumerablePlus.WhereNotNull(Of T)(IEnumerable(Of T?))
+  fullName.vb: CSharpPlus.EnumerablePlus.WhereNotNull(Of T)(System.Collections.Generic.IEnumerable(Of T?))
+  name.vb: WhereNotNull(Of T)(IEnumerable(Of T?))
+- uid: CSharpPlus.EnumerablePlus.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  id: Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Enumerate<T>(IEnumerable<T>)
+  nameWithType: EnumerablePlus.Enumerate<T>(IEnumerable<T>)
+  fullName: CSharpPlus.EnumerablePlus.Enumerate<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Enumerate the source to a collection of value tuples (int Index, T Value)
+  example: []
+  syntax:
+    content: public static IEnumerable<(int Index, T Value)> Enumerate<T>(this IEnumerable<T> enumerable)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,{T}}}
+      description: ''
+    content.vb: Public Shared Function Enumerate(Of T)(enumerable As IEnumerable(Of T)) As IEnumerable(Of (Index As Integer, Value As T))
+  overload: CSharpPlus.EnumerablePlus.Enumerate*
+  nameWithType.vb: EnumerablePlus.Enumerate(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.Enumerate(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: Enumerate(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  id: ToSingleton``1(``0)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ToSingleton<T>(T)
+  nameWithType: EnumerablePlus.ToSingleton<T>(T)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Return value as singleton source
+  example: []
+  syntax:
+    content: public static IEnumerable<T> ToSingleton<T>(this T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: An source of a single item
+    content.vb: Public Shared Function ToSingleton(Of T)(item As T) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.ToSingleton*
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of T)(T)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of T)(T)
+  name.vb: ToSingleton(Of T)(T)
+- uid: CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  id: ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType: EnumerablePlus.ForEach<T>(IEnumerable<T>, Action<T>)
+  fullName: CSharpPlus.EnumerablePlus.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Eagerly executes the given action on each element in the sequence.
+  example: []
+  syntax:
+    content: public static void ForEach<T>(this IEnumerable<T> source, Action<T> action)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The sequence of elements
+    - id: action
+      type: System.Action{{T}}
+      description: The action to execute on each element
+    typeParameters:
+    - id: T
+      description: The type of the elements in the sequence
+    content.vb: Public Shared Sub ForEach(Of T)(source As IEnumerable(Of T), action As Action(Of T))
+  overload: CSharpPlus.EnumerablePlus.ForEach*
+  nameWithType.vb: EnumerablePlus.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  commentId: M:CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  id: ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ForEach<T>(IEnumerable<T>, Action<T, int>)
+  nameWithType: EnumerablePlus.ForEach<T>(IEnumerable<T>, Action<T, int>)
+  fullName: CSharpPlus.EnumerablePlus.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T, int>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Eagerly executes the given action on each element in the indexed sequence.
+  example: []
+  syntax:
+    content: public static void ForEach<T>(this IEnumerable<T> source, Action<T, int> action)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The sequence of elements
+    - id: action
+      type: System.Action{{T},System.Int32}
+      description: >-
+        The action to execute on each element; the second parameter
+                    of the action represents the index of the source element.
+    typeParameters:
+    - id: T
+      description: The type of the elements in the sequence
+    content.vb: Public Shared Sub ForEach(Of T)(source As IEnumerable(Of T), action As Action(Of T, Integer))
+  overload: CSharpPlus.EnumerablePlus.ForEach*
+  nameWithType.vb: EnumerablePlus.ForEach(Of T)(IEnumerable(Of T), Action(Of T, Integer))
+  fullName.vb: CSharpPlus.EnumerablePlus.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T, Integer))
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T, Integer))
+- uid: CSharpPlus.EnumerablePlus.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  id: ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ToReadOnlyList<T>(IEnumerable<T>)
+  nameWithType: EnumerablePlus.ToReadOnlyList<T>(IEnumerable<T>)
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnlyList<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates a IReadOnlyList from a IEnumerable.
+  example: []
+  syntax:
+    content: public static IReadOnlyList<T> ToReadOnlyList<T>(this IEnumerable<T> enumerable)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyList{{T}}
+      description: ''
+    content.vb: Public Shared Function ToReadOnlyList(Of T)(enumerable As IEnumerable(Of T)) As IReadOnlyList(Of T)
+  overload: CSharpPlus.EnumerablePlus.ToReadOnlyList*
+  nameWithType.vb: EnumerablePlus.ToReadOnlyList(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.ToReadOnlyList(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: ToReadOnlyList(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToReadOnly``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.ToReadOnly``1(System.Collections.Generic.IEnumerable{``0})
+  id: ToReadOnly``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ToReadOnly<T>(IEnumerable<T>)
+  nameWithType: EnumerablePlus.ToReadOnly<T>(IEnumerable<T>)
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnly<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates a IReadOnlyCollection from a IEnumerable.
+  example: []
+  syntax:
+    content: public static IReadOnlyCollection<T> ToReadOnly<T>(this IEnumerable<T> enumerable)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyCollection{{T}}
+      description: ''
+    content.vb: Public Shared Function ToReadOnly(Of T)(enumerable As IEnumerable(Of T)) As IReadOnlyCollection(Of T)
+  overload: CSharpPlus.EnumerablePlus.ToReadOnly*
+  nameWithType.vb: EnumerablePlus.ToReadOnly(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.ToReadOnly(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: ToReadOnly(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.IntersectBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:CSharpPlus.EnumerablePlus.IntersectBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  id: IntersectBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: IntersectBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  nameWithType: EnumerablePlus.IntersectBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  fullName: CSharpPlus.EnumerablePlus.IntersectBy<T, TKey>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>, System.Collections.Generic.IEqualityComparer<TKey>?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Produces the set intersection of two sequences according to a specified key selector function.
+  example: []
+  syntax:
+    content: public static IEnumerable<T> IntersectBy<T, TKey>(this IEnumerable<T> first, IEnumerable<T> second, Func<T, TKey> keySelector, IEqualityComparer<TKey>? comparer = null)
+    parameters:
+    - id: first
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: second
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: keySelector
+      type: System.Func{{T},{TKey}}
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+    typeParameters:
+    - id: T
+    - id: TKey
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function IntersectBy(Of T, TKey)(first As IEnumerable(Of T), second As IEnumerable(Of T), keySelector As Func(Of T, TKey), comparer As IEqualityComparer(Of TKey) = Nothing) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.IntersectBy*
+  nameWithType.vb: EnumerablePlus.IntersectBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+  fullName.vb: CSharpPlus.EnumerablePlus.IntersectBy(Of T, TKey)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: IntersectBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+- uid: CSharpPlus.EnumerablePlus.ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:CSharpPlus.EnumerablePlus.ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  id: ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ExceptBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  nameWithType: EnumerablePlus.ExceptBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  fullName: CSharpPlus.EnumerablePlus.ExceptBy<T, TKey>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>, System.Collections.Generic.IEqualityComparer<TKey>?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Produces the set difference of two sequences according to a specified key selector function.
+  example: []
+  syntax:
+    content: public static IEnumerable<T> ExceptBy<T, TKey>(this IEnumerable<T> first, IEnumerable<T> second, Func<T, TKey> keySelector, IEqualityComparer<TKey>? comparer = null)
+    parameters:
+    - id: first
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: second
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: keySelector
+      type: System.Func{{T},{TKey}}
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+    typeParameters:
+    - id: T
+    - id: TKey
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function ExceptBy(Of T, TKey)(first As IEnumerable(Of T), second As IEnumerable(Of T), keySelector As Func(Of T, TKey), comparer As IEqualityComparer(Of TKey) = Nothing) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.ExceptBy*
+  nameWithType.vb: EnumerablePlus.ExceptBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+  fullName.vb: CSharpPlus.EnumerablePlus.ExceptBy(Of T, TKey)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ExceptBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IEnumerable{``0})
+  id: EmptyIfNull``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: EmptyIfNull<T>(IEnumerable<T>?)
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(IEnumerable<T>?)
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(System.Collections.Generic.IEnumerable<T>?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Return empty if collection is null
+  example: []
+  syntax:
+    content: public static IEnumerable<T> EmptyIfNull<T>(this IEnumerable<T>? enumerable)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    content.vb: Public Shared Function EmptyIfNull(Of T)(enumerable As IEnumerable(Of T)) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.EmptyIfNull*
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(IEnumerable(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: EmptyIfNull(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(``0[])
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(``0[])
+  id: EmptyIfNull``1(``0[])
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: EmptyIfNull<T>(T[]?)
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(T[]?)
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(T[]?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Return empty if array is null
+  example: []
+  syntax:
+    content: public static T[] EmptyIfNull<T>(this T[]? array)
+    parameters:
+    - id: array
+      type: '{T}[]'
+      description: ''
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}[]'
+      description: ''
+    content.vb: Public Shared Function EmptyIfNull(Of T)(array As T()) As T()
+  overload: CSharpPlus.EnumerablePlus.EmptyIfNull*
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(T())
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(T())
+  name.vb: EmptyIfNull(Of T)(T())
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyCollection{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyCollection{``0})
+  id: EmptyIfNull``1(System.Collections.Generic.IReadOnlyCollection{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: EmptyIfNull<T>(IReadOnlyCollection<T>?)
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(IReadOnlyCollection<T>?)
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(System.Collections.Generic.IReadOnlyCollection<T>?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Return empty if array is null
+  example: []
+  syntax:
+    content: public static IReadOnlyCollection<T> EmptyIfNull<T>(this IReadOnlyCollection<T>? array)
+    parameters:
+    - id: array
+      type: System.Collections.Generic.IReadOnlyCollection{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IReadOnlyCollection{{T}}
+      description: ''
+    content.vb: Public Shared Function EmptyIfNull(Of T)(array As IReadOnlyCollection(Of T)) As IReadOnlyCollection(Of T)
+  overload: CSharpPlus.EnumerablePlus.EmptyIfNull*
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(IReadOnlyCollection(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T))
+  name.vb: EmptyIfNull(Of T)(IReadOnlyCollection(Of T))
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  id: EmptyIfNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: EmptyIfNull<T>(IReadOnlyList<T>?)
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(IReadOnlyList<T>?)
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(System.Collections.Generic.IReadOnlyList<T>?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Return empty if array is null
+  example: []
+  syntax:
+    content: public static IReadOnlyList<T> EmptyIfNull<T>(this IReadOnlyList<T>? array)
+    parameters:
+    - id: array
+      type: System.Collections.Generic.IReadOnlyList{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IReadOnlyList{{T}}
+      description: ''
+    content.vb: Public Shared Function EmptyIfNull(Of T)(array As IReadOnlyList(Of T)) As IReadOnlyList(Of T)
+  overload: CSharpPlus.EnumerablePlus.EmptyIfNull*
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(IReadOnlyList(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  name.vb: EmptyIfNull(Of T)(IReadOnlyList(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})
+  id: ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ToEnumerable<T>(IEnumerator<T>)
+  nameWithType: EnumerablePlus.ToEnumerable<T>(IEnumerator<T>)
+  fullName: CSharpPlus.EnumerablePlus.ToEnumerable<T>(System.Collections.Generic.IEnumerator<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates an IEnumerable from an IEnumerator
+  example: []
+  syntax:
+    content: public static IEnumerable<T> ToEnumerable<T>(this IEnumerator<T> enumerator)
+    parameters:
+    - id: enumerator
+      type: System.Collections.Generic.IEnumerator{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function ToEnumerable(Of T)(enumerator As IEnumerator(Of T)) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.ToEnumerable*
+  nameWithType.vb: EnumerablePlus.ToEnumerable(Of T)(IEnumerator(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.ToEnumerable(Of T)(System.Collections.Generic.IEnumerator(Of T))
+  name.vb: ToEnumerable(Of T)(IEnumerator(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)
+  commentId: M:CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)
+  id: ToEnumerable(System.Collections.IEnumerator)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ToEnumerable(IEnumerator)
+  nameWithType: EnumerablePlus.ToEnumerable(IEnumerator)
+  fullName: CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates an IEnumerable from an IEnumerator
+  example: []
+  syntax:
+    content: public static IEnumerable<object?> ToEnumerable(this IEnumerator enumerator)
+    parameters:
+    - id: enumerator
+      type: System.Collections.IEnumerator
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Object}
+    content.vb: Public Shared Function ToEnumerable(enumerator As IEnumerator) As IEnumerable(Of Object)
+  overload: CSharpPlus.EnumerablePlus.ToEnumerable*
+- uid: CSharpPlus.EnumerablePlus.Shuffle``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  commentId: M:CSharpPlus.EnumerablePlus.Shuffle``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  id: Shuffle``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Shuffle<T>(IEnumerable<T>, Random?)
+  nameWithType: EnumerablePlus.Shuffle<T>(IEnumerable<T>, Random?)
+  fullName: CSharpPlus.EnumerablePlus.Shuffle<T>(System.Collections.Generic.IEnumerable<T>, System.Random?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Shuffle an source based on a random object
+  example: []
+  syntax:
+    content: public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source, Random? random = null)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The sequence of elements
+    - id: random
+      type: System.Random
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: Shuffled source
+    content.vb: Public Shared Function Shuffle(Of T)(source As IEnumerable(Of T), random As Random = Nothing) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.Shuffle*
+  nameWithType.vb: EnumerablePlus.Shuffle(Of T)(IEnumerable(Of T), Random)
+  fullName.vb: CSharpPlus.EnumerablePlus.Shuffle(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Random)
+  name.vb: Shuffle(Of T)(IEnumerable(Of T), Random)
+- uid: CSharpPlus.EnumerablePlus.PickRandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0,System.Random)
+  commentId: M:CSharpPlus.EnumerablePlus.PickRandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0,System.Random)
+  id: PickRandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0,System.Random)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: PickRandomOrDefault<T>(IEnumerable<T>, T?, Random?)
+  nameWithType: EnumerablePlus.PickRandomOrDefault<T>(IEnumerable<T>, T?, Random?)
+  fullName: CSharpPlus.EnumerablePlus.PickRandomOrDefault<T>(System.Collections.Generic.IEnumerable<T>, T?, System.Random?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a random item from collection
+  example: []
+  syntax:
+    content: public static T? PickRandomOrDefault<T>(this IEnumerable<T> source, T? defaultValue = default, Random? random = null)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The sequence of elements
+    - id: defaultValue
+      type: '{T}'
+      description: ''
+    - id: random
+      type: System.Random
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function PickRandomOrDefault(Of T)(source As IEnumerable(Of T), defaultValue As T = Nothing, random As Random = Nothing) As T
+  overload: CSharpPlus.EnumerablePlus.PickRandomOrDefault*
+  nameWithType.vb: EnumerablePlus.PickRandomOrDefault(Of T)(IEnumerable(Of T), T, Random)
+  fullName.vb: CSharpPlus.EnumerablePlus.PickRandomOrDefault(Of T)(System.Collections.Generic.IEnumerable(Of T), T, System.Random)
+  name.vb: PickRandomOrDefault(Of T)(IEnumerable(Of T), T, Random)
+- uid: CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  commentId: M:CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  id: PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: PickRandom<T>(IEnumerable<T>, Random?)
+  nameWithType: EnumerablePlus.PickRandom<T>(IEnumerable<T>, Random?)
+  fullName: CSharpPlus.EnumerablePlus.PickRandom<T>(System.Collections.Generic.IEnumerable<T>, System.Random?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a random item from collection
+  example: []
+  syntax:
+    content: public static T PickRandom<T>(this IEnumerable<T> source, Random? random = null)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The sequence of elements
+    - id: random
+      type: System.Random
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: Shuffled source
+    content.vb: Public Shared Function PickRandom(Of T)(source As IEnumerable(Of T), random As Random = Nothing) As T
+  overload: CSharpPlus.EnumerablePlus.PickRandom*
+  nameWithType.vb: EnumerablePlus.PickRandom(Of T)(IEnumerable(Of T), Random)
+  fullName.vb: CSharpPlus.EnumerablePlus.PickRandom(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Random)
+  name.vb: PickRandom(Of T)(IEnumerable(Of T), Random)
+- uid: CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)
+  commentId: M:CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)
+  id: PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: PickRandom<T>(IEnumerable<T>, int, Random?)
+  nameWithType: EnumerablePlus.PickRandom<T>(IEnumerable<T>, int, Random?)
+  fullName: CSharpPlus.EnumerablePlus.PickRandom<T>(System.Collections.Generic.IEnumerable<T>, int, System.Random?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a random subset from collection
+  example: []
+  syntax:
+    content: public static IReadOnlyList<T> PickRandom<T>(this IEnumerable<T> source, int length, Random? random = null)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: length
+      type: System.Int32
+    - id: random
+      type: System.Random
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IReadOnlyList{{T}}
+    content.vb: Public Shared Function PickRandom(Of T)(source As IEnumerable(Of T), length As Integer, random As Random = Nothing) As IReadOnlyList(Of T)
+  overload: CSharpPlus.EnumerablePlus.PickRandom*
+  nameWithType.vb: EnumerablePlus.PickRandom(Of T)(IEnumerable(Of T), Integer, Random)
+  fullName.vb: CSharpPlus.EnumerablePlus.PickRandom(Of T)(System.Collections.Generic.IEnumerable(Of T), Integer, System.Random)
+  name.vb: PickRandom(Of T)(IEnumerable(Of T), Integer, Random)
+- uid: CSharpPlus.EnumerablePlus.Tap``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:CSharpPlus.EnumerablePlus.Tap``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  id: Tap``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Tap<T>(IEnumerable<T>, Action<T>)
+  nameWithType: EnumerablePlus.Tap<T>(IEnumerable<T>, Action<T>)
+  fullName: CSharpPlus.EnumerablePlus.Tap<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Lazily run action when the enumerable is evaluated
+  example: []
+  syntax:
+    content: public static IEnumerable<T> Tap<T>(this IEnumerable<T> @this, Action<T> action)
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: action
+      type: System.Action{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function Tap(Of T)(this As IEnumerable(Of T), action As Action(Of T)) As IEnumerable(Of T)
+  overload: CSharpPlus.EnumerablePlus.Tap*
+  nameWithType.vb: EnumerablePlus.Tap(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.Tap(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  name.vb: Tap(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: CSharpPlus.EnumerablePlus.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  commentId: M:CSharpPlus.EnumerablePlus.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  id: Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Partition<T>(IEnumerable<T>, Func<T, bool>)
+  nameWithType: EnumerablePlus.Partition<T>(IEnumerable<T>, Func<T, bool>)
+  fullName: CSharpPlus.EnumerablePlus.Partition<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, bool>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Partition.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Splits an enumerable in two using a predicate.
+  example: []
+  syntax:
+    content: public static (IEnumerable<T> True, IEnumerable<T> False) Partition<T>(this IEnumerable<T> source, Func<T, bool> predicate)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: predicate
+      type: System.Func{{T},System.Boolean}
+    typeParameters:
+    - id: T
+    return:
+      type: System.ValueTuple{System.Collections.Generic.IEnumerable{{T}},System.Collections.Generic.IEnumerable{{T}}}
+      description: A 2-tuple of enumerable elements for true and false predicate
+    content.vb: Public Shared Function Partition(Of T)(source As IEnumerable(Of T), predicate As Func(Of T, Boolean)) As ([True] As IEnumerable(Of T), [False] As IEnumerable(Of T))
+  overload: CSharpPlus.EnumerablePlus.Partition*
+  nameWithType.vb: EnumerablePlus.Partition(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+  fullName.vb: CSharpPlus.EnumerablePlus.Partition(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, Boolean))
+  name.vb: Partition(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+- uid: CSharpPlus.EnumerablePlus.Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:CSharpPlus.EnumerablePlus.Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  id: Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Repeat<TSource>(IEnumerable<TSource>, int)
+  nameWithType: EnumerablePlus.Repeat<TSource>(IEnumerable<TSource>, int)
+  fullName: CSharpPlus.EnumerablePlus.Repeat<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Repeat.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Repeats the sequence indefinitely or a specific number of times.
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> Repeat<TSource>(this IEnumerable<TSource> source, int times)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: times
+      type: System.Int32
+      description: How many times should repeat the sequence
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+    content.vb: Public Shared Function Repeat(Of TSource)(source As IEnumerable(Of TSource), times As Integer) As IEnumerable(Of TSource)
+  overload: CSharpPlus.EnumerablePlus.Repeat*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: EnumerablePlus.Repeat(Of TSource)(IEnumerable(Of TSource), Integer)
+  fullName.vb: CSharpPlus.EnumerablePlus.Repeat(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), Integer)
+  name.vb: Repeat(Of TSource)(IEnumerable(Of TSource), Integer)
+- uid: CSharpPlus.EnumerablePlus.RepeatForever``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  commentId: M:CSharpPlus.EnumerablePlus.RepeatForever``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  id: RepeatForever``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: RepeatForever<TSource>(IEnumerable<TSource>, CancellationToken)
+  nameWithType: EnumerablePlus.RepeatForever<TSource>(IEnumerable<TSource>, CancellationToken)
+  fullName: CSharpPlus.EnumerablePlus.RepeatForever<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Repeat.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Repeats the sequence indefinitely or until cancellation is requested
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> RepeatForever<TSource>(this IEnumerable<TSource> source, CancellationToken cancellationToken = default)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+    content.vb: Public Shared Function RepeatForever(Of TSource)(source As IEnumerable(Of TSource), cancellationToken As CancellationToken = Nothing) As IEnumerable(Of TSource)
+  overload: CSharpPlus.EnumerablePlus.RepeatForever*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: EnumerablePlus.RepeatForever(Of TSource)(IEnumerable(Of TSource), CancellationToken)
+  fullName.vb: CSharpPlus.EnumerablePlus.RepeatForever(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Threading.CancellationToken)
+  name.vb: RepeatForever(Of TSource)(IEnumerable(Of TSource), CancellationToken)
+- uid: CSharpPlus.EnumerablePlus.Scan``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  commentId: M:CSharpPlus.EnumerablePlus.Scan``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  id: Scan``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Scan<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  nameWithType: EnumerablePlus.Scan<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  fullName: CSharpPlus.EnumerablePlus.Scan<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TSource, TSource>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Scan.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Perform scan aggregation
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> Scan<TSource>(this IEnumerable<TSource> source, Func<TSource, TSource, TSource> mapFunction)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: mapFunction
+      type: System.Func{{TSource},{TSource},{TSource}}
+      description: ''
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    content.vb: Public Shared Function Scan(Of TSource)(source As IEnumerable(Of TSource), mapFunction As Func(Of TSource, TSource, TSource)) As IEnumerable(Of TSource)
+  overload: CSharpPlus.EnumerablePlus.Scan*
+  nameWithType.vb: EnumerablePlus.Scan(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+  fullName.vb: CSharpPlus.EnumerablePlus.Scan(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TSource, TSource))
+  name.vb: Scan(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+- uid: CSharpPlus.EnumerablePlus.Scan``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  commentId: M:CSharpPlus.EnumerablePlus.Scan``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  id: Scan``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Scan<TSource, TState>(IEnumerable<TSource>, TState, Func<TState, TSource, TState>)
+  nameWithType: EnumerablePlus.Scan<TSource, TState>(IEnumerable<TSource>, TState, Func<TState, TSource, TState>)
+  fullName: CSharpPlus.EnumerablePlus.Scan<TSource, TState>(System.Collections.Generic.IEnumerable<TSource>, TState, System.Func<TState, TSource, TState>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Scan.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Perform scan aggregation
+  example: []
+  syntax:
+    content: public static IEnumerable<TState> Scan<TSource, TState>(this IEnumerable<TSource> source, TState initialState, Func<TState, TSource, TState> mapFunction)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: initialState
+      type: '{TState}'
+      description: ''
+    - id: mapFunction
+      type: System.Func{{TState},{TSource},{TState}}
+      description: ''
+    typeParameters:
+    - id: TSource
+      description: ''
+    - id: TState
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{TState}}
+      description: ''
+    content.vb: Public Shared Function Scan(Of TSource, TState)(source As IEnumerable(Of TSource), initialState As TState, mapFunction As Func(Of TState, TSource, TState)) As IEnumerable(Of TState)
+  overload: CSharpPlus.EnumerablePlus.Scan*
+  nameWithType.vb: EnumerablePlus.Scan(Of TSource, TState)(IEnumerable(Of TSource), TState, Func(Of TState, TSource, TState))
+  fullName.vb: CSharpPlus.EnumerablePlus.Scan(Of TSource, TState)(System.Collections.Generic.IEnumerable(Of TSource), TState, System.Func(Of TState, TSource, TState))
+  name.vb: Scan(Of TSource, TState)(IEnumerable(Of TSource), TState, Func(Of TState, TSource, TState))
+- uid: CSharpPlus.EnumerablePlus.ScanBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``1,``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:CSharpPlus.EnumerablePlus.ScanBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``1,``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  id: ScanBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``1,``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ScanBy<TSource, TKey, TState>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TKey, TState>, Func<TState, TKey, TSource, TState>, IEqualityComparer<TKey>?)
+  nameWithType: EnumerablePlus.ScanBy<TSource, TKey, TState>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TKey, TState>, Func<TState, TKey, TSource, TState>, IEqualityComparer<TKey>?)
+  fullName: CSharpPlus.EnumerablePlus.ScanBy<TSource, TKey, TState>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TKey, TState>, System.Func<TState, TKey, TSource, TState>, System.Collections.Generic.IEqualityComparer<TKey>?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Scan.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Perform scan aggregation by key
+  example: []
+  syntax:
+    content: 'public static IEnumerable<(TKey, TState)> ScanBy<TSource, TKey, TState>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TKey, TState> stateSelector, Func<TState, TKey, TSource, TState> accumulator, IEqualityComparer<TKey>? comparer = null) where TKey : notnull'
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+    - id: keySelector
+      type: System.Func{{TSource},{TKey}}
+    - id: stateSelector
+      type: System.Func{{TKey},{TState}}
+    - id: accumulator
+      type: System.Func{{TState},{TKey},{TSource},{TState}}
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+    typeParameters:
+    - id: TSource
+    - id: TKey
+    - id: TState
+    return:
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{{TKey},{TState}}}
+    content.vb: Public Shared Function ScanBy(Of TSource, TKey, TState)(source As IEnumerable(Of TSource), keySelector As Func(Of TSource, TKey), stateSelector As Func(Of TKey, TState), accumulator As Func(Of TState, TKey, TSource, TState), comparer As IEqualityComparer(Of TKey) = Nothing) As IEnumerable(Of (TKey, TState))
+  overload: CSharpPlus.EnumerablePlus.ScanBy*
+  nameWithType.vb: EnumerablePlus.ScanBy(Of TSource, TKey, TState)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TKey, TState), Func(Of TState, TKey, TSource, TState), IEqualityComparer(Of TKey))
+  fullName.vb: CSharpPlus.EnumerablePlus.ScanBy(Of TSource, TKey, TState)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TKey, TState), System.Func(Of TState, TKey, TSource, TState), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ScanBy(Of TSource, TKey, TState)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TKey, TState), Func(Of TState, TKey, TSource, TState), IEqualityComparer(Of TKey))
+- uid: CSharpPlus.EnumerablePlus.TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  commentId: M:CSharpPlus.EnumerablePlus.TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  id: TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: TakeUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType: EnumerablePlus.TakeUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  fullName: CSharpPlus.EnumerablePlus.TakeUntil<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Until.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Take until item satisfies the predicate (inclusive)
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> TakeUntil<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: predicate
+      type: System.Func{{TSource},System.Boolean}
+      description: ''
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    content.vb: Public Shared Function TakeUntil(Of TSource)(source As IEnumerable(Of TSource), predicate As Func(Of TSource, Boolean)) As IEnumerable(Of TSource)
+  overload: CSharpPlus.EnumerablePlus.TakeUntil*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: EnumerablePlus.TakeUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName.vb: CSharpPlus.EnumerablePlus.TakeUntil(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  name.vb: TakeUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: CSharpPlus.EnumerablePlus.SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  commentId: M:CSharpPlus.EnumerablePlus.SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  id: SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: SkipUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType: EnumerablePlus.SkipUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  fullName: CSharpPlus.EnumerablePlus.SkipUntil<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Until.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Skip until item satisfies the predicate (inclusive)
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> SkipUntil<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: predicate
+      type: System.Func{{TSource},System.Boolean}
+      description: ''
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    content.vb: Public Shared Function SkipUntil(Of TSource)(source As IEnumerable(Of TSource), predicate As Func(Of TSource, Boolean)) As IEnumerable(Of TSource)
+  overload: CSharpPlus.EnumerablePlus.SkipUntil*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: EnumerablePlus.SkipUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName.vb: CSharpPlus.EnumerablePlus.SkipUntil(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  name.vb: SkipUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.Char)
+  commentId: M:CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.Char)
+  id: JoinString``1(System.Collections.Generic.IEnumerable{``0},System.Char)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: JoinString<T>(IEnumerable<T>, char)
+  nameWithType: EnumerablePlus.JoinString<T>(IEnumerable<T>, char)
+  fullName: CSharpPlus.EnumerablePlus.JoinString<T>(System.Collections.Generic.IEnumerable<T>, char)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Concatenates the members of a collection, using the specified separator between each member.
+  example: []
+  syntax:
+    content: public static string JoinString<T>(this IEnumerable<T> values, char separator)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: separator
+      type: System.Char
+      description: ''
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Shared Function JoinString(Of T)(values As IEnumerable(Of T), separator As Char) As String
+  overload: CSharpPlus.EnumerablePlus.JoinString*
+  nameWithType.vb: EnumerablePlus.JoinString(Of T)(IEnumerable(Of T), Char)
+  fullName.vb: CSharpPlus.EnumerablePlus.JoinString(Of T)(System.Collections.Generic.IEnumerable(Of T), Char)
+  name.vb: JoinString(Of T)(IEnumerable(Of T), Char)
+- uid: CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  commentId: M:CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  id: JoinString``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: JoinString<T>(IEnumerable<T>, string)
+  nameWithType: EnumerablePlus.JoinString<T>(IEnumerable<T>, string)
+  fullName: CSharpPlus.EnumerablePlus.JoinString<T>(System.Collections.Generic.IEnumerable<T>, string)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Concatenates the members of a collection, using the specified separator between each member.
+  example: []
+  syntax:
+    content: public static string JoinString<T>(this IEnumerable<T> values, string separator)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: separator
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Shared Function JoinString(Of T)(values As IEnumerable(Of T), separator As String) As String
+  overload: CSharpPlus.EnumerablePlus.JoinString*
+  nameWithType.vb: EnumerablePlus.JoinString(Of T)(IEnumerable(Of T), String)
+  fullName.vb: CSharpPlus.EnumerablePlus.JoinString(Of T)(System.Collections.Generic.IEnumerable(Of T), String)
+  name.vb: JoinString(Of T)(IEnumerable(Of T), String)
+- uid: CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable{System.Char})
+  commentId: M:CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable{System.Char})
+  id: JoinString(System.Collections.Generic.IEnumerable{System.Char})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: JoinString(IEnumerable<char>)
+  nameWithType: EnumerablePlus.JoinString(IEnumerable<char>)
+  fullName: CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable<char>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Concatenates the members of a collection, using the specified separator between each member.
+  example: []
+  syntax:
+    content: public static string JoinString(this IEnumerable<char> values)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.IEnumerable{System.Char}
+      description: ''
+    return:
+      type: System.String
+    content.vb: Public Shared Function JoinString(values As IEnumerable(Of Char)) As String
+  overload: CSharpPlus.EnumerablePlus.JoinString*
+  nameWithType.vb: EnumerablePlus.JoinString(IEnumerable(Of Char))
+  fullName.vb: CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable(Of Char))
+  name.vb: JoinString(IEnumerable(Of Char))
+- uid: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.String})
+  id: ConcatString(System.Collections.Generic.IEnumerable{System.String})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ConcatString(IEnumerable<string>)
+  nameWithType: EnumerablePlus.ConcatString(IEnumerable<string>)
+  fullName: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable<string>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Concatenates the members of a constructed IEnumerable collection of type String.
+  example: []
+  syntax:
+    content: public static string ConcatString(this IEnumerable<string> values)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function ConcatString(values As IEnumerable(Of String)) As String
+  overload: CSharpPlus.EnumerablePlus.ConcatString*
+  nameWithType.vb: EnumerablePlus.ConcatString(IEnumerable(Of String))
+  fullName.vb: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable(Of String))
+  name.vb: ConcatString(IEnumerable(Of String))
+- uid: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.Char})
+  commentId: M:CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.Char})
+  id: ConcatString(System.Collections.Generic.IEnumerable{System.Char})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: ConcatString(IEnumerable<char>)
+  nameWithType: EnumerablePlus.ConcatString(IEnumerable<char>)
+  fullName: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable<char>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Concatenates the members of a constructed IEnumerable collection of type String.
+  example: []
+  syntax:
+    content: public static string ConcatString(this IEnumerable<char> values)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.IEnumerable{System.Char}
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function ConcatString(values As IEnumerable(Of Char)) As String
+  overload: CSharpPlus.EnumerablePlus.ConcatString*
+  nameWithType.vb: EnumerablePlus.ConcatString(IEnumerable(Of Char))
+  fullName.vb: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable(Of Char))
+  name.vb: ConcatString(IEnumerable(Of Char))
+- uid: CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  id: WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: WhenAny(IEnumerable<Task>)
+  nameWithType: EnumerablePlus.WhenAny(IEnumerable<Task>)
+  fullName: CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TaskEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates a task that will complete when any of the supplied tasks have completed.
+  example: []
+  syntax:
+    content: public static Task WhenAny(this IEnumerable<Task> tasks)
+    parameters:
+    - id: tasks
+      type: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task that represents the completion of one of the supplied tasks. The return task's Result is the task that completed.
+    content.vb: Public Shared Function WhenAny(tasks As IEnumerable(Of Task)) As Task
+  overload: CSharpPlus.EnumerablePlus.WhenAny*
+  nameWithType.vb: EnumerablePlus.WhenAny(IEnumerable(Of Task))
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task))
+  name.vb: WhenAny(IEnumerable(Of Task))
+- uid: CSharpPlus.EnumerablePlus.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  id: WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: WhenAny<T>(IEnumerable<Task<T>>)
+  nameWithType: EnumerablePlus.WhenAny<T>(IEnumerable<Task<T>>)
+  fullName: CSharpPlus.EnumerablePlus.WhenAny<T>(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<T>>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates a task that will complete when any of the supplied tasks have completed.
+  example: []
+  syntax:
+    content: public static Task<T> WhenAny<T>(this IEnumerable<Task<T>> tasks)
+    parameters:
+    - id: tasks
+      type: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{{T}}}
+      description: The tasks to wait on for completion
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: A task that represents the completion of one of the supplied tasks. The return task's Result is the task that completed.
+    content.vb: Public Shared Function WhenAny(Of T)(tasks As IEnumerable(Of Task(Of T))) As Task(Of T)
+  overload: CSharpPlus.EnumerablePlus.WhenAny*
+  nameWithType.vb: EnumerablePlus.WhenAny(Of T)(IEnumerable(Of Task(Of T)))
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAny(Of T)(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task(Of T)))
+  name.vb: WhenAny(Of T)(IEnumerable(Of Task(Of T)))
+- uid: CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  id: WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: WhenAll(IEnumerable<Task>)
+  nameWithType: EnumerablePlus.WhenAll(IEnumerable<Task>)
+  fullName: CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TaskEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates a task that will complete when all of the Task objects in an enumerable collection have completed.
+  example: []
+  syntax:
+    content: public static Task WhenAll(this IEnumerable<Task> tasks)
+    parameters:
+    - id: tasks
+      type: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task that represents the completion of all of the supplied tasks.
+    content.vb: Public Shared Function WhenAll(tasks As IEnumerable(Of Task)) As Task
+  overload: CSharpPlus.EnumerablePlus.WhenAll*
+  nameWithType.vb: EnumerablePlus.WhenAll(IEnumerable(Of Task))
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task))
+  name.vb: WhenAll(IEnumerable(Of Task))
+- uid: CSharpPlus.EnumerablePlus.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  id: WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T>(IEnumerable<Task<T>>)
+  nameWithType: EnumerablePlus.WhenAll<T>(IEnumerable<Task<T>>)
+  fullName: CSharpPlus.EnumerablePlus.WhenAll<T>(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<T>>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Creates a task that will complete when all of the Task[TResult] objects in an enumerable collection have completed.
+  example: []
+  syntax:
+    content: public static Task<IEnumerable<T>> WhenAll<T>(this IEnumerable<Task<T>> tasks)
+    parameters:
+    - id: tasks
+      type: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{{T}}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{{T}}}
+      description: ''
+    content.vb: Public Shared Function WhenAll(Of T)(tasks As IEnumerable(Of Task(Of T))) As Task(Of IEnumerable(Of T))
+  overload: CSharpPlus.EnumerablePlus.WhenAll*
+  nameWithType.vb: EnumerablePlus.WhenAll(Of T)(IEnumerable(Of Task(Of T)))
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAll(Of T)(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task(Of T)))
+  name.vb: WhenAll(Of T)(IEnumerable(Of Task(Of T)))
+- uid: CSharpPlus.EnumerablePlus.WhenAll``2(System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}})
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAll``2(System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}})
+  id: WhenAll``2(System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}})
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<TKey, TValue>(IDictionary<TKey, Task<TValue>>)
+  nameWithType: EnumerablePlus.WhenAll<TKey, TValue>(IDictionary<TKey, Task<TValue>>)
+  fullName: CSharpPlus.EnumerablePlus.WhenAll<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, System.Threading.Tasks.Task<TValue>>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Return a task waiting for each key on the dictionary
+  example: []
+  syntax:
+    content: 'public static Task<IDictionary<TKey, TValue>> WhenAll<TKey, TValue>(this IDictionary<TKey, Task<TValue>> @this) where TKey : notnull'
+    parameters:
+    - id: this
+      type: System.Collections.Generic.IDictionary{{TKey},System.Threading.Tasks.Task{{TValue}}}
+    typeParameters:
+    - id: TKey
+    - id: TValue
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IDictionary{{TKey},{TValue}}}
+    content.vb: Public Shared Function WhenAll(Of TKey, TValue)(this As IDictionary(Of TKey, Task(Of TValue))) As Task(Of IDictionary(Of TKey, TValue))
+  overload: CSharpPlus.EnumerablePlus.WhenAll*
+  nameWithType.vb: EnumerablePlus.WhenAll(Of TKey, TValue)(IDictionary(Of TKey, Task(Of TValue)))
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAll(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, System.Threading.Tasks.Task(Of TValue)))
+  name.vb: WhenAll(Of TKey, TValue)(IDictionary(Of TKey, Task(Of TValue)))
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@)
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@)
+  id: Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct<T>(IEnumerable<T>, out T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Deconstruct enumerable extracting first item
+  example: []
+  syntax:
+    content: public static void Deconstruct<T>(this IEnumerable<T> enumerable, out T t0)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: t0
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Shared Sub Deconstruct(Of T)(enumerable As IEnumerable(Of T), t0 As T)
+  overload: CSharpPlus.EnumerablePlus.Deconstruct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The source sequence is empty.
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@)
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@)
+  id: Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Deconstruct enumerable extracting first two items
+  example: []
+  syntax:
+    content: public static void Deconstruct<T>(this IEnumerable<T> enumerable, out T t0, out T t1)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: t0
+      type: '{T}'
+      description: ''
+    - id: t1
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Shared Sub Deconstruct(Of T)(enumerable As IEnumerable(Of T), t0 As T, t1 As T)
+  overload: CSharpPlus.EnumerablePlus.Deconstruct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The source sequence dont have 2 or more items
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@)
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@)
+  id: Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Deconstruct enumerable extracting first three items
+  example: []
+  syntax:
+    content: public static void Deconstruct<T>(this IEnumerable<T> enumerable, out T t0, out T t1, out T t2)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: t0
+      type: '{T}'
+      description: ''
+    - id: t1
+      type: '{T}'
+      description: ''
+    - id: t2
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Shared Sub Deconstruct(Of T)(enumerable As IEnumerable(Of T), t0 As T, t1 As T, t2 As T)
+  overload: CSharpPlus.EnumerablePlus.Deconstruct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The source sequence dont have 3 or more items
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@)
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@)
+  id: Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T, out T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Deconstruct enumerable extracting first four items
+  example: []
+  syntax:
+    content: public static void Deconstruct<T>(this IEnumerable<T> enumerable, out T t0, out T t1, out T t2, out T t3)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: t0
+      type: '{T}'
+      description: ''
+    - id: t1
+      type: '{T}'
+      description: ''
+    - id: t2
+      type: '{T}'
+      description: ''
+    - id: t3
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Shared Sub Deconstruct(Of T)(enumerable As IEnumerable(Of T), t0 As T, t1 As T, t2 As T, t3 As T)
+  overload: CSharpPlus.EnumerablePlus.Deconstruct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The source sequence dont have 4 or more items
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T, T)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@)
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@)
+  id: Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T, out T, out T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Deconstruct enumerable extracting first five items
+  example: []
+  syntax:
+    content: public static void Deconstruct<T>(this IEnumerable<T> enumerable, out T t0, out T t1, out T t2, out T t3, out T t4)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: t0
+      type: '{T}'
+      description: ''
+    - id: t1
+      type: '{T}'
+      description: ''
+    - id: t2
+      type: '{T}'
+      description: ''
+    - id: t3
+      type: '{T}'
+      description: ''
+    - id: t4
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Shared Sub Deconstruct(Of T)(enumerable As IEnumerable(Of T), t0 As T, t1 As T, t2 As T, t3 As T, t4 As T)
+  overload: CSharpPlus.EnumerablePlus.Deconstruct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The source sequence dont have 5 or more items
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T, T, T)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@,``0@)
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@,``0@)
+  id: Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@,``0@)
+  isExtensionMethod: true
+  parent: CSharpPlus.EnumerablePlus
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T, out T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T, out T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T, out T, out T, out T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Deconstruct enumerable extracting first five items
+  example: []
+  syntax:
+    content: public static void Deconstruct<T>(this IEnumerable<T> enumerable, out T t0, out T t1, out T t2, out T t3, out T t4, out T t5)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: t0
+      type: '{T}'
+    - id: t1
+      type: '{T}'
+    - id: t2
+      type: '{T}'
+    - id: t3
+      type: '{T}'
+    - id: t4
+      type: '{T}'
+    - id: t5
+      type: '{T}'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Shared Sub Deconstruct(Of T)(enumerable As IEnumerable(Of T), t0 As T, t1 As T, t2 As T, t3 As T, t4 As T, t5 As T)
+  overload: CSharpPlus.EnumerablePlus.Deconstruct*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: The source sequence dont have 5 or more items
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T, T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T, T, T, T)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T, T)
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CSharpPlus.EnumerablePlus.IsEmpty*
+  commentId: Overload:CSharpPlus.EnumerablePlus.IsEmpty
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_IsEmpty__1_System_Collections_Generic_IEnumerable___0__
+  name: IsEmpty
+  nameWithType: EnumerablePlus.IsEmpty
+  fullName: CSharpPlus.EnumerablePlus.IsEmpty
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: CSharpPlus.EnumerablePlus.SelectMany*
+  commentId: Overload:CSharpPlus.EnumerablePlus.SelectMany
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_SelectMany__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
+  name: SelectMany
+  nameWithType: EnumerablePlus.SelectMany
+  fullName: CSharpPlus.EnumerablePlus.SelectMany
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{{T}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IEnumerable<T>>
+  nameWithType: IEnumerable<IEnumerable<T>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>
+  nameWithType.vb: IEnumerable(Of IEnumerable(Of T))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of T))
+  name.vb: IEnumerable(Of IEnumerable(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.MinAndMaxBy*
+  commentId: Overload:CSharpPlus.EnumerablePlus.MinAndMaxBy
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinAndMaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  name: MinAndMaxBy
+  nameWithType: EnumerablePlus.MinAndMaxBy
+  fullName: CSharpPlus.EnumerablePlus.MinAndMaxBy
+- uid: System.Func{{T},{TProp}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TProp>
+  nameWithType: Func<T, TProp>
+  fullName: System.Func<T, TProp>
+  nameWithType.vb: Func(Of T, TProp)
+  fullName.vb: System.Func(Of T, TProp)
+  name.vb: Func(Of T, TProp)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TProp
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TProp
+  - name: )
+- uid: System.ValueTuple{{T},{T}}
+  commentId: T:System.ValueTuple{``0,``0}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.min
+  name: (T Min, T Max)
+  nameWithType: (T Min, T Max)
+  fullName: (T Min, T Max)
+  nameWithType.vb: (Min As T, Max As T)
+  fullName.vb: (Min As T, Max As T)
+  name.vb: (Min As T, Max As T)
+  spec.csharp:
+  - name: (
+  - name: T
+  - name: " "
+  - uid: System.ValueTuple{``0,``0}.Min
+    name: Min
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.min
+  - name: ','
+  - name: " "
+  - name: T
+  - name: " "
+  - uid: System.ValueTuple{``0,``0}.Max
+    name: Max
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.max
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{``0,``0}.Min
+    name: Min
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.min
+  - name: " "
+  - name: As
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{``0,``0}.Max
+    name: Max
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.max
+  - name: " "
+  - name: As
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ToNullable*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToNullable
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToNullable__1_System_Collections_Generic_IEnumerable___0__
+  name: ToNullable
+  nameWithType: EnumerablePlus.ToNullable
+  fullName: CSharpPlus.EnumerablePlus.ToNullable
+- uid: System.Collections.Generic.IEnumerable{System.Nullable{{T}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Nullable{``0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T?>
+  nameWithType: IEnumerable<T?>
+  fullName: System.Collections.Generic.IEnumerable<T?>
+  nameWithType.vb: IEnumerable(Of T?)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T?)
+  name.vb: IEnumerable(Of T?)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: '?'
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.MinAndMax*
+  commentId: Overload:CSharpPlus.EnumerablePlus.MinAndMax
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinAndMax__1_System_Collections_Generic_IEnumerable___0__
+  name: MinAndMax
+  nameWithType: EnumerablePlus.MinAndMax
+  fullName: CSharpPlus.EnumerablePlus.MinAndMax
+- uid: System.ValueTuple{{TProp},{TProp}}
+  commentId: T:System.ValueTuple{``1,``1}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.valuetuple---1,--1-.min
+  name: (TProp Min, TProp Max)
+  nameWithType: (TProp Min, TProp Max)
+  fullName: (TProp Min, TProp Max)
+  nameWithType.vb: (Min As TProp, Max As TProp)
+  fullName.vb: (Min As TProp, Max As TProp)
+  name.vb: (Min As TProp, Max As TProp)
+  spec.csharp:
+  - name: (
+  - name: TProp
+  - name: " "
+  - uid: System.ValueTuple{``1,``1}.Min
+    name: Min
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---1,--1-.min
+  - name: ','
+  - name: " "
+  - name: TProp
+  - name: " "
+  - uid: System.ValueTuple{``1,``1}.Max
+    name: Max
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---1,--1-.max
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{``1,``1}.Min
+    name: Min
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---1,--1-.min
+  - name: " "
+  - name: As
+  - name: " "
+  - name: TProp
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{``1,``1}.Max
+    name: Max
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple---1,--1-.max
+  - name: " "
+  - name: As
+  - name: " "
+  - name: TProp
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.MaxOrDefault*
+  commentId: Overload:CSharpPlus.EnumerablePlus.MaxOrDefault
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MaxOrDefault__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1____1_
+  name: MaxOrDefault
+  nameWithType: EnumerablePlus.MaxOrDefault
+  fullName: CSharpPlus.EnumerablePlus.MaxOrDefault
+- uid: '{TProp}'
+  commentId: '!:TProp'
+  definition: TProp
+  name: TProp
+  nameWithType: TProp
+  fullName: TProp
+- uid: TProp
+  name: TProp
+  nameWithType: TProp
+  fullName: TProp
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CSharpPlus.EnumerablePlus.MinOrDefault*
+  commentId: Overload:CSharpPlus.EnumerablePlus.MinOrDefault
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinOrDefault__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1____1_
+  name: MinOrDefault
+  nameWithType: EnumerablePlus.MinOrDefault
+  fullName: CSharpPlus.EnumerablePlus.MinOrDefault
+- uid: CSharpPlus.EnumerablePlus.WhereNotNull*
+  commentId: Overload:CSharpPlus.EnumerablePlus.WhereNotNull
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhereNotNull__1_System_Collections_Generic_IEnumerable___0__
+  name: WhereNotNull
+  nameWithType: EnumerablePlus.WhereNotNull
+  fullName: CSharpPlus.EnumerablePlus.WhereNotNull
+- uid: CSharpPlus.EnumerablePlus.Enumerate*
+  commentId: Overload:CSharpPlus.EnumerablePlus.Enumerate
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Enumerate__1_System_Collections_Generic_IEnumerable___0__
+  name: Enumerate
+  nameWithType: EnumerablePlus.Enumerate
+  fullName: CSharpPlus.EnumerablePlus.Enumerate
+- uid: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,{T}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.ValueTuple{System.Int32,``0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<(int Index, T Value)>
+  nameWithType: IEnumerable<(int Index, T Value)>
+  fullName: System.Collections.Generic.IEnumerable<(int Index, T Value)>
+  nameWithType.vb: IEnumerable(Of (Index As Integer, Value As T))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of (Index As Integer, Value As T))
+  name.vb: IEnumerable(Of (Index As Integer, Value As T))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,``0}.Index
+    name: Index
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,--0-.index
+  - name: ','
+  - name: " "
+  - name: T
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,``0}.Value
+    name: Value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,--0-.value
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.Int32,``0}.Index
+    name: Index
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,--0-.index
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,``0}.Value
+    name: Value
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,--0-.value
+  - name: " "
+  - name: As
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ToSingleton*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToSingleton
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  name: ToSingleton
+  nameWithType: EnumerablePlus.ToSingleton
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton
+- uid: CSharpPlus.EnumerablePlus.ForEach*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ForEach
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  name: ForEach
+  nameWithType: EnumerablePlus.ForEach
+  fullName: CSharpPlus.EnumerablePlus.ForEach
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action{{T},System.Int32}
+  commentId: T:System.Action{``0,System.Int32}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T, int>
+  nameWithType: Action<T, int>
+  fullName: System.Action<T, int>
+  nameWithType.vb: Action(Of T, Integer)
+  fullName.vb: System.Action(Of T, Integer)
+  name.vb: Action(Of T, Integer)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ToReadOnlyList*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToReadOnlyList
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToReadOnlyList__1_System_Collections_Generic_IEnumerable___0__
+  name: ToReadOnlyList
+  nameWithType: EnumerablePlus.ToReadOnlyList
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnlyList
+- uid: System.Collections.Generic.IReadOnlyList{{T}}
+  commentId: T:System.Collections.Generic.IReadOnlyList{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ToReadOnly*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToReadOnly
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToReadOnly__1_System_Collections_Generic_IEnumerable___0__
+  name: ToReadOnly
+  nameWithType: EnumerablePlus.ToReadOnly
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnly
+- uid: System.Collections.Generic.IReadOnlyCollection{{T}}
+  commentId: T:System.Collections.Generic.IReadOnlyCollection{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<T>
+  nameWithType: IReadOnlyCollection<T>
+  fullName: System.Collections.Generic.IReadOnlyCollection<T>
+  nameWithType.vb: IReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T)
+  name.vb: IReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyCollection`1
+  commentId: T:System.Collections.Generic.IReadOnlyCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<T>
+  nameWithType: IReadOnlyCollection<T>
+  fullName: System.Collections.Generic.IReadOnlyCollection<T>
+  nameWithType.vb: IReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T)
+  name.vb: IReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.IntersectBy*
+  commentId: Overload:CSharpPlus.EnumerablePlus.IntersectBy
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_IntersectBy__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: IntersectBy
+  nameWithType: EnumerablePlus.IntersectBy
+  fullName: CSharpPlus.EnumerablePlus.IntersectBy
+- uid: System.Func{{T},{TKey}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TKey>
+  nameWithType: Func<T, TKey>
+  fullName: System.Func<T, TKey>
+  nameWithType.vb: Func(Of T, TKey)
+  fullName.vb: System.Func(Of T, TKey)
+  name.vb: Func(Of T, TKey)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Collections.Generic.IEqualityComparer{{TKey}}
+  commentId: T:System.Collections.Generic.IEqualityComparer{``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEqualityComparer`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  name: IEqualityComparer<TKey>
+  nameWithType: IEqualityComparer<TKey>
+  fullName: System.Collections.Generic.IEqualityComparer<TKey>
+  nameWithType.vb: IEqualityComparer(Of TKey)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of TKey)
+  name.vb: IEqualityComparer(Of TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Collections.Generic.IEqualityComparer`1
+  commentId: T:System.Collections.Generic.IEqualityComparer`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  name: IEqualityComparer<T>
+  nameWithType: IEqualityComparer<T>
+  fullName: System.Collections.Generic.IEqualityComparer<T>
+  nameWithType.vb: IEqualityComparer(Of T)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T)
+  name.vb: IEqualityComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ExceptBy*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ExceptBy
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ExceptBy__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ExceptBy
+  nameWithType: EnumerablePlus.ExceptBy
+  fullName: CSharpPlus.EnumerablePlus.ExceptBy
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull*
+  commentId: Overload:CSharpPlus.EnumerablePlus.EmptyIfNull
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_EmptyIfNull__1_System_Collections_Generic_IEnumerable___0__
+  name: EmptyIfNull
+  nameWithType: EnumerablePlus.EmptyIfNull
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: T
+  - name: (
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ToEnumerable*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToEnumerable
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToEnumerable__1_System_Collections_Generic_IEnumerator___0__
+  name: ToEnumerable
+  nameWithType: EnumerablePlus.ToEnumerable
+  fullName: CSharpPlus.EnumerablePlus.ToEnumerable
+- uid: System.Collections.Generic.IEnumerator{{T}}
+  commentId: T:System.Collections.Generic.IEnumerator{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections.Generic.IEnumerable{System.Object}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<object>
+  nameWithType: IEnumerable<object>
+  fullName: System.Collections.Generic.IEnumerable<object>
+  nameWithType.vb: IEnumerable(Of Object)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Object)
+  name.vb: IEnumerable(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: CSharpPlus.EnumerablePlus.Shuffle*
+  commentId: Overload:CSharpPlus.EnumerablePlus.Shuffle
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Shuffle__1_System_Collections_Generic_IEnumerable___0__System_Random_
+  name: Shuffle
+  nameWithType: EnumerablePlus.Shuffle
+  fullName: CSharpPlus.EnumerablePlus.Shuffle
+- uid: System.Random
+  commentId: T:System.Random
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.random
+  name: Random
+  nameWithType: Random
+  fullName: System.Random
+- uid: CSharpPlus.EnumerablePlus.PickRandomOrDefault*
+  commentId: Overload:CSharpPlus.EnumerablePlus.PickRandomOrDefault
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_PickRandomOrDefault__1_System_Collections_Generic_IEnumerable___0____0_System_Random_
+  name: PickRandomOrDefault
+  nameWithType: EnumerablePlus.PickRandomOrDefault
+  fullName: CSharpPlus.EnumerablePlus.PickRandomOrDefault
+- uid: CSharpPlus.EnumerablePlus.PickRandom*
+  commentId: Overload:CSharpPlus.EnumerablePlus.PickRandom
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_PickRandom__1_System_Collections_Generic_IEnumerable___0__System_Random_
+  name: PickRandom
+  nameWithType: EnumerablePlus.PickRandom
+  fullName: CSharpPlus.EnumerablePlus.PickRandom
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CSharpPlus.EnumerablePlus.Tap*
+  commentId: Overload:CSharpPlus.EnumerablePlus.Tap
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Tap__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  name: Tap
+  nameWithType: EnumerablePlus.Tap
+  fullName: CSharpPlus.EnumerablePlus.Tap
+- uid: CSharpPlus.EnumerablePlus.Partition*
+  commentId: Overload:CSharpPlus.EnumerablePlus.Partition
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Partition__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  name: Partition
+  nameWithType: EnumerablePlus.Partition
+  fullName: CSharpPlus.EnumerablePlus.Partition
+- uid: System.Func{{T},System.Boolean}
+  commentId: T:System.Func{``0,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, bool>
+  nameWithType: Func<T, bool>
+  fullName: System.Func<T, bool>
+  nameWithType.vb: Func(Of T, Boolean)
+  fullName.vb: System.Func(Of T, Boolean)
+  name.vb: Func(Of T, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.ValueTuple{System.Collections.Generic.IEnumerable{{T}},System.Collections.Generic.IEnumerable{{T}}}
+  commentId: T:System.ValueTuple{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0}}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: (IEnumerable<T> True, IEnumerable<T> False)
+  nameWithType: (IEnumerable<T> True, IEnumerable<T> False)
+  fullName: (System.Collections.Generic.IEnumerable<T> True, System.Collections.Generic.IEnumerable<T> False)
+  nameWithType.vb: (True As IEnumerable(Of T), False As IEnumerable(Of T))
+  fullName.vb: (True As System.Collections.Generic.IEnumerable(Of T), False As System.Collections.Generic.IEnumerable(Of T))
+  name.vb: (True As IEnumerable(Of T), False As IEnumerable(Of T))
+  spec.csharp:
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: " "
+  - uid: System.ValueTuple{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0}}.True
+    name: "True"
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.collections.generic.ienumerable---0-,system.collections.generic.ienumerable---0--.true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: " "
+  - uid: System.ValueTuple{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0}}.False
+    name: "False"
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.collections.generic.ienumerable---0-,system.collections.generic.ienumerable---0--.false
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0}}.True
+    name: "True"
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.collections.generic.ienumerable---0-,system.collections.generic.ienumerable---0--.true
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0}}.False
+    name: "False"
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.collections.generic.ienumerable---0-,system.collections.generic.ienumerable---0--.false
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: CSharpPlus.EnumerablePlus.Repeat*
+  commentId: Overload:CSharpPlus.EnumerablePlus.Repeat
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Repeat__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  name: Repeat
+  nameWithType: EnumerablePlus.Repeat
+  fullName: CSharpPlus.EnumerablePlus.Repeat
+- uid: System.Collections.Generic.IEnumerable{{TSource}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TSource>
+  nameWithType: IEnumerable<TSource>
+  fullName: System.Collections.Generic.IEnumerable<TSource>
+  nameWithType.vb: IEnumerable(Of TSource)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TSource)
+  name.vb: IEnumerable(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.RepeatForever*
+  commentId: Overload:CSharpPlus.EnumerablePlus.RepeatForever
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_RepeatForever__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
+  name: RepeatForever
+  nameWithType: EnumerablePlus.RepeatForever
+  fullName: CSharpPlus.EnumerablePlus.RepeatForever
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: CSharpPlus.EnumerablePlus.Scan*
+  commentId: Overload:CSharpPlus.EnumerablePlus.Scan
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Scan__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__
+  name: Scan
+  nameWithType: EnumerablePlus.Scan
+  fullName: CSharpPlus.EnumerablePlus.Scan
+- uid: System.Func{{TSource},{TSource},{TSource}}
+  commentId: T:System.Func{``0,``0,``0}
+  parent: System
+  definition: System.Func`3
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<TSource, TSource, TSource>
+  nameWithType: Func<TSource, TSource, TSource>
+  fullName: System.Func<TSource, TSource, TSource>
+  nameWithType.vb: Func(Of TSource, TSource, TSource)
+  fullName.vb: System.Func(Of TSource, TSource, TSource)
+  name.vb: Func(Of TSource, TSource, TSource)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: )
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: '{TState}'
+  commentId: '!:TState'
+  definition: TState
+  name: TState
+  nameWithType: TState
+  fullName: TState
+- uid: System.Func{{TState},{TSource},{TState}}
+  commentId: T:System.Func{``1,``0,``1}
+  parent: System
+  definition: System.Func`3
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<TState, TSource, TState>
+  nameWithType: Func<TState, TSource, TState>
+  fullName: System.Func<TState, TSource, TState>
+  nameWithType.vb: Func(Of TState, TSource, TState)
+  fullName.vb: System.Func(Of TState, TSource, TState)
+  name.vb: Func(Of TState, TSource, TState)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{{TState}}
+  commentId: T:System.Collections.Generic.IEnumerable{``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TState>
+  nameWithType: IEnumerable<TState>
+  fullName: System.Collections.Generic.IEnumerable<TState>
+  nameWithType.vb: IEnumerable(Of TState)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TState)
+  name.vb: IEnumerable(Of TState)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TState
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TState
+  - name: )
+- uid: TState
+  commentId: '!:TState'
+  name: TState
+  nameWithType: TState
+  fullName: TState
+- uid: CSharpPlus.EnumerablePlus.ScanBy*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ScanBy
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ScanBy__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___1___2__System_Func___2___1___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ScanBy
+  nameWithType: EnumerablePlus.ScanBy
+  fullName: CSharpPlus.EnumerablePlus.ScanBy
+- uid: System.Func{{TSource},{TKey}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TSource, TKey>
+  nameWithType: Func<TSource, TKey>
+  fullName: System.Func<TSource, TKey>
+  nameWithType.vb: Func(Of TSource, TKey)
+  fullName.vb: System.Func(Of TSource, TKey)
+  name.vb: Func(Of TSource, TKey)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Func{{TKey},{TState}}
+  commentId: T:System.Func{``1,``2}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TKey, TState>
+  nameWithType: Func<TKey, TState>
+  fullName: System.Func<TKey, TState>
+  nameWithType.vb: Func(Of TKey, TState)
+  fullName.vb: System.Func(Of TKey, TState)
+  name.vb: Func(Of TKey, TState)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: )
+- uid: System.Func{{TState},{TKey},{TSource},{TState}}
+  commentId: T:System.Func{``2,``1,``0,``2}
+  parent: System
+  definition: System.Func`4
+  href: https://learn.microsoft.com/dotnet/api/system.func-4
+  name: Func<TState, TKey, TSource, TState>
+  nameWithType: Func<TState, TKey, TSource, TState>
+  fullName: System.Func<TState, TKey, TSource, TState>
+  nameWithType.vb: Func(Of TState, TKey, TSource, TState)
+  fullName.vb: System.Func(Of TState, TKey, TSource, TState)
+  name.vb: Func(Of TState, TKey, TSource, TState)
+  spec.csharp:
+  - uid: System.Func`4
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-4
+  - name: <
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`4
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-4
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.ValueTuple{{TKey},{TState}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.ValueTuple{``1,``2}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<(TKey, TState)>
+  nameWithType: IEnumerable<(TKey, TState)>
+  fullName: System.Collections.Generic.IEnumerable<(TKey, TState)>
+  nameWithType.vb: IEnumerable(Of (TKey, TState))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of (TKey, TState))
+  name.vb: IEnumerable(Of (TKey, TState))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: )
+  - name: )
+- uid: System.Func`4
+  commentId: T:System.Func`4
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-4
+  name: Func<T1, T2, T3, TResult>
+  nameWithType: Func<T1, T2, T3, TResult>
+  fullName: System.Func<T1, T2, T3, TResult>
+  nameWithType.vb: Func(Of T1, T2, T3, TResult)
+  fullName.vb: System.Func(Of T1, T2, T3, TResult)
+  name.vb: Func(Of T1, T2, T3, TResult)
+  spec.csharp:
+  - uid: System.Func`4
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-4
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`4
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-4
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.TakeUntil*
+  commentId: Overload:CSharpPlus.EnumerablePlus.TakeUntil
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_TakeUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  name: TakeUntil
+  nameWithType: EnumerablePlus.TakeUntil
+  fullName: CSharpPlus.EnumerablePlus.TakeUntil
+- uid: System.Func{{TSource},System.Boolean}
+  commentId: T:System.Func{``0,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TSource, bool>
+  nameWithType: Func<TSource, bool>
+  fullName: System.Func<TSource, bool>
+  nameWithType.vb: Func(Of TSource, Boolean)
+  fullName.vb: System.Func(Of TSource, Boolean)
+  name.vb: Func(Of TSource, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.SkipUntil*
+  commentId: Overload:CSharpPlus.EnumerablePlus.SkipUntil
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_SkipUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  name: SkipUntil
+  nameWithType: EnumerablePlus.SkipUntil
+  fullName: CSharpPlus.EnumerablePlus.SkipUntil
+- uid: CSharpPlus.EnumerablePlus.JoinString*
+  commentId: Overload:CSharpPlus.EnumerablePlus.JoinString
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_JoinString__1_System_Collections_Generic_IEnumerable___0__System_Char_
+  name: JoinString
+  nameWithType: EnumerablePlus.JoinString
+  fullName: CSharpPlus.EnumerablePlus.JoinString
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.IEnumerable{System.Char}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Char}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<char>
+  nameWithType: IEnumerable<char>
+  fullName: System.Collections.Generic.IEnumerable<char>
+  nameWithType.vb: IEnumerable(Of Char)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Char)
+  name.vb: IEnumerable(Of Char)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ConcatString*
+  commentId: Overload:CSharpPlus.EnumerablePlus.ConcatString
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ConcatString_System_Collections_Generic_IEnumerable_System_String__
+  name: ConcatString
+  nameWithType: EnumerablePlus.ConcatString
+  fullName: CSharpPlus.EnumerablePlus.ConcatString
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.WhenAny*
+  commentId: Overload:CSharpPlus.EnumerablePlus.WhenAny
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAny_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__
+  name: WhenAny
+  nameWithType: EnumerablePlus.WhenAny
+  fullName: CSharpPlus.EnumerablePlus.WhenAny
+- uid: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Task>
+  nameWithType: IEnumerable<Task>
+  fullName: System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>
+  nameWithType.vb: IEnumerable(Of Task)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task)
+  name.vb: IEnumerable(Of Task)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{{T}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Task<T>>
+  nameWithType: IEnumerable<Task<T>>
+  fullName: System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<T>>
+  nameWithType.vb: IEnumerable(Of Task(Of T))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task(Of T))
+  name.vb: IEnumerable(Of Task(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.WhenAll*
+  commentId: Overload:CSharpPlus.EnumerablePlus.WhenAll
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAll_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__
+  name: WhenAll
+  nameWithType: EnumerablePlus.WhenAll
+  fullName: CSharpPlus.EnumerablePlus.WhenAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{{T}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IEnumerable<T>>
+  nameWithType: Task<IEnumerable<T>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<T>>
+  nameWithType.vb: Task(Of IEnumerable(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of T))
+  name.vb: Task(Of IEnumerable(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IDictionary{{TKey},System.Threading.Tasks.Task{{TValue}}}
+  commentId: T:System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, Task<TValue>>
+  nameWithType: IDictionary<TKey, Task<TValue>>
+  fullName: System.Collections.Generic.IDictionary<TKey, System.Threading.Tasks.Task<TValue>>
+  nameWithType.vb: IDictionary(Of TKey, Task(Of TValue))
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, System.Threading.Tasks.Task(Of TValue))
+  name.vb: IDictionary(Of TKey, Task(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IDictionary{{TKey},{TValue}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IDictionary{``0,``1}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IDictionary<TKey, TValue>>
+  nameWithType: Task<IDictionary<TKey, TValue>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IDictionary<TKey, TValue>>
+  nameWithType.vb: Task(Of IDictionary(Of TKey, TValue))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IDictionary(Of TKey, TValue))
+  name.vb: Task(Of IDictionary(Of TKey, TValue))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: CSharpPlus.EnumerablePlus.Deconstruct*
+  commentId: Overload:CSharpPlus.EnumerablePlus.Deconstruct
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0__
+  name: Deconstruct
+  nameWithType: EnumerablePlus.Deconstruct
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct

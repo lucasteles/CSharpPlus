@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  id: CSharpPlus
+  children:
+  - CSharpPlus.ArrayExtensions
+  - CSharpPlus.AssemblyExtensions
+  - CSharpPlus.CollectionExtensions
+  - CSharpPlus.CompareResult
+  - CSharpPlus.ConcurrentValue`1
+  - CSharpPlus.DateTimeExtensions
+  - CSharpPlus.DictionaryExtensions
+  - CSharpPlus.Disposable
+  - CSharpPlus.Disposable.Deferred
+  - CSharpPlus.Disposable.DeferredTask
+  - CSharpPlus.EnumerablePlus
+  - CSharpPlus.ExpressionExtensions
+  - CSharpPlus.LambdaComparer
+  - CSharpPlus.LambdaComparison
+  - CSharpPlus.NumberExtensions
+  - CSharpPlus.Operator
+  - CSharpPlus.RangeExtension
+  - CSharpPlus.StringExtensions
+  - CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+  type: Namespace
+  assemblies:
+  - CSharpPlus
+references:
+- uid: CSharpPlus.ArrayExtensions
+  commentId: T:CSharpPlus.ArrayExtensions
+  isExternal: true
+  href: CSharpPlus.ArrayExtensions.html
+  name: ArrayExtensions
+  nameWithType: ArrayExtensions
+  fullName: CSharpPlus.ArrayExtensions
+- uid: CSharpPlus.AssemblyExtensions
+  commentId: T:CSharpPlus.AssemblyExtensions
+  isExternal: true
+  href: CSharpPlus.AssemblyExtensions.html
+  name: AssemblyExtensions
+  nameWithType: AssemblyExtensions
+  fullName: CSharpPlus.AssemblyExtensions
+- uid: CSharpPlus.CollectionExtensions
+  commentId: T:CSharpPlus.CollectionExtensions
+  isExternal: true
+  href: CSharpPlus.CollectionExtensions.html
+  name: CollectionExtensions
+  nameWithType: CollectionExtensions
+  fullName: CSharpPlus.CollectionExtensions
+- uid: CSharpPlus.ConcurrentValue`1
+  commentId: T:CSharpPlus.ConcurrentValue`1
+  isExternal: true
+  href: CSharpPlus.ConcurrentValue-1.html
+  name: ConcurrentValue<T>
+  nameWithType: ConcurrentValue<T>
+  fullName: CSharpPlus.ConcurrentValue<T>
+  nameWithType.vb: ConcurrentValue(Of T)
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T)
+  name.vb: ConcurrentValue(Of T)
+  spec.csharp:
+  - uid: CSharpPlus.ConcurrentValue`1
+    name: ConcurrentValue
+    isExternal: true
+    href: CSharpPlus.ConcurrentValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: CSharpPlus.ConcurrentValue`1
+    name: ConcurrentValue
+    isExternal: true
+    href: CSharpPlus.ConcurrentValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CSharpPlus.DateTimeExtensions
+  commentId: T:CSharpPlus.DateTimeExtensions
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html
+  name: DateTimeExtensions
+  nameWithType: DateTimeExtensions
+  fullName: CSharpPlus.DateTimeExtensions
+- uid: CSharpPlus.DictionaryExtensions
+  commentId: T:CSharpPlus.DictionaryExtensions
+  isExternal: true
+  href: CSharpPlus.DictionaryExtensions.html
+  name: DictionaryExtensions
+  nameWithType: DictionaryExtensions
+  fullName: CSharpPlus.DictionaryExtensions
+- uid: CSharpPlus.Disposable
+  commentId: T:CSharpPlus.Disposable
+  isExternal: true
+  href: CSharpPlus.Disposable.html
+  name: Disposable
+  nameWithType: Disposable
+  fullName: CSharpPlus.Disposable
+- uid: CSharpPlus.Disposable.Deferred
+  commentId: T:CSharpPlus.Disposable.Deferred
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.Disposable.html
+  name: Disposable.Deferred
+  nameWithType: Disposable.Deferred
+  fullName: CSharpPlus.Disposable.Deferred
+  spec.csharp:
+  - uid: CSharpPlus.Disposable
+    name: Disposable
+    isExternal: true
+    href: CSharpPlus.Disposable.html
+  - name: .
+  - uid: CSharpPlus.Disposable.Deferred
+    name: Deferred
+    isExternal: true
+    href: CSharpPlus.Disposable.Deferred.html
+  spec.vb:
+  - uid: CSharpPlus.Disposable
+    name: Disposable
+    isExternal: true
+    href: CSharpPlus.Disposable.html
+  - name: .
+  - uid: CSharpPlus.Disposable.Deferred
+    name: Deferred
+    isExternal: true
+    href: CSharpPlus.Disposable.Deferred.html
+- uid: CSharpPlus.Disposable.DeferredTask
+  commentId: T:CSharpPlus.Disposable.DeferredTask
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.Disposable.html
+  name: Disposable.DeferredTask
+  nameWithType: Disposable.DeferredTask
+  fullName: CSharpPlus.Disposable.DeferredTask
+  spec.csharp:
+  - uid: CSharpPlus.Disposable
+    name: Disposable
+    isExternal: true
+    href: CSharpPlus.Disposable.html
+  - name: .
+  - uid: CSharpPlus.Disposable.DeferredTask
+    name: DeferredTask
+    isExternal: true
+    href: CSharpPlus.Disposable.DeferredTask.html
+  spec.vb:
+  - uid: CSharpPlus.Disposable
+    name: Disposable
+    isExternal: true
+    href: CSharpPlus.Disposable.html
+  - name: .
+  - uid: CSharpPlus.Disposable.DeferredTask
+    name: DeferredTask
+    isExternal: true
+    href: CSharpPlus.Disposable.DeferredTask.html
+- uid: CSharpPlus.EnumerablePlus
+  commentId: T:CSharpPlus.EnumerablePlus
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html
+  name: EnumerablePlus
+  nameWithType: EnumerablePlus
+  fullName: CSharpPlus.EnumerablePlus
+- uid: CSharpPlus.ExpressionExtensions
+  commentId: T:CSharpPlus.ExpressionExtensions
+  isExternal: true
+  href: CSharpPlus.ExpressionExtensions.html
+  name: ExpressionExtensions
+  nameWithType: ExpressionExtensions
+  fullName: CSharpPlus.ExpressionExtensions
+- uid: CSharpPlus.CompareResult
+  commentId: T:CSharpPlus.CompareResult
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.CompareResult.html
+  name: CompareResult
+  nameWithType: CompareResult
+  fullName: CSharpPlus.CompareResult
+- uid: CSharpPlus.LambdaComparison
+  commentId: T:CSharpPlus.LambdaComparison
+  isExternal: true
+  href: CSharpPlus.LambdaComparison.html
+  name: LambdaComparison
+  nameWithType: LambdaComparison
+  fullName: CSharpPlus.LambdaComparison
+- uid: CSharpPlus.LambdaComparer
+  commentId: T:CSharpPlus.LambdaComparer
+  isExternal: true
+  href: CSharpPlus.LambdaComparer.html
+  name: LambdaComparer
+  nameWithType: LambdaComparer
+  fullName: CSharpPlus.LambdaComparer
+- uid: CSharpPlus.NumberExtensions
+  commentId: T:CSharpPlus.NumberExtensions
+  isExternal: true
+  href: CSharpPlus.NumberExtensions.html
+  name: NumberExtensions
+  nameWithType: NumberExtensions
+  fullName: CSharpPlus.NumberExtensions
+- uid: CSharpPlus.Operator
+  commentId: T:CSharpPlus.Operator
+  isExternal: true
+  href: CSharpPlus.Operator.html
+  name: Operator
+  nameWithType: Operator
+  fullName: CSharpPlus.Operator
+- uid: CSharpPlus.RangeExtension
+  commentId: T:CSharpPlus.RangeExtension
+  isExternal: true
+  href: CSharpPlus.RangeExtension.html
+  name: RangeExtension
+  nameWithType: RangeExtension
+  fullName: CSharpPlus.RangeExtension
+- uid: CSharpPlus.StringExtensions
+  commentId: T:CSharpPlus.StringExtensions
+  isExternal: true
+  href: CSharpPlus.StringExtensions.html
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: CSharpPlus.StringExtensions
+- uid: CSharpPlus.TaskTupleExtensions
+  commentId: T:CSharpPlus.TaskTupleExtensions
+  isExternal: true
+  href: CSharpPlus.TaskTupleExtensions.html
+  name: TaskTupleExtensions
+  nameWithType: TaskTupleExtensions
+  fullName: CSharpPlus.TaskTupleExtensions
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus

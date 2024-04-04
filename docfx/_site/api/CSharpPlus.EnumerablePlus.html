@@ -1,0 +1,2632 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EnumerablePlus | Brazil Models </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EnumerablePlus | Brazil Models ">
+      
+      <meta name="description" content="Enumerable Plus Extensions">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BrazilModels">
+            BrazilModels
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpPlus.EnumerablePlus">
+
+
+
+  <h1 id="CSharpPlus_EnumerablePlus" data-uid="CSharpPlus.EnumerablePlus" class="text-break">
+Class EnumerablePlus  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpPlus.html">CSharpPlus</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpPlus.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Enumerable Plus Extensions</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class EnumerablePlus</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">EnumerablePlus</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpPlus_EnumerablePlus_ConcatString_" data-uid="CSharpPlus.EnumerablePlus.ConcatString*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ConcatString_System_Collections_Generic_IEnumerable_System_Char__" data-uid="CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.Char})">
+  ConcatString(IEnumerable&lt;char&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Concatenates the members of a constructed IEnumerable collection of type String.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConcatString(this IEnumerable&lt;char&gt; values)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ConcatString_" data-uid="CSharpPlus.EnumerablePlus.ConcatString*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ConcatString_System_Collections_Generic_IEnumerable_System_String__" data-uid="CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.String})">
+  ConcatString(IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Concatenates the members of a constructed IEnumerable collection of type String.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConcatString(this IEnumerable&lt;string&gt; values)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Deconstruct_" data-uid="CSharpPlus.EnumerablePlus.Deconstruct*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0__" data-uid="CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@)">
+  Deconstruct&lt;T&gt;(IEnumerable&lt;T&gt;, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deconstruct enumerable extracting first item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deconstruct&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable, out T t0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>t0</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>The source sequence is empty.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Deconstruct_" data-uid="CSharpPlus.EnumerablePlus.Deconstruct*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0__" data-uid="CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@)">
+  Deconstruct&lt;T&gt;(IEnumerable&lt;T&gt;, out T, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deconstruct enumerable extracting first two items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deconstruct&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable, out T t0, out T t1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>t0</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t1</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>The source sequence dont have 2 or more items</p>
+</dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Deconstruct_" data-uid="CSharpPlus.EnumerablePlus.Deconstruct*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0__" data-uid="CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@)">
+  Deconstruct&lt;T&gt;(IEnumerable&lt;T&gt;, out T, out T, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deconstruct enumerable extracting first three items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deconstruct&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable, out T t0, out T t1, out T t2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>t0</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t1</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t2</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>The source sequence dont have 3 or more items</p>
+</dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Deconstruct_" data-uid="CSharpPlus.EnumerablePlus.Deconstruct*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0____0__" data-uid="CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@)">
+  Deconstruct&lt;T&gt;(IEnumerable&lt;T&gt;, out T, out T, out T, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deconstruct enumerable extracting first four items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deconstruct&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable, out T t0, out T t1, out T t2, out T t3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>t0</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t1</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t2</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t3</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>The source sequence dont have 4 or more items</p>
+</dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Deconstruct_" data-uid="CSharpPlus.EnumerablePlus.Deconstruct*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0____0____0__" data-uid="CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@)">
+  Deconstruct&lt;T&gt;(IEnumerable&lt;T&gt;, out T, out T, out T, out T, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deconstruct enumerable extracting first five items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deconstruct&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable, out T t0, out T t1, out T t2, out T t3, out T t4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>t0</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t1</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t2</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t3</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t4</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>The source sequence dont have 5 or more items</p>
+</dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Deconstruct_" data-uid="CSharpPlus.EnumerablePlus.Deconstruct*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0____0____0____0__" data-uid="CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@,``0@)">
+  Deconstruct&lt;T&gt;(IEnumerable&lt;T&gt;, out T, out T, out T, out T, out T, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TupleEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deconstruct enumerable extracting first five items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deconstruct&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable, out T t0, out T t1, out T t2, out T t3, out T t4, out T t5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>t0</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t1</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t2</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t3</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t4</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>t5</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>The source sequence dont have 5 or more items</p>
+</dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_EmptyIfNull_" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_EmptyIfNull__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IEnumerable{``0})">
+  EmptyIfNull&lt;T&gt;(IEnumerable&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return empty if collection is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; EmptyIfNull&lt;T&gt;(this IEnumerable&lt;T&gt;? enumerable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_EmptyIfNull_" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_EmptyIfNull__1_System_Collections_Generic_IReadOnlyCollection___0__" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyCollection{``0})">
+  EmptyIfNull&lt;T&gt;(IReadOnlyCollection&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return empty if array is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IReadOnlyCollection&lt;T&gt; EmptyIfNull&lt;T&gt;(this IReadOnlyCollection&lt;T&gt;? array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_EmptyIfNull_" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_EmptyIfNull__1_System_Collections_Generic_IReadOnlyList___0__" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyList{``0})">
+  EmptyIfNull&lt;T&gt;(IReadOnlyList&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return empty if array is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IReadOnlyList&lt;T&gt; EmptyIfNull&lt;T&gt;(this IReadOnlyList&lt;T&gt;? array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_EmptyIfNull_" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_EmptyIfNull__1___0___" data-uid="CSharpPlus.EnumerablePlus.EmptyIfNull``1(``0[])">
+  EmptyIfNull&lt;T&gt;(T[]?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return empty if array is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] EmptyIfNull&lt;T&gt;(this T[]? array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>T[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Enumerate_" data-uid="CSharpPlus.EnumerablePlus.Enumerate*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Enumerate__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.Enumerate``1(System.Collections.Generic.IEnumerable{``0})">
+  Enumerate&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enumerate the source to a collection of value tuples (int Index, T Value)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;(int Index, T Value)&gt; Enumerate&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,--0-.index">Index</a>, T <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,--0-.value">Value</a>)&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ExceptBy_" data-uid="CSharpPlus.EnumerablePlus.ExceptBy*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ExceptBy__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__" data-uid="CSharpPlus.EnumerablePlus.ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+  ExceptBy&lt;T, TKey&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;, Func&lt;T, TKey&gt;, IEqualityComparer&lt;TKey&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Produces the set difference of two sequences according to a specified key selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; ExceptBy&lt;T, TKey&gt;(this IEnumerable&lt;T&gt; first, IEnumerable&lt;T&gt; second, Func&lt;T, TKey&gt; keySelector, IEqualityComparer&lt;TKey&gt;? comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>first</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>second</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TKey&gt;</dt>
+    <dd></dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ForEach_" data-uid="CSharpPlus.EnumerablePlus.ForEach*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0_System_Int32__" data-uid="CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})">
+  ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T, int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Eagerly executes the given action on each element in the indexed sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ForEach&lt;T&gt;(this IEnumerable&lt;T&gt; source, Action&lt;T, int&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The sequence of elements</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>The action to execute on each element; the second parameter
+of the action represents the index of the source element.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the sequence</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ForEach_" data-uid="CSharpPlus.EnumerablePlus.ForEach*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
+  ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Eagerly executes the given action on each element in the sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ForEach&lt;T&gt;(this IEnumerable&lt;T&gt; source, Action&lt;T&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The sequence of elements</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd><p>The action to execute on each element</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the elements in the sequence</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_IntersectBy_" data-uid="CSharpPlus.EnumerablePlus.IntersectBy*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_IntersectBy__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__" data-uid="CSharpPlus.EnumerablePlus.IntersectBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+  IntersectBy&lt;T, TKey&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;, Func&lt;T, TKey&gt;, IEqualityComparer&lt;TKey&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Produces the set intersection of two sequences according to a specified key selector function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; IntersectBy&lt;T, TKey&gt;(this IEnumerable&lt;T&gt; first, IEnumerable&lt;T&gt; second, Func&lt;T, TKey&gt; keySelector, IEqualityComparer&lt;TKey&gt;? comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>first</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>second</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TKey&gt;</dt>
+    <dd></dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_IsEmpty_" data-uid="CSharpPlus.EnumerablePlus.IsEmpty*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_IsEmpty__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})">
+  IsEmpty&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>determines whether a sequence contains no elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;T&gt;(this IEnumerable&lt;T&gt; @this)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_JoinString_" data-uid="CSharpPlus.EnumerablePlus.JoinString*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_JoinString_System_Collections_Generic_IEnumerable_System_Char__" data-uid="CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable{System.Char})">
+  JoinString(IEnumerable&lt;char&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Concatenates the members of a collection, using the specified separator between each member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string JoinString(this IEnumerable&lt;char&gt; values)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_JoinString_" data-uid="CSharpPlus.EnumerablePlus.JoinString*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_JoinString__1_System_Collections_Generic_IEnumerable___0__System_Char_" data-uid="CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.Char)">
+  JoinString&lt;T&gt;(IEnumerable&lt;T&gt;, char)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Concatenates the members of a collection, using the specified separator between each member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string JoinString&lt;T&gt;(this IEnumerable&lt;T&gt; values, char separator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>separator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_JoinString_" data-uid="CSharpPlus.EnumerablePlus.JoinString*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_JoinString__1_System_Collections_Generic_IEnumerable___0__System_String_" data-uid="CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+  JoinString&lt;T&gt;(IEnumerable&lt;T&gt;, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/StringEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Concatenates the members of a collection, using the specified separator between each member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string JoinString&lt;T&gt;(this IEnumerable&lt;T&gt; values, string separator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>separator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_MaxOrDefault_" data-uid="CSharpPlus.EnumerablePlus.MaxOrDefault*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_MaxOrDefault__1_System_Collections_Generic_IEnumerable___0____0_" data-uid="CSharpPlus.EnumerablePlus.MaxOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)">
+  MaxOrDefault&lt;T&gt;(IEnumerable&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the maximum value in a generic sequence. Defaults if empty</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MaxOrDefault&lt;T&gt;(this IEnumerable&lt;T&gt; @this, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_MaxOrDefault_" data-uid="CSharpPlus.EnumerablePlus.MaxOrDefault*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_MaxOrDefault__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1____1_" data-uid="CSharpPlus.EnumerablePlus.MaxOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)">
+  MaxOrDefault&lt;T, TProp&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TProp&gt;, TProp)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the maximum value in a generic sequence. Defaults if empty</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TProp MaxOrDefault&lt;T, TProp&gt;(this IEnumerable&lt;T&gt; @this, Func&lt;T, TProp&gt; keySelector, TProp value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TProp&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TProp</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TProp</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TProp</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_MinAndMaxBy_" data-uid="CSharpPlus.EnumerablePlus.MinAndMaxBy*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_MinAndMaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="CSharpPlus.EnumerablePlus.MinAndMaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  MinAndMaxBy&lt;T, TProp&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TProp&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum and maximum value in a generic sequence by key member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (T? Min, T? Max) MinAndMaxBy&lt;T, TProp&gt;(this IEnumerable&lt;T&gt; @this, Func&lt;T, TProp&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TProp&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(T <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.min">Min</a>, T <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.max">Max</a>)</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TProp</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_MinAndMax_" data-uid="CSharpPlus.EnumerablePlus.MinAndMax*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_MinAndMax__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.MinAndMax``1(System.Collections.Generic.IEnumerable{``0})">
+  MinAndMax&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum and maximum value in a generic sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (T? Min, T? Max) MinAndMax&lt;T&gt;(this IEnumerable&lt;T&gt; @this)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(T <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.min">Min</a>, T <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,--0-.max">Max</a>)</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_MinAndMax_" data-uid="CSharpPlus.EnumerablePlus.MinAndMax*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_MinAndMax__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="CSharpPlus.EnumerablePlus.MinAndMax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  MinAndMax&lt;T, TProp&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TProp&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum and maximum value in a generic sequence</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (TProp? Min, TProp? Max) MinAndMax&lt;T, TProp&gt;(this IEnumerable&lt;T&gt; @this, Func&lt;T, TProp&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TProp&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(TProp <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---1,--1-.min">Min</a>, TProp <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---1,--1-.max">Max</a>)</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TProp</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_MinOrDefault_" data-uid="CSharpPlus.EnumerablePlus.MinOrDefault*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_MinOrDefault__1_System_Collections_Generic_IEnumerable___0____0_" data-uid="CSharpPlus.EnumerablePlus.MinOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)">
+  MinOrDefault&lt;T&gt;(IEnumerable&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum value in a generic sequence. Defaults if empty</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinOrDefault&lt;T&gt;(this IEnumerable&lt;T&gt; @this, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_MinOrDefault_" data-uid="CSharpPlus.EnumerablePlus.MinOrDefault*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_MinOrDefault__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1____1_" data-uid="CSharpPlus.EnumerablePlus.MinOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)">
+  MinOrDefault&lt;T, TProp&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TProp&gt;, TProp)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum value in a generic sequence. Defaults if empty</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TProp MinOrDefault&lt;T, TProp&gt;(this IEnumerable&lt;T&gt; @this, Func&lt;T, TProp&gt; keySelector, TProp value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TProp&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TProp</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TProp</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TProp</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Partition_" data-uid="CSharpPlus.EnumerablePlus.Partition*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Partition__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="CSharpPlus.EnumerablePlus.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  Partition&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Partition.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Splits an enumerable in two using a predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (IEnumerable&lt;T&gt; True, IEnumerable&lt;T&gt; False) Partition&lt;T&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt; <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.collections.generic.ienumerable---0-,system.collections.generic.ienumerable---0--.true">True</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt; <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.collections.generic.ienumerable---0-,system.collections.generic.ienumerable---0--.false">False</a>)</dt>
+    <dd><p>A 2-tuple of enumerable elements for true and false predicate</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_PickRandomOrDefault_" data-uid="CSharpPlus.EnumerablePlus.PickRandomOrDefault*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_PickRandomOrDefault__1_System_Collections_Generic_IEnumerable___0____0_System_Random_" data-uid="CSharpPlus.EnumerablePlus.PickRandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0,System.Random)">
+  PickRandomOrDefault&lt;T&gt;(IEnumerable&lt;T&gt;, T?, Random?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a random item from collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T? PickRandomOrDefault&lt;T&gt;(this IEnumerable&lt;T&gt; source, T? defaultValue = default, Random? random = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The sequence of elements</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_PickRandom_" data-uid="CSharpPlus.EnumerablePlus.PickRandom*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_PickRandom__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Random_" data-uid="CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)">
+  PickRandom&lt;T&gt;(IEnumerable&lt;T&gt;, int, Random?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a random subset from collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IReadOnlyList&lt;T&gt; PickRandom&lt;T&gt;(this IEnumerable&lt;T&gt; source, int length, Random? random = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_PickRandom_" data-uid="CSharpPlus.EnumerablePlus.PickRandom*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_PickRandom__1_System_Collections_Generic_IEnumerable___0__System_Random_" data-uid="CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Random)">
+  PickRandom&lt;T&gt;(IEnumerable&lt;T&gt;, Random?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a random item from collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T PickRandom&lt;T&gt;(this IEnumerable&lt;T&gt; source, Random? random = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The sequence of elements</p>
+</dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>Shuffled source</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_RepeatForever_" data-uid="CSharpPlus.EnumerablePlus.RepeatForever*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_RepeatForever__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_" data-uid="CSharpPlus.EnumerablePlus.RepeatForever``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)">
+  RepeatForever&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Repeat.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Repeats the sequence indefinitely or until cancellation is requested</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; RepeatForever&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Repeat_" data-uid="CSharpPlus.EnumerablePlus.Repeat*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Repeat__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="CSharpPlus.EnumerablePlus.Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+  Repeat&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Repeat.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Repeats the sequence indefinitely or a specific number of times.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Repeat&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, int times)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>How many times should repeat the sequence</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ScanBy_" data-uid="CSharpPlus.EnumerablePlus.ScanBy*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ScanBy__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___1___2__System_Func___2___1___0___2__System_Collections_Generic_IEqualityComparer___1__" data-uid="CSharpPlus.EnumerablePlus.ScanBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``1,``0,``2},System.Collections.Generic.IEqualityComparer{``1})">
+  ScanBy&lt;TSource, TKey, TState&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, Func&lt;TKey, TState&gt;, Func&lt;TState, TKey, TSource, TState&gt;, IEqualityComparer&lt;TKey&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Scan.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform scan aggregation by key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;(TKey, TState)&gt; ScanBy&lt;TSource, TKey, TState&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector, Func&lt;TKey, TState&gt; stateSelector, Func&lt;TState, TKey, TSource, TState&gt; accumulator, IEqualityComparer&lt;TKey&gt;? comparer = null) where TKey : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd></dd>
+    <dt><code>stateSelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TKey, TState&gt;</dt>
+    <dd></dd>
+    <dt><code>accumulator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;TState, TKey, TSource, TState&gt;</dt>
+    <dd></dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;(TKey, TState)&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+    <dt><code>TState</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Scan_" data-uid="CSharpPlus.EnumerablePlus.Scan*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Scan__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__" data-uid="CSharpPlus.EnumerablePlus.Scan``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})">
+  Scan&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TSource, TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Scan.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform scan aggregation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Scan&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TSource, TSource&gt; mapFunction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>mapFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TSource, TSource, TSource&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Scan_" data-uid="CSharpPlus.EnumerablePlus.Scan*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Scan__2_System_Collections_Generic_IEnumerable___0____1_System_Func___1___0___1__" data-uid="CSharpPlus.EnumerablePlus.Scan``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})">
+  Scan&lt;TSource, TState&gt;(IEnumerable&lt;TSource&gt;, TState, Func&lt;TState, TSource, TState&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Scan.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform scan aggregation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TState&gt; Scan&lt;TSource, TState&gt;(this IEnumerable&lt;TSource&gt; source, TState initialState, Func&lt;TState, TSource, TState&gt; mapFunction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>initialState</code> <span class="xref">TState</span></dt>
+    <dd></dd>
+    <dt><code>mapFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TState, TSource, TState&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TState&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+    <dt><code>TState</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_SelectMany_" data-uid="CSharpPlus.EnumerablePlus.SelectMany*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_SelectMany__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___" data-uid="CSharpPlus.EnumerablePlus.SelectMany``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})">
+  SelectMany&lt;T&gt;(IEnumerable&lt;IEnumerable&lt;T&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flatten an IEnumerable of sequence and flattens into one sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; SelectMany&lt;T&gt;(this IEnumerable&lt;IEnumerable&lt;T&gt;&gt; @this)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Shuffle_" data-uid="CSharpPlus.EnumerablePlus.Shuffle*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Shuffle__1_System_Collections_Generic_IEnumerable___0__System_Random_" data-uid="CSharpPlus.EnumerablePlus.Shuffle``1(System.Collections.Generic.IEnumerable{``0},System.Random)">
+  Shuffle&lt;T&gt;(IEnumerable&lt;T&gt;, Random?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shuffle an source based on a random object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; Shuffle&lt;T&gt;(this IEnumerable&lt;T&gt; source, Random? random = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The sequence of elements</p>
+</dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>Shuffled source</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_SkipUntil_" data-uid="CSharpPlus.EnumerablePlus.SkipUntil*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_SkipUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="CSharpPlus.EnumerablePlus.SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  SkipUntil&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Until.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Skip until item satisfies the predicate (inclusive)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SkipUntil&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_TakeUntil_" data-uid="CSharpPlus.EnumerablePlus.TakeUntil*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_TakeUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="CSharpPlus.EnumerablePlus.TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+  TakeUntil&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/Operators/Until.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Take until item satisfies the predicate (inclusive)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; TakeUntil&lt;TSource&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_Tap_" data-uid="CSharpPlus.EnumerablePlus.Tap*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_Tap__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="CSharpPlus.EnumerablePlus.Tap``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
+  Tap&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lazily run action when the enumerable is evaluated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; Tap&lt;T&gt;(this IEnumerable&lt;T&gt; @this, Action&lt;T&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ToEnumerable_" data-uid="CSharpPlus.EnumerablePlus.ToEnumerable*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ToEnumerable_System_Collections_IEnumerator_" data-uid="CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)">
+  ToEnumerable(IEnumerator)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates an IEnumerable from an IEnumerator</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;object?&gt; ToEnumerable(this IEnumerator enumerator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ToEnumerable_" data-uid="CSharpPlus.EnumerablePlus.ToEnumerable*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ToEnumerable__1_System_Collections_Generic_IEnumerator___0__" data-uid="CSharpPlus.EnumerablePlus.ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})">
+  ToEnumerable&lt;T&gt;(IEnumerator&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates an IEnumerable from an IEnumerator</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; ToEnumerable&lt;T&gt;(this IEnumerator&lt;T&gt; enumerator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ToNullable_" data-uid="CSharpPlus.EnumerablePlus.ToNullable*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ToNullable__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.ToNullable``1(System.Collections.Generic.IEnumerable{``0})">
+  ToNullable&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Casts Enumerablet to nullable value type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T?&gt; ToNullable&lt;T&gt;(this IEnumerable&lt;T&gt; @this) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T?&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ToReadOnlyList_" data-uid="CSharpPlus.EnumerablePlus.ToReadOnlyList*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ToReadOnlyList__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})">
+  ToReadOnlyList&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a IReadOnlyList from a IEnumerable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IReadOnlyList&lt;T&gt; ToReadOnlyList&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ToReadOnly_" data-uid="CSharpPlus.EnumerablePlus.ToReadOnly*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ToReadOnly__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.ToReadOnly``1(System.Collections.Generic.IEnumerable{``0})">
+  ToReadOnly&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a IReadOnlyCollection from a IEnumerable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IReadOnlyCollection&lt;T&gt; ToReadOnly&lt;T&gt;(this IEnumerable&lt;T&gt; enumerable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_ToSingleton_" data-uid="CSharpPlus.EnumerablePlus.ToSingleton*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_ToSingleton__1___0_" data-uid="CSharpPlus.EnumerablePlus.ToSingleton``1(``0)">
+  ToSingleton&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return value as singleton source</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; ToSingleton&lt;T&gt;(this T item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>An source of a single item</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_WhenAll_" data-uid="CSharpPlus.EnumerablePlus.WhenAll*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_WhenAll_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__" data-uid="CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})">
+  WhenAll(IEnumerable&lt;Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TaskEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a task that will complete when all of the Task objects in an enumerable collection have completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WhenAll(this IEnumerable&lt;Task&gt; tasks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>A task that represents the completion of all of the supplied tasks.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_WhenAll_" data-uid="CSharpPlus.EnumerablePlus.WhenAll*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_WhenAll__1_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task___0___" data-uid="CSharpPlus.EnumerablePlus.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})">
+  WhenAll&lt;T&gt;(IEnumerable&lt;Task&lt;T&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a task that will complete when all of the Task[TResult] objects in an enumerable collection have completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;IEnumerable&lt;T&gt;&gt; WhenAll&lt;T&gt;(this IEnumerable&lt;Task&lt;T&gt;&gt; tasks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_WhenAll_" data-uid="CSharpPlus.EnumerablePlus.WhenAll*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_WhenAll__2_System_Collections_Generic_IDictionary___0_System_Threading_Tasks_Task___1___" data-uid="CSharpPlus.EnumerablePlus.WhenAll``2(System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}})">
+  WhenAll&lt;TKey, TValue&gt;(IDictionary&lt;TKey, Task&lt;TValue&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return a task waiting for each key on the dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;IDictionary&lt;TKey, TValue&gt;&gt; WhenAll&lt;TKey, TValue&gt;(this IDictionary&lt;TKey, Task&lt;TValue&gt;&gt; @this) where TKey : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;TKey, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TValue&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;TKey, TValue&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_WhenAny_" data-uid="CSharpPlus.EnumerablePlus.WhenAny*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_WhenAny_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__" data-uid="CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})">
+  WhenAny(IEnumerable&lt;Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/TaskEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a task that will complete when any of the supplied tasks have completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WhenAny(this IEnumerable&lt;Task&gt; tasks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>A task that represents the completion of one of the supplied tasks. The return task's Result is the task that completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_WhenAny_" data-uid="CSharpPlus.EnumerablePlus.WhenAny*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_WhenAny__1_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task___0___" data-uid="CSharpPlus.EnumerablePlus.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})">
+  WhenAny&lt;T&gt;(IEnumerable&lt;Task&lt;T&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a task that will complete when any of the supplied tasks have completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; WhenAny&lt;T&gt;(this IEnumerable&lt;Task&lt;T&gt;&gt; tasks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;&gt;</dt>
+    <dd><p>The tasks to wait on for completion</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd><p>A task that represents the completion of one of the supplied tasks. The return task's Result is the task that completed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_WhereNotNull_" data-uid="CSharpPlus.EnumerablePlus.WhereNotNull*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_WhereNotNull__1_System_Collections_Generic_IEnumerable_System_Nullable___0___" data-uid="CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})">
+  WhereNotNull&lt;T&gt;(IEnumerable&lt;T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Filter non-null items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; WhereNotNull&lt;T&gt;(this IEnumerable&lt;T?&gt; enumerable) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T?&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpPlus_EnumerablePlus_WhereNotNull_" data-uid="CSharpPlus.EnumerablePlus.WhereNotNull*"></a>
+
+  <h3 id="CSharpPlus_EnumerablePlus_WhereNotNull__1_System_Collections_Generic_IEnumerable___0__" data-uid="CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})">
+  WhereNotNull&lt;T&gt;(IEnumerable&lt;T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Filter non-null items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; WhereNotNull&lt;T&gt;(this IEnumerable&lt;T?&gt; enumerable) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enumerable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/lucasteles/CSharpPlus/blob/master/src/EnumerablePlus/LinqEnumerablePlus.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Developed by <a href="https://lucasteles.dev/">Lucas Teles</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

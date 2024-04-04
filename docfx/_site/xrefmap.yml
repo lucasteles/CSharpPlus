@@ -1,0 +1,2569 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CSharpPlus
+  name: CSharpPlus
+  href: api/CSharpPlus.html
+  commentId: N:CSharpPlus
+  fullName: CSharpPlus
+  nameWithType: CSharpPlus
+- uid: CSharpPlus.ArrayExtensions
+  name: ArrayExtensions
+  href: api/CSharpPlus.ArrayExtensions.html
+  commentId: T:CSharpPlus.ArrayExtensions
+  fullName: CSharpPlus.ArrayExtensions
+  nameWithType: ArrayExtensions
+- uid: CSharpPlus.ArrayExtensions.ConcatArray*
+  name: ConcatArray
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_ConcatArray_
+  commentId: Overload:CSharpPlus.ArrayExtensions.ConcatArray
+  fullName: CSharpPlus.ArrayExtensions.ConcatArray
+  nameWithType: ArrayExtensions.ConcatArray
+- uid: CSharpPlus.ArrayExtensions.ConcatArray``1(``0[],``0[])
+  name: ConcatArray<TSource>(TSource[], TSource[])
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_ConcatArray__1___0_____0___
+  commentId: M:CSharpPlus.ArrayExtensions.ConcatArray``1(``0[],``0[])
+  name.vb: ConcatArray(Of TSource)(TSource(), TSource())
+  fullName: CSharpPlus.ArrayExtensions.ConcatArray<TSource>(TSource[], TSource[])
+  fullName.vb: CSharpPlus.ArrayExtensions.ConcatArray(Of TSource)(TSource(), TSource())
+  nameWithType: ArrayExtensions.ConcatArray<TSource>(TSource[], TSource[])
+  nameWithType.vb: ArrayExtensions.ConcatArray(Of TSource)(TSource(), TSource())
+- uid: CSharpPlus.ArrayExtensions.ConvertAll*
+  name: ConvertAll
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_ConvertAll_
+  commentId: Overload:CSharpPlus.ArrayExtensions.ConvertAll
+  fullName: CSharpPlus.ArrayExtensions.ConvertAll
+  nameWithType: ArrayExtensions.ConvertAll
+- uid: CSharpPlus.ArrayExtensions.ConvertAll``2(``0[],System.Func{``0,``1})
+  name: ConvertAll<TSource, TResult>(TSource[], Func<TSource, TResult>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_ConvertAll__2___0___System_Func___0___1__
+  commentId: M:CSharpPlus.ArrayExtensions.ConvertAll``2(``0[],System.Func{``0,``1})
+  name.vb: ConvertAll(Of TSource, TResult)(TSource(), Func(Of TSource, TResult))
+  fullName: CSharpPlus.ArrayExtensions.ConvertAll<TSource, TResult>(TSource[], System.Func<TSource, TResult>)
+  fullName.vb: CSharpPlus.ArrayExtensions.ConvertAll(Of TSource, TResult)(TSource(), System.Func(Of TSource, TResult))
+  nameWithType: ArrayExtensions.ConvertAll<TSource, TResult>(TSource[], Func<TSource, TResult>)
+  nameWithType.vb: ArrayExtensions.ConvertAll(Of TSource, TResult)(TSource(), Func(Of TSource, TResult))
+- uid: CSharpPlus.ArrayExtensions.Exist*
+  name: Exist
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_Exist_
+  commentId: Overload:CSharpPlus.ArrayExtensions.Exist
+  fullName: CSharpPlus.ArrayExtensions.Exist
+  nameWithType: ArrayExtensions.Exist
+- uid: CSharpPlus.ArrayExtensions.Exist``1(``0[],System.Func{``0,System.Boolean})
+  name: Exist<TSource>(TSource[], Func<TSource, bool>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_Exist__1___0___System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.ArrayExtensions.Exist``1(``0[],System.Func{``0,System.Boolean})
+  name.vb: Exist(Of TSource)(TSource(), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.ArrayExtensions.Exist<TSource>(TSource[], System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.ArrayExtensions.Exist(Of TSource)(TSource(), System.Func(Of TSource, Boolean))
+  nameWithType: ArrayExtensions.Exist<TSource>(TSource[], Func<TSource, bool>)
+  nameWithType.vb: ArrayExtensions.Exist(Of TSource)(TSource(), Func(Of TSource, Boolean))
+- uid: CSharpPlus.ArrayExtensions.Find*
+  name: Find
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_Find_
+  commentId: Overload:CSharpPlus.ArrayExtensions.Find
+  fullName: CSharpPlus.ArrayExtensions.Find
+  nameWithType: ArrayExtensions.Find
+- uid: CSharpPlus.ArrayExtensions.FindAll*
+  name: FindAll
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindAll_
+  commentId: Overload:CSharpPlus.ArrayExtensions.FindAll
+  fullName: CSharpPlus.ArrayExtensions.FindAll
+  nameWithType: ArrayExtensions.FindAll
+- uid: CSharpPlus.ArrayExtensions.FindAll``1(``0[],System.Func{``0,System.Boolean})
+  name: FindAll<TSource>(TSource[], Func<TSource, bool>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindAll__1___0___System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.ArrayExtensions.FindAll``1(``0[],System.Func{``0,System.Boolean})
+  name.vb: FindAll(Of TSource)(TSource(), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.ArrayExtensions.FindAll<TSource>(TSource[], System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.ArrayExtensions.FindAll(Of TSource)(TSource(), System.Func(Of TSource, Boolean))
+  nameWithType: ArrayExtensions.FindAll<TSource>(TSource[], Func<TSource, bool>)
+  nameWithType.vb: ArrayExtensions.FindAll(Of TSource)(TSource(), Func(Of TSource, Boolean))
+- uid: CSharpPlus.ArrayExtensions.FindIndex*
+  name: FindIndex
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindIndex_
+  commentId: Overload:CSharpPlus.ArrayExtensions.FindIndex
+  fullName: CSharpPlus.ArrayExtensions.FindIndex
+  nameWithType: ArrayExtensions.FindIndex
+- uid: CSharpPlus.ArrayExtensions.FindIndex``1(``0[],System.Func{``0,System.Boolean})
+  name: FindIndex<TSource>(TSource[], Func<TSource, bool>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindIndex__1___0___System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.ArrayExtensions.FindIndex``1(``0[],System.Func{``0,System.Boolean})
+  name.vb: FindIndex(Of TSource)(TSource(), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.ArrayExtensions.FindIndex<TSource>(TSource[], System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.ArrayExtensions.FindIndex(Of TSource)(TSource(), System.Func(Of TSource, Boolean))
+  nameWithType: ArrayExtensions.FindIndex<TSource>(TSource[], Func<TSource, bool>)
+  nameWithType.vb: ArrayExtensions.FindIndex(Of TSource)(TSource(), Func(Of TSource, Boolean))
+- uid: CSharpPlus.ArrayExtensions.FindLast*
+  name: FindLast
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindLast_
+  commentId: Overload:CSharpPlus.ArrayExtensions.FindLast
+  fullName: CSharpPlus.ArrayExtensions.FindLast
+  nameWithType: ArrayExtensions.FindLast
+- uid: CSharpPlus.ArrayExtensions.FindLastIndex*
+  name: FindLastIndex
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindLastIndex_
+  commentId: Overload:CSharpPlus.ArrayExtensions.FindLastIndex
+  fullName: CSharpPlus.ArrayExtensions.FindLastIndex
+  nameWithType: ArrayExtensions.FindLastIndex
+- uid: CSharpPlus.ArrayExtensions.FindLastIndex``1(``0[],System.Func{``0,System.Boolean})
+  name: FindLastIndex<TSource>(TSource[], Func<TSource, bool>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindLastIndex__1___0___System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.ArrayExtensions.FindLastIndex``1(``0[],System.Func{``0,System.Boolean})
+  name.vb: FindLastIndex(Of TSource)(TSource(), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.ArrayExtensions.FindLastIndex<TSource>(TSource[], System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.ArrayExtensions.FindLastIndex(Of TSource)(TSource(), System.Func(Of TSource, Boolean))
+  nameWithType: ArrayExtensions.FindLastIndex<TSource>(TSource[], Func<TSource, bool>)
+  nameWithType.vb: ArrayExtensions.FindLastIndex(Of TSource)(TSource(), Func(Of TSource, Boolean))
+- uid: CSharpPlus.ArrayExtensions.FindLast``1(``0[],System.Func{``0,System.Boolean})
+  name: FindLast<TSource>(TSource[], Func<TSource, bool>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_FindLast__1___0___System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.ArrayExtensions.FindLast``1(``0[],System.Func{``0,System.Boolean})
+  name.vb: FindLast(Of TSource)(TSource(), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.ArrayExtensions.FindLast<TSource>(TSource[], System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.ArrayExtensions.FindLast(Of TSource)(TSource(), System.Func(Of TSource, Boolean))
+  nameWithType: ArrayExtensions.FindLast<TSource>(TSource[], Func<TSource, bool>)
+  nameWithType.vb: ArrayExtensions.FindLast(Of TSource)(TSource(), Func(Of TSource, Boolean))
+- uid: CSharpPlus.ArrayExtensions.Find``1(``0[],System.Func{``0,System.Boolean})
+  name: Find<TSource>(TSource[], Func<TSource, bool>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_Find__1___0___System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.ArrayExtensions.Find``1(``0[],System.Func{``0,System.Boolean})
+  name.vb: Find(Of TSource)(TSource(), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.ArrayExtensions.Find<TSource>(TSource[], System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.ArrayExtensions.Find(Of TSource)(TSource(), System.Func(Of TSource, Boolean))
+  nameWithType: ArrayExtensions.Find<TSource>(TSource[], Func<TSource, bool>)
+  nameWithType.vb: ArrayExtensions.Find(Of TSource)(TSource(), Func(Of TSource, Boolean))
+- uid: CSharpPlus.ArrayExtensions.Sort*
+  name: Sort
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_Sort_
+  commentId: Overload:CSharpPlus.ArrayExtensions.Sort
+  fullName: CSharpPlus.ArrayExtensions.Sort
+  nameWithType: ArrayExtensions.Sort
+- uid: CSharpPlus.ArrayExtensions.SortBy*
+  name: SortBy
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_SortBy_
+  commentId: Overload:CSharpPlus.ArrayExtensions.SortBy
+  fullName: CSharpPlus.ArrayExtensions.SortBy
+  nameWithType: ArrayExtensions.SortBy
+- uid: CSharpPlus.ArrayExtensions.SortBy``2(``0[],System.Func{``0,``1})
+  name: SortBy<TSource, TKey>(TSource[], Func<TSource, TKey>)
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_SortBy__2___0___System_Func___0___1__
+  commentId: M:CSharpPlus.ArrayExtensions.SortBy``2(``0[],System.Func{``0,``1})
+  name.vb: SortBy(Of TSource, TKey)(TSource(), Func(Of TSource, TKey))
+  fullName: CSharpPlus.ArrayExtensions.SortBy<TSource, TKey>(TSource[], System.Func<TSource, TKey>)
+  fullName.vb: CSharpPlus.ArrayExtensions.SortBy(Of TSource, TKey)(TSource(), System.Func(Of TSource, TKey))
+  nameWithType: ArrayExtensions.SortBy<TSource, TKey>(TSource[], Func<TSource, TKey>)
+  nameWithType.vb: ArrayExtensions.SortBy(Of TSource, TKey)(TSource(), Func(Of TSource, TKey))
+- uid: CSharpPlus.ArrayExtensions.Sort``1(``0[])
+  name: Sort<TSource>(TSource[])
+  href: api/CSharpPlus.ArrayExtensions.html#CSharpPlus_ArrayExtensions_Sort__1___0___
+  commentId: M:CSharpPlus.ArrayExtensions.Sort``1(``0[])
+  name.vb: Sort(Of TSource)(TSource())
+  fullName: CSharpPlus.ArrayExtensions.Sort<TSource>(TSource[])
+  fullName.vb: CSharpPlus.ArrayExtensions.Sort(Of TSource)(TSource())
+  nameWithType: ArrayExtensions.Sort<TSource>(TSource[])
+  nameWithType.vb: ArrayExtensions.Sort(Of TSource)(TSource())
+- uid: CSharpPlus.AssemblyExtensions
+  name: AssemblyExtensions
+  href: api/CSharpPlus.AssemblyExtensions.html
+  commentId: T:CSharpPlus.AssemblyExtensions
+  fullName: CSharpPlus.AssemblyExtensions
+  nameWithType: AssemblyExtensions
+- uid: CSharpPlus.AssemblyExtensions.GetAllImplementations*
+  name: GetAllImplementations
+  href: api/CSharpPlus.AssemblyExtensions.html#CSharpPlus_AssemblyExtensions_GetAllImplementations_
+  commentId: Overload:CSharpPlus.AssemblyExtensions.GetAllImplementations
+  fullName: CSharpPlus.AssemblyExtensions.GetAllImplementations
+  nameWithType: AssemblyExtensions.GetAllImplementations
+- uid: CSharpPlus.AssemblyExtensions.GetAllImplementations``1(System.Reflection.Assembly)
+  name: GetAllImplementations<T>(Assembly)
+  href: api/CSharpPlus.AssemblyExtensions.html#CSharpPlus_AssemblyExtensions_GetAllImplementations__1_System_Reflection_Assembly_
+  commentId: M:CSharpPlus.AssemblyExtensions.GetAllImplementations``1(System.Reflection.Assembly)
+  name.vb: GetAllImplementations(Of T)(Assembly)
+  fullName: CSharpPlus.AssemblyExtensions.GetAllImplementations<T>(System.Reflection.Assembly)
+  fullName.vb: CSharpPlus.AssemblyExtensions.GetAllImplementations(Of T)(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.GetAllImplementations<T>(Assembly)
+  nameWithType.vb: AssemblyExtensions.GetAllImplementations(Of T)(Assembly)
+- uid: CSharpPlus.AssemblyExtensions.InstantiateAllImplementations*
+  name: InstantiateAllImplementations
+  href: api/CSharpPlus.AssemblyExtensions.html#CSharpPlus_AssemblyExtensions_InstantiateAllImplementations_
+  commentId: Overload:CSharpPlus.AssemblyExtensions.InstantiateAllImplementations
+  fullName: CSharpPlus.AssemblyExtensions.InstantiateAllImplementations
+  nameWithType: AssemblyExtensions.InstantiateAllImplementations
+- uid: CSharpPlus.AssemblyExtensions.InstantiateAllImplementations``1(System.Reflection.Assembly)
+  name: InstantiateAllImplementations<T>(Assembly)
+  href: api/CSharpPlus.AssemblyExtensions.html#CSharpPlus_AssemblyExtensions_InstantiateAllImplementations__1_System_Reflection_Assembly_
+  commentId: M:CSharpPlus.AssemblyExtensions.InstantiateAllImplementations``1(System.Reflection.Assembly)
+  name.vb: InstantiateAllImplementations(Of T)(Assembly)
+  fullName: CSharpPlus.AssemblyExtensions.InstantiateAllImplementations<T>(System.Reflection.Assembly)
+  fullName.vb: CSharpPlus.AssemblyExtensions.InstantiateAllImplementations(Of T)(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.InstantiateAllImplementations<T>(Assembly)
+  nameWithType.vb: AssemblyExtensions.InstantiateAllImplementations(Of T)(Assembly)
+- uid: CSharpPlus.CollectionExtensions
+  name: CollectionExtensions
+  href: api/CSharpPlus.CollectionExtensions.html
+  commentId: T:CSharpPlus.CollectionExtensions
+  fullName: CSharpPlus.CollectionExtensions
+  nameWithType: CollectionExtensions
+- uid: CSharpPlus.CollectionExtensions.AddRange*
+  name: AddRange
+  href: api/CSharpPlus.CollectionExtensions.html#CSharpPlus_CollectionExtensions_AddRange_
+  commentId: Overload:CSharpPlus.CollectionExtensions.AddRange
+  fullName: CSharpPlus.CollectionExtensions.AddRange
+  nameWithType: CollectionExtensions.AddRange
+- uid: CSharpPlus.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})
+  name: AddRange<T>(ICollection<T>, IEnumerable<T>)
+  href: api/CSharpPlus.CollectionExtensions.html#CSharpPlus_CollectionExtensions_AddRange__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})
+  name.vb: AddRange(Of T)(ICollection(Of T), IEnumerable(Of T))
+  fullName: CSharpPlus.CollectionExtensions.AddRange<T>(System.Collections.Generic.ICollection<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CSharpPlus.CollectionExtensions.AddRange(Of T)(System.Collections.Generic.ICollection(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CollectionExtensions.AddRange<T>(ICollection<T>, IEnumerable<T>)
+  nameWithType.vb: CollectionExtensions.AddRange(Of T)(ICollection(Of T), IEnumerable(Of T))
+- uid: CSharpPlus.CompareResult
+  name: CompareResult
+  href: api/CSharpPlus.CompareResult.html
+  commentId: T:CSharpPlus.CompareResult
+  fullName: CSharpPlus.CompareResult
+  nameWithType: CompareResult
+- uid: CSharpPlus.CompareResult.Equal
+  name: Equal
+  href: api/CSharpPlus.CompareResult.html#CSharpPlus_CompareResult_Equal
+  commentId: F:CSharpPlus.CompareResult.Equal
+  fullName: CSharpPlus.CompareResult.Equal
+  nameWithType: CompareResult.Equal
+- uid: CSharpPlus.CompareResult.Greater
+  name: Greater
+  href: api/CSharpPlus.CompareResult.html#CSharpPlus_CompareResult_Greater
+  commentId: F:CSharpPlus.CompareResult.Greater
+  fullName: CSharpPlus.CompareResult.Greater
+  nameWithType: CompareResult.Greater
+- uid: CSharpPlus.CompareResult.Smaller
+  name: Smaller
+  href: api/CSharpPlus.CompareResult.html#CSharpPlus_CompareResult_Smaller
+  commentId: F:CSharpPlus.CompareResult.Smaller
+  fullName: CSharpPlus.CompareResult.Smaller
+  nameWithType: CompareResult.Smaller
+- uid: CSharpPlus.ConcurrentValue`1
+  name: ConcurrentValue<T>
+  href: api/CSharpPlus.ConcurrentValue-1.html
+  commentId: T:CSharpPlus.ConcurrentValue`1
+  name.vb: ConcurrentValue(Of T)
+  fullName: CSharpPlus.ConcurrentValue<T>
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T)
+  nameWithType: ConcurrentValue<T>
+  nameWithType.vb: ConcurrentValue(Of T)
+- uid: CSharpPlus.ConcurrentValue`1.#ctor(`0)
+  name: ConcurrentValue(T)
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1__ctor__0_
+  commentId: M:CSharpPlus.ConcurrentValue`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: CSharpPlus.ConcurrentValue<T>.ConcurrentValue(T)
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).New(T)
+  nameWithType: ConcurrentValue<T>.ConcurrentValue(T)
+  nameWithType.vb: ConcurrentValue(Of T).New(T)
+- uid: CSharpPlus.ConcurrentValue`1.#ctor*
+  name: ConcurrentValue
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1__ctor_
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.#ctor
+  name.vb: New
+  fullName: CSharpPlus.ConcurrentValue<T>.ConcurrentValue
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).New
+  nameWithType: ConcurrentValue<T>.ConcurrentValue
+  nameWithType.vb: ConcurrentValue(Of T).New
+- uid: CSharpPlus.ConcurrentValue`1.Reset(`0)
+  name: Reset(T)
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Reset__0_
+  commentId: M:CSharpPlus.ConcurrentValue`1.Reset(`0)
+  fullName: CSharpPlus.ConcurrentValue<T>.Reset(T)
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Reset(T)
+  nameWithType: ConcurrentValue<T>.Reset(T)
+  nameWithType.vb: ConcurrentValue(Of T).Reset(T)
+- uid: CSharpPlus.ConcurrentValue`1.Reset*
+  name: Reset
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Reset_
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.Reset
+  fullName: CSharpPlus.ConcurrentValue<T>.Reset
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Reset
+  nameWithType: ConcurrentValue<T>.Reset
+  nameWithType.vb: ConcurrentValue(Of T).Reset
+- uid: CSharpPlus.ConcurrentValue`1.Update(System.Func{`0,`0})
+  name: Update(Func<T, T>)
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Update_System_Func__0__0__
+  commentId: M:CSharpPlus.ConcurrentValue`1.Update(System.Func{`0,`0})
+  name.vb: Update(Func(Of T, T))
+  fullName: CSharpPlus.ConcurrentValue<T>.Update(System.Func<T, T>)
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Update(System.Func(Of T, T))
+  nameWithType: ConcurrentValue<T>.Update(Func<T, T>)
+  nameWithType.vb: ConcurrentValue(Of T).Update(Func(Of T, T))
+- uid: CSharpPlus.ConcurrentValue`1.Update*
+  name: Update
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Update_
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.Update
+  fullName: CSharpPlus.ConcurrentValue<T>.Update
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Update
+  nameWithType: ConcurrentValue<T>.Update
+  nameWithType.vb: ConcurrentValue(Of T).Update
+- uid: CSharpPlus.ConcurrentValue`1.Value
+  name: Value
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Value
+  commentId: P:CSharpPlus.ConcurrentValue`1.Value
+  fullName: CSharpPlus.ConcurrentValue<T>.Value
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Value
+  nameWithType: ConcurrentValue<T>.Value
+  nameWithType.vb: ConcurrentValue(Of T).Value
+- uid: CSharpPlus.ConcurrentValue`1.Value*
+  name: Value
+  href: api/CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Value_
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.Value
+  fullName: CSharpPlus.ConcurrentValue<T>.Value
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Value
+  nameWithType: ConcurrentValue<T>.Value
+  nameWithType.vb: ConcurrentValue(Of T).Value
+- uid: CSharpPlus.DateTimeExtensions
+  name: DateTimeExtensions
+  href: api/CSharpPlus.DateTimeExtensions.html
+  commentId: T:CSharpPlus.DateTimeExtensions
+  fullName: CSharpPlus.DateTimeExtensions
+  nameWithType: DateTimeExtensions
+- uid: CSharpPlus.DateTimeExtensions.Now(System.TimeProvider)
+  name: Now(TimeProvider)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_Now_System_TimeProvider_
+  commentId: M:CSharpPlus.DateTimeExtensions.Now(System.TimeProvider)
+  fullName: CSharpPlus.DateTimeExtensions.Now(System.TimeProvider)
+  nameWithType: DateTimeExtensions.Now(TimeProvider)
+- uid: CSharpPlus.DateTimeExtensions.Now*
+  name: Now
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_Now_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.Now
+  fullName: CSharpPlus.DateTimeExtensions.Now
+  nameWithType: DateTimeExtensions.Now
+- uid: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTime)
+  name: ToDateOnly(DateTime)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateOnly_System_DateTime_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTime)
+  name.vb: ToDateOnly(Date)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTime)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToDateOnly(Date)
+  nameWithType: DateTimeExtensions.ToDateOnly(DateTime)
+  nameWithType.vb: DateTimeExtensions.ToDateOnly(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTimeOffset)
+  name: ToDateOnly(DateTimeOffset)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateOnly_System_DateTimeOffset_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTimeOffset)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTimeOffset)
+  nameWithType: DateTimeExtensions.ToDateOnly(DateTimeOffset)
+- uid: CSharpPlus.DateTimeExtensions.ToDateOnly*
+  name: ToDateOnly
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateOnly_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToDateOnly
+  fullName: CSharpPlus.DateTimeExtensions.ToDateOnly
+  nameWithType: DateTimeExtensions.ToDateOnly
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly)
+  name: ToDateTime(DateOnly)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateTime_System_DateOnly_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly)
+  nameWithType: DateTimeExtensions.ToDateTime(DateOnly)
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.DateTimeKind)
+  name: ToDateTime(DateOnly, DateTimeKind)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateTime_System_DateOnly_System_DateTimeKind_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.DateTimeKind)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly, System.DateTimeKind)
+  nameWithType: DateTimeExtensions.ToDateTime(DateOnly, DateTimeKind)
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.TimeSpan,System.DateTimeKind)
+  name: ToDateTime(DateOnly, TimeSpan, DateTimeKind)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateTime_System_DateOnly_System_TimeSpan_System_DateTimeKind_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.TimeSpan,System.DateTimeKind)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly, System.TimeSpan, System.DateTimeKind)
+  nameWithType: DateTimeExtensions.ToDateTime(DateOnly, TimeSpan, DateTimeKind)
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime*
+  name: ToDateTime
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateTime_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToDateTime
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime
+  nameWithType: DateTimeExtensions.ToDateTime
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateOnly)
+  name: ToIsoString(DateOnly)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToIsoString_System_DateOnly_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToIsoString(System.DateOnly)
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateOnly)
+  nameWithType: DateTimeExtensions.ToIsoString(DateOnly)
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTime)
+  name: ToIsoString(DateTime)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToIsoString_System_DateTime_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTime)
+  name.vb: ToIsoString(Date)
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTime)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToIsoString(Date)
+  nameWithType: DateTimeExtensions.ToIsoString(DateTime)
+  nameWithType.vb: DateTimeExtensions.ToIsoString(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTimeOffset)
+  name: ToIsoString(DateTimeOffset)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToIsoString_System_DateTimeOffset_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTimeOffset)
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTimeOffset)
+  nameWithType: DateTimeExtensions.ToIsoString(DateTimeOffset)
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString*
+  name: ToIsoString
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToIsoString_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToIsoString
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString
+  nameWithType: DateTimeExtensions.ToIsoString
+- uid: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.DateTime)
+  name: ToTimeOnly(DateTime)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToTimeOnly_System_DateTime_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToTimeOnly(System.DateTime)
+  name.vb: ToTimeOnly(Date)
+  fullName: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.DateTime)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToTimeOnly(Date)
+  nameWithType: DateTimeExtensions.ToTimeOnly(DateTime)
+  nameWithType.vb: DateTimeExtensions.ToTimeOnly(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.TimeSpan)
+  name: ToTimeOnly(TimeSpan)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToTimeOnly_System_TimeSpan_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToTimeOnly(System.TimeSpan)
+  fullName: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.TimeSpan)
+  nameWithType: DateTimeExtensions.ToTimeOnly(TimeSpan)
+- uid: CSharpPlus.DateTimeExtensions.ToTimeOnly*
+  name: ToTimeOnly
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToTimeOnly_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToTimeOnly
+  fullName: CSharpPlus.DateTimeExtensions.ToTimeOnly
+  nameWithType: DateTimeExtensions.ToTimeOnly
+- uid: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateOnly)
+  name: ToUnixTimeSeconds(DateOnly)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToUnixTimeSeconds_System_DateOnly_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateOnly)
+  fullName: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateOnly)
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds(DateOnly)
+- uid: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  name: ToUnixTimeSeconds(DateTime)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToUnixTimeSeconds_System_DateTime_
+  commentId: M:CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  name.vb: ToUnixTimeSeconds(Date)
+  fullName: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(Date)
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds(DateTime)
+  nameWithType.vb: DateTimeExtensions.ToUnixTimeSeconds(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds*
+  name: ToUnixTimeSeconds
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToUnixTimeSeconds_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds
+  fullName: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds
+- uid: CSharpPlus.DateTimeExtensions.Today(System.TimeProvider)
+  name: Today(TimeProvider)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_Today_System_TimeProvider_
+  commentId: M:CSharpPlus.DateTimeExtensions.Today(System.TimeProvider)
+  fullName: CSharpPlus.DateTimeExtensions.Today(System.TimeProvider)
+  nameWithType: DateTimeExtensions.Today(TimeProvider)
+- uid: CSharpPlus.DateTimeExtensions.Today*
+  name: Today
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_Today_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.Today
+  fullName: CSharpPlus.DateTimeExtensions.Today
+  nameWithType: DateTimeExtensions.Today
+- uid: CSharpPlus.DateTimeExtensions.UtcNow(System.TimeProvider)
+  name: UtcNow(TimeProvider)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_UtcNow_System_TimeProvider_
+  commentId: M:CSharpPlus.DateTimeExtensions.UtcNow(System.TimeProvider)
+  fullName: CSharpPlus.DateTimeExtensions.UtcNow(System.TimeProvider)
+  nameWithType: DateTimeExtensions.UtcNow(TimeProvider)
+- uid: CSharpPlus.DateTimeExtensions.UtcNow*
+  name: UtcNow
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_UtcNow_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.UtcNow
+  fullName: CSharpPlus.DateTimeExtensions.UtcNow
+  nameWithType: DateTimeExtensions.UtcNow
+- uid: CSharpPlus.DateTimeExtensions.WithOffset(System.DateTime,System.TimeSpan)
+  name: WithOffset(DateTime, TimeSpan)
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_WithOffset_System_DateTime_System_TimeSpan_
+  commentId: M:CSharpPlus.DateTimeExtensions.WithOffset(System.DateTime,System.TimeSpan)
+  name.vb: WithOffset(Date, TimeSpan)
+  fullName: CSharpPlus.DateTimeExtensions.WithOffset(System.DateTime, System.TimeSpan)
+  fullName.vb: CSharpPlus.DateTimeExtensions.WithOffset(Date, System.TimeSpan)
+  nameWithType: DateTimeExtensions.WithOffset(DateTime, TimeSpan)
+  nameWithType.vb: DateTimeExtensions.WithOffset(Date, TimeSpan)
+- uid: CSharpPlus.DateTimeExtensions.WithOffset*
+  name: WithOffset
+  href: api/CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_WithOffset_
+  commentId: Overload:CSharpPlus.DateTimeExtensions.WithOffset
+  fullName: CSharpPlus.DateTimeExtensions.WithOffset
+  nameWithType: DateTimeExtensions.WithOffset
+- uid: CSharpPlus.DictionaryExtensions
+  name: DictionaryExtensions
+  href: api/CSharpPlus.DictionaryExtensions.html
+  commentId: T:CSharpPlus.DictionaryExtensions
+  fullName: CSharpPlus.DictionaryExtensions
+  nameWithType: DictionaryExtensions
+- uid: CSharpPlus.DictionaryExtensions.Merge*
+  name: Merge
+  href: api/CSharpPlus.DictionaryExtensions.html#CSharpPlus_DictionaryExtensions_Merge_
+  commentId: Overload:CSharpPlus.DictionaryExtensions.Merge
+  fullName: CSharpPlus.DictionaryExtensions.Merge
+  nameWithType: DictionaryExtensions.Merge
+- uid: CSharpPlus.DictionaryExtensions.Merge``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}}})
+  name: Merge<TKey, TValue>(IEnumerable<IEnumerable<KeyValuePair<TKey, TValue>>>)
+  href: api/CSharpPlus.DictionaryExtensions.html#CSharpPlus_DictionaryExtensions_Merge__2_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1____
+  commentId: M:CSharpPlus.DictionaryExtensions.Merge``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}}})
+  name.vb: Merge(Of TKey, TValue)(IEnumerable(Of IEnumerable(Of KeyValuePair(Of TKey, TValue))))
+  fullName: CSharpPlus.DictionaryExtensions.Merge<TKey, TValue>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>>)
+  fullName.vb: CSharpPlus.DictionaryExtensions.Merge(Of TKey, TValue)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))))
+  nameWithType: DictionaryExtensions.Merge<TKey, TValue>(IEnumerable<IEnumerable<KeyValuePair<TKey, TValue>>>)
+  nameWithType.vb: DictionaryExtensions.Merge(Of TKey, TValue)(IEnumerable(Of IEnumerable(Of KeyValuePair(Of TKey, TValue))))
+- uid: CSharpPlus.DictionaryExtensions.Merge``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name: Merge<TKey, TValue>(IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  href: api/CSharpPlus.DictionaryExtensions.html#CSharpPlus_DictionaryExtensions_Merge__2_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___
+  commentId: M:CSharpPlus.DictionaryExtensions.Merge``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name.vb: Merge(Of TKey, TValue)(IEnumerable(Of KeyValuePair(Of TKey, TValue)), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: CSharpPlus.DictionaryExtensions.Merge<TKey, TValue>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  fullName.vb: CSharpPlus.DictionaryExtensions.Merge(Of TKey, TValue)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)), System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
+  nameWithType: DictionaryExtensions.Merge<TKey, TValue>(IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: DictionaryExtensions.Merge(Of TKey, TValue)(IEnumerable(Of KeyValuePair(Of TKey, TValue)), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+- uid: CSharpPlus.DictionaryExtensions.ToDictionary*
+  name: ToDictionary
+  href: api/CSharpPlus.DictionaryExtensions.html#CSharpPlus_DictionaryExtensions_ToDictionary_
+  commentId: Overload:CSharpPlus.DictionaryExtensions.ToDictionary
+  fullName: CSharpPlus.DictionaryExtensions.ToDictionary
+  nameWithType: DictionaryExtensions.ToDictionary
+- uid: CSharpPlus.DictionaryExtensions.ToDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name: ToDictionary<TKey, TValue>(IEnumerable<KeyValuePair<TKey, TValue>>)
+  href: api/CSharpPlus.DictionaryExtensions.html#CSharpPlus_DictionaryExtensions_ToDictionary__2_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___
+  commentId: M:CSharpPlus.DictionaryExtensions.ToDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name.vb: ToDictionary(Of TKey, TValue)(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: CSharpPlus.DictionaryExtensions.ToDictionary<TKey, TValue>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  fullName.vb: CSharpPlus.DictionaryExtensions.ToDictionary(Of TKey, TValue)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
+  nameWithType: DictionaryExtensions.ToDictionary<TKey, TValue>(IEnumerable<KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: DictionaryExtensions.ToDictionary(Of TKey, TValue)(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+- uid: CSharpPlus.Disposable
+  name: Disposable
+  href: api/CSharpPlus.Disposable.html
+  commentId: T:CSharpPlus.Disposable
+  fullName: CSharpPlus.Disposable
+  nameWithType: Disposable
+- uid: CSharpPlus.Disposable.Defer(System.Action)
+  name: Defer(Action)
+  href: api/CSharpPlus.Disposable.html#CSharpPlus_Disposable_Defer_System_Action_
+  commentId: M:CSharpPlus.Disposable.Defer(System.Action)
+  fullName: CSharpPlus.Disposable.Defer(System.Action)
+  nameWithType: Disposable.Defer(Action)
+- uid: CSharpPlus.Disposable.Defer(System.Func{System.Threading.Tasks.ValueTask})
+  name: Defer(Func<ValueTask>)
+  href: api/CSharpPlus.Disposable.html#CSharpPlus_Disposable_Defer_System_Func_System_Threading_Tasks_ValueTask__
+  commentId: M:CSharpPlus.Disposable.Defer(System.Func{System.Threading.Tasks.ValueTask})
+  name.vb: Defer(Func(Of ValueTask))
+  fullName: CSharpPlus.Disposable.Defer(System.Func<System.Threading.Tasks.ValueTask>)
+  fullName.vb: CSharpPlus.Disposable.Defer(System.Func(Of System.Threading.Tasks.ValueTask))
+  nameWithType: Disposable.Defer(Func<ValueTask>)
+  nameWithType.vb: Disposable.Defer(Func(Of ValueTask))
+- uid: CSharpPlus.Disposable.Defer*
+  name: Defer
+  href: api/CSharpPlus.Disposable.html#CSharpPlus_Disposable_Defer_
+  commentId: Overload:CSharpPlus.Disposable.Defer
+  fullName: CSharpPlus.Disposable.Defer
+  nameWithType: Disposable.Defer
+- uid: CSharpPlus.Disposable.Deferred
+  name: Disposable.Deferred
+  href: api/CSharpPlus.Disposable.Deferred.html
+  commentId: T:CSharpPlus.Disposable.Deferred
+  fullName: CSharpPlus.Disposable.Deferred
+  nameWithType: Disposable.Deferred
+- uid: CSharpPlus.Disposable.Deferred.#ctor(System.Action)
+  name: Deferred(Action)
+  href: api/CSharpPlus.Disposable.Deferred.html#CSharpPlus_Disposable_Deferred__ctor_System_Action_
+  commentId: M:CSharpPlus.Disposable.Deferred.#ctor(System.Action)
+  name.vb: New(Action)
+  fullName: CSharpPlus.Disposable.Deferred.Deferred(System.Action)
+  fullName.vb: CSharpPlus.Disposable.Deferred.New(System.Action)
+  nameWithType: Disposable.Deferred.Deferred(Action)
+  nameWithType.vb: Disposable.Deferred.New(Action)
+- uid: CSharpPlus.Disposable.Deferred.#ctor*
+  name: Deferred
+  href: api/CSharpPlus.Disposable.Deferred.html#CSharpPlus_Disposable_Deferred__ctor_
+  commentId: Overload:CSharpPlus.Disposable.Deferred.#ctor
+  name.vb: New
+  fullName: CSharpPlus.Disposable.Deferred.Deferred
+  fullName.vb: CSharpPlus.Disposable.Deferred.New
+  nameWithType: Disposable.Deferred.Deferred
+  nameWithType.vb: Disposable.Deferred.New
+- uid: CSharpPlus.Disposable.Deferred.Dispose
+  name: Dispose()
+  href: api/CSharpPlus.Disposable.Deferred.html#CSharpPlus_Disposable_Deferred_Dispose
+  commentId: M:CSharpPlus.Disposable.Deferred.Dispose
+  fullName: CSharpPlus.Disposable.Deferred.Dispose()
+  nameWithType: Disposable.Deferred.Dispose()
+- uid: CSharpPlus.Disposable.Deferred.Dispose*
+  name: Dispose
+  href: api/CSharpPlus.Disposable.Deferred.html#CSharpPlus_Disposable_Deferred_Dispose_
+  commentId: Overload:CSharpPlus.Disposable.Deferred.Dispose
+  fullName: CSharpPlus.Disposable.Deferred.Dispose
+  nameWithType: Disposable.Deferred.Dispose
+- uid: CSharpPlus.Disposable.DeferredTask
+  name: Disposable.DeferredTask
+  href: api/CSharpPlus.Disposable.DeferredTask.html
+  commentId: T:CSharpPlus.Disposable.DeferredTask
+  fullName: CSharpPlus.Disposable.DeferredTask
+  nameWithType: Disposable.DeferredTask
+- uid: CSharpPlus.Disposable.DeferredTask.#ctor(System.Func{System.Threading.Tasks.ValueTask})
+  name: DeferredTask(Func<ValueTask>)
+  href: api/CSharpPlus.Disposable.DeferredTask.html#CSharpPlus_Disposable_DeferredTask__ctor_System_Func_System_Threading_Tasks_ValueTask__
+  commentId: M:CSharpPlus.Disposable.DeferredTask.#ctor(System.Func{System.Threading.Tasks.ValueTask})
+  name.vb: New(Func(Of ValueTask))
+  fullName: CSharpPlus.Disposable.DeferredTask.DeferredTask(System.Func<System.Threading.Tasks.ValueTask>)
+  fullName.vb: CSharpPlus.Disposable.DeferredTask.New(System.Func(Of System.Threading.Tasks.ValueTask))
+  nameWithType: Disposable.DeferredTask.DeferredTask(Func<ValueTask>)
+  nameWithType.vb: Disposable.DeferredTask.New(Func(Of ValueTask))
+- uid: CSharpPlus.Disposable.DeferredTask.#ctor*
+  name: DeferredTask
+  href: api/CSharpPlus.Disposable.DeferredTask.html#CSharpPlus_Disposable_DeferredTask__ctor_
+  commentId: Overload:CSharpPlus.Disposable.DeferredTask.#ctor
+  name.vb: New
+  fullName: CSharpPlus.Disposable.DeferredTask.DeferredTask
+  fullName.vb: CSharpPlus.Disposable.DeferredTask.New
+  nameWithType: Disposable.DeferredTask.DeferredTask
+  nameWithType.vb: Disposable.DeferredTask.New
+- uid: CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  name: DisposeAsync()
+  href: api/CSharpPlus.Disposable.DeferredTask.html#CSharpPlus_Disposable_DeferredTask_DisposeAsync
+  commentId: M:CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  fullName: CSharpPlus.Disposable.DeferredTask.DisposeAsync()
+  nameWithType: Disposable.DeferredTask.DisposeAsync()
+- uid: CSharpPlus.Disposable.DeferredTask.DisposeAsync*
+  name: DisposeAsync
+  href: api/CSharpPlus.Disposable.DeferredTask.html#CSharpPlus_Disposable_DeferredTask_DisposeAsync_
+  commentId: Overload:CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  fullName: CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  nameWithType: Disposable.DeferredTask.DisposeAsync
+- uid: CSharpPlus.EnumerablePlus
+  name: EnumerablePlus
+  href: api/CSharpPlus.EnumerablePlus.html
+  commentId: T:CSharpPlus.EnumerablePlus
+  fullName: CSharpPlus.EnumerablePlus
+  nameWithType: EnumerablePlus
+- uid: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.Char})
+  name: ConcatString(IEnumerable<char>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ConcatString_System_Collections_Generic_IEnumerable_System_Char__
+  commentId: M:CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.Char})
+  name.vb: ConcatString(IEnumerable(Of Char))
+  fullName: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable<char>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable(Of Char))
+  nameWithType: EnumerablePlus.ConcatString(IEnumerable<char>)
+  nameWithType.vb: EnumerablePlus.ConcatString(IEnumerable(Of Char))
+- uid: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.String})
+  name: ConcatString(IEnumerable<string>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ConcatString_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: ConcatString(IEnumerable(Of String))
+  fullName: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable<string>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ConcatString(System.Collections.Generic.IEnumerable(Of String))
+  nameWithType: EnumerablePlus.ConcatString(IEnumerable<string>)
+  nameWithType.vb: EnumerablePlus.ConcatString(IEnumerable(Of String))
+- uid: CSharpPlus.EnumerablePlus.ConcatString*
+  name: ConcatString
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ConcatString_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ConcatString
+  fullName: CSharpPlus.EnumerablePlus.ConcatString
+  nameWithType: EnumerablePlus.ConcatString
+- uid: CSharpPlus.EnumerablePlus.Deconstruct*
+  name: Deconstruct
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct_
+  commentId: Overload:CSharpPlus.EnumerablePlus.Deconstruct
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct
+  nameWithType: EnumerablePlus.Deconstruct
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@)
+  name: Deconstruct<T>(IEnumerable<T>, out T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0__
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T)
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@)
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0__
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T)
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@)
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0__
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T)
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@)
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0____0__
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T, out T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T, T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T)
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@)
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0____0____0__
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T, out T, out T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T, T, T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T)
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T)
+- uid: CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@,``0@)
+  name: Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T, out T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Deconstruct__1_System_Collections_Generic_IEnumerable___0____0____0____0____0____0____0__
+  commentId: M:CSharpPlus.EnumerablePlus.Deconstruct``1(System.Collections.Generic.IEnumerable{``0},``0@,``0@,``0@,``0@,``0@,``0@)
+  name.vb: Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T, T)
+  fullName: CSharpPlus.EnumerablePlus.Deconstruct<T>(System.Collections.Generic.IEnumerable<T>, out T, out T, out T, out T, out T, out T)
+  fullName.vb: CSharpPlus.EnumerablePlus.Deconstruct(Of T)(System.Collections.Generic.IEnumerable(Of T), T, T, T, T, T, T)
+  nameWithType: EnumerablePlus.Deconstruct<T>(IEnumerable<T>, out T, out T, out T, out T, out T, out T)
+  nameWithType.vb: EnumerablePlus.Deconstruct(Of T)(IEnumerable(Of T), T, T, T, T, T, T)
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull*
+  name: EmptyIfNull
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_EmptyIfNull_
+  commentId: Overload:CSharpPlus.EnumerablePlus.EmptyIfNull
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull
+  nameWithType: EnumerablePlus.EmptyIfNull
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IEnumerable{``0})
+  name: EmptyIfNull<T>(IEnumerable<T>?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_EmptyIfNull__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: EmptyIfNull(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(System.Collections.Generic.IEnumerable<T>?)
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(IEnumerable<T>?)
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyCollection{``0})
+  name: EmptyIfNull<T>(IReadOnlyCollection<T>?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_EmptyIfNull__1_System_Collections_Generic_IReadOnlyCollection___0__
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyCollection{``0})
+  name.vb: EmptyIfNull(Of T)(IReadOnlyCollection(Of T))
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(System.Collections.Generic.IReadOnlyCollection<T>?)
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(System.Collections.Generic.IReadOnlyCollection(Of T))
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(IReadOnlyCollection<T>?)
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(IReadOnlyCollection(Of T))
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: EmptyIfNull<T>(IReadOnlyList<T>?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_EmptyIfNull__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: EmptyIfNull(Of T)(IReadOnlyList(Of T))
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(System.Collections.Generic.IReadOnlyList<T>?)
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(IReadOnlyList<T>?)
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(IReadOnlyList(Of T))
+- uid: CSharpPlus.EnumerablePlus.EmptyIfNull``1(``0[])
+  name: EmptyIfNull<T>(T[]?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_EmptyIfNull__1___0___
+  commentId: M:CSharpPlus.EnumerablePlus.EmptyIfNull``1(``0[])
+  name.vb: EmptyIfNull(Of T)(T())
+  fullName: CSharpPlus.EnumerablePlus.EmptyIfNull<T>(T[]?)
+  fullName.vb: CSharpPlus.EnumerablePlus.EmptyIfNull(Of T)(T())
+  nameWithType: EnumerablePlus.EmptyIfNull<T>(T[]?)
+  nameWithType.vb: EnumerablePlus.EmptyIfNull(Of T)(T())
+- uid: CSharpPlus.EnumerablePlus.Enumerate*
+  name: Enumerate
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Enumerate_
+  commentId: Overload:CSharpPlus.EnumerablePlus.Enumerate
+  fullName: CSharpPlus.EnumerablePlus.Enumerate
+  nameWithType: EnumerablePlus.Enumerate
+- uid: CSharpPlus.EnumerablePlus.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  name: Enumerate<T>(IEnumerable<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Enumerate__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.Enumerate``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Enumerate(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.Enumerate<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.Enumerate(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.Enumerate<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerablePlus.Enumerate(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.ExceptBy*
+  name: ExceptBy
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ExceptBy_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ExceptBy
+  fullName: CSharpPlus.EnumerablePlus.ExceptBy
+  nameWithType: EnumerablePlus.ExceptBy
+- uid: CSharpPlus.EnumerablePlus.ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  name: ExceptBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ExceptBy__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  commentId: M:CSharpPlus.EnumerablePlus.ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  name.vb: ExceptBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+  fullName: CSharpPlus.EnumerablePlus.ExceptBy<T, TKey>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>, System.Collections.Generic.IEqualityComparer<TKey>?)
+  fullName.vb: CSharpPlus.EnumerablePlus.ExceptBy(Of T, TKey)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  nameWithType: EnumerablePlus.ExceptBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  nameWithType.vb: EnumerablePlus.ExceptBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+- uid: CSharpPlus.EnumerablePlus.ForEach*
+  name: ForEach
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ForEach_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ForEach
+  fullName: CSharpPlus.EnumerablePlus.ForEach
+  nameWithType: EnumerablePlus.ForEach
+- uid: CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  name: ForEach<T>(IEnumerable<T>, Action<T, int>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0_System_Int32__
+  commentId: M:CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T, Integer))
+  fullName: CSharpPlus.EnumerablePlus.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T, int>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T, Integer))
+  nameWithType: EnumerablePlus.ForEach<T>(IEnumerable<T>, Action<T, int>)
+  nameWithType.vb: EnumerablePlus.ForEach(Of T)(IEnumerable(Of T), Action(Of T, Integer))
+- uid: CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:CSharpPlus.EnumerablePlus.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: CSharpPlus.EnumerablePlus.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: EnumerablePlus.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: EnumerablePlus.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: CSharpPlus.EnumerablePlus.IntersectBy*
+  name: IntersectBy
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_IntersectBy_
+  commentId: Overload:CSharpPlus.EnumerablePlus.IntersectBy
+  fullName: CSharpPlus.EnumerablePlus.IntersectBy
+  nameWithType: EnumerablePlus.IntersectBy
+- uid: CSharpPlus.EnumerablePlus.IntersectBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  name: IntersectBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_IntersectBy__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  commentId: M:CSharpPlus.EnumerablePlus.IntersectBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  name.vb: IntersectBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+  fullName: CSharpPlus.EnumerablePlus.IntersectBy<T, TKey>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>, System.Collections.Generic.IEqualityComparer<TKey>?)
+  fullName.vb: CSharpPlus.EnumerablePlus.IntersectBy(Of T, TKey)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  nameWithType: EnumerablePlus.IntersectBy<T, TKey>(IEnumerable<T>, IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>?)
+  nameWithType.vb: EnumerablePlus.IntersectBy(Of T, TKey)(IEnumerable(Of T), IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+- uid: CSharpPlus.EnumerablePlus.IsEmpty*
+  name: IsEmpty
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_IsEmpty_
+  commentId: Overload:CSharpPlus.EnumerablePlus.IsEmpty
+  fullName: CSharpPlus.EnumerablePlus.IsEmpty
+  nameWithType: EnumerablePlus.IsEmpty
+- uid: CSharpPlus.EnumerablePlus.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name: IsEmpty<T>(IEnumerable<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_IsEmpty__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: IsEmpty(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.IsEmpty<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.IsEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.IsEmpty<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerablePlus.IsEmpty(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable{System.Char})
+  name: JoinString(IEnumerable<char>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_JoinString_System_Collections_Generic_IEnumerable_System_Char__
+  commentId: M:CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable{System.Char})
+  name.vb: JoinString(IEnumerable(Of Char))
+  fullName: CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable<char>)
+  fullName.vb: CSharpPlus.EnumerablePlus.JoinString(System.Collections.Generic.IEnumerable(Of Char))
+  nameWithType: EnumerablePlus.JoinString(IEnumerable<char>)
+  nameWithType.vb: EnumerablePlus.JoinString(IEnumerable(Of Char))
+- uid: CSharpPlus.EnumerablePlus.JoinString*
+  name: JoinString
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_JoinString_
+  commentId: Overload:CSharpPlus.EnumerablePlus.JoinString
+  fullName: CSharpPlus.EnumerablePlus.JoinString
+  nameWithType: EnumerablePlus.JoinString
+- uid: CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.Char)
+  name: JoinString<T>(IEnumerable<T>, char)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_JoinString__1_System_Collections_Generic_IEnumerable___0__System_Char_
+  commentId: M:CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.Char)
+  name.vb: JoinString(Of T)(IEnumerable(Of T), Char)
+  fullName: CSharpPlus.EnumerablePlus.JoinString<T>(System.Collections.Generic.IEnumerable<T>, char)
+  fullName.vb: CSharpPlus.EnumerablePlus.JoinString(Of T)(System.Collections.Generic.IEnumerable(Of T), Char)
+  nameWithType: EnumerablePlus.JoinString<T>(IEnumerable<T>, char)
+  nameWithType.vb: EnumerablePlus.JoinString(Of T)(IEnumerable(Of T), Char)
+- uid: CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name: JoinString<T>(IEnumerable<T>, string)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_JoinString__1_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:CSharpPlus.EnumerablePlus.JoinString``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: JoinString(Of T)(IEnumerable(Of T), String)
+  fullName: CSharpPlus.EnumerablePlus.JoinString<T>(System.Collections.Generic.IEnumerable<T>, string)
+  fullName.vb: CSharpPlus.EnumerablePlus.JoinString(Of T)(System.Collections.Generic.IEnumerable(Of T), String)
+  nameWithType: EnumerablePlus.JoinString<T>(IEnumerable<T>, string)
+  nameWithType.vb: EnumerablePlus.JoinString(Of T)(IEnumerable(Of T), String)
+- uid: CSharpPlus.EnumerablePlus.MaxOrDefault*
+  name: MaxOrDefault
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MaxOrDefault_
+  commentId: Overload:CSharpPlus.EnumerablePlus.MaxOrDefault
+  fullName: CSharpPlus.EnumerablePlus.MaxOrDefault
+  nameWithType: EnumerablePlus.MaxOrDefault
+- uid: CSharpPlus.EnumerablePlus.MaxOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  name: MaxOrDefault<T>(IEnumerable<T>, T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MaxOrDefault__1_System_Collections_Generic_IEnumerable___0____0_
+  commentId: M:CSharpPlus.EnumerablePlus.MaxOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  name.vb: MaxOrDefault(Of T)(IEnumerable(Of T), T)
+  fullName: CSharpPlus.EnumerablePlus.MaxOrDefault<T>(System.Collections.Generic.IEnumerable<T>, T)
+  fullName.vb: CSharpPlus.EnumerablePlus.MaxOrDefault(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  nameWithType: EnumerablePlus.MaxOrDefault<T>(IEnumerable<T>, T)
+  nameWithType.vb: EnumerablePlus.MaxOrDefault(Of T)(IEnumerable(Of T), T)
+- uid: CSharpPlus.EnumerablePlus.MaxOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  name: MaxOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MaxOrDefault__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1____1_
+  commentId: M:CSharpPlus.EnumerablePlus.MaxOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  name.vb: MaxOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+  fullName: CSharpPlus.EnumerablePlus.MaxOrDefault<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>, TProp)
+  fullName.vb: CSharpPlus.EnumerablePlus.MaxOrDefault(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp), TProp)
+  nameWithType: EnumerablePlus.MaxOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  nameWithType.vb: EnumerablePlus.MaxOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+- uid: CSharpPlus.EnumerablePlus.MinAndMax*
+  name: MinAndMax
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinAndMax_
+  commentId: Overload:CSharpPlus.EnumerablePlus.MinAndMax
+  fullName: CSharpPlus.EnumerablePlus.MinAndMax
+  nameWithType: EnumerablePlus.MinAndMax
+- uid: CSharpPlus.EnumerablePlus.MinAndMaxBy*
+  name: MinAndMaxBy
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinAndMaxBy_
+  commentId: Overload:CSharpPlus.EnumerablePlus.MinAndMaxBy
+  fullName: CSharpPlus.EnumerablePlus.MinAndMaxBy
+  nameWithType: EnumerablePlus.MinAndMaxBy
+- uid: CSharpPlus.EnumerablePlus.MinAndMaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: MinAndMaxBy<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinAndMaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:CSharpPlus.EnumerablePlus.MinAndMaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: MinAndMaxBy(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+  fullName: CSharpPlus.EnumerablePlus.MinAndMaxBy<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>)
+  fullName.vb: CSharpPlus.EnumerablePlus.MinAndMaxBy(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp))
+  nameWithType: EnumerablePlus.MinAndMaxBy<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  nameWithType.vb: EnumerablePlus.MinAndMaxBy(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+- uid: CSharpPlus.EnumerablePlus.MinAndMax``1(System.Collections.Generic.IEnumerable{``0})
+  name: MinAndMax<T>(IEnumerable<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinAndMax__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.MinAndMax``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: MinAndMax(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.MinAndMax<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.MinAndMax(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.MinAndMax<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerablePlus.MinAndMax(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.MinAndMax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: MinAndMax<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinAndMax__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:CSharpPlus.EnumerablePlus.MinAndMax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: MinAndMax(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+  fullName: CSharpPlus.EnumerablePlus.MinAndMax<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>)
+  fullName.vb: CSharpPlus.EnumerablePlus.MinAndMax(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp))
+  nameWithType: EnumerablePlus.MinAndMax<T, TProp>(IEnumerable<T>, Func<T, TProp>)
+  nameWithType.vb: EnumerablePlus.MinAndMax(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp))
+- uid: CSharpPlus.EnumerablePlus.MinOrDefault*
+  name: MinOrDefault
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinOrDefault_
+  commentId: Overload:CSharpPlus.EnumerablePlus.MinOrDefault
+  fullName: CSharpPlus.EnumerablePlus.MinOrDefault
+  nameWithType: EnumerablePlus.MinOrDefault
+- uid: CSharpPlus.EnumerablePlus.MinOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  name: MinOrDefault<T>(IEnumerable<T>, T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinOrDefault__1_System_Collections_Generic_IEnumerable___0____0_
+  commentId: M:CSharpPlus.EnumerablePlus.MinOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0)
+  name.vb: MinOrDefault(Of T)(IEnumerable(Of T), T)
+  fullName: CSharpPlus.EnumerablePlus.MinOrDefault<T>(System.Collections.Generic.IEnumerable<T>, T)
+  fullName.vb: CSharpPlus.EnumerablePlus.MinOrDefault(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  nameWithType: EnumerablePlus.MinOrDefault<T>(IEnumerable<T>, T)
+  nameWithType.vb: EnumerablePlus.MinOrDefault(Of T)(IEnumerable(Of T), T)
+- uid: CSharpPlus.EnumerablePlus.MinOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  name: MinOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_MinOrDefault__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1____1_
+  commentId: M:CSharpPlus.EnumerablePlus.MinOrDefault``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},``1)
+  name.vb: MinOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+  fullName: CSharpPlus.EnumerablePlus.MinOrDefault<T, TProp>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TProp>, TProp)
+  fullName.vb: CSharpPlus.EnumerablePlus.MinOrDefault(Of T, TProp)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TProp), TProp)
+  nameWithType: EnumerablePlus.MinOrDefault<T, TProp>(IEnumerable<T>, Func<T, TProp>, TProp)
+  nameWithType.vb: EnumerablePlus.MinOrDefault(Of T, TProp)(IEnumerable(Of T), Func(Of T, TProp), TProp)
+- uid: CSharpPlus.EnumerablePlus.Partition*
+  name: Partition
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Partition_
+  commentId: Overload:CSharpPlus.EnumerablePlus.Partition
+  fullName: CSharpPlus.EnumerablePlus.Partition
+  nameWithType: EnumerablePlus.Partition
+- uid: CSharpPlus.EnumerablePlus.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: Partition<T>(IEnumerable<T>, Func<T, bool>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Partition__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.EnumerablePlus.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: Partition(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+  fullName: CSharpPlus.EnumerablePlus.Partition<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, bool>)
+  fullName.vb: CSharpPlus.EnumerablePlus.Partition(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, Boolean))
+  nameWithType: EnumerablePlus.Partition<T>(IEnumerable<T>, Func<T, bool>)
+  nameWithType.vb: EnumerablePlus.Partition(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+- uid: CSharpPlus.EnumerablePlus.PickRandom*
+  name: PickRandom
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_PickRandom_
+  commentId: Overload:CSharpPlus.EnumerablePlus.PickRandom
+  fullName: CSharpPlus.EnumerablePlus.PickRandom
+  nameWithType: EnumerablePlus.PickRandom
+- uid: CSharpPlus.EnumerablePlus.PickRandomOrDefault*
+  name: PickRandomOrDefault
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_PickRandomOrDefault_
+  commentId: Overload:CSharpPlus.EnumerablePlus.PickRandomOrDefault
+  fullName: CSharpPlus.EnumerablePlus.PickRandomOrDefault
+  nameWithType: EnumerablePlus.PickRandomOrDefault
+- uid: CSharpPlus.EnumerablePlus.PickRandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0,System.Random)
+  name: PickRandomOrDefault<T>(IEnumerable<T>, T?, Random?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_PickRandomOrDefault__1_System_Collections_Generic_IEnumerable___0____0_System_Random_
+  commentId: M:CSharpPlus.EnumerablePlus.PickRandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},``0,System.Random)
+  name.vb: PickRandomOrDefault(Of T)(IEnumerable(Of T), T, Random)
+  fullName: CSharpPlus.EnumerablePlus.PickRandomOrDefault<T>(System.Collections.Generic.IEnumerable<T>, T?, System.Random?)
+  fullName.vb: CSharpPlus.EnumerablePlus.PickRandomOrDefault(Of T)(System.Collections.Generic.IEnumerable(Of T), T, System.Random)
+  nameWithType: EnumerablePlus.PickRandomOrDefault<T>(IEnumerable<T>, T?, Random?)
+  nameWithType.vb: EnumerablePlus.PickRandomOrDefault(Of T)(IEnumerable(Of T), T, Random)
+- uid: CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)
+  name: PickRandom<T>(IEnumerable<T>, int, Random?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_PickRandom__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Random_
+  commentId: M:CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)
+  name.vb: PickRandom(Of T)(IEnumerable(Of T), Integer, Random)
+  fullName: CSharpPlus.EnumerablePlus.PickRandom<T>(System.Collections.Generic.IEnumerable<T>, int, System.Random?)
+  fullName.vb: CSharpPlus.EnumerablePlus.PickRandom(Of T)(System.Collections.Generic.IEnumerable(Of T), Integer, System.Random)
+  nameWithType: EnumerablePlus.PickRandom<T>(IEnumerable<T>, int, Random?)
+  nameWithType.vb: EnumerablePlus.PickRandom(Of T)(IEnumerable(Of T), Integer, Random)
+- uid: CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  name: PickRandom<T>(IEnumerable<T>, Random?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_PickRandom__1_System_Collections_Generic_IEnumerable___0__System_Random_
+  commentId: M:CSharpPlus.EnumerablePlus.PickRandom``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  name.vb: PickRandom(Of T)(IEnumerable(Of T), Random)
+  fullName: CSharpPlus.EnumerablePlus.PickRandom<T>(System.Collections.Generic.IEnumerable<T>, System.Random?)
+  fullName.vb: CSharpPlus.EnumerablePlus.PickRandom(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Random)
+  nameWithType: EnumerablePlus.PickRandom<T>(IEnumerable<T>, Random?)
+  nameWithType.vb: EnumerablePlus.PickRandom(Of T)(IEnumerable(Of T), Random)
+- uid: CSharpPlus.EnumerablePlus.Repeat*
+  name: Repeat
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Repeat_
+  commentId: Overload:CSharpPlus.EnumerablePlus.Repeat
+  fullName: CSharpPlus.EnumerablePlus.Repeat
+  nameWithType: EnumerablePlus.Repeat
+- uid: CSharpPlus.EnumerablePlus.RepeatForever*
+  name: RepeatForever
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_RepeatForever_
+  commentId: Overload:CSharpPlus.EnumerablePlus.RepeatForever
+  fullName: CSharpPlus.EnumerablePlus.RepeatForever
+  nameWithType: EnumerablePlus.RepeatForever
+- uid: CSharpPlus.EnumerablePlus.RepeatForever``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name: RepeatForever<TSource>(IEnumerable<TSource>, CancellationToken)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_RepeatForever__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
+  commentId: M:CSharpPlus.EnumerablePlus.RepeatForever``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name.vb: RepeatForever(Of TSource)(IEnumerable(Of TSource), CancellationToken)
+  fullName: CSharpPlus.EnumerablePlus.RepeatForever<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Threading.CancellationToken)
+  fullName.vb: CSharpPlus.EnumerablePlus.RepeatForever(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Threading.CancellationToken)
+  nameWithType: EnumerablePlus.RepeatForever<TSource>(IEnumerable<TSource>, CancellationToken)
+  nameWithType.vb: EnumerablePlus.RepeatForever(Of TSource)(IEnumerable(Of TSource), CancellationToken)
+- uid: CSharpPlus.EnumerablePlus.Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Repeat<TSource>(IEnumerable<TSource>, int)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Repeat__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:CSharpPlus.EnumerablePlus.Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: Repeat(Of TSource)(IEnumerable(Of TSource), Integer)
+  fullName: CSharpPlus.EnumerablePlus.Repeat<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)
+  fullName.vb: CSharpPlus.EnumerablePlus.Repeat(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), Integer)
+  nameWithType: EnumerablePlus.Repeat<TSource>(IEnumerable<TSource>, int)
+  nameWithType.vb: EnumerablePlus.Repeat(Of TSource)(IEnumerable(Of TSource), Integer)
+- uid: CSharpPlus.EnumerablePlus.Scan*
+  name: Scan
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Scan_
+  commentId: Overload:CSharpPlus.EnumerablePlus.Scan
+  fullName: CSharpPlus.EnumerablePlus.Scan
+  nameWithType: EnumerablePlus.Scan
+- uid: CSharpPlus.EnumerablePlus.ScanBy*
+  name: ScanBy
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ScanBy_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ScanBy
+  fullName: CSharpPlus.EnumerablePlus.ScanBy
+  nameWithType: EnumerablePlus.ScanBy
+- uid: CSharpPlus.EnumerablePlus.ScanBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``1,``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  name: ScanBy<TSource, TKey, TState>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TKey, TState>, Func<TState, TKey, TSource, TState>, IEqualityComparer<TKey>?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ScanBy__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___1___2__System_Func___2___1___0___2__System_Collections_Generic_IEqualityComparer___1__
+  commentId: M:CSharpPlus.EnumerablePlus.ScanBy``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``2},System.Func{``2,``1,``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  name.vb: ScanBy(Of TSource, TKey, TState)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TKey, TState), Func(Of TState, TKey, TSource, TState), IEqualityComparer(Of TKey))
+  fullName: CSharpPlus.EnumerablePlus.ScanBy<TSource, TKey, TState>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TKey, TState>, System.Func<TState, TKey, TSource, TState>, System.Collections.Generic.IEqualityComparer<TKey>?)
+  fullName.vb: CSharpPlus.EnumerablePlus.ScanBy(Of TSource, TKey, TState)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TKey, TState), System.Func(Of TState, TKey, TSource, TState), System.Collections.Generic.IEqualityComparer(Of TKey))
+  nameWithType: EnumerablePlus.ScanBy<TSource, TKey, TState>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TKey, TState>, Func<TState, TKey, TSource, TState>, IEqualityComparer<TKey>?)
+  nameWithType.vb: EnumerablePlus.ScanBy(Of TSource, TKey, TState)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TKey, TState), Func(Of TState, TKey, TSource, TState), IEqualityComparer(Of TKey))
+- uid: CSharpPlus.EnumerablePlus.Scan``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  name: Scan<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Scan__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__
+  commentId: M:CSharpPlus.EnumerablePlus.Scan``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0})
+  name.vb: Scan(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+  fullName: CSharpPlus.EnumerablePlus.Scan<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TSource, TSource>)
+  fullName.vb: CSharpPlus.EnumerablePlus.Scan(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TSource, TSource))
+  nameWithType: EnumerablePlus.Scan<TSource>(IEnumerable<TSource>, Func<TSource, TSource, TSource>)
+  nameWithType.vb: EnumerablePlus.Scan(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, TSource, TSource))
+- uid: CSharpPlus.EnumerablePlus.Scan``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  name: Scan<TSource, TState>(IEnumerable<TSource>, TState, Func<TState, TSource, TState>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Scan__2_System_Collections_Generic_IEnumerable___0____1_System_Func___1___0___1__
+  commentId: M:CSharpPlus.EnumerablePlus.Scan``2(System.Collections.Generic.IEnumerable{``0},``1,System.Func{``1,``0,``1})
+  name.vb: Scan(Of TSource, TState)(IEnumerable(Of TSource), TState, Func(Of TState, TSource, TState))
+  fullName: CSharpPlus.EnumerablePlus.Scan<TSource, TState>(System.Collections.Generic.IEnumerable<TSource>, TState, System.Func<TState, TSource, TState>)
+  fullName.vb: CSharpPlus.EnumerablePlus.Scan(Of TSource, TState)(System.Collections.Generic.IEnumerable(Of TSource), TState, System.Func(Of TState, TSource, TState))
+  nameWithType: EnumerablePlus.Scan<TSource, TState>(IEnumerable<TSource>, TState, Func<TState, TSource, TState>)
+  nameWithType.vb: EnumerablePlus.Scan(Of TSource, TState)(IEnumerable(Of TSource), TState, Func(Of TState, TSource, TState))
+- uid: CSharpPlus.EnumerablePlus.SelectMany*
+  name: SelectMany
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_SelectMany_
+  commentId: Overload:CSharpPlus.EnumerablePlus.SelectMany
+  fullName: CSharpPlus.EnumerablePlus.SelectMany
+  nameWithType: EnumerablePlus.SelectMany
+- uid: CSharpPlus.EnumerablePlus.SelectMany``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name: SelectMany<T>(IEnumerable<IEnumerable<T>>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_SelectMany__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
+  commentId: M:CSharpPlus.EnumerablePlus.SelectMany``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name.vb: SelectMany(Of T)(IEnumerable(Of IEnumerable(Of T)))
+  fullName: CSharpPlus.EnumerablePlus.SelectMany<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>)
+  fullName.vb: CSharpPlus.EnumerablePlus.SelectMany(Of T)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of T)))
+  nameWithType: EnumerablePlus.SelectMany<T>(IEnumerable<IEnumerable<T>>)
+  nameWithType.vb: EnumerablePlus.SelectMany(Of T)(IEnumerable(Of IEnumerable(Of T)))
+- uid: CSharpPlus.EnumerablePlus.Shuffle*
+  name: Shuffle
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Shuffle_
+  commentId: Overload:CSharpPlus.EnumerablePlus.Shuffle
+  fullName: CSharpPlus.EnumerablePlus.Shuffle
+  nameWithType: EnumerablePlus.Shuffle
+- uid: CSharpPlus.EnumerablePlus.Shuffle``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  name: Shuffle<T>(IEnumerable<T>, Random?)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Shuffle__1_System_Collections_Generic_IEnumerable___0__System_Random_
+  commentId: M:CSharpPlus.EnumerablePlus.Shuffle``1(System.Collections.Generic.IEnumerable{``0},System.Random)
+  name.vb: Shuffle(Of T)(IEnumerable(Of T), Random)
+  fullName: CSharpPlus.EnumerablePlus.Shuffle<T>(System.Collections.Generic.IEnumerable<T>, System.Random?)
+  fullName.vb: CSharpPlus.EnumerablePlus.Shuffle(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Random)
+  nameWithType: EnumerablePlus.Shuffle<T>(IEnumerable<T>, Random?)
+  nameWithType.vb: EnumerablePlus.Shuffle(Of T)(IEnumerable(Of T), Random)
+- uid: CSharpPlus.EnumerablePlus.SkipUntil*
+  name: SkipUntil
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_SkipUntil_
+  commentId: Overload:CSharpPlus.EnumerablePlus.SkipUntil
+  fullName: CSharpPlus.EnumerablePlus.SkipUntil
+  nameWithType: EnumerablePlus.SkipUntil
+- uid: CSharpPlus.EnumerablePlus.SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: SkipUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_SkipUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.EnumerablePlus.SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: SkipUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.EnumerablePlus.SkipUntil<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.EnumerablePlus.SkipUntil(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: EnumerablePlus.SkipUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: EnumerablePlus.SkipUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: CSharpPlus.EnumerablePlus.TakeUntil*
+  name: TakeUntil
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_TakeUntil_
+  commentId: Overload:CSharpPlus.EnumerablePlus.TakeUntil
+  fullName: CSharpPlus.EnumerablePlus.TakeUntil
+  nameWithType: EnumerablePlus.TakeUntil
+- uid: CSharpPlus.EnumerablePlus.TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: TakeUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_TakeUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:CSharpPlus.EnumerablePlus.TakeUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: TakeUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+  fullName: CSharpPlus.EnumerablePlus.TakeUntil<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)
+  fullName.vb: CSharpPlus.EnumerablePlus.TakeUntil(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, Boolean))
+  nameWithType: EnumerablePlus.TakeUntil<TSource>(IEnumerable<TSource>, Func<TSource, bool>)
+  nameWithType.vb: EnumerablePlus.TakeUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean))
+- uid: CSharpPlus.EnumerablePlus.Tap*
+  name: Tap
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Tap_
+  commentId: Overload:CSharpPlus.EnumerablePlus.Tap
+  fullName: CSharpPlus.EnumerablePlus.Tap
+  nameWithType: EnumerablePlus.Tap
+- uid: CSharpPlus.EnumerablePlus.Tap``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: Tap<T>(IEnumerable<T>, Action<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_Tap__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:CSharpPlus.EnumerablePlus.Tap``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: Tap(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: CSharpPlus.EnumerablePlus.Tap<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.Tap(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: EnumerablePlus.Tap<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: EnumerablePlus.Tap(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)
+  name: ToEnumerable(IEnumerator)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToEnumerable_System_Collections_IEnumerator_
+  commentId: M:CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)
+  fullName: CSharpPlus.EnumerablePlus.ToEnumerable(System.Collections.IEnumerator)
+  nameWithType: EnumerablePlus.ToEnumerable(IEnumerator)
+- uid: CSharpPlus.EnumerablePlus.ToEnumerable*
+  name: ToEnumerable
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToEnumerable_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToEnumerable
+  fullName: CSharpPlus.EnumerablePlus.ToEnumerable
+  nameWithType: EnumerablePlus.ToEnumerable
+- uid: CSharpPlus.EnumerablePlus.ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})
+  name: ToEnumerable<T>(IEnumerator<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToEnumerable__1_System_Collections_Generic_IEnumerator___0__
+  commentId: M:CSharpPlus.EnumerablePlus.ToEnumerable``1(System.Collections.Generic.IEnumerator{``0})
+  name.vb: ToEnumerable(Of T)(IEnumerator(Of T))
+  fullName: CSharpPlus.EnumerablePlus.ToEnumerable<T>(System.Collections.Generic.IEnumerator<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToEnumerable(Of T)(System.Collections.Generic.IEnumerator(Of T))
+  nameWithType: EnumerablePlus.ToEnumerable<T>(IEnumerator<T>)
+  nameWithType.vb: EnumerablePlus.ToEnumerable(Of T)(IEnumerator(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToNullable*
+  name: ToNullable
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToNullable_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToNullable
+  fullName: CSharpPlus.EnumerablePlus.ToNullable
+  nameWithType: EnumerablePlus.ToNullable
+- uid: CSharpPlus.EnumerablePlus.ToNullable``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToNullable<T>(IEnumerable<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToNullable__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.ToNullable``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToNullable(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.ToNullable<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToNullable(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.ToNullable<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerablePlus.ToNullable(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToReadOnly*
+  name: ToReadOnly
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToReadOnly_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToReadOnly
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnly
+  nameWithType: EnumerablePlus.ToReadOnly
+- uid: CSharpPlus.EnumerablePlus.ToReadOnlyList*
+  name: ToReadOnlyList
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToReadOnlyList_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToReadOnlyList
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnlyList
+  nameWithType: EnumerablePlus.ToReadOnlyList
+- uid: CSharpPlus.EnumerablePlus.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToReadOnlyList<T>(IEnumerable<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToReadOnlyList__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToReadOnlyList(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnlyList<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToReadOnlyList(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.ToReadOnlyList<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerablePlus.ToReadOnlyList(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToReadOnly``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToReadOnly<T>(IEnumerable<T>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToReadOnly__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.ToReadOnly``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToReadOnly(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.ToReadOnly<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToReadOnly(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.ToReadOnly<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerablePlus.ToReadOnly(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.EnumerablePlus.ToSingleton*
+  name: ToSingleton
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton_
+  commentId: Overload:CSharpPlus.EnumerablePlus.ToSingleton
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton
+  nameWithType: EnumerablePlus.ToSingleton
+- uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  name: ToSingleton<T>(T)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  name.vb: ToSingleton(Of T)(T)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<T>(T)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of T)(T)
+  nameWithType: EnumerablePlus.ToSingleton<T>(T)
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of T)(T)
+- uid: CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  name: WhenAll(IEnumerable<Task>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAll_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  name.vb: WhenAll(IEnumerable(Of Task))
+  fullName: CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>)
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAll(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task))
+  nameWithType: EnumerablePlus.WhenAll(IEnumerable<Task>)
+  nameWithType.vb: EnumerablePlus.WhenAll(IEnumerable(Of Task))
+- uid: CSharpPlus.EnumerablePlus.WhenAll*
+  name: WhenAll
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAll_
+  commentId: Overload:CSharpPlus.EnumerablePlus.WhenAll
+  fullName: CSharpPlus.EnumerablePlus.WhenAll
+  nameWithType: EnumerablePlus.WhenAll
+- uid: CSharpPlus.EnumerablePlus.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  name: WhenAll<T>(IEnumerable<Task<T>>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAll__1_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task___0___
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  name.vb: WhenAll(Of T)(IEnumerable(Of Task(Of T)))
+  fullName: CSharpPlus.EnumerablePlus.WhenAll<T>(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<T>>)
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAll(Of T)(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task(Of T)))
+  nameWithType: EnumerablePlus.WhenAll<T>(IEnumerable<Task<T>>)
+  nameWithType.vb: EnumerablePlus.WhenAll(Of T)(IEnumerable(Of Task(Of T)))
+- uid: CSharpPlus.EnumerablePlus.WhenAll``2(System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}})
+  name: WhenAll<TKey, TValue>(IDictionary<TKey, Task<TValue>>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAll__2_System_Collections_Generic_IDictionary___0_System_Threading_Tasks_Task___1___
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAll``2(System.Collections.Generic.IDictionary{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: WhenAll(Of TKey, TValue)(IDictionary(Of TKey, Task(Of TValue)))
+  fullName: CSharpPlus.EnumerablePlus.WhenAll<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, System.Threading.Tasks.Task<TValue>>)
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAll(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, System.Threading.Tasks.Task(Of TValue)))
+  nameWithType: EnumerablePlus.WhenAll<TKey, TValue>(IDictionary<TKey, Task<TValue>>)
+  nameWithType.vb: EnumerablePlus.WhenAll(Of TKey, TValue)(IDictionary(Of TKey, Task(Of TValue)))
+- uid: CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  name: WhenAny(IEnumerable<Task>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAny_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
+  name.vb: WhenAny(IEnumerable(Of Task))
+  fullName: CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>)
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAny(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task))
+  nameWithType: EnumerablePlus.WhenAny(IEnumerable<Task>)
+  nameWithType.vb: EnumerablePlus.WhenAny(IEnumerable(Of Task))
+- uid: CSharpPlus.EnumerablePlus.WhenAny*
+  name: WhenAny
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAny_
+  commentId: Overload:CSharpPlus.EnumerablePlus.WhenAny
+  fullName: CSharpPlus.EnumerablePlus.WhenAny
+  nameWithType: EnumerablePlus.WhenAny
+- uid: CSharpPlus.EnumerablePlus.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  name: WhenAny<T>(IEnumerable<Task<T>>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhenAny__1_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task___0___
+  commentId: M:CSharpPlus.EnumerablePlus.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
+  name.vb: WhenAny(Of T)(IEnumerable(Of Task(Of T)))
+  fullName: CSharpPlus.EnumerablePlus.WhenAny<T>(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<T>>)
+  fullName.vb: CSharpPlus.EnumerablePlus.WhenAny(Of T)(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task(Of T)))
+  nameWithType: EnumerablePlus.WhenAny<T>(IEnumerable<Task<T>>)
+  nameWithType.vb: EnumerablePlus.WhenAny(Of T)(IEnumerable(Of Task(Of T)))
+- uid: CSharpPlus.EnumerablePlus.WhereNotNull*
+  name: WhereNotNull
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhereNotNull_
+  commentId: Overload:CSharpPlus.EnumerablePlus.WhereNotNull
+  fullName: CSharpPlus.EnumerablePlus.WhereNotNull
+  nameWithType: EnumerablePlus.WhereNotNull
+- uid: CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})
+  name: WhereNotNull<T>(IEnumerable<T?>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhereNotNull__1_System_Collections_Generic_IEnumerable_System_Nullable___0___
+  commentId: M:CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})
+  name.vb: WhereNotNull(Of T)(IEnumerable(Of T?))
+  fullName: CSharpPlus.EnumerablePlus.WhereNotNull<T>(System.Collections.Generic.IEnumerable<T?>)
+  fullName.vb: CSharpPlus.EnumerablePlus.WhereNotNull(Of T)(System.Collections.Generic.IEnumerable(Of T?))
+  nameWithType: EnumerablePlus.WhereNotNull<T>(IEnumerable<T?>)
+  nameWithType.vb: EnumerablePlus.WhereNotNull(Of T)(IEnumerable(Of T?))
+- uid: CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})
+  name: WhereNotNull<T>(IEnumerable<T?>)
+  href: api/CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_WhereNotNull__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CSharpPlus.EnumerablePlus.WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: WhereNotNull(Of T)(IEnumerable(Of T))
+  fullName: CSharpPlus.EnumerablePlus.WhereNotNull<T>(System.Collections.Generic.IEnumerable<T?>)
+  fullName.vb: CSharpPlus.EnumerablePlus.WhereNotNull(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerablePlus.WhereNotNull<T>(IEnumerable<T?>)
+  nameWithType.vb: EnumerablePlus.WhereNotNull(Of T)(IEnumerable(Of T))
+- uid: CSharpPlus.ExpressionExtensions
+  name: ExpressionExtensions
+  href: api/CSharpPlus.ExpressionExtensions.html
+  commentId: T:CSharpPlus.ExpressionExtensions
+  fullName: CSharpPlus.ExpressionExtensions
+  nameWithType: ExpressionExtensions
+- uid: CSharpPlus.ExpressionExtensions.GetMemberName*
+  name: GetMemberName
+  href: api/CSharpPlus.ExpressionExtensions.html#CSharpPlus_ExpressionExtensions_GetMemberName_
+  commentId: Overload:CSharpPlus.ExpressionExtensions.GetMemberName
+  fullName: CSharpPlus.ExpressionExtensions.GetMemberName
+  nameWithType: ExpressionExtensions.GetMemberName
+- uid: CSharpPlus.ExpressionExtensions.GetMemberNameOrDefault*
+  name: GetMemberNameOrDefault
+  href: api/CSharpPlus.ExpressionExtensions.html#CSharpPlus_ExpressionExtensions_GetMemberNameOrDefault_
+  commentId: Overload:CSharpPlus.ExpressionExtensions.GetMemberNameOrDefault
+  fullName: CSharpPlus.ExpressionExtensions.GetMemberNameOrDefault
+  nameWithType: ExpressionExtensions.GetMemberNameOrDefault
+- uid: CSharpPlus.ExpressionExtensions.GetMemberNameOrDefault``1(System.Linq.Expressions.Expression{``0},System.String)
+  name: GetMemberNameOrDefault<T>(Expression<T>, string?)
+  href: api/CSharpPlus.ExpressionExtensions.html#CSharpPlus_ExpressionExtensions_GetMemberNameOrDefault__1_System_Linq_Expressions_Expression___0__System_String_
+  commentId: M:CSharpPlus.ExpressionExtensions.GetMemberNameOrDefault``1(System.Linq.Expressions.Expression{``0},System.String)
+  name.vb: GetMemberNameOrDefault(Of T)(Expression(Of T), String)
+  fullName: CSharpPlus.ExpressionExtensions.GetMemberNameOrDefault<T>(System.Linq.Expressions.Expression<T>, string?)
+  fullName.vb: CSharpPlus.ExpressionExtensions.GetMemberNameOrDefault(Of T)(System.Linq.Expressions.Expression(Of T), String)
+  nameWithType: ExpressionExtensions.GetMemberNameOrDefault<T>(Expression<T>, string?)
+  nameWithType.vb: ExpressionExtensions.GetMemberNameOrDefault(Of T)(Expression(Of T), String)
+- uid: CSharpPlus.ExpressionExtensions.GetMemberName``1(System.Linq.Expressions.Expression{``0})
+  name: GetMemberName<T>(Expression<T>)
+  href: api/CSharpPlus.ExpressionExtensions.html#CSharpPlus_ExpressionExtensions_GetMemberName__1_System_Linq_Expressions_Expression___0__
+  commentId: M:CSharpPlus.ExpressionExtensions.GetMemberName``1(System.Linq.Expressions.Expression{``0})
+  name.vb: GetMemberName(Of T)(Expression(Of T))
+  fullName: CSharpPlus.ExpressionExtensions.GetMemberName<T>(System.Linq.Expressions.Expression<T>)
+  fullName.vb: CSharpPlus.ExpressionExtensions.GetMemberName(Of T)(System.Linq.Expressions.Expression(Of T))
+  nameWithType: ExpressionExtensions.GetMemberName<T>(Expression<T>)
+  nameWithType.vb: ExpressionExtensions.GetMemberName(Of T)(Expression(Of T))
+- uid: CSharpPlus.ExpressionExtensions.GetMemberOrDefault*
+  name: GetMemberOrDefault
+  href: api/CSharpPlus.ExpressionExtensions.html#CSharpPlus_ExpressionExtensions_GetMemberOrDefault_
+  commentId: Overload:CSharpPlus.ExpressionExtensions.GetMemberOrDefault
+  fullName: CSharpPlus.ExpressionExtensions.GetMemberOrDefault
+  nameWithType: ExpressionExtensions.GetMemberOrDefault
+- uid: CSharpPlus.ExpressionExtensions.GetMemberOrDefault``1(System.Linq.Expressions.Expression{``0},System.Reflection.MemberInfo)
+  name: GetMemberOrDefault<T>(Expression<T>, MemberInfo?)
+  href: api/CSharpPlus.ExpressionExtensions.html#CSharpPlus_ExpressionExtensions_GetMemberOrDefault__1_System_Linq_Expressions_Expression___0__System_Reflection_MemberInfo_
+  commentId: M:CSharpPlus.ExpressionExtensions.GetMemberOrDefault``1(System.Linq.Expressions.Expression{``0},System.Reflection.MemberInfo)
+  name.vb: GetMemberOrDefault(Of T)(Expression(Of T), MemberInfo)
+  fullName: CSharpPlus.ExpressionExtensions.GetMemberOrDefault<T>(System.Linq.Expressions.Expression<T>, System.Reflection.MemberInfo?)
+  fullName.vb: CSharpPlus.ExpressionExtensions.GetMemberOrDefault(Of T)(System.Linq.Expressions.Expression(Of T), System.Reflection.MemberInfo)
+  nameWithType: ExpressionExtensions.GetMemberOrDefault<T>(Expression<T>, MemberInfo?)
+  nameWithType.vb: ExpressionExtensions.GetMemberOrDefault(Of T)(Expression(Of T), MemberInfo)
+- uid: CSharpPlus.JsonConverters
+  name: CSharpPlus.JsonConverters
+  href: api/CSharpPlus.JsonConverters.html
+  commentId: N:CSharpPlus.JsonConverters
+  fullName: CSharpPlus.JsonConverters
+  nameWithType: CSharpPlus.JsonConverters
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter
+  name: JsonBigIntegerConverter
+  href: api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html
+  commentId: T:CSharpPlus.JsonConverters.JsonBigIntegerConverter
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter
+  nameWithType: JsonBigIntegerConverter
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter.#ctor
+  name: JsonBigIntegerConverter()
+  href: api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html#CSharpPlus_JsonConverters_JsonBigIntegerConverter__ctor
+  commentId: M:CSharpPlus.JsonConverters.JsonBigIntegerConverter.#ctor
+  name.vb: New()
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter.JsonBigIntegerConverter()
+  fullName.vb: CSharpPlus.JsonConverters.JsonBigIntegerConverter.New()
+  nameWithType: JsonBigIntegerConverter.JsonBigIntegerConverter()
+  nameWithType.vb: JsonBigIntegerConverter.New()
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter.#ctor*
+  name: JsonBigIntegerConverter
+  href: api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html#CSharpPlus_JsonConverters_JsonBigIntegerConverter__ctor_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonBigIntegerConverter.#ctor
+  name.vb: New
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter.JsonBigIntegerConverter
+  fullName.vb: CSharpPlus.JsonConverters.JsonBigIntegerConverter.New
+  nameWithType: JsonBigIntegerConverter.JsonBigIntegerConverter
+  nameWithType.vb: JsonBigIntegerConverter.New
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html#CSharpPlus_JsonConverters_JsonBigIntegerConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:CSharpPlus.JsonConverters.JsonBigIntegerConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonBigIntegerConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: JsonBigIntegerConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Read*
+  name: Read
+  href: api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html#CSharpPlus_JsonConverters_JsonBigIntegerConverter_Read_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonBigIntegerConverter.Read
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Read
+  nameWithType: JsonBigIntegerConverter.Read
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Write(System.Text.Json.Utf8JsonWriter,System.Numerics.BigInteger,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, BigInteger, JsonSerializerOptions)
+  href: api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html#CSharpPlus_JsonConverters_JsonBigIntegerConverter_Write_System_Text_Json_Utf8JsonWriter_System_Numerics_BigInteger_System_Text_Json_JsonSerializerOptions_
+  commentId: M:CSharpPlus.JsonConverters.JsonBigIntegerConverter.Write(System.Text.Json.Utf8JsonWriter,System.Numerics.BigInteger,System.Text.Json.JsonSerializerOptions)
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Write(System.Text.Json.Utf8JsonWriter, System.Numerics.BigInteger, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonBigIntegerConverter.Write(Utf8JsonWriter, BigInteger, JsonSerializerOptions)
+- uid: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Write*
+  name: Write
+  href: api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html#CSharpPlus_JsonConverters_JsonBigIntegerConverter_Write_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonBigIntegerConverter.Write
+  fullName: CSharpPlus.JsonConverters.JsonBigIntegerConverter.Write
+  nameWithType: JsonBigIntegerConverter.Write
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter
+  name: JsonIPAddressConverter
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html
+  commentId: T:CSharpPlus.JsonConverters.JsonIPAddressConverter
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter
+  nameWithType: JsonIPAddressConverter
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.#ctor
+  name: JsonIPAddressConverter()
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter__ctor
+  commentId: M:CSharpPlus.JsonConverters.JsonIPAddressConverter.#ctor
+  name.vb: New()
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.JsonIPAddressConverter()
+  fullName.vb: CSharpPlus.JsonConverters.JsonIPAddressConverter.New()
+  nameWithType: JsonIPAddressConverter.JsonIPAddressConverter()
+  nameWithType.vb: JsonIPAddressConverter.New()
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.#ctor*
+  name: JsonIPAddressConverter
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter__ctor_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonIPAddressConverter.#ctor
+  name.vb: New
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.JsonIPAddressConverter
+  fullName.vb: CSharpPlus.JsonConverters.JsonIPAddressConverter.New
+  nameWithType: JsonIPAddressConverter.JsonIPAddressConverter
+  nameWithType.vb: JsonIPAddressConverter.New
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.MaxIPv4StringLength
+  name: MaxIPv4StringLength
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter_MaxIPv4StringLength
+  commentId: F:CSharpPlus.JsonConverters.JsonIPAddressConverter.MaxIPv4StringLength
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.MaxIPv4StringLength
+  nameWithType: JsonIPAddressConverter.MaxIPv4StringLength
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.MaxIPv6StringLength
+  name: MaxIPv6StringLength
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter_MaxIPv6StringLength
+  commentId: F:CSharpPlus.JsonConverters.JsonIPAddressConverter.MaxIPv6StringLength
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.MaxIPv6StringLength
+  nameWithType: JsonIPAddressConverter.MaxIPv6StringLength
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:CSharpPlus.JsonConverters.JsonIPAddressConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: CSharpPlus.JsonConverters.JsonIPAddressConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonIPAddressConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: JsonIPAddressConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.Read*
+  name: Read
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter_Read_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonIPAddressConverter.Read
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.Read
+  nameWithType: JsonIPAddressConverter.Read
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.Write(System.Text.Json.Utf8JsonWriter,System.Net.IPAddress,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, IPAddress, JsonSerializerOptions)
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter_Write_System_Text_Json_Utf8JsonWriter_System_Net_IPAddress_System_Text_Json_JsonSerializerOptions_
+  commentId: M:CSharpPlus.JsonConverters.JsonIPAddressConverter.Write(System.Text.Json.Utf8JsonWriter,System.Net.IPAddress,System.Text.Json.JsonSerializerOptions)
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.Write(System.Text.Json.Utf8JsonWriter, System.Net.IPAddress, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonIPAddressConverter.Write(Utf8JsonWriter, IPAddress, JsonSerializerOptions)
+- uid: CSharpPlus.JsonConverters.JsonIPAddressConverter.Write*
+  name: Write
+  href: api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html#CSharpPlus_JsonConverters_JsonIPAddressConverter_Write_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonIPAddressConverter.Write
+  fullName: CSharpPlus.JsonConverters.JsonIPAddressConverter.Write
+  nameWithType: JsonIPAddressConverter.Write
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter
+  name: JsonIPEndPointConverter
+  href: api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html
+  commentId: T:CSharpPlus.JsonConverters.JsonIPEndPointConverter
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter
+  nameWithType: JsonIPEndPointConverter
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter.#ctor
+  name: JsonIPEndPointConverter()
+  href: api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html#CSharpPlus_JsonConverters_JsonIPEndPointConverter__ctor
+  commentId: M:CSharpPlus.JsonConverters.JsonIPEndPointConverter.#ctor
+  name.vb: New()
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter.JsonIPEndPointConverter()
+  fullName.vb: CSharpPlus.JsonConverters.JsonIPEndPointConverter.New()
+  nameWithType: JsonIPEndPointConverter.JsonIPEndPointConverter()
+  nameWithType.vb: JsonIPEndPointConverter.New()
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter.#ctor*
+  name: JsonIPEndPointConverter
+  href: api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html#CSharpPlus_JsonConverters_JsonIPEndPointConverter__ctor_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonIPEndPointConverter.#ctor
+  name.vb: New
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter.JsonIPEndPointConverter
+  fullName.vb: CSharpPlus.JsonConverters.JsonIPEndPointConverter.New
+  nameWithType: JsonIPEndPointConverter.JsonIPEndPointConverter
+  nameWithType.vb: JsonIPEndPointConverter.New
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html#CSharpPlus_JsonConverters_JsonIPEndPointConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:CSharpPlus.JsonConverters.JsonIPEndPointConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonIPEndPointConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: JsonIPEndPointConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Read*
+  name: Read
+  href: api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html#CSharpPlus_JsonConverters_JsonIPEndPointConverter_Read_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonIPEndPointConverter.Read
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Read
+  nameWithType: JsonIPEndPointConverter.Read
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Write(System.Text.Json.Utf8JsonWriter,System.Net.IPEndPoint,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, IPEndPoint, JsonSerializerOptions)
+  href: api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html#CSharpPlus_JsonConverters_JsonIPEndPointConverter_Write_System_Text_Json_Utf8JsonWriter_System_Net_IPEndPoint_System_Text_Json_JsonSerializerOptions_
+  commentId: M:CSharpPlus.JsonConverters.JsonIPEndPointConverter.Write(System.Text.Json.Utf8JsonWriter,System.Net.IPEndPoint,System.Text.Json.JsonSerializerOptions)
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Write(System.Text.Json.Utf8JsonWriter, System.Net.IPEndPoint, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonIPEndPointConverter.Write(Utf8JsonWriter, IPEndPoint, JsonSerializerOptions)
+- uid: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Write*
+  name: Write
+  href: api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html#CSharpPlus_JsonConverters_JsonIPEndPointConverter_Write_
+  commentId: Overload:CSharpPlus.JsonConverters.JsonIPEndPointConverter.Write
+  fullName: CSharpPlus.JsonConverters.JsonIPEndPointConverter.Write
+  nameWithType: JsonIPEndPointConverter.Write
+- uid: CSharpPlus.LambdaComparer
+  name: LambdaComparer
+  href: api/CSharpPlus.LambdaComparer.html
+  commentId: T:CSharpPlus.LambdaComparer
+  fullName: CSharpPlus.LambdaComparer
+  nameWithType: LambdaComparer
+- uid: CSharpPlus.LambdaComparer.Create*
+  name: Create
+  href: api/CSharpPlus.LambdaComparer.html#CSharpPlus_LambdaComparer_Create_
+  commentId: Overload:CSharpPlus.LambdaComparer.Create
+  fullName: CSharpPlus.LambdaComparer.Create
+  nameWithType: LambdaComparer.Create
+- uid: CSharpPlus.LambdaComparer.Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  name: Create<TValue>(Func<TValue, TValue, CompareResult>)
+  href: api/CSharpPlus.LambdaComparer.html#CSharpPlus_LambdaComparer_Create__1_System_Func___0___0_CSharpPlus_CompareResult__
+  commentId: M:CSharpPlus.LambdaComparer.Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  name.vb: Create(Of TValue)(Func(Of TValue, TValue, CompareResult))
+  fullName: CSharpPlus.LambdaComparer.Create<TValue>(System.Func<TValue, TValue, CSharpPlus.CompareResult>)
+  fullName.vb: CSharpPlus.LambdaComparer.Create(Of TValue)(System.Func(Of TValue, TValue, CSharpPlus.CompareResult))
+  nameWithType: LambdaComparer.Create<TValue>(Func<TValue, TValue, CompareResult>)
+  nameWithType.vb: LambdaComparer.Create(Of TValue)(Func(Of TValue, TValue, CompareResult))
+- uid: CSharpPlus.LambdaComparer.Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  name: Create<TSource, TKey>(Func<TSource, TKey>, Comparer<TKey>?)
+  href: api/CSharpPlus.LambdaComparer.html#CSharpPlus_LambdaComparer_Create__2_System_Func___0___1__System_Collections_Generic_Comparer___1__
+  commentId: M:CSharpPlus.LambdaComparer.Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  name.vb: Create(Of TSource, TKey)(Func(Of TSource, TKey), Comparer(Of TKey))
+  fullName: CSharpPlus.LambdaComparer.Create<TSource, TKey>(System.Func<TSource, TKey>, System.Collections.Generic.Comparer<TKey>?)
+  fullName.vb: CSharpPlus.LambdaComparer.Create(Of TSource, TKey)(System.Func(Of TSource, TKey), System.Collections.Generic.Comparer(Of TKey))
+  nameWithType: LambdaComparer.Create<TSource, TKey>(Func<TSource, TKey>, Comparer<TKey>?)
+  nameWithType.vb: LambdaComparer.Create(Of TSource, TKey)(Func(Of TSource, TKey), Comparer(Of TKey))
+- uid: CSharpPlus.LambdaComparison
+  name: LambdaComparison
+  href: api/CSharpPlus.LambdaComparison.html
+  commentId: T:CSharpPlus.LambdaComparison
+  fullName: CSharpPlus.LambdaComparison
+  nameWithType: LambdaComparison
+- uid: CSharpPlus.LambdaComparison.Create*
+  name: Create
+  href: api/CSharpPlus.LambdaComparison.html#CSharpPlus_LambdaComparison_Create_
+  commentId: Overload:CSharpPlus.LambdaComparison.Create
+  fullName: CSharpPlus.LambdaComparison.Create
+  nameWithType: LambdaComparison.Create
+- uid: CSharpPlus.LambdaComparison.Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  name: Create<TValue>(Func<TValue, TValue, CompareResult>)
+  href: api/CSharpPlus.LambdaComparison.html#CSharpPlus_LambdaComparison_Create__1_System_Func___0___0_CSharpPlus_CompareResult__
+  commentId: M:CSharpPlus.LambdaComparison.Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  name.vb: Create(Of TValue)(Func(Of TValue, TValue, CompareResult))
+  fullName: CSharpPlus.LambdaComparison.Create<TValue>(System.Func<TValue, TValue, CSharpPlus.CompareResult>)
+  fullName.vb: CSharpPlus.LambdaComparison.Create(Of TValue)(System.Func(Of TValue, TValue, CSharpPlus.CompareResult))
+  nameWithType: LambdaComparison.Create<TValue>(Func<TValue, TValue, CompareResult>)
+  nameWithType.vb: LambdaComparison.Create(Of TValue)(Func(Of TValue, TValue, CompareResult))
+- uid: CSharpPlus.LambdaComparison.Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  name: Create<TSource, TKey>(Func<TSource, TKey>, Comparer<TKey>?)
+  href: api/CSharpPlus.LambdaComparison.html#CSharpPlus_LambdaComparison_Create__2_System_Func___0___1__System_Collections_Generic_Comparer___1__
+  commentId: M:CSharpPlus.LambdaComparison.Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  name.vb: Create(Of TSource, TKey)(Func(Of TSource, TKey), Comparer(Of TKey))
+  fullName: CSharpPlus.LambdaComparison.Create<TSource, TKey>(System.Func<TSource, TKey>, System.Collections.Generic.Comparer<TKey>?)
+  fullName.vb: CSharpPlus.LambdaComparison.Create(Of TSource, TKey)(System.Func(Of TSource, TKey), System.Collections.Generic.Comparer(Of TKey))
+  nameWithType: LambdaComparison.Create<TSource, TKey>(Func<TSource, TKey>, Comparer<TKey>?)
+  nameWithType.vb: LambdaComparison.Create(Of TSource, TKey)(Func(Of TSource, TKey), Comparer(Of TKey))
+- uid: CSharpPlus.NumberExtensions
+  name: NumberExtensions
+  href: api/CSharpPlus.NumberExtensions.html
+  commentId: T:CSharpPlus.NumberExtensions
+  fullName: CSharpPlus.NumberExtensions
+  nameWithType: NumberExtensions
+- uid: CSharpPlus.NumberExtensions.Clamp(System.Decimal,System.Decimal,System.Decimal)
+  name: Clamp(decimal, decimal, decimal)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Clamp_System_Decimal_System_Decimal_System_Decimal_
+  commentId: M:CSharpPlus.NumberExtensions.Clamp(System.Decimal,System.Decimal,System.Decimal)
+  name.vb: Clamp(Decimal, Decimal, Decimal)
+  fullName: CSharpPlus.NumberExtensions.Clamp(decimal, decimal, decimal)
+  fullName.vb: CSharpPlus.NumberExtensions.Clamp(Decimal, Decimal, Decimal)
+  nameWithType: NumberExtensions.Clamp(decimal, decimal, decimal)
+  nameWithType.vb: NumberExtensions.Clamp(Decimal, Decimal, Decimal)
+- uid: CSharpPlus.NumberExtensions.Clamp(System.Double,System.Double,System.Double)
+  name: Clamp(double, double, double)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Clamp_System_Double_System_Double_System_Double_
+  commentId: M:CSharpPlus.NumberExtensions.Clamp(System.Double,System.Double,System.Double)
+  name.vb: Clamp(Double, Double, Double)
+  fullName: CSharpPlus.NumberExtensions.Clamp(double, double, double)
+  fullName.vb: CSharpPlus.NumberExtensions.Clamp(Double, Double, Double)
+  nameWithType: NumberExtensions.Clamp(double, double, double)
+  nameWithType.vb: NumberExtensions.Clamp(Double, Double, Double)
+- uid: CSharpPlus.NumberExtensions.Clamp(System.Single,System.Single,System.Single)
+  name: Clamp(float, float, float)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Clamp_System_Single_System_Single_System_Single_
+  commentId: M:CSharpPlus.NumberExtensions.Clamp(System.Single,System.Single,System.Single)
+  name.vb: Clamp(Single, Single, Single)
+  fullName: CSharpPlus.NumberExtensions.Clamp(float, float, float)
+  fullName.vb: CSharpPlus.NumberExtensions.Clamp(Single, Single, Single)
+  nameWithType: NumberExtensions.Clamp(float, float, float)
+  nameWithType.vb: NumberExtensions.Clamp(Single, Single, Single)
+- uid: CSharpPlus.NumberExtensions.Clamp*
+  name: Clamp
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Clamp_
+  commentId: Overload:CSharpPlus.NumberExtensions.Clamp
+  fullName: CSharpPlus.NumberExtensions.Clamp
+  nameWithType: NumberExtensions.Clamp
+- uid: CSharpPlus.NumberExtensions.ClampZero(System.Decimal)
+  name: ClampZero(decimal)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_ClampZero_System_Decimal_
+  commentId: M:CSharpPlus.NumberExtensions.ClampZero(System.Decimal)
+  name.vb: ClampZero(Decimal)
+  fullName: CSharpPlus.NumberExtensions.ClampZero(decimal)
+  fullName.vb: CSharpPlus.NumberExtensions.ClampZero(Decimal)
+  nameWithType: NumberExtensions.ClampZero(decimal)
+  nameWithType.vb: NumberExtensions.ClampZero(Decimal)
+- uid: CSharpPlus.NumberExtensions.ClampZero(System.Double)
+  name: ClampZero(double)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_ClampZero_System_Double_
+  commentId: M:CSharpPlus.NumberExtensions.ClampZero(System.Double)
+  name.vb: ClampZero(Double)
+  fullName: CSharpPlus.NumberExtensions.ClampZero(double)
+  fullName.vb: CSharpPlus.NumberExtensions.ClampZero(Double)
+  nameWithType: NumberExtensions.ClampZero(double)
+  nameWithType.vb: NumberExtensions.ClampZero(Double)
+- uid: CSharpPlus.NumberExtensions.ClampZero(System.Single)
+  name: ClampZero(float)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_ClampZero_System_Single_
+  commentId: M:CSharpPlus.NumberExtensions.ClampZero(System.Single)
+  name.vb: ClampZero(Single)
+  fullName: CSharpPlus.NumberExtensions.ClampZero(float)
+  fullName.vb: CSharpPlus.NumberExtensions.ClampZero(Single)
+  nameWithType: NumberExtensions.ClampZero(float)
+  nameWithType.vb: NumberExtensions.ClampZero(Single)
+- uid: CSharpPlus.NumberExtensions.ClampZero*
+  name: ClampZero
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_ClampZero_
+  commentId: Overload:CSharpPlus.NumberExtensions.ClampZero
+  fullName: CSharpPlus.NumberExtensions.ClampZero
+  nameWithType: NumberExtensions.ClampZero
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal)
+  name: Round(decimal)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Decimal_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal)
+  name.vb: Round(Decimal)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal)
+  nameWithType: NumberExtensions.Round(decimal)
+  nameWithType.vb: NumberExtensions.Round(Decimal)
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32)
+  name: Round(decimal, int)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Decimal_System_Int32_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32)
+  name.vb: Round(Decimal, Integer)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal, int)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal, Integer)
+  nameWithType: NumberExtensions.Round(decimal, int)
+  nameWithType.vb: NumberExtensions.Round(Decimal, Integer)
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32,System.MidpointRounding)
+  name: Round(decimal, int, MidpointRounding)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Decimal_System_Int32_System_MidpointRounding_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32,System.MidpointRounding)
+  name.vb: Round(Decimal, Integer, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal, int, System.MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal, Integer, System.MidpointRounding)
+  nameWithType: NumberExtensions.Round(decimal, int, MidpointRounding)
+  nameWithType.vb: NumberExtensions.Round(Decimal, Integer, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal,System.MidpointRounding)
+  name: Round(decimal, MidpointRounding)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Decimal_System_MidpointRounding_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal,System.MidpointRounding)
+  name.vb: Round(Decimal, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal, System.MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal, System.MidpointRounding)
+  nameWithType: NumberExtensions.Round(decimal, MidpointRounding)
+  nameWithType.vb: NumberExtensions.Round(Decimal, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double)
+  name: Round(double)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Double_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double)
+  name.vb: Round(Double)
+  fullName: CSharpPlus.NumberExtensions.Round(double)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double)
+  nameWithType: NumberExtensions.Round(double)
+  nameWithType.vb: NumberExtensions.Round(Double)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double,System.Int32)
+  name: Round(double, int)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Double_System_Int32_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double,System.Int32)
+  name.vb: Round(Double, Integer)
+  fullName: CSharpPlus.NumberExtensions.Round(double, int)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double, Integer)
+  nameWithType: NumberExtensions.Round(double, int)
+  nameWithType.vb: NumberExtensions.Round(Double, Integer)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double,System.Int32,System.MidpointRounding)
+  name: Round(double, int, MidpointRounding)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Double_System_Int32_System_MidpointRounding_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double,System.Int32,System.MidpointRounding)
+  name.vb: Round(Double, Integer, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(double, int, System.MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double, Integer, System.MidpointRounding)
+  nameWithType: NumberExtensions.Round(double, int, MidpointRounding)
+  nameWithType.vb: NumberExtensions.Round(Double, Integer, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double,System.MidpointRounding)
+  name: Round(double, MidpointRounding)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Double_System_MidpointRounding_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double,System.MidpointRounding)
+  name.vb: Round(Double, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(double, System.MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double, System.MidpointRounding)
+  nameWithType: NumberExtensions.Round(double, MidpointRounding)
+  nameWithType.vb: NumberExtensions.Round(Double, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single)
+  name: Round(float)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Single_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single)
+  name.vb: Round(Single)
+  fullName: CSharpPlus.NumberExtensions.Round(float)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single)
+  nameWithType: NumberExtensions.Round(float)
+  nameWithType.vb: NumberExtensions.Round(Single)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single,System.Int32)
+  name: Round(float, int)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Single_System_Int32_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single,System.Int32)
+  name.vb: Round(Single, Integer)
+  fullName: CSharpPlus.NumberExtensions.Round(float, int)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single, Integer)
+  nameWithType: NumberExtensions.Round(float, int)
+  nameWithType.vb: NumberExtensions.Round(Single, Integer)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single,System.Int32,System.MidpointRounding)
+  name: Round(float, int, MidpointRounding)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Single_System_Int32_System_MidpointRounding_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single,System.Int32,System.MidpointRounding)
+  name.vb: Round(Single, Integer, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(float, int, System.MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single, Integer, System.MidpointRounding)
+  nameWithType: NumberExtensions.Round(float, int, MidpointRounding)
+  nameWithType.vb: NumberExtensions.Round(Single, Integer, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single,System.MidpointRounding)
+  name: Round(float, MidpointRounding)
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Single_System_MidpointRounding_
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single,System.MidpointRounding)
+  name.vb: Round(Single, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(float, System.MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single, System.MidpointRounding)
+  nameWithType: NumberExtensions.Round(float, MidpointRounding)
+  nameWithType.vb: NumberExtensions.Round(Single, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round*
+  name: Round
+  href: api/CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_
+  commentId: Overload:CSharpPlus.NumberExtensions.Round
+  fullName: CSharpPlus.NumberExtensions.Round
+  nameWithType: NumberExtensions.Round
+- uid: CSharpPlus.Operator
+  name: Operator
+  href: api/CSharpPlus.Operator.html
+  commentId: T:CSharpPlus.Operator
+  fullName: CSharpPlus.Operator
+  nameWithType: Operator
+- uid: CSharpPlus.Operator.Decrement*
+  name: Decrement
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Decrement_
+  commentId: Overload:CSharpPlus.Operator.Decrement
+  fullName: CSharpPlus.Operator.Decrement
+  nameWithType: Operator.Decrement
+- uid: CSharpPlus.Operator.Decrement``1(``0)
+  name: Decrement<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Decrement__1___0_
+  commentId: M:CSharpPlus.Operator.Decrement``1(``0)
+  name.vb: Decrement(Of T)(T)
+  fullName: CSharpPlus.Operator.Decrement<T>(T)
+  fullName.vb: CSharpPlus.Operator.Decrement(Of T)(T)
+  nameWithType: Operator.Decrement<T>(T)
+  nameWithType.vb: Operator.Decrement(Of T)(T)
+- uid: CSharpPlus.Operator.Divide*
+  name: Divide
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Divide_
+  commentId: Overload:CSharpPlus.Operator.Divide
+  fullName: CSharpPlus.Operator.Divide
+  nameWithType: Operator.Divide
+- uid: CSharpPlus.Operator.DivideBy*
+  name: DivideBy
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_DivideBy_
+  commentId: Overload:CSharpPlus.Operator.DivideBy
+  fullName: CSharpPlus.Operator.DivideBy
+  nameWithType: Operator.DivideBy
+- uid: CSharpPlus.Operator.DivideBy``1(``0)
+  name: DivideBy<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_DivideBy__1___0_
+  commentId: M:CSharpPlus.Operator.DivideBy``1(``0)
+  name.vb: DivideBy(Of T)(T)
+  fullName: CSharpPlus.Operator.DivideBy<T>(T)
+  fullName.vb: CSharpPlus.Operator.DivideBy(Of T)(T)
+  nameWithType: Operator.DivideBy<T>(T)
+  nameWithType.vb: Operator.DivideBy(Of T)(T)
+- uid: CSharpPlus.Operator.DivideFrom*
+  name: DivideFrom
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_DivideFrom_
+  commentId: Overload:CSharpPlus.Operator.DivideFrom
+  fullName: CSharpPlus.Operator.DivideFrom
+  nameWithType: Operator.DivideFrom
+- uid: CSharpPlus.Operator.DivideFrom``1(``0)
+  name: DivideFrom<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_DivideFrom__1___0_
+  commentId: M:CSharpPlus.Operator.DivideFrom``1(``0)
+  name.vb: DivideFrom(Of T)(T)
+  fullName: CSharpPlus.Operator.DivideFrom<T>(T)
+  fullName.vb: CSharpPlus.Operator.DivideFrom(Of T)(T)
+  nameWithType: Operator.DivideFrom<T>(T)
+  nameWithType.vb: Operator.DivideFrom(Of T)(T)
+- uid: CSharpPlus.Operator.Divide``1(``0,``0)
+  name: Divide<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Divide__1___0___0_
+  commentId: M:CSharpPlus.Operator.Divide``1(``0,``0)
+  name.vb: Divide(Of T)(T, T)
+  fullName: CSharpPlus.Operator.Divide<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.Divide(Of T)(T, T)
+  nameWithType: Operator.Divide<T>(T, T)
+  nameWithType.vb: Operator.Divide(Of T)(T, T)
+- uid: CSharpPlus.Operator.Equals*
+  name: Equals
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Equals_
+  commentId: Overload:CSharpPlus.Operator.Equals
+  fullName: CSharpPlus.Operator.Equals
+  nameWithType: Operator.Equals
+- uid: CSharpPlus.Operator.Equals``1(``0)
+  name: Equals<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Equals__1___0_
+  commentId: M:CSharpPlus.Operator.Equals``1(``0)
+  name.vb: Equals(Of T)(T)
+  fullName: CSharpPlus.Operator.Equals<T>(T)
+  fullName.vb: CSharpPlus.Operator.Equals(Of T)(T)
+  nameWithType: Operator.Equals<T>(T)
+  nameWithType.vb: Operator.Equals(Of T)(T)
+- uid: CSharpPlus.Operator.Equals``1(``0,``0)
+  name: Equals<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Equals__1___0___0_
+  commentId: M:CSharpPlus.Operator.Equals``1(``0,``0)
+  name.vb: Equals(Of T)(T, T)
+  fullName: CSharpPlus.Operator.Equals<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.Equals(Of T)(T, T)
+  nameWithType: Operator.Equals<T>(T, T)
+  nameWithType.vb: Operator.Equals(Of T)(T, T)
+- uid: CSharpPlus.Operator.Equatable*
+  name: Equatable
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Equatable_
+  commentId: Overload:CSharpPlus.Operator.Equatable
+  fullName: CSharpPlus.Operator.Equatable
+  nameWithType: Operator.Equatable
+- uid: CSharpPlus.Operator.Equatable``1(``0)
+  name: Equatable<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Equatable__1___0_
+  commentId: M:CSharpPlus.Operator.Equatable``1(``0)
+  name.vb: Equatable(Of T)(T)
+  fullName: CSharpPlus.Operator.Equatable<T>(T)
+  fullName.vb: CSharpPlus.Operator.Equatable(Of T)(T)
+  nameWithType: Operator.Equatable<T>(T)
+  nameWithType.vb: Operator.Equatable(Of T)(T)
+- uid: CSharpPlus.Operator.Equatable``1(``0,``0)
+  name: Equatable<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Equatable__1___0___0_
+  commentId: M:CSharpPlus.Operator.Equatable``1(``0,``0)
+  name.vb: Equatable(Of T)(T, T)
+  fullName: CSharpPlus.Operator.Equatable<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.Equatable(Of T)(T, T)
+  nameWithType: Operator.Equatable<T>(T, T)
+  nameWithType.vb: Operator.Equatable(Of T)(T, T)
+- uid: CSharpPlus.Operator.GreaterThan*
+  name: GreaterThan
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThan_
+  commentId: Overload:CSharpPlus.Operator.GreaterThan
+  fullName: CSharpPlus.Operator.GreaterThan
+  nameWithType: Operator.GreaterThan
+- uid: CSharpPlus.Operator.GreaterThanOrEquals*
+  name: GreaterThanOrEquals
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThanOrEquals_
+  commentId: Overload:CSharpPlus.Operator.GreaterThanOrEquals
+  fullName: CSharpPlus.Operator.GreaterThanOrEquals
+  nameWithType: Operator.GreaterThanOrEquals
+- uid: CSharpPlus.Operator.GreaterThanOrEquals``1(``0)
+  name: GreaterThanOrEquals<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThanOrEquals__1___0_
+  commentId: M:CSharpPlus.Operator.GreaterThanOrEquals``1(``0)
+  name.vb: GreaterThanOrEquals(Of T)(T)
+  fullName: CSharpPlus.Operator.GreaterThanOrEquals<T>(T)
+  fullName.vb: CSharpPlus.Operator.GreaterThanOrEquals(Of T)(T)
+  nameWithType: Operator.GreaterThanOrEquals<T>(T)
+  nameWithType.vb: Operator.GreaterThanOrEquals(Of T)(T)
+- uid: CSharpPlus.Operator.GreaterThanOrEquals``1(``0,``0)
+  name: GreaterThanOrEquals<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThanOrEquals__1___0___0_
+  commentId: M:CSharpPlus.Operator.GreaterThanOrEquals``1(``0,``0)
+  name.vb: GreaterThanOrEquals(Of T)(T, T)
+  fullName: CSharpPlus.Operator.GreaterThanOrEquals<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.GreaterThanOrEquals(Of T)(T, T)
+  nameWithType: Operator.GreaterThanOrEquals<T>(T, T)
+  nameWithType.vb: Operator.GreaterThanOrEquals(Of T)(T, T)
+- uid: CSharpPlus.Operator.GreaterThan``1(``0)
+  name: GreaterThan<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThan__1___0_
+  commentId: M:CSharpPlus.Operator.GreaterThan``1(``0)
+  name.vb: GreaterThan(Of T)(T)
+  fullName: CSharpPlus.Operator.GreaterThan<T>(T)
+  fullName.vb: CSharpPlus.Operator.GreaterThan(Of T)(T)
+  nameWithType: Operator.GreaterThan<T>(T)
+  nameWithType.vb: Operator.GreaterThan(Of T)(T)
+- uid: CSharpPlus.Operator.GreaterThan``1(``0,``0)
+  name: GreaterThan<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThan__1___0___0_
+  commentId: M:CSharpPlus.Operator.GreaterThan``1(``0,``0)
+  name.vb: GreaterThan(Of T)(T, T)
+  fullName: CSharpPlus.Operator.GreaterThan<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.GreaterThan(Of T)(T, T)
+  nameWithType: Operator.GreaterThan<T>(T, T)
+  nameWithType.vb: Operator.GreaterThan(Of T)(T, T)
+- uid: CSharpPlus.Operator.Identity*
+  name: Identity
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Identity_
+  commentId: Overload:CSharpPlus.Operator.Identity
+  fullName: CSharpPlus.Operator.Identity
+  nameWithType: Operator.Identity
+- uid: CSharpPlus.Operator.Identity``1(``0)
+  name: Identity<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Identity__1___0_
+  commentId: M:CSharpPlus.Operator.Identity``1(``0)
+  name.vb: Identity(Of T)(T)
+  fullName: CSharpPlus.Operator.Identity<T>(T)
+  fullName.vb: CSharpPlus.Operator.Identity(Of T)(T)
+  nameWithType: Operator.Identity<T>(T)
+  nameWithType.vb: Operator.Identity(Of T)(T)
+- uid: CSharpPlus.Operator.Increment*
+  name: Increment
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Increment_
+  commentId: Overload:CSharpPlus.Operator.Increment
+  fullName: CSharpPlus.Operator.Increment
+  nameWithType: Operator.Increment
+- uid: CSharpPlus.Operator.Increment``1(``0)
+  name: Increment<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Increment__1___0_
+  commentId: M:CSharpPlus.Operator.Increment``1(``0)
+  name.vb: Increment(Of T)(T)
+  fullName: CSharpPlus.Operator.Increment<T>(T)
+  fullName.vb: CSharpPlus.Operator.Increment(Of T)(T)
+  nameWithType: Operator.Increment<T>(T)
+  nameWithType.vb: Operator.Increment(Of T)(T)
+- uid: CSharpPlus.Operator.LessThan*
+  name: LessThan
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_LessThan_
+  commentId: Overload:CSharpPlus.Operator.LessThan
+  fullName: CSharpPlus.Operator.LessThan
+  nameWithType: Operator.LessThan
+- uid: CSharpPlus.Operator.LessThanOrEquals*
+  name: LessThanOrEquals
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_LessThanOrEquals_
+  commentId: Overload:CSharpPlus.Operator.LessThanOrEquals
+  fullName: CSharpPlus.Operator.LessThanOrEquals
+  nameWithType: Operator.LessThanOrEquals
+- uid: CSharpPlus.Operator.LessThanOrEquals``1(``0)
+  name: LessThanOrEquals<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_LessThanOrEquals__1___0_
+  commentId: M:CSharpPlus.Operator.LessThanOrEquals``1(``0)
+  name.vb: LessThanOrEquals(Of T)(T)
+  fullName: CSharpPlus.Operator.LessThanOrEquals<T>(T)
+  fullName.vb: CSharpPlus.Operator.LessThanOrEquals(Of T)(T)
+  nameWithType: Operator.LessThanOrEquals<T>(T)
+  nameWithType.vb: Operator.LessThanOrEquals(Of T)(T)
+- uid: CSharpPlus.Operator.LessThanOrEquals``1(``0,``0)
+  name: LessThanOrEquals<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_LessThanOrEquals__1___0___0_
+  commentId: M:CSharpPlus.Operator.LessThanOrEquals``1(``0,``0)
+  name.vb: LessThanOrEquals(Of T)(T, T)
+  fullName: CSharpPlus.Operator.LessThanOrEquals<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.LessThanOrEquals(Of T)(T, T)
+  nameWithType: Operator.LessThanOrEquals<T>(T, T)
+  nameWithType.vb: Operator.LessThanOrEquals(Of T)(T, T)
+- uid: CSharpPlus.Operator.LessThan``1(``0)
+  name: LessThan<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_LessThan__1___0_
+  commentId: M:CSharpPlus.Operator.LessThan``1(``0)
+  name.vb: LessThan(Of T)(T)
+  fullName: CSharpPlus.Operator.LessThan<T>(T)
+  fullName.vb: CSharpPlus.Operator.LessThan(Of T)(T)
+  nameWithType: Operator.LessThan<T>(T)
+  nameWithType.vb: Operator.LessThan(Of T)(T)
+- uid: CSharpPlus.Operator.LessThan``1(``0,``0)
+  name: LessThan<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_LessThan__1___0___0_
+  commentId: M:CSharpPlus.Operator.LessThan``1(``0,``0)
+  name.vb: LessThan(Of T)(T, T)
+  fullName: CSharpPlus.Operator.LessThan<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.LessThan(Of T)(T, T)
+  nameWithType: Operator.LessThan<T>(T, T)
+  nameWithType.vb: Operator.LessThan(Of T)(T, T)
+- uid: CSharpPlus.Operator.Multiply*
+  name: Multiply
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Multiply_
+  commentId: Overload:CSharpPlus.Operator.Multiply
+  fullName: CSharpPlus.Operator.Multiply
+  nameWithType: Operator.Multiply
+- uid: CSharpPlus.Operator.Multiply``1(``0)
+  name: Multiply<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Multiply__1___0_
+  commentId: M:CSharpPlus.Operator.Multiply``1(``0)
+  name.vb: Multiply(Of T)(T)
+  fullName: CSharpPlus.Operator.Multiply<T>(T)
+  fullName.vb: CSharpPlus.Operator.Multiply(Of T)(T)
+  nameWithType: Operator.Multiply<T>(T)
+  nameWithType.vb: Operator.Multiply(Of T)(T)
+- uid: CSharpPlus.Operator.Multiply``1(``0,``0)
+  name: Multiply<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Multiply__1___0___0_
+  commentId: M:CSharpPlus.Operator.Multiply``1(``0,``0)
+  name.vb: Multiply(Of T)(T, T)
+  fullName: CSharpPlus.Operator.Multiply<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.Multiply(Of T)(T, T)
+  nameWithType: Operator.Multiply<T>(T, T)
+  nameWithType.vb: Operator.Multiply(Of T)(T, T)
+- uid: CSharpPlus.Operator.NotEquals*
+  name: NotEquals
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquals_
+  commentId: Overload:CSharpPlus.Operator.NotEquals
+  fullName: CSharpPlus.Operator.NotEquals
+  nameWithType: Operator.NotEquals
+- uid: CSharpPlus.Operator.NotEquals``1(``0)
+  name: NotEquals<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquals__1___0_
+  commentId: M:CSharpPlus.Operator.NotEquals``1(``0)
+  name.vb: NotEquals(Of T)(T)
+  fullName: CSharpPlus.Operator.NotEquals<T>(T)
+  fullName.vb: CSharpPlus.Operator.NotEquals(Of T)(T)
+  nameWithType: Operator.NotEquals<T>(T)
+  nameWithType.vb: Operator.NotEquals(Of T)(T)
+- uid: CSharpPlus.Operator.NotEquals``1(``0,``0)
+  name: NotEquals<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquals__1___0___0_
+  commentId: M:CSharpPlus.Operator.NotEquals``1(``0,``0)
+  name.vb: NotEquals(Of T)(T, T)
+  fullName: CSharpPlus.Operator.NotEquals<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.NotEquals(Of T)(T, T)
+  nameWithType: Operator.NotEquals<T>(T, T)
+  nameWithType.vb: Operator.NotEquals(Of T)(T, T)
+- uid: CSharpPlus.Operator.NotEquatable*
+  name: NotEquatable
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquatable_
+  commentId: Overload:CSharpPlus.Operator.NotEquatable
+  fullName: CSharpPlus.Operator.NotEquatable
+  nameWithType: Operator.NotEquatable
+- uid: CSharpPlus.Operator.NotEquatable``1(``0)
+  name: NotEquatable<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquatable__1___0_
+  commentId: M:CSharpPlus.Operator.NotEquatable``1(``0)
+  name.vb: NotEquatable(Of T)(T)
+  fullName: CSharpPlus.Operator.NotEquatable<T>(T)
+  fullName.vb: CSharpPlus.Operator.NotEquatable(Of T)(T)
+  nameWithType: Operator.NotEquatable<T>(T)
+  nameWithType.vb: Operator.NotEquatable(Of T)(T)
+- uid: CSharpPlus.Operator.NotEquatable``1(``0,``0)
+  name: NotEquatable<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquatable__1___0___0_
+  commentId: M:CSharpPlus.Operator.NotEquatable``1(``0,``0)
+  name.vb: NotEquatable(Of T)(T, T)
+  fullName: CSharpPlus.Operator.NotEquatable<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.NotEquatable(Of T)(T, T)
+  nameWithType: Operator.NotEquatable<T>(T, T)
+  nameWithType.vb: Operator.NotEquatable(Of T)(T, T)
+- uid: CSharpPlus.Operator.Subtract*
+  name: Subtract
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Subtract_
+  commentId: Overload:CSharpPlus.Operator.Subtract
+  fullName: CSharpPlus.Operator.Subtract
+  nameWithType: Operator.Subtract
+- uid: CSharpPlus.Operator.SubtractBy*
+  name: SubtractBy
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_SubtractBy_
+  commentId: Overload:CSharpPlus.Operator.SubtractBy
+  fullName: CSharpPlus.Operator.SubtractBy
+  nameWithType: Operator.SubtractBy
+- uid: CSharpPlus.Operator.SubtractBy``1(``0)
+  name: SubtractBy<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_SubtractBy__1___0_
+  commentId: M:CSharpPlus.Operator.SubtractBy``1(``0)
+  name.vb: SubtractBy(Of T)(T)
+  fullName: CSharpPlus.Operator.SubtractBy<T>(T)
+  fullName.vb: CSharpPlus.Operator.SubtractBy(Of T)(T)
+  nameWithType: Operator.SubtractBy<T>(T)
+  nameWithType.vb: Operator.SubtractBy(Of T)(T)
+- uid: CSharpPlus.Operator.SubtractFrom*
+  name: SubtractFrom
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_SubtractFrom_
+  commentId: Overload:CSharpPlus.Operator.SubtractFrom
+  fullName: CSharpPlus.Operator.SubtractFrom
+  nameWithType: Operator.SubtractFrom
+- uid: CSharpPlus.Operator.SubtractFrom``1(``0)
+  name: SubtractFrom<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_SubtractFrom__1___0_
+  commentId: M:CSharpPlus.Operator.SubtractFrom``1(``0)
+  name.vb: SubtractFrom(Of T)(T)
+  fullName: CSharpPlus.Operator.SubtractFrom<T>(T)
+  fullName.vb: CSharpPlus.Operator.SubtractFrom(Of T)(T)
+  nameWithType: Operator.SubtractFrom<T>(T)
+  nameWithType.vb: Operator.SubtractFrom(Of T)(T)
+- uid: CSharpPlus.Operator.Subtract``1(``0,``0)
+  name: Subtract<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Subtract__1___0___0_
+  commentId: M:CSharpPlus.Operator.Subtract``1(``0,``0)
+  name.vb: Subtract(Of T)(T, T)
+  fullName: CSharpPlus.Operator.Subtract<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.Subtract(Of T)(T, T)
+  nameWithType: Operator.Subtract<T>(T, T)
+  nameWithType.vb: Operator.Subtract(Of T)(T, T)
+- uid: CSharpPlus.Operator.Sum*
+  name: Sum
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Sum_
+  commentId: Overload:CSharpPlus.Operator.Sum
+  fullName: CSharpPlus.Operator.Sum
+  nameWithType: Operator.Sum
+- uid: CSharpPlus.Operator.Sum``1(``0)
+  name: Sum<T>(T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Sum__1___0_
+  commentId: M:CSharpPlus.Operator.Sum``1(``0)
+  name.vb: Sum(Of T)(T)
+  fullName: CSharpPlus.Operator.Sum<T>(T)
+  fullName.vb: CSharpPlus.Operator.Sum(Of T)(T)
+  nameWithType: Operator.Sum<T>(T)
+  nameWithType.vb: Operator.Sum(Of T)(T)
+- uid: CSharpPlus.Operator.Sum``1(``0,``0)
+  name: Sum<T>(T, T)
+  href: api/CSharpPlus.Operator.html#CSharpPlus_Operator_Sum__1___0___0_
+  commentId: M:CSharpPlus.Operator.Sum``1(``0,``0)
+  name.vb: Sum(Of T)(T, T)
+  fullName: CSharpPlus.Operator.Sum<T>(T, T)
+  fullName.vb: CSharpPlus.Operator.Sum(Of T)(T, T)
+  nameWithType: Operator.Sum<T>(T, T)
+  nameWithType.vb: Operator.Sum(Of T)(T, T)
+- uid: CSharpPlus.RangeExtension
+  name: RangeExtension
+  href: api/CSharpPlus.RangeExtension.html
+  commentId: T:CSharpPlus.RangeExtension
+  fullName: CSharpPlus.RangeExtension
+  nameWithType: RangeExtension
+- uid: CSharpPlus.RangeExtension.Enumerate(System.Range)
+  name: Enumerate(Range)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_Enumerate_System_Range_
+  commentId: M:CSharpPlus.RangeExtension.Enumerate(System.Range)
+  fullName: CSharpPlus.RangeExtension.Enumerate(System.Range)
+  nameWithType: RangeExtension.Enumerate(Range)
+- uid: CSharpPlus.RangeExtension.Enumerate*
+  name: Enumerate
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_Enumerate_
+  commentId: Overload:CSharpPlus.RangeExtension.Enumerate
+  fullName: CSharpPlus.RangeExtension.Enumerate
+  nameWithType: RangeExtension.Enumerate
+- uid: CSharpPlus.RangeExtension.GetBounds(System.Range)
+  name: GetBounds(Range)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_GetBounds_System_Range_
+  commentId: M:CSharpPlus.RangeExtension.GetBounds(System.Range)
+  fullName: CSharpPlus.RangeExtension.GetBounds(System.Range)
+  nameWithType: RangeExtension.GetBounds(Range)
+- uid: CSharpPlus.RangeExtension.GetBounds*
+  name: GetBounds
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_GetBounds_
+  commentId: Overload:CSharpPlus.RangeExtension.GetBounds
+  fullName: CSharpPlus.RangeExtension.GetBounds
+  nameWithType: RangeExtension.GetBounds
+- uid: CSharpPlus.RangeExtension.GetEnumerator(System.Range)
+  name: GetEnumerator(Range)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_GetEnumerator_System_Range_
+  commentId: M:CSharpPlus.RangeExtension.GetEnumerator(System.Range)
+  fullName: CSharpPlus.RangeExtension.GetEnumerator(System.Range)
+  nameWithType: RangeExtension.GetEnumerator(Range)
+- uid: CSharpPlus.RangeExtension.GetEnumerator*
+  name: GetEnumerator
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_GetEnumerator_
+  commentId: Overload:CSharpPlus.RangeExtension.GetEnumerator
+  fullName: CSharpPlus.RangeExtension.GetEnumerator
+  nameWithType: RangeExtension.GetEnumerator
+- uid: CSharpPlus.RangeExtension.Select*
+  name: Select
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_Select_
+  commentId: Overload:CSharpPlus.RangeExtension.Select
+  fullName: CSharpPlus.RangeExtension.Select
+  nameWithType: RangeExtension.Select
+- uid: CSharpPlus.RangeExtension.SelectMany(System.Range,System.Func{System.Int32,System.Range})
+  name: SelectMany(Range, Func<int, Range>)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_SelectMany_System_Range_System_Func_System_Int32_System_Range__
+  commentId: M:CSharpPlus.RangeExtension.SelectMany(System.Range,System.Func{System.Int32,System.Range})
+  name.vb: SelectMany(Range, Func(Of Integer, Range))
+  fullName: CSharpPlus.RangeExtension.SelectMany(System.Range, System.Func<int, System.Range>)
+  fullName.vb: CSharpPlus.RangeExtension.SelectMany(System.Range, System.Func(Of Integer, System.Range))
+  nameWithType: RangeExtension.SelectMany(Range, Func<int, Range>)
+  nameWithType.vb: RangeExtension.SelectMany(Range, Func(Of Integer, Range))
+- uid: CSharpPlus.RangeExtension.SelectMany*
+  name: SelectMany
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_SelectMany_
+  commentId: Overload:CSharpPlus.RangeExtension.SelectMany
+  fullName: CSharpPlus.RangeExtension.SelectMany
+  nameWithType: RangeExtension.SelectMany
+- uid: CSharpPlus.RangeExtension.SelectMany``1(System.Range,System.Func{System.Int32,System.Collections.Generic.IEnumerable{``0}})
+  name: SelectMany<TResult>(Range, Func<int, IEnumerable<TResult>>)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_SelectMany__1_System_Range_System_Func_System_Int32_System_Collections_Generic_IEnumerable___0___
+  commentId: M:CSharpPlus.RangeExtension.SelectMany``1(System.Range,System.Func{System.Int32,System.Collections.Generic.IEnumerable{``0}})
+  name.vb: SelectMany(Of TResult)(Range, Func(Of Integer, IEnumerable(Of TResult)))
+  fullName: CSharpPlus.RangeExtension.SelectMany<TResult>(System.Range, System.Func<int, System.Collections.Generic.IEnumerable<TResult>>)
+  fullName.vb: CSharpPlus.RangeExtension.SelectMany(Of TResult)(System.Range, System.Func(Of Integer, System.Collections.Generic.IEnumerable(Of TResult)))
+  nameWithType: RangeExtension.SelectMany<TResult>(Range, Func<int, IEnumerable<TResult>>)
+  nameWithType.vb: RangeExtension.SelectMany(Of TResult)(Range, Func(Of Integer, IEnumerable(Of TResult)))
+- uid: CSharpPlus.RangeExtension.SelectMany``1(System.Range,System.Func{System.Int32,System.Range},System.Func{System.Int32,System.Int32,``0})
+  name: SelectMany<TResult>(Range, Func<int, Range>, Func<int, int, TResult>)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_SelectMany__1_System_Range_System_Func_System_Int32_System_Range__System_Func_System_Int32_System_Int32___0__
+  commentId: M:CSharpPlus.RangeExtension.SelectMany``1(System.Range,System.Func{System.Int32,System.Range},System.Func{System.Int32,System.Int32,``0})
+  name.vb: SelectMany(Of TResult)(Range, Func(Of Integer, Range), Func(Of Integer, Integer, TResult))
+  fullName: CSharpPlus.RangeExtension.SelectMany<TResult>(System.Range, System.Func<int, System.Range>, System.Func<int, int, TResult>)
+  fullName.vb: CSharpPlus.RangeExtension.SelectMany(Of TResult)(System.Range, System.Func(Of Integer, System.Range), System.Func(Of Integer, Integer, TResult))
+  nameWithType: RangeExtension.SelectMany<TResult>(Range, Func<int, Range>, Func<int, int, TResult>)
+  nameWithType.vb: RangeExtension.SelectMany(Of TResult)(Range, Func(Of Integer, Range), Func(Of Integer, Integer, TResult))
+- uid: CSharpPlus.RangeExtension.SelectMany``2(System.Range,System.Func{System.Int32,System.Collections.Generic.IEnumerable{``0}},System.Func{System.Int32,``0,``1})
+  name: SelectMany<TMap, TResult>(Range, Func<int, IEnumerable<TMap>>, Func<int, TMap, TResult>)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_SelectMany__2_System_Range_System_Func_System_Int32_System_Collections_Generic_IEnumerable___0___System_Func_System_Int32___0___1__
+  commentId: M:CSharpPlus.RangeExtension.SelectMany``2(System.Range,System.Func{System.Int32,System.Collections.Generic.IEnumerable{``0}},System.Func{System.Int32,``0,``1})
+  name.vb: SelectMany(Of TMap, TResult)(Range, Func(Of Integer, IEnumerable(Of TMap)), Func(Of Integer, TMap, TResult))
+  fullName: CSharpPlus.RangeExtension.SelectMany<TMap, TResult>(System.Range, System.Func<int, System.Collections.Generic.IEnumerable<TMap>>, System.Func<int, TMap, TResult>)
+  fullName.vb: CSharpPlus.RangeExtension.SelectMany(Of TMap, TResult)(System.Range, System.Func(Of Integer, System.Collections.Generic.IEnumerable(Of TMap)), System.Func(Of Integer, TMap, TResult))
+  nameWithType: RangeExtension.SelectMany<TMap, TResult>(Range, Func<int, IEnumerable<TMap>>, Func<int, TMap, TResult>)
+  nameWithType.vb: RangeExtension.SelectMany(Of TMap, TResult)(Range, Func(Of Integer, IEnumerable(Of TMap)), Func(Of Integer, TMap, TResult))
+- uid: CSharpPlus.RangeExtension.Select``1(System.Range,System.Func{System.Int32,``0})
+  name: Select<TMap>(Range, Func<int, TMap>)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_Select__1_System_Range_System_Func_System_Int32___0__
+  commentId: M:CSharpPlus.RangeExtension.Select``1(System.Range,System.Func{System.Int32,``0})
+  name.vb: Select(Of TMap)(Range, Func(Of Integer, TMap))
+  fullName: CSharpPlus.RangeExtension.Select<TMap>(System.Range, System.Func<int, TMap>)
+  fullName.vb: CSharpPlus.RangeExtension.Select(Of TMap)(System.Range, System.Func(Of Integer, TMap))
+  nameWithType: RangeExtension.Select<TMap>(Range, Func<int, TMap>)
+  nameWithType.vb: RangeExtension.Select(Of TMap)(Range, Func(Of Integer, TMap))
+- uid: CSharpPlus.RangeExtension.ToArray(System.Range)
+  name: ToArray(Range)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_ToArray_System_Range_
+  commentId: M:CSharpPlus.RangeExtension.ToArray(System.Range)
+  fullName: CSharpPlus.RangeExtension.ToArray(System.Range)
+  nameWithType: RangeExtension.ToArray(Range)
+- uid: CSharpPlus.RangeExtension.ToArray*
+  name: ToArray
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_ToArray_
+  commentId: Overload:CSharpPlus.RangeExtension.ToArray
+  fullName: CSharpPlus.RangeExtension.ToArray
+  nameWithType: RangeExtension.ToArray
+- uid: CSharpPlus.RangeExtension.ToList(System.Range)
+  name: ToList(Range)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_ToList_System_Range_
+  commentId: M:CSharpPlus.RangeExtension.ToList(System.Range)
+  fullName: CSharpPlus.RangeExtension.ToList(System.Range)
+  nameWithType: RangeExtension.ToList(Range)
+- uid: CSharpPlus.RangeExtension.ToList*
+  name: ToList
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_ToList_
+  commentId: Overload:CSharpPlus.RangeExtension.ToList
+  fullName: CSharpPlus.RangeExtension.ToList
+  nameWithType: RangeExtension.ToList
+- uid: CSharpPlus.RangeExtension.ToReadOnly(System.Range)
+  name: ToReadOnly(Range)
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_ToReadOnly_System_Range_
+  commentId: M:CSharpPlus.RangeExtension.ToReadOnly(System.Range)
+  fullName: CSharpPlus.RangeExtension.ToReadOnly(System.Range)
+  nameWithType: RangeExtension.ToReadOnly(Range)
+- uid: CSharpPlus.RangeExtension.ToReadOnly*
+  name: ToReadOnly
+  href: api/CSharpPlus.RangeExtension.html#CSharpPlus_RangeExtension_ToReadOnly_
+  commentId: Overload:CSharpPlus.RangeExtension.ToReadOnly
+  fullName: CSharpPlus.RangeExtension.ToReadOnly
+  nameWithType: RangeExtension.ToReadOnly
+- uid: CSharpPlus.StringExtensions
+  name: StringExtensions
+  href: api/CSharpPlus.StringExtensions.html
+  commentId: T:CSharpPlus.StringExtensions
+  fullName: CSharpPlus.StringExtensions
+  nameWithType: StringExtensions
+- uid: CSharpPlus.StringExtensions.GetStableHashCode(System.String)
+  name: GetStableHashCode(string)
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_GetStableHashCode_System_String_
+  commentId: M:CSharpPlus.StringExtensions.GetStableHashCode(System.String)
+  name.vb: GetStableHashCode(String)
+  fullName: CSharpPlus.StringExtensions.GetStableHashCode(string)
+  fullName.vb: CSharpPlus.StringExtensions.GetStableHashCode(String)
+  nameWithType: StringExtensions.GetStableHashCode(string)
+  nameWithType.vb: StringExtensions.GetStableHashCode(String)
+- uid: CSharpPlus.StringExtensions.GetStableHashCode*
+  name: GetStableHashCode
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_GetStableHashCode_
+  commentId: Overload:CSharpPlus.StringExtensions.GetStableHashCode
+  fullName: CSharpPlus.StringExtensions.GetStableHashCode
+  nameWithType: StringExtensions.GetStableHashCode
+- uid: CSharpPlus.StringExtensions.IsNullOrEmpty(System.String)
+  name: IsNullOrEmpty(string?)
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_IsNullOrEmpty_System_String_
+  commentId: M:CSharpPlus.StringExtensions.IsNullOrEmpty(System.String)
+  name.vb: IsNullOrEmpty(String)
+  fullName: CSharpPlus.StringExtensions.IsNullOrEmpty(string?)
+  fullName.vb: CSharpPlus.StringExtensions.IsNullOrEmpty(String)
+  nameWithType: StringExtensions.IsNullOrEmpty(string?)
+  nameWithType.vb: StringExtensions.IsNullOrEmpty(String)
+- uid: CSharpPlus.StringExtensions.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_IsNullOrEmpty_
+  commentId: Overload:CSharpPlus.StringExtensions.IsNullOrEmpty
+  fullName: CSharpPlus.StringExtensions.IsNullOrEmpty
+  nameWithType: StringExtensions.IsNullOrEmpty
+- uid: CSharpPlus.StringExtensions.IsNullOrWhiteSpace(System.String)
+  name: IsNullOrWhiteSpace(string?)
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_IsNullOrWhiteSpace_System_String_
+  commentId: M:CSharpPlus.StringExtensions.IsNullOrWhiteSpace(System.String)
+  name.vb: IsNullOrWhiteSpace(String)
+  fullName: CSharpPlus.StringExtensions.IsNullOrWhiteSpace(string?)
+  fullName.vb: CSharpPlus.StringExtensions.IsNullOrWhiteSpace(String)
+  nameWithType: StringExtensions.IsNullOrWhiteSpace(string?)
+  nameWithType.vb: StringExtensions.IsNullOrWhiteSpace(String)
+- uid: CSharpPlus.StringExtensions.IsNullOrWhiteSpace*
+  name: IsNullOrWhiteSpace
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_IsNullOrWhiteSpace_
+  commentId: Overload:CSharpPlus.StringExtensions.IsNullOrWhiteSpace
+  fullName: CSharpPlus.StringExtensions.IsNullOrWhiteSpace
+  nameWithType: StringExtensions.IsNullOrWhiteSpace
+- uid: CSharpPlus.StringExtensions.RemoveNonDigit(System.String)
+  name: RemoveNonDigit(string)
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_RemoveNonDigit_System_String_
+  commentId: M:CSharpPlus.StringExtensions.RemoveNonDigit(System.String)
+  name.vb: RemoveNonDigit(String)
+  fullName: CSharpPlus.StringExtensions.RemoveNonDigit(string)
+  fullName.vb: CSharpPlus.StringExtensions.RemoveNonDigit(String)
+  nameWithType: StringExtensions.RemoveNonDigit(string)
+  nameWithType.vb: StringExtensions.RemoveNonDigit(String)
+- uid: CSharpPlus.StringExtensions.RemoveNonDigit*
+  name: RemoveNonDigit
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_RemoveNonDigit_
+  commentId: Overload:CSharpPlus.StringExtensions.RemoveNonDigit
+  fullName: CSharpPlus.StringExtensions.RemoveNonDigit
+  nameWithType: StringExtensions.RemoveNonDigit
+- uid: CSharpPlus.StringExtensions.RemoveNonDigitOrLetter(System.String)
+  name: RemoveNonDigitOrLetter(string)
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_RemoveNonDigitOrLetter_System_String_
+  commentId: M:CSharpPlus.StringExtensions.RemoveNonDigitOrLetter(System.String)
+  name.vb: RemoveNonDigitOrLetter(String)
+  fullName: CSharpPlus.StringExtensions.RemoveNonDigitOrLetter(string)
+  fullName.vb: CSharpPlus.StringExtensions.RemoveNonDigitOrLetter(String)
+  nameWithType: StringExtensions.RemoveNonDigitOrLetter(string)
+  nameWithType.vb: StringExtensions.RemoveNonDigitOrLetter(String)
+- uid: CSharpPlus.StringExtensions.RemoveNonDigitOrLetter*
+  name: RemoveNonDigitOrLetter
+  href: api/CSharpPlus.StringExtensions.html#CSharpPlus_StringExtensions_RemoveNonDigitOrLetter_
+  commentId: Overload:CSharpPlus.StringExtensions.RemoveNonDigitOrLetter
+  fullName: CSharpPlus.StringExtensions.RemoveNonDigitOrLetter
+  nameWithType: StringExtensions.RemoveNonDigitOrLetter
+- uid: CSharpPlus.TaskTupleExtensions
+  name: TaskTupleExtensions
+  href: api/CSharpPlus.TaskTupleExtensions.html
+  commentId: T:CSharpPlus.TaskTupleExtensions
+  fullName: CSharpPlus.TaskTupleExtensions
+  nameWithType: TaskTupleExtensions
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll*
+  name: WhenAll
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll_
+  commentId: Overload:CSharpPlus.TaskTupleExtensions.WhenAll
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll
+  nameWithType: TaskTupleExtensions.WhenAll
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``1(System.ValueTuple{System.Threading.Tasks.Task{``0}})
+  name: WhenAll<T1>(ValueTuple<Task<T1>>)
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__1_System_ValueTuple_System_Threading_Tasks_Task___0___
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``1(System.ValueTuple{System.Threading.Tasks.Task{``0}})
+  name.vb: ''
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1>(System.ValueTuple<System.Threading.Tasks.Task<T1>>)
+  fullName.vb: ''
+  nameWithType: TaskTupleExtensions.WhenAll<T1>(ValueTuple<Task<T1>>)
+  nameWithType.vb: ''
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``10(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8},System.Threading.Tasks.Task{``9}}})
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__10_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2__System_Threading_Tasks_Task___3__System_Threading_Tasks_Task___4__System_Threading_Tasks_Task___5__System_Threading_Tasks_Task___6__System_ValueTuple_System_Threading_Tasks_Task___7__System_Threading_Tasks_Task___8__System_Threading_Tasks_Task___9____
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``10(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8},System.Threading.Tasks.Task{``9}}})
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9), Task(Of T10)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>, System.Threading.Tasks.Task<T9>, System.Threading.Tasks.Task<T10>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8), System.Threading.Tasks.Task(Of T9), System.Threading.Tasks.Task(Of T10)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9), Task(Of T10)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``2(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1}})
+  name: WhenAll<T1, T2>((Task<T1>, Task<T2>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__2_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1___
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``2(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1}})
+  name.vb: WhenAll(Of T1, T2)((Task(Of T1), Task(Of T2)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2>((Task<T1>, Task<T2>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2)((Task(Of T1), Task(Of T2)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``3(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2}})
+  name: WhenAll<T1, T2, T3>((Task<T1>, Task<T2>, Task<T3>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__3_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2___
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``3(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2}})
+  name.vb: WhenAll(Of T1, T2, T3)((Task(Of T1), Task(Of T2), Task(Of T3)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3>((Task<T1>, Task<T2>, Task<T3>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3)((Task(Of T1), Task(Of T2), Task(Of T3)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``4(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3}})
+  name: WhenAll<T1, T2, T3, T4>((Task<T1>, Task<T2>, Task<T3>, Task<T4>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__4_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2__System_Threading_Tasks_Task___3___
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``4(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3}})
+  name.vb: WhenAll(Of T1, T2, T3, T4)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4>((Task<T1>, Task<T2>, Task<T3>, Task<T4>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``5(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4}})
+  name: WhenAll<T1, T2, T3, T4, T5>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__5_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2__System_Threading_Tasks_Task___3__System_Threading_Tasks_Task___4___
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``5(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4}})
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``6(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5}})
+  name: WhenAll<T1, T2, T3, T4, T5, T6>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__6_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2__System_Threading_Tasks_Task___3__System_Threading_Tasks_Task___4__System_Threading_Tasks_Task___5___
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``6(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5}})
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``7(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6}})
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__7_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2__System_Threading_Tasks_Task___3__System_Threading_Tasks_Task___4__System_Threading_Tasks_Task___5__System_Threading_Tasks_Task___6___
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``7(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6}})
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``8(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7}}})
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7, T8>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__8_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2__System_Threading_Tasks_Task___3__System_Threading_Tasks_Task___4__System_Threading_Tasks_Task___5__System_Threading_Tasks_Task___6__System_ValueTuple_System_Threading_Tasks_Task___7____
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``8(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7}}})
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``9(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8}}})
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>))
+  href: api/CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__9_System_ValueTuple_System_Threading_Tasks_Task___0__System_Threading_Tasks_Task___1__System_Threading_Tasks_Task___2__System_Threading_Tasks_Task___3__System_Threading_Tasks_Task___4__System_Threading_Tasks_Task___5__System_Threading_Tasks_Task___6__System_ValueTuple_System_Threading_Tasks_Task___7__System_Threading_Tasks_Task___8____
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``9(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8}}})
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9)))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>, System.Threading.Tasks.Task<T9>))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8), System.Threading.Tasks.Task(Of T9)))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>))
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9)))
+- uid: System.Text.Json.Serialization
+  name: System.Text.Json.Serialization
+  href: api/System.Text.Json.Serialization.html
+  commentId: N:System.Text.Json.Serialization
+  fullName: System.Text.Json.Serialization
+  nameWithType: System.Text.Json.Serialization
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter
+  name: DateTimeForceUtcJsonConverter
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html
+  commentId: T:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter
+  nameWithType: DateTimeForceUtcJsonConverter
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.#ctor(System.TimeSpan)
+  name: DateTimeForceUtcJsonConverter(TimeSpan)
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html#System_Text_Json_Serialization_DateTimeForceUtcJsonConverter__ctor_System_TimeSpan_
+  commentId: M:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.#ctor(System.TimeSpan)
+  name.vb: New(TimeSpan)
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.DateTimeForceUtcJsonConverter(System.TimeSpan)
+  fullName.vb: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.New(System.TimeSpan)
+  nameWithType: DateTimeForceUtcJsonConverter.DateTimeForceUtcJsonConverter(TimeSpan)
+  nameWithType.vb: DateTimeForceUtcJsonConverter.New(TimeSpan)
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.#ctor(System.TimeZoneInfo)
+  name: DateTimeForceUtcJsonConverter(TimeZoneInfo?)
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html#System_Text_Json_Serialization_DateTimeForceUtcJsonConverter__ctor_System_TimeZoneInfo_
+  commentId: M:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.#ctor(System.TimeZoneInfo)
+  name.vb: New(TimeZoneInfo)
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.DateTimeForceUtcJsonConverter(System.TimeZoneInfo?)
+  fullName.vb: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.New(System.TimeZoneInfo)
+  nameWithType: DateTimeForceUtcJsonConverter.DateTimeForceUtcJsonConverter(TimeZoneInfo?)
+  nameWithType.vb: DateTimeForceUtcJsonConverter.New(TimeZoneInfo)
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.#ctor*
+  name: DateTimeForceUtcJsonConverter
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html#System_Text_Json_Serialization_DateTimeForceUtcJsonConverter__ctor_
+  commentId: Overload:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.#ctor
+  name.vb: New
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.DateTimeForceUtcJsonConverter
+  fullName.vb: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.New
+  nameWithType: DateTimeForceUtcJsonConverter.DateTimeForceUtcJsonConverter
+  nameWithType.vb: DateTimeForceUtcJsonConverter.New
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html#System_Text_Json_Serialization_DateTimeForceUtcJsonConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: DateTimeForceUtcJsonConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: DateTimeForceUtcJsonConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Read*
+  name: Read
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html#System_Text_Json_Serialization_DateTimeForceUtcJsonConverter_Read_
+  commentId: Overload:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Read
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Read
+  nameWithType: DateTimeForceUtcJsonConverter.Read
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.DateTime,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, DateTime, JsonSerializerOptions)
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html#System_Text_Json_Serialization_DateTimeForceUtcJsonConverter_Write_System_Text_Json_Utf8JsonWriter_System_DateTime_System_Text_Json_JsonSerializerOptions_
+  commentId: M:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.DateTime,System.Text.Json.JsonSerializerOptions)
+  name.vb: Write(Utf8JsonWriter, Date, JsonSerializerOptions)
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Write(System.Text.Json.Utf8JsonWriter, System.DateTime, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Write(System.Text.Json.Utf8JsonWriter, Date, System.Text.Json.JsonSerializerOptions)
+  nameWithType: DateTimeForceUtcJsonConverter.Write(Utf8JsonWriter, DateTime, JsonSerializerOptions)
+  nameWithType.vb: DateTimeForceUtcJsonConverter.Write(Utf8JsonWriter, Date, JsonSerializerOptions)
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Write*
+  name: Write
+  href: api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html#System_Text_Json_Serialization_DateTimeForceUtcJsonConverter_Write_
+  commentId: Overload:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Write
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.Write
+  nameWithType: DateTimeForceUtcJsonConverter.Write

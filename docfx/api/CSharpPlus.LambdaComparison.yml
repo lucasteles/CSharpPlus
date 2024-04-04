@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.LambdaComparison
+  commentId: T:CSharpPlus.LambdaComparison
+  id: LambdaComparison
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.LambdaComparison.Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  - CSharpPlus.LambdaComparison.Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  langs:
+  - csharp
+  - vb
+  name: LambdaComparison
+  nameWithType: LambdaComparison
+  fullName: CSharpPlus.LambdaComparison
+  type: Class
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/LambdaComparer.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static class LambdaComparison
+    content.vb: Public Module LambdaComparison
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CSharpPlus.LambdaComparison.Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  commentId: M:CSharpPlus.LambdaComparison.Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  id: Create``2(System.Func{``0,``1},System.Collections.Generic.Comparer{``1})
+  parent: CSharpPlus.LambdaComparison
+  langs:
+  - csharp
+  - vb
+  name: Create<TSource, TKey>(Func<TSource, TKey>, Comparer<TKey>?)
+  nameWithType: LambdaComparison.Create<TSource, TKey>(Func<TSource, TKey>, Comparer<TKey>?)
+  fullName: CSharpPlus.LambdaComparison.Create<TSource, TKey>(System.Func<TSource, TKey>, System.Collections.Generic.Comparer<TKey>?)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/LambdaComparer.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Comparison<TSource> Create<TSource, TKey>(Func<TSource, TKey> key, Comparer<TKey>? keyComparer = null) where TKey : IComparable<TKey>'
+    parameters:
+    - id: key
+      type: System.Func{{TSource},{TKey}}
+    - id: keyComparer
+      type: System.Collections.Generic.Comparer{{TKey}}
+    typeParameters:
+    - id: TSource
+    - id: TKey
+    return:
+      type: System.Comparison{{TSource}}
+    content.vb: Public Shared Function Create(Of TSource, TKey As IComparable(Of TKey))(key As Func(Of TSource, TKey), keyComparer As Comparer(Of TKey) = Nothing) As Comparison(Of TSource)
+  overload: CSharpPlus.LambdaComparison.Create*
+  nameWithType.vb: LambdaComparison.Create(Of TSource, TKey)(Func(Of TSource, TKey), Comparer(Of TKey))
+  fullName.vb: CSharpPlus.LambdaComparison.Create(Of TSource, TKey)(System.Func(Of TSource, TKey), System.Collections.Generic.Comparer(Of TKey))
+  name.vb: Create(Of TSource, TKey)(Func(Of TSource, TKey), Comparer(Of TKey))
+- uid: CSharpPlus.LambdaComparison.Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  commentId: M:CSharpPlus.LambdaComparison.Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  id: Create``1(System.Func{``0,``0,CSharpPlus.CompareResult})
+  parent: CSharpPlus.LambdaComparison
+  langs:
+  - csharp
+  - vb
+  name: Create<TValue>(Func<TValue, TValue, CompareResult>)
+  nameWithType: LambdaComparison.Create<TValue>(Func<TValue, TValue, CompareResult>)
+  fullName: CSharpPlus.LambdaComparison.Create<TValue>(System.Func<TValue, TValue, CSharpPlus.CompareResult>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/LambdaComparer.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Comparison<TValue> Create<TValue>(Func<TValue, TValue, CompareResult> compareFunc)
+    parameters:
+    - id: compareFunc
+      type: System.Func{{TValue},{TValue},CSharpPlus.CompareResult}
+    typeParameters:
+    - id: TValue
+    return:
+      type: System.Comparison{{TValue}}
+    content.vb: Public Shared Function Create(Of TValue)(compareFunc As Func(Of TValue, TValue, CompareResult)) As Comparison(Of TValue)
+  overload: CSharpPlus.LambdaComparison.Create*
+  nameWithType.vb: LambdaComparison.Create(Of TValue)(Func(Of TValue, TValue, CompareResult))
+  fullName.vb: CSharpPlus.LambdaComparison.Create(Of TValue)(System.Func(Of TValue, TValue, CSharpPlus.CompareResult))
+  name.vb: Create(Of TValue)(Func(Of TValue, TValue, CompareResult))
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CSharpPlus.LambdaComparison.Create*
+  commentId: Overload:CSharpPlus.LambdaComparison.Create
+  isExternal: true
+  href: CSharpPlus.LambdaComparison.html#CSharpPlus_LambdaComparison_Create__2_System_Func___0___1__System_Collections_Generic_Comparer___1__
+  name: Create
+  nameWithType: LambdaComparison.Create
+  fullName: CSharpPlus.LambdaComparison.Create
+- uid: System.Func{{TSource},{TKey}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TSource, TKey>
+  nameWithType: Func<TSource, TKey>
+  fullName: System.Func<TSource, TKey>
+  nameWithType.vb: Func(Of TSource, TKey)
+  fullName.vb: System.Func(Of TSource, TKey)
+  name.vb: Func(Of TSource, TKey)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Collections.Generic.Comparer{{TKey}}
+  commentId: T:System.Collections.Generic.Comparer{``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Comparer`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1
+  name: Comparer<TKey>
+  nameWithType: Comparer<TKey>
+  fullName: System.Collections.Generic.Comparer<TKey>
+  nameWithType.vb: Comparer(Of TKey)
+  fullName.vb: System.Collections.Generic.Comparer(Of TKey)
+  name.vb: Comparer(Of TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.Comparer`1
+    name: Comparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Comparer`1
+    name: Comparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Comparison{{TSource}}
+  commentId: T:System.Comparison{``0}
+  parent: System
+  definition: System.Comparison`1
+  href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  name: Comparison<TSource>
+  nameWithType: Comparison<TSource>
+  fullName: System.Comparison<TSource>
+  nameWithType.vb: Comparison(Of TSource)
+  fullName.vb: System.Comparison(Of TSource)
+  name.vb: Comparison(Of TSource)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Collections.Generic.Comparer`1
+  commentId: T:System.Collections.Generic.Comparer`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1
+  name: Comparer<T>
+  nameWithType: Comparer<T>
+  fullName: System.Collections.Generic.Comparer<T>
+  nameWithType.vb: Comparer(Of T)
+  fullName.vb: System.Collections.Generic.Comparer(Of T)
+  name.vb: Comparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.Comparer`1
+    name: Comparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Comparer`1
+    name: Comparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Comparison`1
+  commentId: T:System.Comparison`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  name: Comparison<T>
+  nameWithType: Comparison<T>
+  fullName: System.Comparison<T>
+  nameWithType.vb: Comparison(Of T)
+  fullName.vb: System.Comparison(Of T)
+  name.vb: Comparison(Of T)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func{{TValue},{TValue},CSharpPlus.CompareResult}
+  commentId: T:System.Func{``0,``0,CSharpPlus.CompareResult}
+  parent: System
+  definition: System.Func`3
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<TValue, TValue, CompareResult>
+  nameWithType: Func<TValue, TValue, CompareResult>
+  fullName: System.Func<TValue, TValue, CSharpPlus.CompareResult>
+  nameWithType.vb: Func(Of TValue, TValue, CompareResult)
+  fullName.vb: System.Func(Of TValue, TValue, CSharpPlus.CompareResult)
+  name.vb: Func(Of TValue, TValue, CompareResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - uid: CSharpPlus.CompareResult
+    name: CompareResult
+    isExternal: true
+    href: CSharpPlus.CompareResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - uid: CSharpPlus.CompareResult
+    name: CompareResult
+    isExternal: true
+    href: CSharpPlus.CompareResult.html
+  - name: )
+- uid: System.Comparison{{TValue}}
+  commentId: T:System.Comparison{``0}
+  parent: System
+  definition: System.Comparison`1
+  href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  name: Comparison<TValue>
+  nameWithType: Comparison<TValue>
+  fullName: System.Comparison<TValue>
+  nameWithType.vb: Comparison(Of TValue)
+  fullName.vb: System.Comparison(Of TValue)
+  name.vb: Comparison(Of TValue)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )

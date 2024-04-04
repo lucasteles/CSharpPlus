@@ -1,0 +1,1012 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.NumberExtensions
+  commentId: T:CSharpPlus.NumberExtensions
+  id: NumberExtensions
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.NumberExtensions.Clamp(System.Decimal,System.Decimal,System.Decimal)
+  - CSharpPlus.NumberExtensions.Clamp(System.Double,System.Double,System.Double)
+  - CSharpPlus.NumberExtensions.Clamp(System.Single,System.Single,System.Single)
+  - CSharpPlus.NumberExtensions.ClampZero(System.Decimal)
+  - CSharpPlus.NumberExtensions.ClampZero(System.Double)
+  - CSharpPlus.NumberExtensions.ClampZero(System.Single)
+  - CSharpPlus.NumberExtensions.Round(System.Decimal)
+  - CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32)
+  - CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32,System.MidpointRounding)
+  - CSharpPlus.NumberExtensions.Round(System.Decimal,System.MidpointRounding)
+  - CSharpPlus.NumberExtensions.Round(System.Double)
+  - CSharpPlus.NumberExtensions.Round(System.Double,System.Int32)
+  - CSharpPlus.NumberExtensions.Round(System.Double,System.Int32,System.MidpointRounding)
+  - CSharpPlus.NumberExtensions.Round(System.Double,System.MidpointRounding)
+  - CSharpPlus.NumberExtensions.Round(System.Single)
+  - CSharpPlus.NumberExtensions.Round(System.Single,System.Int32)
+  - CSharpPlus.NumberExtensions.Round(System.Single,System.Int32,System.MidpointRounding)
+  - CSharpPlus.NumberExtensions.Round(System.Single,System.MidpointRounding)
+  langs:
+  - csharp
+  - vb
+  name: NumberExtensions
+  nameWithType: NumberExtensions
+  fullName: CSharpPlus.NumberExtensions
+  type: Class
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Extensions for numerics
+  example: []
+  syntax:
+    content: public static class NumberExtensions
+    content.vb: Public Module NumberExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal)
+  id: Round(System.Decimal)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(decimal)
+  nameWithType: NumberExtensions.Round(decimal)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a decimal value to the nearest integer.
+  example: []
+  syntax:
+    content: public static decimal Round(this decimal d)
+    parameters:
+    - id: d
+      type: System.Decimal
+      description: ''
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Shared Function Round(d As Decimal) As Decimal
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Decimal)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal)
+  name.vb: Round(Decimal)
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32)
+  id: Round(System.Decimal,System.Int32)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(decimal, int)
+  nameWithType: NumberExtensions.Round(decimal, int)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal, int)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a Decimal value to a specified number of decimal places.
+  example: []
+  syntax:
+    content: public static decimal Round(this decimal d, int decimals)
+    parameters:
+    - id: d
+      type: System.Decimal
+      description: ''
+    - id: decimals
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Shared Function Round(d As Decimal, decimals As Integer) As Decimal
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Decimal, Integer)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal, Integer)
+  name.vb: Round(Decimal, Integer)
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal,System.MidpointRounding)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal,System.MidpointRounding)
+  id: Round(System.Decimal,System.MidpointRounding)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(decimal, MidpointRounding)
+  nameWithType: NumberExtensions.Round(decimal, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal, System.MidpointRounding)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a decimal value to an integer using the specified rounding strategy.
+  example: []
+  syntax:
+    content: public static decimal Round(this decimal d, MidpointRounding mode)
+    parameters:
+    - id: d
+      type: System.Decimal
+      description: ''
+    - id: mode
+      type: System.MidpointRounding
+      description: ''
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Shared Function Round(d As Decimal, mode As MidpointRounding) As Decimal
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Decimal, MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal, System.MidpointRounding)
+  name.vb: Round(Decimal, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32,System.MidpointRounding)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Decimal,System.Int32,System.MidpointRounding)
+  id: Round(System.Decimal,System.Int32,System.MidpointRounding)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(decimal, int, MidpointRounding)
+  nameWithType: NumberExtensions.Round(decimal, int, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(decimal, int, System.MidpointRounding)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a decimal value to the specified precision using the specified rounding strategy.
+  example: []
+  syntax:
+    content: public static decimal Round(this decimal d, int decimals, MidpointRounding mode)
+    parameters:
+    - id: d
+      type: System.Decimal
+      description: ''
+    - id: decimals
+      type: System.Int32
+      description: ''
+    - id: mode
+      type: System.MidpointRounding
+      description: ''
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Shared Function Round(d As Decimal, decimals As Integer, mode As MidpointRounding) As Decimal
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Decimal, Integer, MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Decimal, Integer, System.MidpointRounding)
+  name.vb: Round(Decimal, Integer, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double)
+  id: Round(System.Double)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(double)
+  nameWithType: NumberExtensions.Round(double)
+  fullName: CSharpPlus.NumberExtensions.Round(double)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a double-precision floating-point value to the nearest integral value, and rounds midpoint values to the nearest even number.
+  example: []
+  syntax:
+    content: public static double Round(this double d)
+    parameters:
+    - id: d
+      type: System.Double
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function Round(d As Double) As Double
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Double)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double)
+  name.vb: Round(Double)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double,System.Int32)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double,System.Int32)
+  id: Round(System.Double,System.Int32)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(double, int)
+  nameWithType: NumberExtensions.Round(double, int)
+  fullName: CSharpPlus.NumberExtensions.Round(double, int)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a double-precision floating-point value to a specified number of fractional digits, and rounds midpoint values to the nearest even number.
+  example: []
+  syntax:
+    content: public static double Round(this double d, int decimals)
+    parameters:
+    - id: d
+      type: System.Double
+      description: ''
+    - id: decimals
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function Round(d As Double, decimals As Integer) As Double
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Double, Integer)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double, Integer)
+  name.vb: Round(Double, Integer)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double,System.MidpointRounding)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double,System.MidpointRounding)
+  id: Round(System.Double,System.MidpointRounding)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(double, MidpointRounding)
+  nameWithType: NumberExtensions.Round(double, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(double, System.MidpointRounding)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a double-precision floating-point value to an integer using the specified rounding convention.
+  example: []
+  syntax:
+    content: public static double Round(this double d, MidpointRounding mode)
+    parameters:
+    - id: d
+      type: System.Double
+      description: ''
+    - id: mode
+      type: System.MidpointRounding
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function Round(d As Double, mode As MidpointRounding) As Double
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Double, MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double, System.MidpointRounding)
+  name.vb: Round(Double, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Double,System.Int32,System.MidpointRounding)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Double,System.Int32,System.MidpointRounding)
+  id: Round(System.Double,System.Int32,System.MidpointRounding)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(double, int, MidpointRounding)
+  nameWithType: NumberExtensions.Round(double, int, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(double, int, System.MidpointRounding)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a double-precision floating-point value to a specified number of fractional digits using the specified rounding convention
+  example: []
+  syntax:
+    content: public static double Round(this double d, int decimals, MidpointRounding mode)
+    parameters:
+    - id: d
+      type: System.Double
+      description: ''
+    - id: decimals
+      type: System.Int32
+      description: ''
+    - id: mode
+      type: System.MidpointRounding
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function Round(d As Double, decimals As Integer, mode As MidpointRounding) As Double
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Double, Integer, MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Double, Integer, System.MidpointRounding)
+  name.vb: Round(Double, Integer, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single)
+  id: Round(System.Single)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(float)
+  nameWithType: NumberExtensions.Round(float)
+  fullName: CSharpPlus.NumberExtensions.Round(float)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a single-precision floating-point value to the nearest integral value, and rounds midpoint values to the nearest even number.
+  example: []
+  syntax:
+    content: public static float Round(this float d)
+    parameters:
+    - id: d
+      type: System.Single
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Round(d As Single) As Single
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Single)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single)
+  name.vb: Round(Single)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single,System.Int32)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single,System.Int32)
+  id: Round(System.Single,System.Int32)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(float, int)
+  nameWithType: NumberExtensions.Round(float, int)
+  fullName: CSharpPlus.NumberExtensions.Round(float, int)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a single-precision floating-point value to a specified number of fractional digits, and rounds midpoint values to the nearest even number.
+  example: []
+  syntax:
+    content: public static float Round(this float d, int decimals)
+    parameters:
+    - id: d
+      type: System.Single
+      description: ''
+    - id: decimals
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Round(d As Single, decimals As Integer) As Single
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Single, Integer)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single, Integer)
+  name.vb: Round(Single, Integer)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single,System.MidpointRounding)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single,System.MidpointRounding)
+  id: Round(System.Single,System.MidpointRounding)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(float, MidpointRounding)
+  nameWithType: NumberExtensions.Round(float, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(float, System.MidpointRounding)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a single-precision floating-point value to an integer using the specified rounding convention.
+  example: []
+  syntax:
+    content: public static float Round(this float d, MidpointRounding mode)
+    parameters:
+    - id: d
+      type: System.Single
+      description: ''
+    - id: mode
+      type: System.MidpointRounding
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Round(d As Single, mode As MidpointRounding) As Single
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Single, MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single, System.MidpointRounding)
+  name.vb: Round(Single, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Round(System.Single,System.Int32,System.MidpointRounding)
+  commentId: M:CSharpPlus.NumberExtensions.Round(System.Single,System.Int32,System.MidpointRounding)
+  id: Round(System.Single,System.Int32,System.MidpointRounding)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Round(float, int, MidpointRounding)
+  nameWithType: NumberExtensions.Round(float, int, MidpointRounding)
+  fullName: CSharpPlus.NumberExtensions.Round(float, int, System.MidpointRounding)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Rounds a single-precision floating-point value to a specified number of fractional digits using the specified rounding convention
+  example: []
+  syntax:
+    content: public static float Round(this float d, int decimals, MidpointRounding mode)
+    parameters:
+    - id: d
+      type: System.Single
+      description: ''
+    - id: decimals
+      type: System.Int32
+      description: ''
+    - id: mode
+      type: System.MidpointRounding
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Round(d As Single, decimals As Integer, mode As MidpointRounding) As Single
+  overload: CSharpPlus.NumberExtensions.Round*
+  nameWithType.vb: NumberExtensions.Round(Single, Integer, MidpointRounding)
+  fullName.vb: CSharpPlus.NumberExtensions.Round(Single, Integer, System.MidpointRounding)
+  name.vb: Round(Single, Integer, MidpointRounding)
+- uid: CSharpPlus.NumberExtensions.Clamp(System.Decimal,System.Decimal,System.Decimal)
+  commentId: M:CSharpPlus.NumberExtensions.Clamp(System.Decimal,System.Decimal,System.Decimal)
+  id: Clamp(System.Decimal,System.Decimal,System.Decimal)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Clamp(decimal, decimal, decimal)
+  nameWithType: NumberExtensions.Clamp(decimal, decimal, decimal)
+  fullName: CSharpPlus.NumberExtensions.Clamp(decimal, decimal, decimal)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns value clamped to the inclusive range of min and max.
+  example: []
+  syntax:
+    content: public static decimal Clamp(this decimal value, decimal min, decimal max)
+    parameters:
+    - id: value
+      type: System.Decimal
+      description: ''
+    - id: min
+      type: System.Decimal
+      description: ''
+    - id: max
+      type: System.Decimal
+      description: ''
+    return:
+      type: System.Decimal
+      description: ''
+    content.vb: Public Shared Function Clamp(value As Decimal, min As Decimal, max As Decimal) As Decimal
+  overload: CSharpPlus.NumberExtensions.Clamp*
+  nameWithType.vb: NumberExtensions.Clamp(Decimal, Decimal, Decimal)
+  fullName.vb: CSharpPlus.NumberExtensions.Clamp(Decimal, Decimal, Decimal)
+  name.vb: Clamp(Decimal, Decimal, Decimal)
+- uid: CSharpPlus.NumberExtensions.Clamp(System.Double,System.Double,System.Double)
+  commentId: M:CSharpPlus.NumberExtensions.Clamp(System.Double,System.Double,System.Double)
+  id: Clamp(System.Double,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Clamp(double, double, double)
+  nameWithType: NumberExtensions.Clamp(double, double, double)
+  fullName: CSharpPlus.NumberExtensions.Clamp(double, double, double)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns value clamped to the inclusive range of min and max.
+  example: []
+  syntax:
+    content: public static double Clamp(this double value, double min, double max)
+    parameters:
+    - id: value
+      type: System.Double
+      description: ''
+    - id: min
+      type: System.Double
+      description: ''
+    - id: max
+      type: System.Double
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function Clamp(value As Double, min As Double, max As Double) As Double
+  overload: CSharpPlus.NumberExtensions.Clamp*
+  nameWithType.vb: NumberExtensions.Clamp(Double, Double, Double)
+  fullName.vb: CSharpPlus.NumberExtensions.Clamp(Double, Double, Double)
+  name.vb: Clamp(Double, Double, Double)
+- uid: CSharpPlus.NumberExtensions.Clamp(System.Single,System.Single,System.Single)
+  commentId: M:CSharpPlus.NumberExtensions.Clamp(System.Single,System.Single,System.Single)
+  id: Clamp(System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: Clamp(float, float, float)
+  nameWithType: NumberExtensions.Clamp(float, float, float)
+  fullName: CSharpPlus.NumberExtensions.Clamp(float, float, float)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns value clamped to the inclusive range of min and max.
+  example: []
+  syntax:
+    content: public static float Clamp(this float value, float min, float max)
+    parameters:
+    - id: value
+      type: System.Single
+      description: ''
+    - id: min
+      type: System.Single
+      description: ''
+    - id: max
+      type: System.Single
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Clamp(value As Single, min As Single, max As Single) As Single
+  overload: CSharpPlus.NumberExtensions.Clamp*
+  nameWithType.vb: NumberExtensions.Clamp(Single, Single, Single)
+  fullName.vb: CSharpPlus.NumberExtensions.Clamp(Single, Single, Single)
+  name.vb: Clamp(Single, Single, Single)
+- uid: CSharpPlus.NumberExtensions.ClampZero(System.Decimal)
+  commentId: M:CSharpPlus.NumberExtensions.ClampZero(System.Decimal)
+  id: ClampZero(System.Decimal)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClampZero(decimal)
+  nameWithType: NumberExtensions.ClampZero(decimal)
+  fullName: CSharpPlus.NumberExtensions.ClampZero(decimal)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns value clamped to min 0
+  example: []
+  syntax:
+    content: public static decimal ClampZero(this decimal value)
+    parameters:
+    - id: value
+      type: System.Decimal
+    return:
+      type: System.Decimal
+    content.vb: Public Shared Function ClampZero(value As Decimal) As Decimal
+  overload: CSharpPlus.NumberExtensions.ClampZero*
+  nameWithType.vb: NumberExtensions.ClampZero(Decimal)
+  fullName.vb: CSharpPlus.NumberExtensions.ClampZero(Decimal)
+  name.vb: ClampZero(Decimal)
+- uid: CSharpPlus.NumberExtensions.ClampZero(System.Double)
+  commentId: M:CSharpPlus.NumberExtensions.ClampZero(System.Double)
+  id: ClampZero(System.Double)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClampZero(double)
+  nameWithType: NumberExtensions.ClampZero(double)
+  fullName: CSharpPlus.NumberExtensions.ClampZero(double)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns value clamped to min 0
+  example: []
+  syntax:
+    content: public static double ClampZero(this double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function ClampZero(value As Double) As Double
+  overload: CSharpPlus.NumberExtensions.ClampZero*
+  nameWithType.vb: NumberExtensions.ClampZero(Double)
+  fullName.vb: CSharpPlus.NumberExtensions.ClampZero(Double)
+  name.vb: ClampZero(Double)
+- uid: CSharpPlus.NumberExtensions.ClampZero(System.Single)
+  commentId: M:CSharpPlus.NumberExtensions.ClampZero(System.Single)
+  id: ClampZero(System.Single)
+  isExtensionMethod: true
+  parent: CSharpPlus.NumberExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClampZero(float)
+  nameWithType: NumberExtensions.ClampZero(float)
+  fullName: CSharpPlus.NumberExtensions.ClampZero(float)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/NumberExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns value clamped to min 0
+  example: []
+  syntax:
+    content: public static float ClampZero(this float value)
+    parameters:
+    - id: value
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ClampZero(value As Single) As Single
+  overload: CSharpPlus.NumberExtensions.ClampZero*
+  nameWithType.vb: NumberExtensions.ClampZero(Single)
+  fullName.vb: CSharpPlus.NumberExtensions.ClampZero(Single)
+  name.vb: ClampZero(Single)
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CSharpPlus.NumberExtensions.Round*
+  commentId: Overload:CSharpPlus.NumberExtensions.Round
+  isExternal: true
+  href: CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Round_System_Decimal_
+  name: Round
+  nameWithType: NumberExtensions.Round
+  fullName: CSharpPlus.NumberExtensions.Round
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.MidpointRounding
+  commentId: T:System.MidpointRounding
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.midpointrounding
+  name: MidpointRounding
+  nameWithType: MidpointRounding
+  fullName: System.MidpointRounding
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: CSharpPlus.NumberExtensions.Clamp*
+  commentId: Overload:CSharpPlus.NumberExtensions.Clamp
+  isExternal: true
+  href: CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_Clamp_System_Decimal_System_Decimal_System_Decimal_
+  name: Clamp
+  nameWithType: NumberExtensions.Clamp
+  fullName: CSharpPlus.NumberExtensions.Clamp
+- uid: CSharpPlus.NumberExtensions.ClampZero*
+  commentId: Overload:CSharpPlus.NumberExtensions.ClampZero
+  isExternal: true
+  href: CSharpPlus.NumberExtensions.html#CSharpPlus_NumberExtensions_ClampZero_System_Decimal_
+  name: ClampZero
+  nameWithType: NumberExtensions.ClampZero
+  fullName: CSharpPlus.NumberExtensions.ClampZero

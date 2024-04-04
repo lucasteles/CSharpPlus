@@ -1,0 +1,2820 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.TaskTupleExtensions
+  commentId: T:CSharpPlus.TaskTupleExtensions
+  id: TaskTupleExtensions
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.TaskTupleExtensions.WhenAll``1(System.ValueTuple{System.Threading.Tasks.Task{``0}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``10(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8},System.Threading.Tasks.Task{``9}}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``2(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``3(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``4(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``5(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``6(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``7(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``8(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7}}})
+  - CSharpPlus.TaskTupleExtensions.WhenAll``9(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8}}})
+  langs:
+  - csharp
+  - vb
+  name: TaskTupleExtensions
+  nameWithType: TaskTupleExtensions
+  fullName: CSharpPlus.TaskTupleExtensions
+  type: Class
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Tuple of Tasks Extensions
+  example: []
+  syntax:
+    content: public static class TaskTupleExtensions
+    content.vb: Public Module TaskTupleExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``1(System.ValueTuple{System.Threading.Tasks.Task{``0}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``1(System.ValueTuple{System.Threading.Tasks.Task{``0}})
+  id: WhenAll``1(System.ValueTuple{System.Threading.Tasks.Task{``0}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1>(ValueTuple<Task<T1>>)
+  nameWithType: TaskTupleExtensions.WhenAll<T1>(ValueTuple<Task<T1>>)
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1>(System.ValueTuple<System.Threading.Tasks.Task<T1>>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<T1> WhenAll<T1>(this ValueTuple<Task<T1>> tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}}}
+    typeParameters:
+    - id: T1
+    return:
+      type: System.Threading.Tasks.Task{{T1}}
+    content.vb: 'Public '
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``2(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``2(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1}})
+  id: WhenAll``2(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2>((Task<T1>, Task<T2>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2>((Task<T1>, Task<T2>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2)> WhenAll<T1, T2>(this (Task<T1>, Task<T2>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2)(tasks As (Task(Of T1), Task(Of T2))) As Task(Of (T1, T2))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2)((Task(Of T1), Task(Of T2)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2)))
+  name.vb: WhenAll(Of T1, T2)((Task(Of T1), Task(Of T2)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``3(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``3(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2}})
+  id: WhenAll``3(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3>((Task<T1>, Task<T2>, Task<T3>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3>((Task<T1>, Task<T2>, Task<T3>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3)> WhenAll<T1, T2, T3>(this (Task<T1>, Task<T2>, Task<T3>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3))) As Task(Of (T1, T2, T3))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3)((Task(Of T1), Task(Of T2), Task(Of T3)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3)))
+  name.vb: WhenAll(Of T1, T2, T3)((Task(Of T1), Task(Of T2), Task(Of T3)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``4(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``4(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3}})
+  id: WhenAll``4(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3, T4>((Task<T1>, Task<T2>, Task<T3>, Task<T4>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4>((Task<T1>, Task<T2>, Task<T3>, Task<T4>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3, T4)> WhenAll<T1, T2, T3, T4>(this (Task<T1>, Task<T2>, Task<T3>, Task<T4>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3, T4)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4))) As Task(Of (T1, T2, T3, T4))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4)))
+  name.vb: WhenAll(Of T1, T2, T3, T4)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``5(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``5(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4}})
+  id: WhenAll``5(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3, T4, T5>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3, T4, T5)> WhenAll<T1, T2, T3, T4, T5>(this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3, T4, T5)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5))) As Task(Of (T1, T2, T3, T4, T5))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5)))
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``6(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``6(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5}})
+  id: WhenAll``6(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3, T4, T5, T6>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3, T4, T5, T6)> WhenAll<T1, T2, T3, T4, T5, T6>(this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    - id: T6
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3, T4, T5, T6)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6))) As Task(Of (T1, T2, T3, T4, T5, T6))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6)))
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``7(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``7(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6}})
+  id: WhenAll``7(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3, T4, T5, T6, T7)> WhenAll<T1, T2, T3, T4, T5, T6, T7>(this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    - id: T6
+    - id: T7
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3, T4, T5, T6, T7)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7))) As Task(Of (T1, T2, T3, T4, T5, T6, T7))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7)))
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``8(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7}}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``8(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7}}})
+  id: WhenAll``8(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7}}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7, T8>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3, T4, T5, T6, T7, T8)> WhenAll<T1, T2, T3, T4, T5, T6, T7, T8>(this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}},System.ValueTuple{System.Threading.Tasks.Task{{T8}}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    - id: T6
+    - id: T7
+    - id: T8
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7},System.ValueTuple{{T8}}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8))) As Task(Of (T1, T2, T3, T4, T5, T6, T7, T8))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8)))
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``9(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8}}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``9(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8}}})
+  id: WhenAll``9(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8}}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>, System.Threading.Tasks.Task<T9>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9)> WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9>(this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}},System.ValueTuple{System.Threading.Tasks.Task{{T8}},System.Threading.Tasks.Task{{T9}}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    - id: T6
+    - id: T7
+    - id: T8
+    - id: T9
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7},System.ValueTuple{{T8},{T9}}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9))) As Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8), System.Threading.Tasks.Task(Of T9)))
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9)))
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll``10(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8},System.Threading.Tasks.Task{``9}}})
+  commentId: M:CSharpPlus.TaskTupleExtensions.WhenAll``10(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8},System.Threading.Tasks.Task{``9}}})
+  id: WhenAll``10(System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8},System.Threading.Tasks.Task{``9}}})
+  isExtensionMethod: true
+  parent: CSharpPlus.TaskTupleExtensions
+  langs:
+  - csharp
+  - vb
+  name: WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>))
+  nameWithType: TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>((Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>))
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>((System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>, System.Threading.Tasks.Task<T9>, System.Threading.Tasks.Task<T10>))
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/TaskTupleExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)> WhenAll<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(this (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>) tasks)
+    parameters:
+    - id: tasks
+      type: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}},System.ValueTuple{System.Threading.Tasks.Task{{T8}},System.Threading.Tasks.Task{{T9}},System.Threading.Tasks.Task{{T10}}}}
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    - id: T6
+    - id: T7
+    - id: T8
+    - id: T9
+    - id: T10
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7},System.ValueTuple{{T8},{T9},{T10}}}}
+    content.vb: Public Shared Function WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)(tasks As (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9), Task(Of T10))) As Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9, T10))
+  overload: CSharpPlus.TaskTupleExtensions.WhenAll*
+  nameWithType.vb: TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9), Task(Of T10)))
+  fullName.vb: CSharpPlus.TaskTupleExtensions.WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)((System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8), System.Threading.Tasks.Task(Of T9), System.Threading.Tasks.Task(Of T10)))
+  name.vb: WhenAll(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)((Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9), Task(Of T10)))
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CSharpPlus.TaskTupleExtensions.WhenAll*
+  commentId: Overload:CSharpPlus.TaskTupleExtensions.WhenAll
+  isExternal: true
+  href: CSharpPlus.TaskTupleExtensions.html#CSharpPlus_TaskTupleExtensions_WhenAll__1_System_ValueTuple_System_Threading_Tasks_Task___0___
+  name: WhenAll
+  nameWithType: TaskTupleExtensions.WhenAll
+  fullName: CSharpPlus.TaskTupleExtensions.WhenAll
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0}}
+  parent: System
+  definition: System.ValueTuple`1
+  href: https://learn.microsoft.com/dotnet/api/system.valuetuple-1
+  name: ValueTuple<Task<T1>>
+  nameWithType: ValueTuple<Task<T1>>
+  fullName: System.ValueTuple<System.Threading.Tasks.Task<T1>>
+  spec.csharp:
+  - uid: System.ValueTuple`1
+    name: ValueTuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-1
+  - name: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: '>'
+- uid: System.Threading.Tasks.Task{{T1}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T1>
+  nameWithType: Task<T1>
+  fullName: System.Threading.Tasks.Task<T1>
+  nameWithType.vb: Task(Of T1)
+  fullName.vb: System.Threading.Tasks.Task(Of T1)
+  name.vb: Task(Of T1)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: System.ValueTuple`1
+  commentId: T:System.ValueTuple`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetuple-1
+  name: ValueTuple<T1>
+  nameWithType: ValueTuple<T1>
+  fullName: System.ValueTuple<T1>
+  spec.csharp:
+  - uid: System.ValueTuple`1
+    name: ValueTuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-1
+  - name: <
+  - name: T1
+  - name: '>'
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1}}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>)
+  nameWithType: (Task<T1>, Task<T2>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2))
+  name.vb: (Task(Of T1), Task(Of T2))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2)>
+  nameWithType: Task<(T1, T2)>
+  fullName: System.Threading.Tasks.Task<(T1, T2)>
+  nameWithType.vb: Task(Of (T1, T2))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2))
+  name.vb: Task(Of (T1, T2))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2}}
+  parent: System
+  definition: System.ValueTuple`3
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3)>
+  nameWithType: Task<(T1, T2, T3)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3)>
+  nameWithType.vb: Task(Of (T1, T2, T3))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3))
+  name.vb: Task(Of (T1, T2, T3))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  - name: )
+- uid: System.ValueTuple`3
+  commentId: T:System.ValueTuple`3
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3}}
+  parent: System
+  definition: System.ValueTuple`4
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>, Task<T4>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>, Task<T4>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T4
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T4
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2,``3}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3, T4)>
+  nameWithType: Task<(T1, T2, T3, T4)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3, T4)>
+  nameWithType.vb: Task(Of (T1, T2, T3, T4))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3, T4))
+  name.vb: Task(Of (T1, T2, T3, T4))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+  - name: )
+- uid: System.ValueTuple`4
+  commentId: T:System.ValueTuple`4
+  name: (T1, T2, T3, T4)
+  nameWithType: (T1, T2, T3, T4)
+  fullName: (T1, T2, T3, T4)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4}}
+  parent: System
+  definition: System.ValueTuple`5
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T4
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T5
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T4
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T5
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2,``3,``4}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3, T4, T5)>
+  nameWithType: Task<(T1, T2, T3, T4, T5)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3, T4, T5)>
+  nameWithType.vb: Task(Of (T1, T2, T3, T4, T5))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3, T4, T5))
+  name.vb: Task(Of (T1, T2, T3, T4, T5))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+  - name: )
+- uid: System.ValueTuple`5
+  commentId: T:System.ValueTuple`5
+  name: (T1, T2, T3, T4, T5)
+  nameWithType: (T1, T2, T3, T4, T5)
+  fullName: (T1, T2, T3, T4, T5)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5}}
+  parent: System
+  definition: System.ValueTuple`6
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T4
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T5
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T6
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T4
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T5
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T6
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2,``3,``4,``5}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3, T4, T5, T6)>
+  nameWithType: Task<(T1, T2, T3, T4, T5, T6)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3, T4, T5, T6)>
+  nameWithType.vb: Task(Of (T1, T2, T3, T4, T5, T6))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3, T4, T5, T6))
+  name.vb: Task(Of (T1, T2, T3, T4, T5, T6))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+  - name: )
+- uid: System.ValueTuple`6
+  commentId: T:System.ValueTuple`6
+  name: (T1, T2, T3, T4, T5, T6)
+  nameWithType: (T1, T2, T3, T4, T5, T6)
+  fullName: (T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6}}
+  parent: System
+  definition: System.ValueTuple`7
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T4
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T5
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T6
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T7
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T4
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T5
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T6
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T7
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2,``3,``4,``5,``6}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3, T4, T5, T6, T7)>
+  nameWithType: Task<(T1, T2, T3, T4, T5, T6, T7)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3, T4, T5, T6, T7)>
+  nameWithType.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3, T4, T5, T6, T7))
+  name.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+  - name: )
+- uid: System.ValueTuple`7
+  commentId: T:System.ValueTuple`7
+  name: (T1, T2, T3, T4, T5, T6, T7)
+  nameWithType: (T1, T2, T3, T4, T5, T6, T7)
+  fullName: (T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}},System.ValueTuple{System.Threading.Tasks.Task{{T8}}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7}}}
+  parent: System
+  definition: System.ValueTuple`8
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T4
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T5
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T6
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T7
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T8
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T4
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T5
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T6
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T7
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T8
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7},System.ValueTuple{{T8}}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2,``3,``4,``5,``6,System.ValueTuple{``7}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3, T4, T5, T6, T7, T8)>
+  nameWithType: Task<(T1, T2, T3, T4, T5, T6, T7, T8)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3, T4, T5, T6, T7, T8)>
+  nameWithType.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7, T8))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3, T4, T5, T6, T7, T8))
+  name.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7, T8))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+  - name: )
+- uid: System.ValueTuple`8
+  commentId: T:System.ValueTuple`8
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetuple-8
+  name: ValueTuple<T1, T2, T3, T4, T5, T6, T7, TRest>
+  nameWithType: ValueTuple<T1, T2, T3, T4, T5, T6, T7, TRest>
+  fullName: System.ValueTuple<T1, T2, T3, T4, T5, T6, T7, TRest>
+  nameWithType.vb: ValueTuple(Of T1, T2, T3, T4, T5, T6, T7, TRest)
+  fullName.vb: System.ValueTuple(Of T1, T2, T3, T4, T5, T6, T7, TRest)
+  name.vb: ValueTuple(Of T1, T2, T3, T4, T5, T6, T7, TRest)
+  spec.csharp:
+  - uid: System.ValueTuple`8
+    name: ValueTuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-8
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: TRest
+  - name: '>'
+  spec.vb:
+  - uid: System.ValueTuple`8
+    name: ValueTuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-8
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: TRest
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}},System.ValueTuple{System.Threading.Tasks.Task{{T8}},System.Threading.Tasks.Task{{T9}}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8}}}
+  parent: System
+  definition: System.ValueTuple`8
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>, System.Threading.Tasks.Task<T9>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8), System.Threading.Tasks.Task(Of T9))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T4
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T5
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T6
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T7
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T8
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T9
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T4
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T5
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T6
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T7
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T8
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T9
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7},System.ValueTuple{{T8},{T9}}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2,``3,``4,``5,``6,System.ValueTuple{``7,``8}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>
+  nameWithType: Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>
+  nameWithType.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9))
+  name.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: )
+  - name: )
+- uid: System.ValueTuple{System.Threading.Tasks.Task{{T1}},System.Threading.Tasks.Task{{T2}},System.Threading.Tasks.Task{{T3}},System.Threading.Tasks.Task{{T4}},System.Threading.Tasks.Task{{T5}},System.Threading.Tasks.Task{{T6}},System.Threading.Tasks.Task{{T7}},System.ValueTuple{System.Threading.Tasks.Task{{T8}},System.Threading.Tasks.Task{{T9}},System.Threading.Tasks.Task{{T10}}}}
+  commentId: T:System.ValueTuple{System.Threading.Tasks.Task{``0},System.Threading.Tasks.Task{``1},System.Threading.Tasks.Task{``2},System.Threading.Tasks.Task{``3},System.Threading.Tasks.Task{``4},System.Threading.Tasks.Task{``5},System.Threading.Tasks.Task{``6},System.ValueTuple{System.Threading.Tasks.Task{``7},System.Threading.Tasks.Task{``8},System.Threading.Tasks.Task{``9}}}
+  parent: System
+  definition: System.ValueTuple`8
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>)
+  nameWithType: (Task<T1>, Task<T2>, Task<T3>, Task<T4>, Task<T5>, Task<T6>, Task<T7>, Task<T8>, Task<T9>, Task<T10>)
+  fullName: (System.Threading.Tasks.Task<T1>, System.Threading.Tasks.Task<T2>, System.Threading.Tasks.Task<T3>, System.Threading.Tasks.Task<T4>, System.Threading.Tasks.Task<T5>, System.Threading.Tasks.Task<T6>, System.Threading.Tasks.Task<T7>, System.Threading.Tasks.Task<T8>, System.Threading.Tasks.Task<T9>, System.Threading.Tasks.Task<T10>)
+  nameWithType.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9), Task(Of T10))
+  fullName.vb: (System.Threading.Tasks.Task(Of T1), System.Threading.Tasks.Task(Of T2), System.Threading.Tasks.Task(Of T3), System.Threading.Tasks.Task(Of T4), System.Threading.Tasks.Task(Of T5), System.Threading.Tasks.Task(Of T6), System.Threading.Tasks.Task(Of T7), System.Threading.Tasks.Task(Of T8), System.Threading.Tasks.Task(Of T9), System.Threading.Tasks.Task(Of T10))
+  name.vb: (Task(Of T1), Task(Of T2), Task(Of T3), Task(Of T4), Task(Of T5), Task(Of T6), Task(Of T7), Task(Of T8), Task(Of T9), Task(Of T10))
+  spec.csharp:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T1
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T2
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T3
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T4
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T5
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T6
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T7
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T8
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T9
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T10
+  - name: '>'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T3
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T4
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T5
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T6
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T7
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T8
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T9
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T10
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.ValueTuple{{T1},{T2},{T3},{T4},{T5},{T6},{T7},System.ValueTuple{{T8},{T9},{T10}}}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{``0,``1,``2,``3,``4,``5,``6,System.ValueTuple{``7,``8,``9}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>
+  nameWithType: Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>
+  fullName: System.Threading.Tasks.Task<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>
+  nameWithType.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9, T10))
+  fullName.vb: System.Threading.Tasks.Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9, T10))
+  name.vb: Task(Of (T1, T2, T3, T4, T5, T6, T7, T8, T9, T10))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: ','
+  - name: " "
+  - name: T9
+  - name: ','
+  - name: " "
+  - name: T10
+  - name: )
+  - name: )

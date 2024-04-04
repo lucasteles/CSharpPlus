@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.CompareResult
+  commentId: T:CSharpPlus.CompareResult
+  id: CompareResult
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.CompareResult.Equal
+  - CSharpPlus.CompareResult.Greater
+  - CSharpPlus.CompareResult.Smaller
+  langs:
+  - csharp
+  - vb
+  name: CompareResult
+  nameWithType: CompareResult
+  fullName: CSharpPlus.CompareResult
+  type: Enum
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/LambdaComparer.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public enum CompareResult
+    content.vb: Public Enum CompareResult
+  extensionMethods:
+  - CSharpPlus.CompareResult.CSharpPlus.EnumerablePlus.ToSingleton``1
+- uid: CSharpPlus.CompareResult.Smaller
+  commentId: F:CSharpPlus.CompareResult.Smaller
+  id: Smaller
+  parent: CSharpPlus.CompareResult
+  langs:
+  - csharp
+  - vb
+  name: Smaller
+  nameWithType: CompareResult.Smaller
+  fullName: CSharpPlus.CompareResult.Smaller
+  type: Field
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/LambdaComparer.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: Smaller = -1
+    return:
+      type: CSharpPlus.CompareResult
+- uid: CSharpPlus.CompareResult.Equal
+  commentId: F:CSharpPlus.CompareResult.Equal
+  id: Equal
+  parent: CSharpPlus.CompareResult
+  langs:
+  - csharp
+  - vb
+  name: Equal
+  nameWithType: CompareResult.Equal
+  fullName: CSharpPlus.CompareResult.Equal
+  type: Field
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/LambdaComparer.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: Equal = 0
+    return:
+      type: CSharpPlus.CompareResult
+- uid: CSharpPlus.CompareResult.Greater
+  commentId: F:CSharpPlus.CompareResult.Greater
+  id: Greater
+  parent: CSharpPlus.CompareResult
+  langs:
+  - csharp
+  - vb
+  name: Greater
+  nameWithType: CompareResult.Greater
+  fullName: CSharpPlus.CompareResult.Greater
+  type: Field
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/LambdaComparer.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: Greater = 1
+    return:
+      type: CSharpPlus.CompareResult
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: CSharpPlus.CompareResult.CSharpPlus.EnumerablePlus.ToSingleton``1
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  parent: CSharpPlus.EnumerablePlus
+  definition: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  name: ToSingleton<CompareResult>(CompareResult)
+  nameWithType: EnumerablePlus.ToSingleton<CompareResult>(CompareResult)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<CSharpPlus.CompareResult>(CSharpPlus.CompareResult)
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of CompareResult)(CompareResult)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of CSharpPlus.CompareResult)(CSharpPlus.CompareResult)
+  name.vb: ToSingleton(Of CompareResult)(CompareResult)
+  spec.csharp:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(CSharpPlus.CompareResult)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: <
+  - uid: CSharpPlus.CompareResult
+    name: CompareResult
+    isExternal: true
+    href: CSharpPlus.CompareResult.html
+  - name: '>'
+  - name: (
+  - uid: CSharpPlus.CompareResult
+    name: CompareResult
+    isExternal: true
+    href: CSharpPlus.CompareResult.html
+  - name: )
+  spec.vb:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(CSharpPlus.CompareResult)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CSharpPlus.CompareResult
+    name: CompareResult
+    isExternal: true
+    href: CSharpPlus.CompareResult.html
+  - name: )
+  - name: (
+  - uid: CSharpPlus.CompareResult
+    name: CompareResult
+    isExternal: true
+    href: CSharpPlus.CompareResult.html
+  - name: )
+- uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  name: ToSingleton<T>(T)
+  nameWithType: EnumerablePlus.ToSingleton<T>(T)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<T>(T)
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of T)(T)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of T)(T)
+  name.vb: ToSingleton(Of T)(T)
+  spec.csharp:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: CSharpPlus.EnumerablePlus
+  commentId: T:CSharpPlus.EnumerablePlus
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html
+  name: EnumerablePlus
+  nameWithType: EnumerablePlus
+  fullName: CSharpPlus.EnumerablePlus
+- uid: CSharpPlus.CompareResult
+  commentId: T:CSharpPlus.CompareResult
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.CompareResult.html
+  name: CompareResult
+  nameWithType: CompareResult
+  fullName: CSharpPlus.CompareResult

@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.ConcurrentValue`1
+  commentId: T:CSharpPlus.ConcurrentValue`1
+  id: ConcurrentValue`1
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.ConcurrentValue`1.#ctor(`0)
+  - CSharpPlus.ConcurrentValue`1.Reset(`0)
+  - CSharpPlus.ConcurrentValue`1.Update(System.Func{`0,`0})
+  - CSharpPlus.ConcurrentValue`1.Value
+  langs:
+  - csharp
+  - vb
+  name: ConcurrentValue<T>
+  nameWithType: ConcurrentValue<T>
+  fullName: CSharpPlus.ConcurrentValue<T>
+  type: Class
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/ConcurrentValue.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Provide a way to manage shared, synchronous, independent state
+  example: []
+  syntax:
+    content: 'public sealed class ConcurrentValue<T> where T : class'
+    typeParameters:
+    - id: T
+    content.vb: Public NotInheritable Class ConcurrentValue(Of T As Class)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  extensionMethods:
+  - CSharpPlus.ConcurrentValue`1.CSharpPlus.EnumerablePlus.ToSingleton``1
+  nameWithType.vb: ConcurrentValue(Of T)
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T)
+  name.vb: ConcurrentValue(Of T)
+- uid: CSharpPlus.ConcurrentValue`1.#ctor(`0)
+  commentId: M:CSharpPlus.ConcurrentValue`1.#ctor(`0)
+  id: '#ctor(`0)'
+  parent: CSharpPlus.ConcurrentValue`1
+  langs:
+  - csharp
+  - vb
+  name: ConcurrentValue(T)
+  nameWithType: ConcurrentValue<T>.ConcurrentValue(T)
+  fullName: CSharpPlus.ConcurrentValue<T>.ConcurrentValue(T)
+  type: Constructor
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/ConcurrentValue.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Provide a way to manage shared, synchronous, independent state
+  example: []
+  syntax:
+    content: public ConcurrentValue(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    content.vb: Public Sub New(value As T)
+  overload: CSharpPlus.ConcurrentValue`1.#ctor*
+  nameWithType.vb: ConcurrentValue(Of T).New(T)
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).New(T)
+  name.vb: New(T)
+- uid: CSharpPlus.ConcurrentValue`1.Update(System.Func{`0,`0})
+  commentId: M:CSharpPlus.ConcurrentValue`1.Update(System.Func{`0,`0})
+  id: Update(System.Func{`0,`0})
+  parent: CSharpPlus.ConcurrentValue`1
+  langs:
+  - csharp
+  - vb
+  name: Update(Func<T, T>)
+  nameWithType: ConcurrentValue<T>.Update(Func<T, T>)
+  fullName: CSharpPlus.ConcurrentValue<T>.Update(System.Func<T, T>)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/ConcurrentValue.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public void Update(Func<T, T> updater)
+    parameters:
+    - id: updater
+      type: System.Func{{T},{T}}
+    content.vb: Public Sub Update(updater As Func(Of T, T))
+  overload: CSharpPlus.ConcurrentValue`1.Update*
+  nameWithType.vb: ConcurrentValue(Of T).Update(Func(Of T, T))
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Update(System.Func(Of T, T))
+  name.vb: Update(Func(Of T, T))
+- uid: CSharpPlus.ConcurrentValue`1.Reset(`0)
+  commentId: M:CSharpPlus.ConcurrentValue`1.Reset(`0)
+  id: Reset(`0)
+  parent: CSharpPlus.ConcurrentValue`1
+  langs:
+  - csharp
+  - vb
+  name: Reset(T)
+  nameWithType: ConcurrentValue<T>.Reset(T)
+  fullName: CSharpPlus.ConcurrentValue<T>.Reset(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/ConcurrentValue.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public void Reset(T resetValue)
+    parameters:
+    - id: resetValue
+      type: '{T}'
+    content.vb: Public Sub Reset(resetValue As T)
+  overload: CSharpPlus.ConcurrentValue`1.Reset*
+  nameWithType.vb: ConcurrentValue(Of T).Reset(T)
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Reset(T)
+- uid: CSharpPlus.ConcurrentValue`1.Value
+  commentId: P:CSharpPlus.ConcurrentValue`1.Value
+  id: Value
+  parent: CSharpPlus.ConcurrentValue`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ConcurrentValue<T>.Value
+  fullName: CSharpPlus.ConcurrentValue<T>.Value
+  type: Property
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/ConcurrentValue.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public T Value { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Value As T
+  overload: CSharpPlus.ConcurrentValue`1.Value*
+  nameWithType.vb: ConcurrentValue(Of T).Value
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Value
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: CSharpPlus.ConcurrentValue`1.CSharpPlus.EnumerablePlus.ToSingleton``1
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  parent: CSharpPlus.EnumerablePlus
+  definition: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  name: ToSingleton<ConcurrentValue<T>>(ConcurrentValue<T>)
+  nameWithType: EnumerablePlus.ToSingleton<ConcurrentValue<T>>(ConcurrentValue<T>)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<CSharpPlus.ConcurrentValue<T>>(CSharpPlus.ConcurrentValue<T>)
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of ConcurrentValue(Of T))(ConcurrentValue(Of T))
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of CSharpPlus.ConcurrentValue(Of T))(CSharpPlus.ConcurrentValue(Of T))
+  name.vb: ToSingleton(Of ConcurrentValue(Of T))(ConcurrentValue(Of T))
+  spec.csharp:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(CSharpPlus.ConcurrentValue{`0})
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: <
+  - uid: CSharpPlus.ConcurrentValue`1
+    name: ConcurrentValue
+    isExternal: true
+    href: CSharpPlus.ConcurrentValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: CSharpPlus.ConcurrentValue`1
+    name: ConcurrentValue
+    isExternal: true
+    href: CSharpPlus.ConcurrentValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(CSharpPlus.ConcurrentValue{`0})
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CSharpPlus.ConcurrentValue`1
+    name: ConcurrentValue
+    isExternal: true
+    href: CSharpPlus.ConcurrentValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: (
+  - uid: CSharpPlus.ConcurrentValue`1
+    name: ConcurrentValue
+    isExternal: true
+    href: CSharpPlus.ConcurrentValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  name: ToSingleton<T>(T)
+  nameWithType: EnumerablePlus.ToSingleton<T>(T)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<T>(T)
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of T)(T)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of T)(T)
+  name.vb: ToSingleton(Of T)(T)
+  spec.csharp:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: CSharpPlus.EnumerablePlus
+  commentId: T:CSharpPlus.EnumerablePlus
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html
+  name: EnumerablePlus
+  nameWithType: EnumerablePlus
+  fullName: CSharpPlus.EnumerablePlus
+- uid: CSharpPlus.ConcurrentValue`1.#ctor*
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.#ctor
+  isExternal: true
+  href: CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1__ctor__0_
+  name: ConcurrentValue
+  nameWithType: ConcurrentValue<T>.ConcurrentValue
+  fullName: CSharpPlus.ConcurrentValue<T>.ConcurrentValue
+  nameWithType.vb: ConcurrentValue(Of T).New
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).New
+  name.vb: New
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CSharpPlus.ConcurrentValue`1.Update*
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.Update
+  isExternal: true
+  href: CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Update_System_Func__0__0__
+  name: Update
+  nameWithType: ConcurrentValue<T>.Update
+  fullName: CSharpPlus.ConcurrentValue<T>.Update
+  nameWithType.vb: ConcurrentValue(Of T).Update
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Update
+- uid: System.Func{{T},{T}}
+  commentId: T:System.Func{`0,`0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, T>
+  nameWithType: Func<T, T>
+  fullName: System.Func<T, T>
+  nameWithType.vb: Func(Of T, T)
+  fullName.vb: System.Func(Of T, T)
+  name.vb: Func(Of T, T)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: CSharpPlus.ConcurrentValue`1.Reset*
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.Reset
+  isExternal: true
+  href: CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Reset__0_
+  name: Reset
+  nameWithType: ConcurrentValue<T>.Reset
+  fullName: CSharpPlus.ConcurrentValue<T>.Reset
+  nameWithType.vb: ConcurrentValue(Of T).Reset
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Reset
+- uid: CSharpPlus.ConcurrentValue`1.Value*
+  commentId: Overload:CSharpPlus.ConcurrentValue`1.Value
+  isExternal: true
+  href: CSharpPlus.ConcurrentValue-1.html#CSharpPlus_ConcurrentValue_1_Value
+  name: Value
+  nameWithType: ConcurrentValue<T>.Value
+  fullName: CSharpPlus.ConcurrentValue<T>.Value
+  nameWithType.vb: ConcurrentValue(Of T).Value
+  fullName.vb: CSharpPlus.ConcurrentValue(Of T).Value

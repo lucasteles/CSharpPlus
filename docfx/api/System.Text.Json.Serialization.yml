@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Text.Json.Serialization
+  commentId: N:System.Text.Json.Serialization
+  id: System.Text.Json.Serialization
+  children:
+  - System.Text.Json.Serialization.DateTimeForceUtcJsonConverter
+  langs:
+  - csharp
+  - vb
+  name: System.Text.Json.Serialization
+  nameWithType: System.Text.Json.Serialization
+  fullName: System.Text.Json.Serialization
+  type: Namespace
+  assemblies:
+  - CSharpPlus
+references:
+- uid: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter
+  commentId: T:System.Text.Json.Serialization.DateTimeForceUtcJsonConverter
+  isExternal: true
+  href: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html
+  name: DateTimeForceUtcJsonConverter
+  nameWithType: DateTimeForceUtcJsonConverter
+  fullName: System.Text.Json.Serialization.DateTimeForceUtcJsonConverter

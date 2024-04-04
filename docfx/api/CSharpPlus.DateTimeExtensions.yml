@@ -1,0 +1,910 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.DateTimeExtensions
+  commentId: T:CSharpPlus.DateTimeExtensions
+  id: DateTimeExtensions
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.DateTimeExtensions.Now(System.TimeProvider)
+  - CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTime)
+  - CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTimeOffset)
+  - CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly)
+  - CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.DateTimeKind)
+  - CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.TimeSpan,System.DateTimeKind)
+  - CSharpPlus.DateTimeExtensions.ToIsoString(System.DateOnly)
+  - CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTime)
+  - CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTimeOffset)
+  - CSharpPlus.DateTimeExtensions.ToTimeOnly(System.DateTime)
+  - CSharpPlus.DateTimeExtensions.ToTimeOnly(System.TimeSpan)
+  - CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateOnly)
+  - CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  - CSharpPlus.DateTimeExtensions.Today(System.TimeProvider)
+  - CSharpPlus.DateTimeExtensions.UtcNow(System.TimeProvider)
+  - CSharpPlus.DateTimeExtensions.WithOffset(System.DateTime,System.TimeSpan)
+  langs:
+  - csharp
+  - vb
+  name: DateTimeExtensions
+  nameWithType: DateTimeExtensions
+  fullName: CSharpPlus.DateTimeExtensions
+  type: Class
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: DateTime Extensions
+  example: []
+  syntax:
+    content: public static class DateTimeExtensions
+    content.vb: Public Module DateTimeExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CSharpPlus.DateTimeExtensions.WithOffset(System.DateTime,System.TimeSpan)
+  commentId: M:CSharpPlus.DateTimeExtensions.WithOffset(System.DateTime,System.TimeSpan)
+  id: WithOffset(System.DateTime,System.TimeSpan)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithOffset(DateTime, TimeSpan)
+  nameWithType: DateTimeExtensions.WithOffset(DateTime, TimeSpan)
+  fullName: CSharpPlus.DateTimeExtensions.WithOffset(System.DateTime, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Initializes a new instance of the DateTimeOffset structure using the specified DateTime value and offset
+  example: []
+  syntax:
+    content: public static DateTimeOffset WithOffset(this DateTime dateTime, TimeSpan offset)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    - id: offset
+      type: System.TimeSpan
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public Shared Function WithOffset(dateTime As Date, offset As TimeSpan) As DateTimeOffset
+  overload: CSharpPlus.DateTimeExtensions.WithOffset*
+  nameWithType.vb: DateTimeExtensions.WithOffset(Date, TimeSpan)
+  fullName.vb: CSharpPlus.DateTimeExtensions.WithOffset(Date, System.TimeSpan)
+  name.vb: WithOffset(Date, TimeSpan)
+- uid: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  id: ToUnixTimeSeconds(System.DateTime)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimeSeconds(DateTime)
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds(DateTime)
+  fullName: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the number of seconds that have elapsed since 1970-01-01T00:00:00Z
+  example: []
+  syntax:
+    content: public static long ToUnixTimeSeconds(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function ToUnixTimeSeconds(dateTime As Date) As Long
+  overload: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds*
+  nameWithType.vb: DateTimeExtensions.ToUnixTimeSeconds(Date)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(Date)
+  name.vb: ToUnixTimeSeconds(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateOnly)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateOnly)
+  id: ToUnixTimeSeconds(System.DateOnly)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimeSeconds(DateOnly)
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds(DateOnly)
+  fullName: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds(System.DateOnly)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns the number of seconds that have elapsed since 1970-01-01T00:00:00Z
+  example: []
+  syntax:
+    content: public static long ToUnixTimeSeconds(this DateOnly dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateOnly
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function ToUnixTimeSeconds(dateTime As DateOnly) As Long
+  overload: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds*
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateOnly)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToIsoString(System.DateOnly)
+  id: ToIsoString(System.DateOnly)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToIsoString(DateOnly)
+  nameWithType: DateTimeExtensions.ToIsoString(DateOnly)
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateOnly)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: DateOnly string Invariant IS8601 string
+  example: []
+  syntax:
+    content: public static string ToIsoString(this DateOnly dateOnly)
+    parameters:
+    - id: dateOnly
+      type: System.DateOnly
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToIsoString(dateOnly As DateOnly) As String
+  overload: CSharpPlus.DateTimeExtensions.ToIsoString*
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTime)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTime)
+  id: ToIsoString(System.DateTime)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToIsoString(DateTime)
+  nameWithType: DateTimeExtensions.ToIsoString(DateTime)
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTime)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: DateTime Invariant IS8601 string
+  example: []
+  syntax:
+    content: public static string ToIsoString(this DateTime date)
+    parameters:
+    - id: date
+      type: System.DateTime
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToIsoString([date] As Date) As String
+  overload: CSharpPlus.DateTimeExtensions.ToIsoString*
+  nameWithType.vb: DateTimeExtensions.ToIsoString(Date)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToIsoString(Date)
+  name.vb: ToIsoString(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTimeOffset)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTimeOffset)
+  id: ToIsoString(System.DateTimeOffset)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToIsoString(DateTimeOffset)
+  nameWithType: DateTimeExtensions.ToIsoString(DateTimeOffset)
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString(System.DateTimeOffset)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: DateTime Invariant IS8601 string
+  example: []
+  syntax:
+    content: public static string ToIsoString(this DateTimeOffset date)
+    parameters:
+    - id: date
+      type: System.DateTimeOffset
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToIsoString([date] As DateTimeOffset) As String
+  overload: CSharpPlus.DateTimeExtensions.ToIsoString*
+- uid: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTime)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTime)
+  id: ToDateOnly(System.DateTime)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToDateOnly(DateTime)
+  nameWithType: DateTimeExtensions.ToDateOnly(DateTime)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTime)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a DateOnly instance that is set to the date part of the specified dateOnly.
+  example: []
+  syntax:
+    content: public static DateOnly ToDateOnly(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.DateOnly
+    content.vb: Public Shared Function ToDateOnly(dateTime As Date) As DateOnly
+  overload: CSharpPlus.DateTimeExtensions.ToDateOnly*
+  nameWithType.vb: DateTimeExtensions.ToDateOnly(Date)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToDateOnly(Date)
+  name.vb: ToDateOnly(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTimeOffset)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTimeOffset)
+  id: ToDateOnly(System.DateTimeOffset)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToDateOnly(DateTimeOffset)
+  nameWithType: DateTimeExtensions.ToDateOnly(DateTimeOffset)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateOnly(System.DateTimeOffset)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a DateOnly instance that is set to the date part of the specified dateOnly.
+  example: []
+  syntax:
+    content: public static DateOnly ToDateOnly(this DateTimeOffset dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTimeOffset
+    return:
+      type: System.DateOnly
+    content.vb: Public Shared Function ToDateOnly(dateTime As DateTimeOffset) As DateOnly
+  overload: CSharpPlus.DateTimeExtensions.ToDateOnly*
+- uid: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.DateTime)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToTimeOnly(System.DateTime)
+  id: ToTimeOnly(System.DateTime)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToTimeOnly(DateTime)
+  nameWithType: DateTimeExtensions.ToTimeOnly(DateTime)
+  fullName: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.DateTime)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Constructs a TimeOnly object from a DateTime representing the time of the day in this DateTime object
+  example: []
+  syntax:
+    content: public static TimeOnly ToTimeOnly(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.TimeOnly
+    content.vb: Public Shared Function ToTimeOnly(dateTime As Date) As TimeOnly
+  overload: CSharpPlus.DateTimeExtensions.ToTimeOnly*
+  nameWithType.vb: DateTimeExtensions.ToTimeOnly(Date)
+  fullName.vb: CSharpPlus.DateTimeExtensions.ToTimeOnly(Date)
+  name.vb: ToTimeOnly(Date)
+- uid: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.TimeSpan)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToTimeOnly(System.TimeSpan)
+  id: ToTimeOnly(System.TimeSpan)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToTimeOnly(TimeSpan)
+  nameWithType: DateTimeExtensions.ToTimeOnly(TimeSpan)
+  fullName: CSharpPlus.DateTimeExtensions.ToTimeOnly(System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Constructs a TimeOnly object from a time span representing the time elapsed since midnight.
+  example: []
+  syntax:
+    content: public static TimeOnly ToTimeOnly(this TimeSpan span)
+    parameters:
+    - id: span
+      type: System.TimeSpan
+    return:
+      type: System.TimeOnly
+    content.vb: Public Shared Function ToTimeOnly(span As TimeSpan) As TimeOnly
+  overload: CSharpPlus.DateTimeExtensions.ToTimeOnly*
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly)
+  id: ToDateTime(System.DateOnly)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(DateOnly)
+  nameWithType: DateTimeExtensions.ToDateTime(DateOnly)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a DateTime instance with the specified input kind that is set to the date of this DateOnly instance and the time at UTC 00:00AM.
+  example: []
+  syntax:
+    content: public static DateTime ToDateTime(this DateOnly dateOnly)
+    parameters:
+    - id: dateOnly
+      type: System.DateOnly
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function ToDateTime(dateOnly As DateOnly) As Date
+  overload: CSharpPlus.DateTimeExtensions.ToDateTime*
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.DateTimeKind)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.DateTimeKind)
+  id: ToDateTime(System.DateOnly,System.DateTimeKind)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(DateOnly, DateTimeKind)
+  nameWithType: DateTimeExtensions.ToDateTime(DateOnly, DateTimeKind)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly, System.DateTimeKind)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a DateTime instance with the specified input kind that is set to the date of this DateOnly instance and the time at 00:00AM.
+  example: []
+  syntax:
+    content: public static DateTime ToDateTime(this DateOnly dateOnly, DateTimeKind kind)
+    parameters:
+    - id: dateOnly
+      type: System.DateOnly
+    - id: kind
+      type: System.DateTimeKind
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function ToDateTime(dateOnly As DateOnly, kind As DateTimeKind) As Date
+  overload: CSharpPlus.DateTimeExtensions.ToDateTime*
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.TimeSpan,System.DateTimeKind)
+  commentId: M:CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly,System.TimeSpan,System.DateTimeKind)
+  id: ToDateTime(System.DateOnly,System.TimeSpan,System.DateTimeKind)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(DateOnly, TimeSpan, DateTimeKind)
+  nameWithType: DateTimeExtensions.ToDateTime(DateOnly, TimeSpan, DateTimeKind)
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime(System.DateOnly, System.TimeSpan, System.DateTimeKind)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns a DateTime instance with the specified input kind that is set to the date of this DateOnly instance and a TimeSpan
+  example: []
+  syntax:
+    content: public static DateTime ToDateTime(this DateOnly dateOnly, TimeSpan span, DateTimeKind kind = DateTimeKind.Utc)
+    parameters:
+    - id: dateOnly
+      type: System.DateOnly
+    - id: span
+      type: System.TimeSpan
+    - id: kind
+      type: System.DateTimeKind
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function ToDateTime(dateOnly As DateOnly, span As TimeSpan, kind As DateTimeKind = DateTimeKind.Utc) As Date
+  overload: CSharpPlus.DateTimeExtensions.ToDateTime*
+- uid: CSharpPlus.DateTimeExtensions.UtcNow(System.TimeProvider)
+  commentId: M:CSharpPlus.DateTimeExtensions.UtcNow(System.TimeProvider)
+  id: UtcNow(System.TimeProvider)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: UtcNow(TimeProvider)
+  nameWithType: DateTimeExtensions.UtcNow(TimeProvider)
+  fullName: CSharpPlus.DateTimeExtensions.UtcNow(System.TimeProvider)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns current DateTime in UTC
+  example: []
+  syntax:
+    content: public static DateTime UtcNow(this TimeProvider provider)
+    parameters:
+    - id: provider
+      type: System.TimeProvider
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function UtcNow(provider As TimeProvider) As Date
+  overload: CSharpPlus.DateTimeExtensions.UtcNow*
+- uid: CSharpPlus.DateTimeExtensions.Now(System.TimeProvider)
+  commentId: M:CSharpPlus.DateTimeExtensions.Now(System.TimeProvider)
+  id: Now(System.TimeProvider)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Now(TimeProvider)
+  nameWithType: DateTimeExtensions.Now(TimeProvider)
+  fullName: CSharpPlus.DateTimeExtensions.Now(System.TimeProvider)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns current local DateTime
+  example: []
+  syntax:
+    content: public static DateTime Now(this TimeProvider provider)
+    parameters:
+    - id: provider
+      type: System.TimeProvider
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function Now(provider As TimeProvider) As Date
+  overload: CSharpPlus.DateTimeExtensions.Now*
+- uid: CSharpPlus.DateTimeExtensions.Today(System.TimeProvider)
+  commentId: M:CSharpPlus.DateTimeExtensions.Today(System.TimeProvider)
+  id: Today(System.TimeProvider)
+  isExtensionMethod: true
+  parent: CSharpPlus.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Today(TimeProvider)
+  nameWithType: DateTimeExtensions.Today(TimeProvider)
+  fullName: CSharpPlus.DateTimeExtensions.Today(System.TimeProvider)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/DateTimeExtensions.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Returns current DateOnly
+  example: []
+  syntax:
+    content: public static DateOnly Today(this TimeProvider provider)
+    parameters:
+    - id: provider
+      type: System.TimeProvider
+    return:
+      type: System.DateOnly
+    content.vb: Public Shared Function Today(provider As TimeProvider) As DateOnly
+  overload: CSharpPlus.DateTimeExtensions.Today*
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CSharpPlus.DateTimeExtensions.WithOffset*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.WithOffset
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_WithOffset_System_DateTime_System_TimeSpan_
+  name: WithOffset
+  nameWithType: DateTimeExtensions.WithOffset
+  fullName: CSharpPlus.DateTimeExtensions.WithOffset
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetimeoffset
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToUnixTimeSeconds_System_DateTime_
+  name: ToUnixTimeSeconds
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds
+  fullName: CSharpPlus.DateTimeExtensions.ToUnixTimeSeconds
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.DateOnly
+  commentId: T:System.DateOnly
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  name: DateOnly
+  nameWithType: DateOnly
+  fullName: System.DateOnly
+- uid: CSharpPlus.DateTimeExtensions.ToIsoString*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToIsoString
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToIsoString_System_DateOnly_
+  name: ToIsoString
+  nameWithType: DateTimeExtensions.ToIsoString
+  fullName: CSharpPlus.DateTimeExtensions.ToIsoString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CSharpPlus.DateTimeExtensions.ToDateOnly*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToDateOnly
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateOnly_System_DateTime_
+  name: ToDateOnly
+  nameWithType: DateTimeExtensions.ToDateOnly
+  fullName: CSharpPlus.DateTimeExtensions.ToDateOnly
+- uid: CSharpPlus.DateTimeExtensions.ToTimeOnly*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToTimeOnly
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToTimeOnly_System_DateTime_
+  name: ToTimeOnly
+  nameWithType: DateTimeExtensions.ToTimeOnly
+  fullName: CSharpPlus.DateTimeExtensions.ToTimeOnly
+- uid: System.TimeOnly
+  commentId: T:System.TimeOnly
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timeonly
+  name: TimeOnly
+  nameWithType: TimeOnly
+  fullName: System.TimeOnly
+- uid: CSharpPlus.DateTimeExtensions.ToDateTime*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.ToDateTime
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_ToDateTime_System_DateOnly_
+  name: ToDateTime
+  nameWithType: DateTimeExtensions.ToDateTime
+  fullName: CSharpPlus.DateTimeExtensions.ToDateTime
+- uid: System.DateTimeKind
+  commentId: T:System.DateTimeKind
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetimekind
+  name: DateTimeKind
+  nameWithType: DateTimeKind
+  fullName: System.DateTimeKind
+- uid: CSharpPlus.DateTimeExtensions.UtcNow*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.UtcNow
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_UtcNow_System_TimeProvider_
+  name: UtcNow
+  nameWithType: DateTimeExtensions.UtcNow
+  fullName: CSharpPlus.DateTimeExtensions.UtcNow
+- uid: System.TimeProvider
+  commentId: T:System.TimeProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timeprovider
+  name: TimeProvider
+  nameWithType: TimeProvider
+  fullName: System.TimeProvider
+- uid: CSharpPlus.DateTimeExtensions.Now*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.Now
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_Now_System_TimeProvider_
+  name: Now
+  nameWithType: DateTimeExtensions.Now
+  fullName: CSharpPlus.DateTimeExtensions.Now
+- uid: CSharpPlus.DateTimeExtensions.Today*
+  commentId: Overload:CSharpPlus.DateTimeExtensions.Today
+  isExternal: true
+  href: CSharpPlus.DateTimeExtensions.html#CSharpPlus_DateTimeExtensions_Today_System_TimeProvider_
+  name: Today
+  nameWithType: DateTimeExtensions.Today
+  fullName: CSharpPlus.DateTimeExtensions.Today

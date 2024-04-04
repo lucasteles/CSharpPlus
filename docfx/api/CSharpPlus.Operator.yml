@@ -1,0 +1,1464 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.Operator
+  commentId: T:CSharpPlus.Operator
+  id: Operator
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.Operator.Decrement``1(``0)
+  - CSharpPlus.Operator.DivideBy``1(``0)
+  - CSharpPlus.Operator.DivideFrom``1(``0)
+  - CSharpPlus.Operator.Divide``1(``0,``0)
+  - CSharpPlus.Operator.Equals``1(``0)
+  - CSharpPlus.Operator.Equals``1(``0,``0)
+  - CSharpPlus.Operator.Equatable``1(``0)
+  - CSharpPlus.Operator.Equatable``1(``0,``0)
+  - CSharpPlus.Operator.GreaterThanOrEquals``1(``0)
+  - CSharpPlus.Operator.GreaterThanOrEquals``1(``0,``0)
+  - CSharpPlus.Operator.GreaterThan``1(``0)
+  - CSharpPlus.Operator.GreaterThan``1(``0,``0)
+  - CSharpPlus.Operator.Identity``1(``0)
+  - CSharpPlus.Operator.Increment``1(``0)
+  - CSharpPlus.Operator.LessThanOrEquals``1(``0)
+  - CSharpPlus.Operator.LessThanOrEquals``1(``0,``0)
+  - CSharpPlus.Operator.LessThan``1(``0)
+  - CSharpPlus.Operator.LessThan``1(``0,``0)
+  - CSharpPlus.Operator.Multiply``1(``0)
+  - CSharpPlus.Operator.Multiply``1(``0,``0)
+  - CSharpPlus.Operator.NotEquals``1(``0)
+  - CSharpPlus.Operator.NotEquals``1(``0,``0)
+  - CSharpPlus.Operator.NotEquatable``1(``0)
+  - CSharpPlus.Operator.NotEquatable``1(``0,``0)
+  - CSharpPlus.Operator.SubtractBy``1(``0)
+  - CSharpPlus.Operator.SubtractFrom``1(``0)
+  - CSharpPlus.Operator.Subtract``1(``0,``0)
+  - CSharpPlus.Operator.Sum``1(``0)
+  - CSharpPlus.Operator.Sum``1(``0,``0)
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: Operator
+  fullName: CSharpPlus.Operator
+  type: Class
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static class Operator
+    content.vb: Public Module [Operator]
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CSharpPlus.Operator.Identity``1(``0)
+  commentId: M:CSharpPlus.Operator.Identity``1(``0)
+  id: Identity``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Identity<T>(T)
+  nameWithType: Operator.Identity<T>(T)
+  fullName: CSharpPlus.Operator.Identity<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: public static T Identity<T>(T v)
+    parameters:
+    - id: v
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Identity(Of T)(v As T) As T
+  overload: CSharpPlus.Operator.Identity*
+  nameWithType.vb: Operator.Identity(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.Identity(Of T)(T)
+  name.vb: Identity(Of T)(T)
+- uid: CSharpPlus.Operator.Equals``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.Equals``1(``0,``0)
+  id: Equals``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Equals<T>(T, T)
+  nameWithType: Operator.Equals<T>(T, T)
+  fullName: CSharpPlus.Operator.Equals<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool Equals<T>(T a, T b) where T : IEqualityOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Equals(Of T As IEqualityOperators(Of T, T, Boolean))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.Equals*
+  nameWithType.vb: Operator.Equals(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.Equals(Of T)(T, T)
+  name.vb: Equals(Of T)(T, T)
+- uid: CSharpPlus.Operator.NotEquals``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.NotEquals``1(``0,``0)
+  id: NotEquals``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: NotEquals<T>(T, T)
+  nameWithType: Operator.NotEquals<T>(T, T)
+  fullName: CSharpPlus.Operator.NotEquals<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool NotEquals<T>(T a, T b) where T : IEqualityOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function NotEquals(Of T As IEqualityOperators(Of T, T, Boolean))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.NotEquals*
+  nameWithType.vb: Operator.NotEquals(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.NotEquals(Of T)(T, T)
+  name.vb: NotEquals(Of T)(T, T)
+- uid: CSharpPlus.Operator.Equatable``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.Equatable``1(``0,``0)
+  id: Equatable``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Equatable<T>(T, T)
+  nameWithType: Operator.Equatable<T>(T, T)
+  fullName: CSharpPlus.Operator.Equatable<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool Equatable<T>(T a, T b) where T : IEquatable<T>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Equatable(Of T As IEquatable(Of T))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.Equatable*
+  nameWithType.vb: Operator.Equatable(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.Equatable(Of T)(T, T)
+  name.vb: Equatable(Of T)(T, T)
+- uid: CSharpPlus.Operator.NotEquatable``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.NotEquatable``1(``0,``0)
+  id: NotEquatable``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: NotEquatable<T>(T, T)
+  nameWithType: Operator.NotEquatable<T>(T, T)
+  fullName: CSharpPlus.Operator.NotEquatable<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool NotEquatable<T>(T a, T b) where T : IEquatable<T>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function NotEquatable(Of T As IEquatable(Of T))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.NotEquatable*
+  nameWithType.vb: Operator.NotEquatable(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.NotEquatable(Of T)(T, T)
+  name.vb: NotEquatable(Of T)(T, T)
+- uid: CSharpPlus.Operator.GreaterThan``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.GreaterThan``1(``0,``0)
+  id: GreaterThan``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan<T>(T, T)
+  nameWithType: Operator.GreaterThan<T>(T, T)
+  fullName: CSharpPlus.Operator.GreaterThan<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool GreaterThan<T>(T a, T b) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GreaterThan(Of T As IComparisonOperators(Of T, T, Boolean))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.GreaterThan*
+  nameWithType.vb: Operator.GreaterThan(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.GreaterThan(Of T)(T, T)
+  name.vb: GreaterThan(Of T)(T, T)
+- uid: CSharpPlus.Operator.LessThan``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.LessThan``1(``0,``0)
+  id: LessThan``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: LessThan<T>(T, T)
+  nameWithType: Operator.LessThan<T>(T, T)
+  fullName: CSharpPlus.Operator.LessThan<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool LessThan<T>(T a, T b) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LessThan(Of T As IComparisonOperators(Of T, T, Boolean))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.LessThan*
+  nameWithType.vb: Operator.LessThan(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.LessThan(Of T)(T, T)
+  name.vb: LessThan(Of T)(T, T)
+- uid: CSharpPlus.Operator.GreaterThanOrEquals``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.GreaterThanOrEquals``1(``0,``0)
+  id: GreaterThanOrEquals``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThanOrEquals<T>(T, T)
+  nameWithType: Operator.GreaterThanOrEquals<T>(T, T)
+  fullName: CSharpPlus.Operator.GreaterThanOrEquals<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool GreaterThanOrEquals<T>(T a, T b) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GreaterThanOrEquals(Of T As IComparisonOperators(Of T, T, Boolean))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.GreaterThanOrEquals*
+  nameWithType.vb: Operator.GreaterThanOrEquals(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.GreaterThanOrEquals(Of T)(T, T)
+  name.vb: GreaterThanOrEquals(Of T)(T, T)
+- uid: CSharpPlus.Operator.LessThanOrEquals``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.LessThanOrEquals``1(``0,``0)
+  id: LessThanOrEquals``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: LessThanOrEquals<T>(T, T)
+  nameWithType: Operator.LessThanOrEquals<T>(T, T)
+  fullName: CSharpPlus.Operator.LessThanOrEquals<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static bool LessThanOrEquals<T>(T a, T b) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LessThanOrEquals(Of T As IComparisonOperators(Of T, T, Boolean))(a As T, b As T) As Boolean
+  overload: CSharpPlus.Operator.LessThanOrEquals*
+  nameWithType.vb: Operator.LessThanOrEquals(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.LessThanOrEquals(Of T)(T, T)
+  name.vb: LessThanOrEquals(Of T)(T, T)
+- uid: CSharpPlus.Operator.Sum``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.Sum``1(``0,``0)
+  id: Sum``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Sum<T>(T, T)
+  nameWithType: Operator.Sum<T>(T, T)
+  fullName: CSharpPlus.Operator.Sum<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static T Sum<T>(T a, T b) where T : IAdditionOperators<T, T, T>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Sum(Of T As IAdditionOperators(Of T, T, T))(a As T, b As T) As T
+  overload: CSharpPlus.Operator.Sum*
+  nameWithType.vb: Operator.Sum(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.Sum(Of T)(T, T)
+  name.vb: Sum(Of T)(T, T)
+- uid: CSharpPlus.Operator.Subtract``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.Subtract``1(``0,``0)
+  id: Subtract``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Subtract<T>(T, T)
+  nameWithType: Operator.Subtract<T>(T, T)
+  fullName: CSharpPlus.Operator.Subtract<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static T Subtract<T>(T a, T b) where T : ISubtractionOperators<T, T, T>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Subtract(Of T As ISubtractionOperators(Of T, T, T))(a As T, b As T) As T
+  overload: CSharpPlus.Operator.Subtract*
+  nameWithType.vb: Operator.Subtract(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.Subtract(Of T)(T, T)
+  name.vb: Subtract(Of T)(T, T)
+- uid: CSharpPlus.Operator.Multiply``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.Multiply``1(``0,``0)
+  id: Multiply``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Multiply<T>(T, T)
+  nameWithType: Operator.Multiply<T>(T, T)
+  fullName: CSharpPlus.Operator.Multiply<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static T Multiply<T>(T a, T b) where T : IMultiplyOperators<T, T, T>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Multiply(Of T As IMultiplyOperators(Of T, T, T))(a As T, b As T) As T
+  overload: CSharpPlus.Operator.Multiply*
+  nameWithType.vb: Operator.Multiply(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.Multiply(Of T)(T, T)
+  name.vb: Multiply(Of T)(T, T)
+- uid: CSharpPlus.Operator.Divide``1(``0,``0)
+  commentId: M:CSharpPlus.Operator.Divide``1(``0,``0)
+  id: Divide``1(``0,``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Divide<T>(T, T)
+  nameWithType: Operator.Divide<T>(T, T)
+  fullName: CSharpPlus.Operator.Divide<T>(T, T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static T Divide<T>(T a, T b) where T : IDivisionOperators<T, T, T>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Divide(Of T As IDivisionOperators(Of T, T, T))(a As T, b As T) As T
+  overload: CSharpPlus.Operator.Divide*
+  nameWithType.vb: Operator.Divide(Of T)(T, T)
+  fullName.vb: CSharpPlus.Operator.Divide(Of T)(T, T)
+  name.vb: Divide(Of T)(T, T)
+- uid: CSharpPlus.Operator.Increment``1(``0)
+  commentId: M:CSharpPlus.Operator.Increment``1(``0)
+  id: Increment``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Increment<T>(T)
+  nameWithType: Operator.Increment<T>(T)
+  fullName: CSharpPlus.Operator.Increment<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static T Increment<T>(T value) where T : IIncrementOperators<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Increment(Of T As IIncrementOperators(Of T))(value As T) As T
+  overload: CSharpPlus.Operator.Increment*
+  nameWithType.vb: Operator.Increment(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.Increment(Of T)(T)
+  name.vb: Increment(Of T)(T)
+- uid: CSharpPlus.Operator.Decrement``1(``0)
+  commentId: M:CSharpPlus.Operator.Decrement``1(``0)
+  id: Decrement``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Decrement<T>(T)
+  nameWithType: Operator.Decrement<T>(T)
+  fullName: CSharpPlus.Operator.Decrement<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static T Decrement<T>(T value) where T : IDecrementOperators<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Decrement(Of T As IDecrementOperators(Of T))(value As T) As T
+  overload: CSharpPlus.Operator.Decrement*
+  nameWithType.vb: Operator.Decrement(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.Decrement(Of T)(T)
+  name.vb: Decrement(Of T)(T)
+- uid: CSharpPlus.Operator.Equals``1(``0)
+  commentId: M:CSharpPlus.Operator.Equals``1(``0)
+  id: Equals``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Equals<T>(T)
+  nameWithType: Operator.Equals<T>(T)
+  fullName: CSharpPlus.Operator.Equals<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> Equals<T>(T value) where T : IEqualityOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function Equals(Of T As IEqualityOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.Equals*
+  nameWithType.vb: Operator.Equals(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.Equals(Of T)(T)
+  name.vb: Equals(Of T)(T)
+- uid: CSharpPlus.Operator.NotEquals``1(``0)
+  commentId: M:CSharpPlus.Operator.NotEquals``1(``0)
+  id: NotEquals``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: NotEquals<T>(T)
+  nameWithType: Operator.NotEquals<T>(T)
+  fullName: CSharpPlus.Operator.NotEquals<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> NotEquals<T>(T value) where T : IEqualityOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function NotEquals(Of T As IEqualityOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.NotEquals*
+  nameWithType.vb: Operator.NotEquals(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.NotEquals(Of T)(T)
+  name.vb: NotEquals(Of T)(T)
+- uid: CSharpPlus.Operator.Equatable``1(``0)
+  commentId: M:CSharpPlus.Operator.Equatable``1(``0)
+  id: Equatable``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Equatable<T>(T)
+  nameWithType: Operator.Equatable<T>(T)
+  fullName: CSharpPlus.Operator.Equatable<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> Equatable<T>(T value) where T : IEqualityOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function Equatable(Of T As IEqualityOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.Equatable*
+  nameWithType.vb: Operator.Equatable(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.Equatable(Of T)(T)
+  name.vb: Equatable(Of T)(T)
+- uid: CSharpPlus.Operator.NotEquatable``1(``0)
+  commentId: M:CSharpPlus.Operator.NotEquatable``1(``0)
+  id: NotEquatable``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: NotEquatable<T>(T)
+  nameWithType: Operator.NotEquatable<T>(T)
+  fullName: CSharpPlus.Operator.NotEquatable<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> NotEquatable<T>(T value) where T : IEqualityOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function NotEquatable(Of T As IEqualityOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.NotEquatable*
+  nameWithType.vb: Operator.NotEquatable(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.NotEquatable(Of T)(T)
+  name.vb: NotEquatable(Of T)(T)
+- uid: CSharpPlus.Operator.GreaterThan``1(``0)
+  commentId: M:CSharpPlus.Operator.GreaterThan``1(``0)
+  id: GreaterThan``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan<T>(T)
+  nameWithType: Operator.GreaterThan<T>(T)
+  fullName: CSharpPlus.Operator.GreaterThan<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> GreaterThan<T>(T value) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function GreaterThan(Of T As IComparisonOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.GreaterThan*
+  nameWithType.vb: Operator.GreaterThan(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.GreaterThan(Of T)(T)
+  name.vb: GreaterThan(Of T)(T)
+- uid: CSharpPlus.Operator.LessThan``1(``0)
+  commentId: M:CSharpPlus.Operator.LessThan``1(``0)
+  id: LessThan``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: LessThan<T>(T)
+  nameWithType: Operator.LessThan<T>(T)
+  fullName: CSharpPlus.Operator.LessThan<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> LessThan<T>(T value) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function LessThan(Of T As IComparisonOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.LessThan*
+  nameWithType.vb: Operator.LessThan(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.LessThan(Of T)(T)
+  name.vb: LessThan(Of T)(T)
+- uid: CSharpPlus.Operator.GreaterThanOrEquals``1(``0)
+  commentId: M:CSharpPlus.Operator.GreaterThanOrEquals``1(``0)
+  id: GreaterThanOrEquals``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThanOrEquals<T>(T)
+  nameWithType: Operator.GreaterThanOrEquals<T>(T)
+  fullName: CSharpPlus.Operator.GreaterThanOrEquals<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> GreaterThanOrEquals<T>(T value) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function GreaterThanOrEquals(Of T As IComparisonOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.GreaterThanOrEquals*
+  nameWithType.vb: Operator.GreaterThanOrEquals(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.GreaterThanOrEquals(Of T)(T)
+  name.vb: GreaterThanOrEquals(Of T)(T)
+- uid: CSharpPlus.Operator.LessThanOrEquals``1(``0)
+  commentId: M:CSharpPlus.Operator.LessThanOrEquals``1(``0)
+  id: LessThanOrEquals``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: LessThanOrEquals<T>(T)
+  nameWithType: Operator.LessThanOrEquals<T>(T)
+  fullName: CSharpPlus.Operator.LessThanOrEquals<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, bool> LessThanOrEquals<T>(T value) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: Public Shared Function LessThanOrEquals(Of T As IComparisonOperators(Of T, T, Boolean))(value As T) As Func(Of T, Boolean)
+  overload: CSharpPlus.Operator.LessThanOrEquals*
+  nameWithType.vb: Operator.LessThanOrEquals(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.LessThanOrEquals(Of T)(T)
+  name.vb: LessThanOrEquals(Of T)(T)
+- uid: CSharpPlus.Operator.Sum``1(``0)
+  commentId: M:CSharpPlus.Operator.Sum``1(``0)
+  id: Sum``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Sum<T>(T)
+  nameWithType: Operator.Sum<T>(T)
+  fullName: CSharpPlus.Operator.Sum<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, T> Sum<T>(T value) where T : IAdditionOperators<T, T, T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},{T}}
+    content.vb: Public Shared Function Sum(Of T As IAdditionOperators(Of T, T, T))(value As T) As Func(Of T, T)
+  overload: CSharpPlus.Operator.Sum*
+  nameWithType.vb: Operator.Sum(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.Sum(Of T)(T)
+  name.vb: Sum(Of T)(T)
+- uid: CSharpPlus.Operator.SubtractBy``1(``0)
+  commentId: M:CSharpPlus.Operator.SubtractBy``1(``0)
+  id: SubtractBy``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: SubtractBy<T>(T)
+  nameWithType: Operator.SubtractBy<T>(T)
+  fullName: CSharpPlus.Operator.SubtractBy<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, T> SubtractBy<T>(T value) where T : ISubtractionOperators<T, T, T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},{T}}
+    content.vb: Public Shared Function SubtractBy(Of T As ISubtractionOperators(Of T, T, T))(value As T) As Func(Of T, T)
+  overload: CSharpPlus.Operator.SubtractBy*
+  nameWithType.vb: Operator.SubtractBy(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.SubtractBy(Of T)(T)
+  name.vb: SubtractBy(Of T)(T)
+- uid: CSharpPlus.Operator.SubtractFrom``1(``0)
+  commentId: M:CSharpPlus.Operator.SubtractFrom``1(``0)
+  id: SubtractFrom``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: SubtractFrom<T>(T)
+  nameWithType: Operator.SubtractFrom<T>(T)
+  fullName: CSharpPlus.Operator.SubtractFrom<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, T> SubtractFrom<T>(T value) where T : ISubtractionOperators<T, T, T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},{T}}
+    content.vb: Public Shared Function SubtractFrom(Of T As ISubtractionOperators(Of T, T, T))(value As T) As Func(Of T, T)
+  overload: CSharpPlus.Operator.SubtractFrom*
+  nameWithType.vb: Operator.SubtractFrom(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.SubtractFrom(Of T)(T)
+  name.vb: SubtractFrom(Of T)(T)
+- uid: CSharpPlus.Operator.Multiply``1(``0)
+  commentId: M:CSharpPlus.Operator.Multiply``1(``0)
+  id: Multiply``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: Multiply<T>(T)
+  nameWithType: Operator.Multiply<T>(T)
+  fullName: CSharpPlus.Operator.Multiply<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, T> Multiply<T>(T value) where T : IMultiplyOperators<T, T, T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},{T}}
+    content.vb: Public Shared Function Multiply(Of T As IMultiplyOperators(Of T, T, T))(value As T) As Func(Of T, T)
+  overload: CSharpPlus.Operator.Multiply*
+  nameWithType.vb: Operator.Multiply(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.Multiply(Of T)(T)
+  name.vb: Multiply(Of T)(T)
+- uid: CSharpPlus.Operator.DivideBy``1(``0)
+  commentId: M:CSharpPlus.Operator.DivideBy``1(``0)
+  id: DivideBy``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: DivideBy<T>(T)
+  nameWithType: Operator.DivideBy<T>(T)
+  fullName: CSharpPlus.Operator.DivideBy<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, T> DivideBy<T>(T value) where T : IDivisionOperators<T, T, T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},{T}}
+    content.vb: Public Shared Function DivideBy(Of T As IDivisionOperators(Of T, T, T))(value As T) As Func(Of T, T)
+  overload: CSharpPlus.Operator.DivideBy*
+  nameWithType.vb: Operator.DivideBy(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.DivideBy(Of T)(T)
+  name.vb: DivideBy(Of T)(T)
+- uid: CSharpPlus.Operator.DivideFrom``1(``0)
+  commentId: M:CSharpPlus.Operator.DivideFrom``1(``0)
+  id: DivideFrom``1(``0)
+  parent: CSharpPlus.Operator
+  langs:
+  - csharp
+  - vb
+  name: DivideFrom<T>(T)
+  nameWithType: Operator.DivideFrom<T>(T)
+  fullName: CSharpPlus.Operator.DivideFrom<T>(T)
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Operator.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  syntax:
+    content: 'public static Func<T, T> DivideFrom<T>(T value) where T : IDivisionOperators<T, T, T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{{T},{T}}
+    content.vb: Public Shared Function DivideFrom(Of T As IDivisionOperators(Of T, T, T))(value As T) As Func(Of T, T)
+  overload: CSharpPlus.Operator.DivideFrom*
+  nameWithType.vb: Operator.DivideFrom(Of T)(T)
+  fullName.vb: CSharpPlus.Operator.DivideFrom(Of T)(T)
+  name.vb: DivideFrom(Of T)(T)
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CSharpPlus.Operator.Identity*
+  commentId: Overload:CSharpPlus.Operator.Identity
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Identity__1___0_
+  name: Identity
+  nameWithType: Operator.Identity
+  fullName: CSharpPlus.Operator.Identity
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CSharpPlus.Operator.Equals*
+  commentId: Overload:CSharpPlus.Operator.Equals
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Equals__1___0___0_
+  name: Equals
+  nameWithType: Operator.Equals
+  fullName: CSharpPlus.Operator.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CSharpPlus.Operator.NotEquals*
+  commentId: Overload:CSharpPlus.Operator.NotEquals
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquals__1___0___0_
+  name: NotEquals
+  nameWithType: Operator.NotEquals
+  fullName: CSharpPlus.Operator.NotEquals
+- uid: CSharpPlus.Operator.Equatable*
+  commentId: Overload:CSharpPlus.Operator.Equatable
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Equatable__1___0___0_
+  name: Equatable
+  nameWithType: Operator.Equatable
+  fullName: CSharpPlus.Operator.Equatable
+- uid: CSharpPlus.Operator.NotEquatable*
+  commentId: Overload:CSharpPlus.Operator.NotEquatable
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_NotEquatable__1___0___0_
+  name: NotEquatable
+  nameWithType: Operator.NotEquatable
+  fullName: CSharpPlus.Operator.NotEquatable
+- uid: CSharpPlus.Operator.GreaterThan*
+  commentId: Overload:CSharpPlus.Operator.GreaterThan
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThan__1___0___0_
+  name: GreaterThan
+  nameWithType: Operator.GreaterThan
+  fullName: CSharpPlus.Operator.GreaterThan
+- uid: CSharpPlus.Operator.LessThan*
+  commentId: Overload:CSharpPlus.Operator.LessThan
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_LessThan__1___0___0_
+  name: LessThan
+  nameWithType: Operator.LessThan
+  fullName: CSharpPlus.Operator.LessThan
+- uid: CSharpPlus.Operator.GreaterThanOrEquals*
+  commentId: Overload:CSharpPlus.Operator.GreaterThanOrEquals
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_GreaterThanOrEquals__1___0___0_
+  name: GreaterThanOrEquals
+  nameWithType: Operator.GreaterThanOrEquals
+  fullName: CSharpPlus.Operator.GreaterThanOrEquals
+- uid: CSharpPlus.Operator.LessThanOrEquals*
+  commentId: Overload:CSharpPlus.Operator.LessThanOrEquals
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_LessThanOrEquals__1___0___0_
+  name: LessThanOrEquals
+  nameWithType: Operator.LessThanOrEquals
+  fullName: CSharpPlus.Operator.LessThanOrEquals
+- uid: CSharpPlus.Operator.Sum*
+  commentId: Overload:CSharpPlus.Operator.Sum
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Sum__1___0___0_
+  name: Sum
+  nameWithType: Operator.Sum
+  fullName: CSharpPlus.Operator.Sum
+- uid: CSharpPlus.Operator.Subtract*
+  commentId: Overload:CSharpPlus.Operator.Subtract
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Subtract__1___0___0_
+  name: Subtract
+  nameWithType: Operator.Subtract
+  fullName: CSharpPlus.Operator.Subtract
+- uid: CSharpPlus.Operator.Multiply*
+  commentId: Overload:CSharpPlus.Operator.Multiply
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Multiply__1___0___0_
+  name: Multiply
+  nameWithType: Operator.Multiply
+  fullName: CSharpPlus.Operator.Multiply
+- uid: CSharpPlus.Operator.Divide*
+  commentId: Overload:CSharpPlus.Operator.Divide
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Divide__1___0___0_
+  name: Divide
+  nameWithType: Operator.Divide
+  fullName: CSharpPlus.Operator.Divide
+- uid: CSharpPlus.Operator.Increment*
+  commentId: Overload:CSharpPlus.Operator.Increment
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Increment__1___0_
+  name: Increment
+  nameWithType: Operator.Increment
+  fullName: CSharpPlus.Operator.Increment
+- uid: CSharpPlus.Operator.Decrement*
+  commentId: Overload:CSharpPlus.Operator.Decrement
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_Decrement__1___0_
+  name: Decrement
+  nameWithType: Operator.Decrement
+  fullName: CSharpPlus.Operator.Decrement
+- uid: System.Func{{T},System.Boolean}
+  commentId: T:System.Func{``0,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, bool>
+  nameWithType: Func<T, bool>
+  fullName: System.Func<T, bool>
+  nameWithType.vb: Func(Of T, Boolean)
+  fullName.vb: System.Func(Of T, Boolean)
+  name.vb: Func(Of T, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Func{{T},{T}}
+  commentId: T:System.Func{`0,`0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, T>
+  nameWithType: Func<T, T>
+  fullName: System.Func<T, T>
+  nameWithType.vb: Func(Of T, T)
+  fullName.vb: System.Func(Of T, T)
+  name.vb: Func(Of T, T)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: CSharpPlus.Operator.SubtractBy*
+  commentId: Overload:CSharpPlus.Operator.SubtractBy
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_SubtractBy__1___0_
+  name: SubtractBy
+  nameWithType: Operator.SubtractBy
+  fullName: CSharpPlus.Operator.SubtractBy
+- uid: CSharpPlus.Operator.SubtractFrom*
+  commentId: Overload:CSharpPlus.Operator.SubtractFrom
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_SubtractFrom__1___0_
+  name: SubtractFrom
+  nameWithType: Operator.SubtractFrom
+  fullName: CSharpPlus.Operator.SubtractFrom
+- uid: CSharpPlus.Operator.DivideBy*
+  commentId: Overload:CSharpPlus.Operator.DivideBy
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_DivideBy__1___0_
+  name: DivideBy
+  nameWithType: Operator.DivideBy
+  fullName: CSharpPlus.Operator.DivideBy
+- uid: CSharpPlus.Operator.DivideFrom*
+  commentId: Overload:CSharpPlus.Operator.DivideFrom
+  isExternal: true
+  href: CSharpPlus.Operator.html#CSharpPlus_Operator_DivideFrom__1___0_
+  name: DivideFrom
+  nameWithType: Operator.DivideFrom
+  fullName: CSharpPlus.Operator.DivideFrom

@@ -6,13 +6,13 @@ namespace CSharpPlus.Tests.JsonConverters;
 using System.Text.Json;
 using static System.Text.Json.JsonSerializer;
 
-public class JsonDateTimeUtcConverterTests
+public class DateTimeForceUtcJsonConverterTests
 {
     readonly JsonSerializerOptions options = new()
     {
         Converters =
         {
-            new JsonDateTimeUtcConverter(),
+            new DateTimeForceUtcJsonConverter(),
         },
     };
 
@@ -58,7 +58,7 @@ public class JsonDateTimeUtcConverterTests
             {
                 Converters =
                 {
-                    new JsonDateTimeUtcConverter(timeZone),
+                    new DateTimeForceUtcJsonConverter(timeZone),
                 },
             })!.Data;
 
@@ -81,7 +81,7 @@ public class JsonDateTimeUtcConverterTests
             {
                 Converters =
                 {
-                    new JsonDateTimeUtcConverter(offset),
+                    new DateTimeForceUtcJsonConverter(offset),
                 },
             })!.Data;
 

@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: CSharpPlus.Disposable.DeferredTask
+  commentId: T:CSharpPlus.Disposable.DeferredTask
+  id: Disposable.DeferredTask
+  parent: CSharpPlus
+  children:
+  - CSharpPlus.Disposable.DeferredTask.#ctor(System.Func{System.Threading.Tasks.ValueTask})
+  - CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  langs:
+  - csharp
+  - vb
+  name: Disposable.DeferredTask
+  nameWithType: Disposable.DeferredTask
+  fullName: CSharpPlus.Disposable.DeferredTask
+  type: Struct
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Disposable.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  example: []
+  syntax:
+    content: 'public readonly struct Disposable.DeferredTask : IAsyncDisposable'
+    content.vb: Public Structure Disposable.DeferredTask Implements IAsyncDisposable
+  implements:
+  - System.IAsyncDisposable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - CSharpPlus.Disposable.DeferredTask.CSharpPlus.EnumerablePlus.ToSingleton``1
+- uid: CSharpPlus.Disposable.DeferredTask.#ctor(System.Func{System.Threading.Tasks.ValueTask})
+  commentId: M:CSharpPlus.Disposable.DeferredTask.#ctor(System.Func{System.Threading.Tasks.ValueTask})
+  id: '#ctor(System.Func{System.Threading.Tasks.ValueTask})'
+  parent: CSharpPlus.Disposable.DeferredTask
+  langs:
+  - csharp
+  - vb
+  name: DeferredTask(Func<ValueTask>)
+  nameWithType: Disposable.DeferredTask.DeferredTask(Func<ValueTask>)
+  fullName: CSharpPlus.Disposable.DeferredTask.DeferredTask(System.Func<System.Threading.Tasks.ValueTask>)
+  type: Constructor
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Disposable.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  summary: Create new deferred context
+  example: []
+  syntax:
+    content: public DeferredTask(Func<ValueTask> action)
+    parameters:
+    - id: action
+      type: System.Func{System.Threading.Tasks.ValueTask}
+    content.vb: Public Sub New(action As Func(Of ValueTask))
+  overload: CSharpPlus.Disposable.DeferredTask.#ctor*
+  nameWithType.vb: Disposable.DeferredTask.New(Func(Of ValueTask))
+  fullName.vb: CSharpPlus.Disposable.DeferredTask.New(System.Func(Of System.Threading.Tasks.ValueTask))
+  name.vb: New(Func(Of ValueTask))
+- uid: CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  commentId: M:CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  id: DisposeAsync
+  parent: CSharpPlus.Disposable.DeferredTask
+  langs:
+  - csharp
+  - vb
+  name: DisposeAsync()
+  nameWithType: Disposable.DeferredTask.DisposeAsync()
+  fullName: CSharpPlus.Disposable.DeferredTask.DisposeAsync()
+  type: Method
+  source:
+    href: https://github.com/lucasteles/CSharpPlus/blob/master/src/Disposable.cs
+  assemblies:
+  - CSharpPlus
+  namespace: CSharpPlus
+  example: []
+  syntax:
+    content: public ValueTask DisposeAsync()
+    return:
+      type: System.Threading.Tasks.ValueTask
+    content.vb: Public Function DisposeAsync() As ValueTask
+  overload: CSharpPlus.Disposable.DeferredTask.DisposeAsync*
+  implements:
+  - System.IAsyncDisposable.DisposeAsync
+references:
+- uid: CSharpPlus
+  commentId: N:CSharpPlus
+  isExternal: true
+  href: CSharpPlus.html
+  name: CSharpPlus
+  nameWithType: CSharpPlus
+  fullName: CSharpPlus
+- uid: System.IAsyncDisposable
+  commentId: T:System.IAsyncDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncdisposable
+  name: IAsyncDisposable
+  nameWithType: IAsyncDisposable
+  fullName: System.IAsyncDisposable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: CSharpPlus.Disposable.DeferredTask.CSharpPlus.EnumerablePlus.ToSingleton``1
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  parent: CSharpPlus.EnumerablePlus
+  definition: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  name: ToSingleton<DeferredTask>(DeferredTask)
+  nameWithType: EnumerablePlus.ToSingleton<Disposable.DeferredTask>(Disposable.DeferredTask)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<CSharpPlus.Disposable.DeferredTask>(CSharpPlus.Disposable.DeferredTask)
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of Disposable.DeferredTask)(Disposable.DeferredTask)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of CSharpPlus.Disposable.DeferredTask)(CSharpPlus.Disposable.DeferredTask)
+  name.vb: ToSingleton(Of DeferredTask)(DeferredTask)
+  spec.csharp:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(CSharpPlus.Disposable.DeferredTask)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: <
+  - uid: CSharpPlus.Disposable.DeferredTask
+    name: DeferredTask
+    isExternal: true
+    href: CSharpPlus.Disposable.DeferredTask.html
+  - name: '>'
+  - name: (
+  - uid: CSharpPlus.Disposable.DeferredTask
+    name: DeferredTask
+    isExternal: true
+    href: CSharpPlus.Disposable.DeferredTask.html
+  - name: )
+  spec.vb:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(CSharpPlus.Disposable.DeferredTask)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CSharpPlus.Disposable.DeferredTask
+    name: DeferredTask
+    isExternal: true
+    href: CSharpPlus.Disposable.DeferredTask.html
+  - name: )
+  - name: (
+  - uid: CSharpPlus.Disposable.DeferredTask
+    name: DeferredTask
+    isExternal: true
+    href: CSharpPlus.Disposable.DeferredTask.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  commentId: M:CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  name: ToSingleton<T>(T)
+  nameWithType: EnumerablePlus.ToSingleton<T>(T)
+  fullName: CSharpPlus.EnumerablePlus.ToSingleton<T>(T)
+  nameWithType.vb: EnumerablePlus.ToSingleton(Of T)(T)
+  fullName.vb: CSharpPlus.EnumerablePlus.ToSingleton(Of T)(T)
+  name.vb: ToSingleton(Of T)(T)
+  spec.csharp:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: CSharpPlus.EnumerablePlus.ToSingleton``1(``0)
+    name: ToSingleton
+    isExternal: true
+    href: CSharpPlus.EnumerablePlus.html#CSharpPlus_EnumerablePlus_ToSingleton__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: CSharpPlus.EnumerablePlus
+  commentId: T:CSharpPlus.EnumerablePlus
+  parent: CSharpPlus
+  isExternal: true
+  href: CSharpPlus.EnumerablePlus.html
+  name: EnumerablePlus
+  nameWithType: EnumerablePlus
+  fullName: CSharpPlus.EnumerablePlus
+- uid: CSharpPlus.Disposable.DeferredTask.#ctor*
+  commentId: Overload:CSharpPlus.Disposable.DeferredTask.#ctor
+  isExternal: true
+  href: CSharpPlus.Disposable.DeferredTask.html#CSharpPlus_Disposable_DeferredTask__ctor_System_Func_System_Threading_Tasks_ValueTask__
+  name: DeferredTask
+  nameWithType: Disposable.DeferredTask.DeferredTask
+  fullName: CSharpPlus.Disposable.DeferredTask.DeferredTask
+  nameWithType.vb: Disposable.DeferredTask.New
+  fullName.vb: CSharpPlus.Disposable.DeferredTask.New
+  name.vb: New
+- uid: System.Func{System.Threading.Tasks.ValueTask}
+  commentId: T:System.Func{System.Threading.Tasks.ValueTask}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<ValueTask>
+  nameWithType: Func<ValueTask>
+  fullName: System.Func<System.Threading.Tasks.ValueTask>
+  nameWithType.vb: Func(Of ValueTask)
+  fullName.vb: System.Func(Of System.Threading.Tasks.ValueTask)
+  name.vb: Func(Of ValueTask)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.ValueTask
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.ValueTask
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: CSharpPlus.Disposable.DeferredTask.DisposeAsync*
+  commentId: Overload:CSharpPlus.Disposable.DeferredTask.DisposeAsync
+  isExternal: true
+  href: CSharpPlus.Disposable.DeferredTask.html#CSharpPlus_Disposable_DeferredTask_DisposeAsync
+  name: DisposeAsync
+  nameWithType: Disposable.DeferredTask.DisposeAsync
+  fullName: CSharpPlus.Disposable.DeferredTask.DisposeAsync
+- uid: System.IAsyncDisposable.DisposeAsync
+  commentId: M:System.IAsyncDisposable.DisposeAsync
+  parent: System.IAsyncDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync
+  name: DisposeAsync()
+  nameWithType: IAsyncDisposable.DisposeAsync()
+  fullName: System.IAsyncDisposable.DisposeAsync()
+  spec.csharp:
+  - uid: System.IAsyncDisposable.DisposeAsync
+    name: DisposeAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IAsyncDisposable.DisposeAsync
+    name: DisposeAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.ValueTask
+  commentId: T:System.Threading.Tasks.ValueTask
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask
+  name: ValueTask
+  nameWithType: ValueTask
+  fullName: System.Threading.Tasks.ValueTask
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
