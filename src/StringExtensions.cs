@@ -28,20 +28,6 @@ public static class StringExtensions
         string.IsNullOrWhiteSpace(value);
 
     /// <summary>
-    /// Remove all non-digits characters
-    /// </summary>
-    [Pure]
-    public static string RemoveNonDigit(this string value) =>
-        new(value.Where(char.IsDigit).ToArray());
-
-    /// <summary>
-    /// Remove all non digit or letter characters
-    /// </summary>
-    [Pure]
-    public static string RemoveNonDigitOrLetter(this string value) =>
-        new(value.Where(char.IsLetterOrDigit).ToArray());
-
-    /// <summary>
     /// Returns a persistent hashcode for the string
     /// </summary>
     [Pure]

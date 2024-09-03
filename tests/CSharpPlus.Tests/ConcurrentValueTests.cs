@@ -1,3 +1,5 @@
+using CSharpPlus.Data;
+
 namespace CSharpPlus.Tests;
 
 public class ConcurrentValueTests

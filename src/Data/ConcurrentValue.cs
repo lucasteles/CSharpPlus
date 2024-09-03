@@ -1,4 +1,4 @@
-namespace CSharpPlus;
+namespace CSharpPlus.Data;
 
 /// <summary>
 /// Provide a way to manage shared, synchronous, independent state
