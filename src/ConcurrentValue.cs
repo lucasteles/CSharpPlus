@@ -3,18 +3,19 @@ namespace CSharpPlus;
 /// <summary>
 /// Provide a way to manage shared, synchronous, independent state
 /// </summary>
-public sealed class ConcurrentValue<T>(T value) where T : class
+public sealed class ConcurrentValue<T>(T initialValue) where T : class
 {
-    public T Value => value;
+    T currentValue = initialValue;
+    public T Value => currentValue;
 
     public void Update(Func<T, T> updater)
     {
         SpinWait sw = new();
         while (true)
         {
-            var curr = value;
+            var curr = currentValue;
             var next = updater(curr);
-            var result = Interlocked.CompareExchange(ref value, next, curr);
+            var result = Interlocked.CompareExchange(ref currentValue, next, curr);
             if (ReferenceEquals(result, curr))
                 break;
 
@@ -22,5 +23,5 @@ public sealed class ConcurrentValue<T>(T value) where T : class
         }
     }
 
-    public void Reset(T resetValue) => value = resetValue;
+    public void Reset(T resetValue) => currentValue = resetValue;
 }
