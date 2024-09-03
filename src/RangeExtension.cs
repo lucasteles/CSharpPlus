@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace CSharpPlus;
 
 /// <summary>
@@ -11,45 +13,65 @@ public static class RangeExtension
     /// </summary>
     /// <param name="range"></param>
     /// <returns></returns>
-    public static (int Sign, int Start, int End) GetBounds(this Range range)
-    {
-        var (start, end) = (range.Start.Value, range.End.Value);
+    public static RangeEnumerator GetEnumerator(this Range range) => new(range);
 
-        if (end > start)
+    public struct RangeEnumerator : IEnumerator<int>
+    {
+        readonly bool isAscending;
+        readonly int last;
+        readonly int start;
+        int? current;
+
+        public RangeEnumerator(Range range)
         {
-            if (range.End.IsFromEnd) end--;
-            if (range.Start.IsFromEnd) start++;
-            return (1, start, end);
+            isAscending = range.End.Value > range.Start.Value;
+            last = range.End.Value;
+            start = range.Start.Value;
+
+            if (isAscending)
+            {
+                if (range.End.IsFromEnd) last--;
+                if (range.Start.IsFromEnd) start++;
+            }
+            else
+            {
+                if (range.End.IsFromEnd) last++;
+                if (range.Start.IsFromEnd) start--;
+            }
         }
 
-        if (range.End.IsFromEnd) end++;
-        if (range.Start.IsFromEnd) start--;
-        return (-1, start, end);
-    }
+        public readonly int Current =>
+            current
+            ?? throw new InvalidOperationException("Iterator has not been initialized.");
 
-    /// <summary>
-    /// Enumerate Range operators
-    /// ^ sets the value as exclusive
-    /// </summary>
-    /// <param name="range"></param>
-    /// <returns></returns>
-    public static IEnumerator<int> GetEnumerator(this Range range)
-    {
-        var (start, end) = (range.Start.Value, range.End.Value);
+        readonly object IEnumerator.Current => Current;
 
-        if (end > start)
+        public bool MoveNext()
         {
-            if (range.End.IsFromEnd) end--;
-            if (range.Start.IsFromEnd) start++;
-            for (var i = start; i <= end; i++)
-                yield return i;
+            if (!current.HasValue)
+            {
+                current = start;
+                return true;
+            }
+
+            if (isAscending)
+            {
+                if (Current >= last) return false;
+                current++;
+            }
+            else
+            {
+                if (Current <= last) return false;
+                current--;
+            }
+
+            return true;
         }
-        else
+
+        public void Reset() => current = start;
+
+        public readonly void Dispose()
         {
-            if (range.End.IsFromEnd) end++;
-            if (range.Start.IsFromEnd) start--;
-            for (var i = start; i >= end; i--)
-                yield return i;
         }
     }
 
@@ -63,14 +85,6 @@ public static class RangeExtension
         foreach (var n in range)
             yield return n;
     }
-
-    /// <summary>
-    /// Creates an array from a Range
-    /// </summary>
-    /// <returns></returns>
-    public static int[] ToArray(
-        this Range range) =>
-        range.Enumerate().ToArray();
 
     /// <summary>
     /// Map Enumerate int
@@ -109,7 +123,6 @@ public static class RangeExtension
         Func<int, IEnumerable<TResult>> projection) =>
         range.Enumerate().SelectMany(projection);
 
-
     /// <summary>
     /// Range Bind Projection
     /// </summary>
@@ -124,8 +137,8 @@ public static class RangeExtension
         Func<int, int, TResult> project)
     {
         foreach (var n1 in range)
-            foreach (var n2 in projection(n1))
-                yield return project(n1, n2);
+        foreach (var n2 in projection(n1))
+            yield return project(n1, n2);
     }
 
     /// <summary>
@@ -136,20 +149,4 @@ public static class RangeExtension
     /// <returns></returns>
     public static IEnumerable<int> SelectMany(this Range range, Func<int, Range> projection) =>
         range.SelectMany(projection, (_, n) => n);
-
-    /// <summary>
-    /// Creates a List from a Range
-    /// </summary>
-    /// <returns></returns>
-    public static List<int> ToList(
-        this Range range) =>
-        range.Enumerate().ToList();
-
-    /// <summary>
-    /// Creates an array from a Range
-    /// </summary>
-    /// <returns></returns>
-    public static IReadOnlyCollection<int> ToReadOnly(
-        this Range range) =>
-        range.Enumerate().ToReadOnly();
 }
