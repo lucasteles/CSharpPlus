@@ -138,7 +138,7 @@ public static class RangeExtension
         range.SelectMany(projection, (_, n) => n);
 
     /// <summary>
-    /// Creates an List from a Range
+    /// Creates a List from a Range
     /// </summary>
     /// <returns></returns>
     public static List<int> ToList(

@@ -17,7 +17,7 @@ public class LinqEnumerablePlusTests : BaseTest
 
         const string expected = "4;8;15;16;23;42";
 
-        collection.JoinString(";").Should().Be(expected);
+        collection.JoinWith(";").Should().Be(expected);
     }
 
     [Test]
@@ -30,32 +30,32 @@ public class LinqEnumerablePlusTests : BaseTest
 
         const string expected = "foo_bar";
 
-        collection.JoinString().Should().Be(expected);
+        collection.JoinWith().Should().Be(expected);
     }
 
     [PropertyTest]
     public void StringJoinChar(string[] value, char chr) =>
-        value.JoinString(chr).Should().Be(string.Join(chr, value));
+        value.JoinWith(chr).Should().Be(string.Join(chr, value));
 
     [PropertyTest]
     public void StringJoinString(string[] value, string str) =>
-        value.JoinString(str).Should().Be(string.Join(str, value));
+        value.JoinWith(str).Should().Be(string.Join(str, value));
 
     [PropertyTest]
     public void CharJoinChar(char[] values, char chr) =>
-        values.JoinString(chr).Should().Be(string.Join(chr, values));
+        values.JoinWith(chr).Should().Be(string.Join(chr, values));
 
     [PropertyTest]
     public void CharJoinString(char[] value, string str) =>
-        value.JoinString(str).Should().Be(string.Join(str, value));
+        value.JoinWith(str).Should().Be(string.Join(str, value));
 
     [PropertyTest]
     public void StringJoinArrayChar(char[] values) =>
-        values.JoinString().Should().Be(new string(values.ToArray()));
+        values.JoinWith().Should().Be(new string(values.ToArray()));
 
     [PropertyTest]
     public void StringJoinAnyCharSeq(List<char> values) =>
-        values.JoinString().Should().Be(new string(values.ToArray()));
+        values.JoinWith().Should().Be(new string(values.ToArray()));
 
     [PropertyTest]
     public void StringConcat(string[] values) =>

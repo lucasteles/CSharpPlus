@@ -14,6 +14,11 @@ public static partial class EnumerablePlus
     public static bool IsEmpty<T>(this IEnumerable<T> @this) => !@this.Any();
 
     /// <summary>
+    /// Determines whether no element of a sequence satisfies a condition.
+    /// </summary>
+    public static bool IsEmpty<T>(this IEnumerable<T> @this, Func<T, bool> predicate) => !@this.Any(predicate);
+
+    /// <summary>
     /// Flatten an IEnumerable of sequence and flattens into one sequence.
     /// </summary>
     public static IEnumerable<T> SelectMany<T>(this IEnumerable<IEnumerable<T>> @this) =>
@@ -28,12 +33,6 @@ public static partial class EnumerablePlus
         var items = @this.ToArray();
         return (items.MinBy(keySelector), items.MaxBy(keySelector));
     }
-
-    /// <summary>
-    /// Casts Enumerablet to nullable value type
-    /// </summary>
-    public static IEnumerable<T?> ToNullable<T>(this IEnumerable<T> @this) where T : struct =>
-        @this.Cast<T?>();
 
     /// <summary>
     /// Returns the minimum and maximum value in a generic sequence.
@@ -78,6 +77,11 @@ public static partial class EnumerablePlus
     public static T MinOrDefault<T>(this IEnumerable<T> @this, T value) =>
         @this.MinOrDefault(x => x, value);
 
+    /// <summary>
+    /// Casts Enumerable to nullable value type
+    /// </summary>
+    public static IEnumerable<T?> ToNullable<T>(this IEnumerable<T> @this) where T : struct =>
+        @this.Cast<T?>();
 
     /// <summary>
     /// Filter non-null items
@@ -191,7 +195,7 @@ public static partial class EnumerablePlus
     /// <param name="enumerable"></param>
     /// <returns></returns>
     public static IEnumerable<T> EmptyIfNull<T>(this IEnumerable<T>? enumerable) =>
-        enumerable ?? Enumerable.Empty<T>();
+        enumerable ?? [];
 
     /// <summary>
     /// Return empty if array is null
@@ -199,23 +203,21 @@ public static partial class EnumerablePlus
     /// <param name="array"></param>
     /// <returns></returns>
     public static T[] EmptyIfNull<T>(this T[]? array) =>
-        array ?? Array.Empty<T>();
+        array ?? [];
 
     /// <summary>
     /// Return empty if array is null
     /// </summary>
     /// <param name="array"></param>
     /// <returns></returns>
-    public static IReadOnlyCollection<T> EmptyIfNull<T>(this IReadOnlyCollection<T>? array) =>
-        array ?? Array.Empty<T>();
+    public static IReadOnlyCollection<T> EmptyIfNull<T>(this IReadOnlyCollection<T>? array) => array ?? [];
 
     /// <summary>
     /// Return empty if array is null
     /// </summary>
     /// <param name="array"></param>
     /// <returns></returns>
-    public static IReadOnlyList<T> EmptyIfNull<T>(this IReadOnlyList<T>? array) =>
-        array ?? Array.Empty<T>();
+    public static IReadOnlyList<T> EmptyIfNull<T>(this IReadOnlyList<T>? array) => array ?? [];
 
     /// <summary>
     /// Creates an IEnumerable from an IEnumerator
@@ -251,25 +253,25 @@ public static partial class EnumerablePlus
         switch (source)
         {
             case ICollection<T> collection:
-                {
-                    var copy = collection.ToArray();
-                    random.Shuffle(copy);
-                    return copy;
-                }
+            {
+                var copy = collection.ToArray();
+                random.Shuffle(copy);
+                return copy;
+            }
             case IReadOnlyCollection<T> readOnly:
-                {
-                    int count = readOnly.Count;
-                    if (count == 0)
-                        return Array.Empty<T>();
+            {
+                int count = readOnly.Count;
+                if (count == 0)
+                    return Array.Empty<T>();
 
-                    var result = new T[count];
-                    var index = 0;
-                    foreach (var item in readOnly)
-                        result[index++] = item;
+                var result = new T[count];
+                var index = 0;
+                foreach (var item in readOnly)
+                    result[index++] = item;
 
-                    random.Shuffle(result);
-                    return result;
-                }
+                random.Shuffle(result);
+                return result;
+            }
             default:
                 return source.OrderBy(_ => random.Next());
         }

@@ -28,16 +28,16 @@ public static partial class EnumerablePlus
         await await Task.WhenAny(tasks);
 
     /// <summary>
-    /// Creates a task that will complete when all of the Task objects in an enumerable collection have completed.
+    /// Creates a task that will complete when all the Task objects in an enumerable collection have completed.
     /// </summary>
     /// <param name="tasks"></param>
     /// <returns>
-    /// A task that represents the completion of all of the supplied tasks.
+    /// A task that represents the completion of all the supplied tasks.
     /// </returns>
     public static Task WhenAll(this IEnumerable<Task> tasks) => Task.WhenAll(tasks);
 
     /// <summary>
-    /// Creates a task that will complete when all of the Task[TResult] objects in an enumerable collection have completed.
+    /// Creates a task that will complete when all the Task[TResult] objects in an enumerable collection have completed.
     /// </summary>
     /// <param name="tasks"></param>
     /// <typeparam name="T"></typeparam>

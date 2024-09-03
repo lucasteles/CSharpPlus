@@ -7,4 +7,6 @@ public class BaseTest
     }
 
     protected static readonly Faker faker = new("pt_BR");
+
+    protected static int Int() => faker.Random.Int();
 }
