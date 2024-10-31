@@ -37,3 +37,5 @@ dotnet_diagnostic.IDE0051.severity = silent # Remove unused private member
 dotnet_diagnostic.RCS1213.severity = none # unused declaration
 dotnet_diagnostic.IDE0051.severity = none # unused declaration
 
+
+resharper_all_underscore_local_parameter_name_highlighting=none

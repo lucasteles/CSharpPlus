@@ -67,7 +67,7 @@ public class LinqEnumerablePlusTests : BaseTest
 
     [PropertyTest]
     public void IsEmpty(char[] values) =>
-        values.IsEmpty().Should().Be(!values.Any());
+        values.IsEmpty().Should().Be(values.Length is 0);
 
     [PropertyTest]
     public void SelectMany(int[][] values) =>
