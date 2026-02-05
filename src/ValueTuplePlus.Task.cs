@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 /// <summary>
 /// Tuple of Tasks Extensions
 /// </summary>
-public static class TaskTupleExtensions
+public static partial class ValueTuplePlus
 {
     #region Tuple 1
 

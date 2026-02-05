@@ -3,7 +3,7 @@ namespace CSharpPlus.Tests;
 #pragma warning disable S6605
 #pragma warning disable S6602
 
-public class CollectionExtensionsTests
+public class CollectionPlusTests
 {
     [Test]
     public void ShouldAddRange()

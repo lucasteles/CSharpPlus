@@ -18,7 +18,7 @@ public class ConcurrentValueTests
     [Test]
     public void ShouldIncrement()
     {
-        ConcurrentValue<Integer> atom = new(0);
+        var atom = ConcurrentValue.Create(new Integer(0));
 
         Parallel.For(0, Count * 2, n =>
             atom.Update(x => n < Count ? x.Increment() : x.Decrement()));
@@ -29,15 +29,30 @@ public class ConcurrentValueTests
     [Test]
     public async Task ShouldIncrementTask()
     {
-        ConcurrentValue<Integer> atom = new(0);
+        var atom = ConcurrentValue.Create(new Integer(0));
 
-        await Task.WhenAll(
-            Enumerable.Range(0, Count * 2)
-                .Select(n => Task.Run(() =>
-                    atom.Update(x => n < Count
-                        ? x.Increment()
-                        : x.Decrement()))));
+        await Enumerable.Range(0, Count * 2)
+            .Select(n => Task.Run(() =>
+                atom.Update(x => n < Count
+                    ? x.Increment()
+                    : x.Decrement())))
+            .WhenAll();
 
         atom.Value.Value.Should().Be(0);
+    }
+
+    [Test]
+    public async Task ShouldIncrementInteger()
+    {
+        var atom = ConcurrentValue.Create(0);
+
+        await Enumerable.Range(0, Count * 2)
+            .Select(n => Task.Run(() =>
+                atom.Update(x => n < Count
+                    ? x + 1
+                    : x - 1)))
+            .WhenAll();
+
+        atom.Value.Should().Be(0);
     }
 }

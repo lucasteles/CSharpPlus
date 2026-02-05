@@ -1,6 +1,6 @@
 namespace CSharpPlus.Tests;
 
-public class StringTests
+public class StringPlusTests
 {
     [PropertyTest]
     public void IsNullOrEmpty(string? value) =>

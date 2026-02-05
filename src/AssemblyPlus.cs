@@ -5,7 +5,7 @@ namespace CSharpPlus;
 /// <summary>
 /// Assembly Extensions
 /// </summary>
-public static class AssemblyExtensions
+public static class AssemblyPlus
 {
     /// <summary>
     /// Get all non-abstract implementations of T

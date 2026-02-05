@@ -3,9 +3,9 @@ using Bogus.Platform;
 
 namespace CSharpPlus.Tests;
 
-public class AssemblyExtensionsTests
+public class AssemblyPlusTests
 {
-    static readonly Assembly assembly = typeof(AssemblyExtensionsTests).GetAssembly();
+    static readonly Assembly assembly = typeof(AssemblyPlusTests).GetAssembly();
 
     static readonly Type[] expectedTypes =
     {

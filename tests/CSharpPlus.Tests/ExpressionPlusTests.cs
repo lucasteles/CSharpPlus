@@ -2,7 +2,7 @@ using System.Linq.Expressions;
 
 namespace CSharpPlus.Tests;
 
-public class ExpressionExtensionsTests
+public class ExpressionPlusTests
 {
     record ClassWithMembers(int Foo, string Bar);
 

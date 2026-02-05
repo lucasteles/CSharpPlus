@@ -16,9 +16,8 @@ public static class ValueTaskPlus
         ValueTask<T1> item1, ValueTask<T2> item2, ValueTask<T3> item3, ValueTask<T4> item4) =>
         (await item1, await item2, await item3, await item4);
 
-    public static async ValueTask<(T1, T2, T3, T4, T5)>
-        WhenEach<T1, T2, T3, T4, T5>(
-            ValueTask<T1> item1, ValueTask<T2> item2, ValueTask<T3> item3, ValueTask<T4> item4, ValueTask<T5> item5) =>
+    public static async ValueTask<(T1, T2, T3, T4, T5)> WhenEach<T1, T2, T3, T4, T5>(
+        ValueTask<T1> item1, ValueTask<T2> item2, ValueTask<T3> item3, ValueTask<T4> item4, ValueTask<T5> item5) =>
         (await item1, await item2, await item3, await item4, await item5);
 
     public static async ValueTask<(T1, T2, T3, T4, T5, T6)>
@@ -26,16 +25,14 @@ public static class ValueTaskPlus
             ValueTask<T1> item1, ValueTask<T2> item2, ValueTask<T3> item3, ValueTask<T4> item4, ValueTask<T5> item5,
             ValueTask<T6> item6
         ) =>
-        (await item1, await item2, await item3, await item4, await item5,
-            await item6);
+        (await item1, await item2, await item3, await item4, await item5, await item6);
 
     public static async ValueTask<(T1, T2, T3, T4, T5, T6, T7)>
         WhenEach<T1, T2, T3, T4, T5, T6, T7>(
             ValueTask<T1> item1, ValueTask<T2> item2, ValueTask<T3> item3, ValueTask<T4> item4, ValueTask<T5> item5,
             ValueTask<T6> item6, ValueTask<T7> item7
         ) =>
-        (await item1, await item2, await item3, await item4, await item5,
-            await item6, await item7);
+        (await item1, await item2, await item3, await item4, await item5, await item6, await item7);
 
     public static async ValueTask<(T1, T2, T3, T4, T5, T6, T7, T8)>
         WhenEach<T1, T2, T3, T4, T5, T6, T7, T8>(
@@ -43,8 +40,7 @@ public static class ValueTaskPlus
             ValueTask<T6> item6, ValueTask<T7> item7,
             ValueTask<T8> item8
         ) =>
-        (await item1, await item2, await item3, await item4, await item5,
-            await item6, await item7, await item8);
+        (await item1, await item2, await item3, await item4, await item5, await item6, await item7, await item8);
 
     public static async ValueTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>
         WhenEach<T1, T2, T3, T4, T5, T6, T7, T8, T9>(

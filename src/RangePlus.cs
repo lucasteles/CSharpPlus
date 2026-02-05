@@ -5,7 +5,7 @@ namespace CSharpPlus;
 /// <summary>
 /// Range extensions
 /// </summary>
-public static class RangeExtension
+public static class RangePlus
 {
     /// <summary>
     /// Enumerate Range operators

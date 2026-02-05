@@ -3,7 +3,7 @@ namespace CSharpPlus;
 /// <summary>
 /// Dictionary Extensions
 /// </summary>
-public static class DictionaryExtensions
+public static class DictionaryPlus
 {
     /// <summary>
     /// Create a Dictionary from a KeyValuePair collection

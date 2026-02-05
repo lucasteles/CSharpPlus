@@ -3,7 +3,7 @@ namespace CSharpPlus.Tests;
 #pragma warning disable S6605
 #pragma warning disable S6602
 
-public class LinqArrayExtensionsTests
+public class ArrayPlusTests
 {
     [Test]
     public void ShouldFilterSampleArray()

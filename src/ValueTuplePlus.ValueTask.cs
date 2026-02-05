@@ -7,11 +7,7 @@
 using System.Runtime.CompilerServices;
 using CSharpPlus;
 
-
-/// <summary>
-/// Tuple of Tasks Extensions
-/// </summary>
-public static class ValueTaskTupleExtensions
+public static partial class ValueTuplePlus
 {
     #region Tuple 1
 

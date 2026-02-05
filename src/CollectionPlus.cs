@@ -3,7 +3,7 @@ namespace CSharpPlus;
 /// <summary>
 /// Collection extensions
 /// </summary>
-public static class CollectionExtensions
+public static class CollectionPlus
 {
     /// <summary>
     /// Adds the elements of the specified collection to the end of the ICollection of T.

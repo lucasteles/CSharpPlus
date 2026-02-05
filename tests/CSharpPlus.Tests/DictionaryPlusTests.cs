@@ -1,6 +1,6 @@
 using CSharpPlus;
 
-public class DictionaryExtensionsTests
+public class DictionaryPlusTests
 {
     [Test]
     public void ShouldMergeTwoDicts()

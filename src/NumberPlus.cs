@@ -5,7 +5,7 @@ namespace CSharpPlus;
 /// <summary>
 /// Extensions for numerics
 /// </summary>
-public static class NumberExtensions
+public static class NumberPlus
 {
     /// <summary>
     /// Rounds a value to the nearest integer.

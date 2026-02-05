@@ -6,7 +6,7 @@ namespace CSharpPlus;
 /// <summary>
 /// Expression Extensions
 /// </summary>
-public static class ExpressionExtensions
+public static class ExpressionPlus
 {
     /// <summary>
     /// Get the member info of an expression if it is valid otherwise return default

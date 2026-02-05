@@ -3,7 +3,7 @@ namespace CSharpPlus;
 /// <summary>
 /// Enumerable Plus Extensions
 /// </summary>
-public static class ArrayExtensions
+public static class ArrayPlus
 {
     /// <summary>
     ///  Filters an array of values based on a predicate.

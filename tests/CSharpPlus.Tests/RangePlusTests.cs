@@ -1,6 +1,6 @@
 namespace CSharpPlus.Tests;
 
-public class RangeExtensionsTests
+public class RangePlusTests
 {
     [Test]
     public void ShouldEnumerateRange()

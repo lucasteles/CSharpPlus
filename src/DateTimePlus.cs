@@ -5,7 +5,7 @@ namespace CSharpPlus;
 /// <summary>
 /// DateTime Extensions
 /// </summary>
-public static class DateTimeExtensions
+public static class DateTimePlus
 {
     /// <summary>
     /// Initializes a new instance of the DateTimeOffset structure using the specified DateTime value and offset
