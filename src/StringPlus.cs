@@ -145,4 +145,77 @@ public static class StringPlus
             return hash1 + (hash2 * 1566083941);
         }
     }
+
+    public static ReadOnlySpan<char> RemovePrefix(this ReadOnlySpan<char> value, ReadOnlySpan<char> trim,
+        StringComparison comparison = StringComparison.Ordinal
+    ) => value.StartsWith(trim, comparison) ? value[trim.Length..] : value;
+
+    public static string RemovePrefix(this string value, string? trim,
+        StringComparison comparison = StringComparison.Ordinal) =>
+        new(value.AsSpan().RemovePrefix(trim, comparison));
+
+    public static string Extract(
+        this string value,
+        ReadOnlySpan<char> begin,
+        ReadOnlySpan<char> end,
+        int occurrence = 0,
+        StringComparison comparison = StringComparison.Ordinal,
+        bool includeDelimiters = false
+    )
+    {
+        var result = value.AsSpan().Extract(begin, end, occurrence, comparison, includeDelimiters);
+        return result.IsEmpty ? string.Empty : new(result);
+    }
+
+    [Pure]
+    public static ReadOnlySpan<char> Extract(
+        this ReadOnlySpan<char> value,
+        ReadOnlySpan<char> begin,
+        ReadOnlySpan<char> end,
+        int occurrence = 0,
+        StringComparison comparison = StringComparison.Ordinal,
+        bool includeDelimiters = false
+    )
+    {
+        ArgumentOutOfRangeException.ThrowIfNegative(occurrence);
+        if (value.IsEmpty) return [];
+        var searchStart = 0;
+        occurrence++;
+        for (var i = 0; i < occurrence; i++)
+        {
+            int beginIndex;
+
+            if (begin.IsEmpty)
+                beginIndex = searchStart;
+            else
+            {
+                beginIndex = value[searchStart..].IndexOf(begin, comparison);
+                if (beginIndex < 0) return [];
+                beginIndex += searchStart;
+            }
+
+            var contentStart = beginIndex + begin.Length;
+            int endIndex;
+
+            if (end.IsEmpty)
+                endIndex = value.Length;
+            else
+            {
+                endIndex = value[contentStart..].IndexOf(end, comparison);
+                if (endIndex < 0) return [];
+                endIndex += contentStart;
+            }
+
+            if (i == occurrence - 1)
+            {
+                var resultStart = includeDelimiters ? beginIndex : contentStart;
+                var resultEnd = includeDelimiters ? endIndex + end.Length : endIndex;
+                return value[resultStart..resultEnd];
+            }
+
+            searchStart = endIndex + end.Length;
+        }
+
+        return string.Empty;
+    }
 }
