@@ -1,0 +1,371 @@
+{
+  "sitemap": {
+    "baseUrl": "https://lucasteles.github.io/BrazilModels/"
+  },
+  "source_base_path": "/home/runner/work/CSharpPlus/CSharpPlus/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.ArrayPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.ArrayPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.AssemblyPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.AssemblyPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.CollectionPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.CollectionPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.CompareResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.CompareResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.Data.ConcurrentValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.Data.ConcurrentValue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.Data.ConcurrentValue.ConcurrentInt32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.Data.ConcurrentValue.ConcurrentInt32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.Data.ConcurrentValue.ConcurrentInt64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.Data.ConcurrentValue.ConcurrentInt64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.Data.ConcurrentValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.Data.ConcurrentValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.Data.IConcurrentValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.Data.IConcurrentValue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.DateTimePlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.DateTimePlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.DictionaryPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.DictionaryPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.EnumerablePlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.EnumerablePlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.ExpressionPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.ExpressionPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.JsonConverters.JsonBigIntegerConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.JsonConverters.JsonIPAddressConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.JsonConverters.JsonIPAddressConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.JsonConverters.JsonIPEndPointConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.JsonConverters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.JsonConverters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.LambdaComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.LambdaComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.LambdaComparison.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.LambdaComparison.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.NumberPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.NumberPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.Operator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.RangePlus.RangeEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.RangePlus.RangeEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.RangePlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.RangePlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.StringPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.StringPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.ValueTaskPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.ValueTaskPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpPlus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Text.Json.Serialization.DateTimeForceUtcJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Text.Json.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Text.Json.Serialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
